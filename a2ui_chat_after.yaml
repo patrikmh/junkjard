@@ -1,0 +1,81 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - img
+    - generic [ref=e5]:
+      - img "Patrik"
+      - img
+      - img
+      - generic:
+        - img "Hi! I'm Patrik. Drag an object to the workbench to investigate it and find out more about me."
+    - generic "Bubba — Patrik's cat" [ref=e6]:
+      - generic: meow!
+    - generic [ref=e7]:
+      - generic: Mechanical drive
+    - generic [ref=e9]:
+      - generic: CRT terminal
+    - generic [ref=e11]:
+      - generic: Raspberry Pi
+    - generic [ref=e13]:
+      - generic: Cyber head
+    - generic [ref=e15]:
+      - generic: Old transcripts
+    - generic [ref=e17]:
+      - generic: Rotary phone
+    - generic [ref=e19]:
+      - generic: Brass telescope
+    - generic [ref=e21]:
+      - generic: Spiral notebook
+    - generic [ref=e23]:
+      - generic: Vinyl record
+    - generic [ref=e25]:
+      - generic: Old paperback
+    - generic "Catch me!" [ref=e27]
+    - generic "Something stirring in the shed..." [ref=e28]:
+      - generic: Something in the shed?
+      - text: "?"
+    - generic:
+      - img "Agent dog"
+      - img
+      - generic: Pssst. Click me. 🤫
+    - generic [ref=e29]:
+      - generic [ref=e30]: Inspection Tray
+      - generic: ↳ drop a part here to inspect it
+    - generic:
+      - generic [ref=e31]: Patrik's Junkyard
+      - generic [ref=e32]:
+        - generic [ref=e33]: 0/10
+        - generic [ref=e34]:
+          - generic "Mechanical drive" [ref=e35]
+          - generic "CRT terminal" [ref=e36]
+          - generic "Raspberry Pi" [ref=e37]
+          - generic "Cyber head" [ref=e38]
+          - generic "Old transcripts" [ref=e39]
+          - generic "Rotary phone" [ref=e40]
+          - generic "Brass telescope" [ref=e41]
+          - generic "Spiral notebook" [ref=e42]
+          - generic "Vinyl record" [ref=e43]
+          - generic "Old paperback" [ref=e44]
+    - generic [ref=e45]:
+      - button "Start over — restore everything" [ref=e46]:
+        - img [ref=e47]
+      - button "🔊" [ref=e52]
+  - button "Ask Patrik anything" [ref=e60]
+  - generic: Ask Patrik anything ✨
+  - dialog "Ask Patrik":
+    - generic:
+      - generic:
+        - generic: Ask Patrik
+        - generic: his little AI sidekick
+      - link "A2UI":
+        - /url: https://a2ui.org/#specification-versions
+      - button "Clear chat": ⌫
+      - button "Close": ✕
+    - generic:
+      - generic:
+        - generic: What tech stack do you use?
+      - generic:
+        - text: "I usually work with a fairly practical stack: Python, SQL, Bash/Linux, Git, and Docker. On the ML side I lean on scikit-learn, PyTorch/TensorFlow, BERTopic, and LLM tooling like LangGr"
+        - generic: "|"
+    - generic:
+      - textbox "Ask anything…" [disabled]
+      - button "Send" [disabled]

@@ -1,0 +1,200 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - img
+    - generic [ref=e5]:
+      - img "Patrik"
+      - img
+      - img
+      - generic:
+        - img "Hi! I'm Patrik. Drag an object to the workbench to investigate it and find out more about me."
+    - generic "Bubba — Patrik's cat" [ref=e6]:
+      - generic: meow!
+    - generic [ref=e7]:
+      - generic: Mechanical drive
+    - generic [ref=e9]:
+      - generic: CRT terminal
+    - generic [ref=e11]:
+      - generic: Raspberry Pi
+    - generic [ref=e13]:
+      - generic: Cyber head
+    - generic [ref=e15]:
+      - generic: Old transcripts
+    - generic [ref=e17]:
+      - generic: Rotary phone
+    - generic [ref=e19]:
+      - generic: Brass telescope
+    - generic [ref=e21]:
+      - generic: Spiral notebook
+    - generic [ref=e23]:
+      - generic: Vinyl record
+    - generic [ref=e25]:
+      - generic: Old paperback
+    - generic "Catch me!" [ref=e27]
+    - generic "Something stirring in the shed..." [ref=e28]:
+      - generic: Something in the shed?
+      - text: "?"
+    - generic:
+      - img "Agent dog"
+      - img
+      - generic: Pssst. Click me. 🤫
+    - generic [ref=e29]:
+      - generic [ref=e30]: Inspection Tray
+      - generic: ↳ drop a part here to inspect it
+    - generic:
+      - generic [ref=e31]: Patrik's Junkyard
+      - generic [ref=e32]:
+        - generic [ref=e33]: 0/10
+        - generic [ref=e34]:
+          - generic "Mechanical drive" [ref=e35]
+          - generic "CRT terminal" [ref=e36]
+          - generic "Raspberry Pi" [ref=e37]
+          - generic "Cyber head" [ref=e38]
+          - generic "Old transcripts" [ref=e39]
+          - generic "Rotary phone" [ref=e40]
+          - generic "Brass telescope" [ref=e41]
+          - generic "Spiral notebook" [ref=e42]
+          - generic "Vinyl record" [ref=e43]
+          - generic "Old paperback" [ref=e44]
+    - generic [ref=e45]:
+      - button "Start over — restore everything" [ref=e46]:
+        - img [ref=e47]
+      - button "🔊" [ref=e52]
+  - button "Close assistant" [ref=e61]
+  - generic: Ask Patrik anything ✨
+  - dialog "Ask Patrik" [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e65]:
+        - generic [ref=e66]: Ask Patrik
+        - generic [ref=e67]: his little AI sidekick
+      - button "Close" [ref=e68]: ✕
+    - generic [ref=e69]:
+      - generic [ref=e70]: Hey there! I'm Patrik's little AI sidekick. Ask me anything — or tap a suggestion below. I can also show you rich cards.
+      - generic [ref=e81]: What do you do?
+      - generic [ref=e82]: I'm a Data Scientist based in Göteborg, Sweden, where I build production machine learning systems and develop AI agents. My work spans event marketing, automotive safety, and engineering consulting. I enjoy designing agentic systems, like autonomous agents that automate workflows and recommendation engines that personalize user experiences. With a background in Cognitive Neuroscience and Psychology, I combine scientific rigor with practical application — ensuring that the models I create are not just clever, but also useful. When I'm not tinkering with data and code, you might find me outdoors, canyoning, or working on some quirky projects at home, like an intelligent water fountain for my cat!
+      - generic [ref=e83]: Show career timeline
+      - generic [ref=e85]:
+        - heading "Career Specification Versions" [level=4] [ref=e86]
+        - table [ref=e87]:
+          - rowgroup [ref=e88]:
+            - row "Version Status Role Company" [ref=e89]:
+              - columnheader "Version" [ref=e90]
+              - columnheader "Status" [ref=e91]
+              - columnheader "Role" [ref=e92]
+              - columnheader "Company" [ref=e93]
+          - rowgroup [ref=e94]:
+            - row "v1.0 Stable Safety Researcher Volvo Cars · 2022 — 2024" [ref=e95]:
+              - cell "v1.0" [ref=e96]
+              - cell "Stable" [ref=e97]:
+                - generic [ref=e98]: Stable
+              - cell "Safety Researcher" [ref=e99]
+              - cell "Volvo Cars · 2022 — 2024" [ref=e100]:
+                - text: Volvo Cars
+                - generic [ref=e101]: · 2022 — 2024
+            - row "v2.0 Stable Data / ML Consultant Infotiv · 2022 — 2024" [ref=e102]:
+              - cell "v2.0" [ref=e103]
+              - cell "Stable" [ref=e104]:
+                - generic [ref=e105]: Stable
+              - cell "Data / ML Consultant" [ref=e106]
+              - cell "Infotiv · 2022 — 2024" [ref=e107]:
+                - text: Infotiv
+                - generic [ref=e108]: · 2022 — 2024
+            - row "v3.0 Stable ML Engineer 2550 Engineering · 2024 — 2025" [ref=e109]:
+              - cell "v3.0" [ref=e110]
+              - cell "Stable" [ref=e111]:
+                - generic [ref=e112]: Stable
+              - cell "ML Engineer" [ref=e113]
+              - cell "2550 Engineering · 2024 — 2025" [ref=e114]:
+                - text: 2550 Engineering
+                - generic [ref=e115]: · 2024 — 2025
+            - row "v4.0 Current Data Scientist MarketHype · 2025 — Present" [ref=e116]:
+              - cell "v4.0" [ref=e117]
+              - cell "Current" [ref=e118]:
+                - generic [ref=e119]: Current
+              - cell "Data Scientist" [ref=e120]
+              - cell "MarketHype · 2025 — Present" [ref=e121]:
+                - text: MarketHype
+                - generic [ref=e122]: · 2025 — Present
+      - generic [ref=e123]: Show key skills
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - heading "🤖 Agentic AI" [level=5] [ref=e127]:
+            - generic [ref=e128]: 🤖
+            - text: Agentic AI
+          - paragraph [ref=e129]: Declarative agent systems with tools, handoffs, and memory. Not prompt spaghetti.
+        - generic [ref=e130]:
+          - heading "🔍 RAG Architecture" [level=5] [ref=e131]:
+            - generic [ref=e132]: 🔍
+            - text: RAG Architecture
+          - paragraph [ref=e133]: Retrieval that doesn't lie — grounding checks, self-critique, and vector-native PostgreSQL.
+        - generic [ref=e134]:
+          - heading "⚡ Edge ML" [level=5] [ref=e135]:
+            - generic [ref=e136]: ⚡
+            - text: Edge ML
+          - paragraph [ref=e137]: Real-time inference on-device. YOLO + MobileNet on microcontrollers at ~15 fps.
+        - generic [ref=e138]:
+          - heading "📊 Statistical Rigor" [level=5] [ref=e139]:
+            - generic [ref=e140]: 📊
+            - text: Statistical Rigor
+          - paragraph [ref=e141]: MSc Cognitive Neuroscience. Experimental design, causal inference, and Bayesian methods.
+      - generic [ref=e142]: Show projects
+      - generic [ref=e144]:
+        - generic [ref=e145]:
+          - heading "Spotify Playlist Generator" [level=5] [ref=e146]
+          - paragraph [ref=e147]: Solar LLM + Streamlit + DALL-E playlist creator.
+          - link "View project →" [ref=e148]:
+            - /url: "#"
+        - generic [ref=e149]:
+          - heading "Agent Swarm Intelligence" [level=5] [ref=e150]
+          - paragraph [ref=e151]: Bee-hive inspired multi-agent coordination on pi.dev.
+          - link "View project →" [ref=e152]:
+            - /url: "#"
+        - generic [ref=e153]:
+          - heading "Cat Water Fountain CV" [level=5] [ref=e154]
+          - paragraph [ref=e155]: YOLO on MCU recognises cats and adjusts water flow.
+          - link "View project →" [ref=e156]:
+            - /url: "#"
+        - generic [ref=e157]:
+          - heading "HybridGraphSemantic" [level=5] [ref=e158]
+          - paragraph [ref=e159]: Hybrid graph-vector DB for local agent memory.
+          - link "View project →" [ref=e160]:
+            - /url: "#"
+      - generic [ref=e161]: How do you work?
+      - generic [ref=e163]:
+        - generic [ref=e164]:
+          - generic [ref=e165]: "1"
+          - generic [ref=e166]:
+            - generic [ref=e167]: Understand
+            - generic [ref=e168]: Map the problem space. Talk to users. Read the logs.
+        - generic [ref=e169]: ↓
+        - generic [ref=e170]:
+          - generic [ref=e171]: "2"
+          - generic [ref=e172]:
+            - generic [ref=e173]: Design
+            - generic [ref=e174]: Choose the model, the metrics, and the validation strategy.
+        - generic [ref=e175]: ↓
+        - generic [ref=e176]:
+          - generic [ref=e177]: "3"
+          - generic [ref=e178]:
+            - generic [ref=e179]: Prototype
+            - generic [ref=e180]: Notebook → script → API in a day. Move fast.
+        - generic [ref=e181]: ↓
+        - generic [ref=e182]:
+          - generic [ref=e183]: "4"
+          - generic [ref=e184]:
+            - generic [ref=e185]: Validate
+            - generic [ref=e186]: A/B test, grounded evaluation, human review.
+        - generic [ref=e187]: ↓
+        - generic [ref=e188]:
+          - generic [ref=e189]: "5"
+          - generic [ref=e190]:
+            - generic [ref=e191]: Deploy
+            - generic [ref=e192]: Docker, CI, monitoring. Make it someone else's easy day.
+        - generic [ref=e193]: ↓
+        - generic [ref=e194]:
+          - generic [ref=e195]: "6"
+          - generic [ref=e196]:
+            - generic [ref=e197]: Iterate
+            - generic [ref=e198]: Retrain, refine, follow the tangent at 1am.
+    - generic [ref=e78]:
+      - textbox "Ask anything…" [active] [ref=e79]
+      - button "Send" [disabled] [ref=e80]

@@ -1,0 +1,964 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - link "Hoppa till huvudinnehållet" [ref=e6] [cursor=pointer]:
+        - /url: "#main-view"
+        - generic [ref=e7]: Hoppa till huvudinnehållet
+      - link "Spotify" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img "Spotify" [ref=e10]
+      - generic [ref=e12]:
+        - button "Hem" [ref=e13] [cursor=pointer]:
+          - img [ref=e15]
+        - search [ref=e18]:
+          - button "Sök" [ref=e20] [cursor=pointer]:
+            - img [ref=e22]
+          - generic [ref=e24]:
+            - combobox "Vad vill du spela upp?" [ref=e25]
+            - generic:
+              - generic: ⌘ShiftL
+          - button "Utforska" [ref=e28] [cursor=pointer]:
+            - img [ref=e30]
+      - generic [ref=e34]:
+        - button "Premium" [ref=e35] [cursor=pointer]
+        - button "Support" [ref=e36] [cursor=pointer]
+        - button "Ladda ned" [ref=e37] [cursor=pointer]
+        - link "Installera app" [ref=e39] [cursor=pointer]:
+          - /url: /download
+          - img [ref=e41]
+          - generic [ref=e44]: Installera app
+        - generic [ref=e45]:
+          - button "Registrera dig" [ref=e46] [cursor=pointer]
+          - button "Logga in" [ref=e47] [cursor=pointer]:
+            - generic [ref=e48]: Logga in
+    - generic [ref=e49]:
+      - navigation "Huvudmeny" [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - generic [ref=e55]:
+              - heading "Ditt bibliotek" [level=1] [ref=e57]
+              - button "Skapa" [ref=e59] [cursor=pointer]:
+                - img [ref=e60]
+            - generic [ref=e64]:
+              - generic [ref=e65]:
+                - generic [ref=e66]:
+                  - generic [ref=e67]: Skapa din första spellista
+                  - generic [ref=e68]: Det är enkelt, och vi hjälper dig
+                - button "Skapa spellista" [ref=e70] [cursor=pointer]:
+                  - generic [ref=e71]: Skapa spellista
+              - generic [ref=e72]:
+                - generic [ref=e73]:
+                  - generic [ref=e74]: Nu hittar vi några poddar att följa
+                  - generic [ref=e75]: Vi håller dig uppdaterad om nya avsnitt
+                - link "Utforska poddar" [ref=e77] [cursor=pointer]:
+                  - /url: /genre/podcasts-web
+                  - generic [ref=e78]: Utforska poddar
+              - generic:
+                - grid "Ditt bibliotek":
+                  - generic:
+                    - row
+                    - row
+          - generic [ref=e79]:
+            - generic [ref=e169]:
+              - generic [ref=e170]:
+                - link "Juridisk information" [ref=e172] [cursor=pointer]:
+                  - /url: https://www.spotify.com/se/legal/
+                  - generic [ref=e173]: Juridisk information
+                - link "Säkerhets‑ och integritetscenter" [ref=e175] [cursor=pointer]:
+                  - /url: https://www.spotify.com/se/safetyandprivacy/
+                  - generic [ref=e176]: Säkerhets‑ och integritetscenter
+                - link "Integritetspolicy" [ref=e178] [cursor=pointer]:
+                  - /url: https://www.spotify.com/se/legal/privacy-policy/
+                  - generic [ref=e179]: Integritetspolicy
+                - button "Cookie-inställningar" [ref=e181] [cursor=pointer]:
+                  - generic [ref=e182]: Cookie-inställningar
+                - link "Om annonser" [ref=e184] [cursor=pointer]:
+                  - /url: https://www.spotify.com/se/legal/privacy-policy/#s3
+                  - generic [ref=e185]: Om annonser
+                - link "Hjälpmedel" [ref=e187] [cursor=pointer]:
+                  - /url: https://www.spotify.com/se/accessibility/
+                  - generic [ref=e188]: Hjälpmedel
+              - link "Cookies" [ref=e189] [cursor=pointer]:
+                - /url: https://www.spotify.com/legal/cookies-policy/
+            - button "Svenska" [ref=e81] [cursor=pointer]:
+              - img [ref=e83]
+              - text: Svenska
+      - generic [ref=e86]:
+        - text: Ändra storlek på huvudnavigeringen
+        - slider "Ändra storlek på huvudnavigeringen" [ref=e87]: "290"
+    - complementary "Fältet Nu spelas" [ref=e89]:
+      - generic [ref=e90] [cursor=pointer]:
+        - generic [ref=e91]:
+          - paragraph [ref=e92]: Förhandsvisning av Spotify
+          - paragraph [ref=e93]: Registrera dig för att få obegränsat med låtar och poddar med reklam då och då. Inget kreditkort behövs.
+        - button "Registrera dig gratis" [ref=e94]:
+          - generic [ref=e95]: Registrera dig gratis
+      - generic:
+        - generic "Spelarkontroller" [ref=e97]:
+          - generic [ref=e98]:
+            - generic [ref=e99]:
+              - switch "Aktivera shuffle" [disabled] [ref=e100]:
+                - img [ref=e102]
+              - button "Föregående" [disabled] [ref=e105]:
+                - img [ref=e107]
+            - button "Pausa" [disabled] [ref=e109]:
+              - img [ref=e112]
+            - generic [ref=e114]:
+              - button "Nästa" [disabled] [ref=e115]:
+                - img [ref=e117]
+              - checkbox "Inaktivera repetera" [disabled] [ref=e119]:
+                - img [ref=e121]
+          - generic [ref=e123]:
+            - generic [ref=e124]: "-:--"
+            - generic [ref=e127]:
+              - text: Ändra Lyssnat
+              - slider "Ändra Lyssnat" [disabled] [ref=e128]: "0"
+            - generic [ref=e134]: "-:--"
+        - generic [ref=e136]:
+          - button "Vyn Nu spelas" [disabled] [ref=e137]:
+            - img [ref=e139]
+          - generic [ref=e142]:
+            - button "Ljud av" [ref=e143] [cursor=pointer]:
+              - img [ref=e145]
+            - generic [ref=e150]:
+              - text: Ändra volym
+              - slider "Ändra volym" [ref=e151]: "1"
+    - main "Spotify – Sök" [ref=e162]:
+      - generic [ref=e163]:
+        - generic [ref=e191]:
+          - list [ref=e192]:
+            - link "Alla" [ref=e193] [cursor=pointer]:
+              - /url: /search/V%C3%ADkingur%20%C3%93lafsson%20Bach%20Goldberg%20Variations
+              - checkbox "Alla" [checked] [ref=e194]:
+                - generic [ref=e195]: Alla
+            - link "Låtar" [ref=e196] [cursor=pointer]:
+              - /url: /search/V%C3%ADkingur%20%C3%93lafsson%20Bach%20Goldberg%20Variations/tracks
+              - checkbox "Låtar" [ref=e197]:
+                - generic [ref=e198]: Låtar
+            - link "Album" [ref=e199] [cursor=pointer]:
+              - /url: /search/V%C3%ADkingur%20%C3%93lafsson%20Bach%20Goldberg%20Variations/albums
+              - checkbox "Album" [ref=e200]:
+                - generic [ref=e201]: Album
+            - link "Poddar och program" [ref=e202] [cursor=pointer]:
+              - /url: /search/V%C3%ADkingur%20%C3%93lafsson%20Bach%20Goldberg%20Variations/podcastAndEpisodes
+              - checkbox "Poddar och program" [ref=e203]:
+                - generic [ref=e204]: Poddar och program
+            - link "Artister" [ref=e205] [cursor=pointer]:
+              - /url: /search/V%C3%ADkingur%20%C3%93lafsson%20Bach%20Goldberg%20Variations/artists
+              - checkbox "Artister" [ref=e206]:
+                - generic [ref=e207]: Artister
+            - link "Spellistor" [ref=e208] [cursor=pointer]:
+              - /url: /search/V%C3%ADkingur%20%C3%93lafsson%20Bach%20Goldberg%20Variations/playlists
+              - checkbox "Spellistor" [ref=e209]:
+                - generic [ref=e210]: Spellistor
+            - link "Genrer och teman" [ref=e211] [cursor=pointer]:
+              - /url: /search/V%C3%ADkingur%20%C3%93lafsson%20Bach%20Goldberg%20Variations/genres
+              - checkbox "Genrer och teman" [ref=e212]:
+                - generic [ref=e213]: Genrer och teman
+            - link "Ljudböcker" [ref=e214] [cursor=pointer]:
+              - /url: /search/V%C3%ADkingur%20%C3%93lafsson%20Bach%20Goldberg%20Variations/audiobooks
+              - checkbox "Ljudböcker" [ref=e215]:
+                - generic [ref=e216]: Ljudböcker
+          - generic:
+            - generic:
+              - img
+            - generic:
+              - img
+        - generic [ref=e165]:
+          - region "Toppresultat" [ref=e217]:
+            - group [ref=e219]:
+              - heading [level=2] [ref=e222]:
+                - generic [ref=e223]: Toppresultat
+            - generic [ref=e226]:
+              - img [ref=e228]
+              - generic [ref=e229]:
+                - 'link "J.S. Bach: Goldberg Variations" [ref=e230] [cursor=pointer]':
+                  - /url: /album/5kBtLULy6vMwjFRSSEEIjP
+                  - generic [ref=e231]: "J.S. Bach: Goldberg Variations"
+                - generic [ref=e233]:
+                  - generic [ref=e234]: Album •
+                  - link "Johann Sebastian Bach" [ref=e235] [cursor=pointer]:
+                    - /url: /artist/5aIqB5nVVvmFsvSdExz408
+                  - text: ","
+                  - link "Víkingur Ólafsson" [ref=e236] [cursor=pointer]:
+                    - /url: /artist/0iqgjl0OG3z53PZVIB7ZyD
+              - generic:
+                - generic:
+                  - 'button "Spela upp J.S. Bach: Goldberg Variations av Johann Sebastian Bach, Víkingur Ólafsson"':
+                    - generic:
+                      - generic:
+                        - img
+          - region "Låtar" [ref=e239]:
+            - group [ref=e241]:
+              - heading [level=2] [ref=e244]:
+                - link [ref=e246] [cursor=pointer]:
+                  - /url: /search/V%C3%ADkingur%20%C3%93lafsson%20Bach%20Goldberg%20Variations/tracks
+                  - text: Låtar
+            - grid "Sökresultat för låtar" [ref=e249]:
+              - 'row "Spela upp Goldberg Variations, BWV 988: Aria av Johann Sebastian Bach, Víkingur Ólafsson Goldberg Variations, BWV 988: Aria Johann Sebastian Bach, Víkingur Ólafsson Lägg till i Gillade låtar 4:05 Fler alternativ för Goldberg Variations, BWV 988: Aria av Johann Sebastian Bach, Víkingur Ólafsson" [ref=e250]':
+                - 'gridcell "Spela upp Goldberg Variations, BWV 988: Aria av Johann Sebastian Bach, Víkingur Ólafsson Goldberg Variations, BWV 988: Aria Johann Sebastian Bach, Víkingur Ólafsson" [ref=e251]':
+                  - generic [ref=e252]:
+                    - img [ref=e253]
+                    - 'button "Spela upp Goldberg Variations, BWV 988: Aria av Johann Sebastian Bach, Víkingur Ólafsson"':
+                      - img
+                  - generic [ref=e254]:
+                    - 'link "Goldberg Variations, BWV 988: Aria" [ref=e255] [cursor=pointer]':
+                      - /url: /track/74OIJe9hgZswqyLyicfAy4
+                      - generic [ref=e256]: "Goldberg Variations, BWV 988: Aria"
+                    - generic [ref=e258]:
+                      - link "Johann Sebastian Bach" [ref=e259] [cursor=pointer]:
+                        - /url: /artist/5aIqB5nVVvmFsvSdExz408
+                      - text: ","
+                      - link "Víkingur Ólafsson" [ref=e260] [cursor=pointer]:
+                        - /url: /artist/0iqgjl0OG3z53PZVIB7ZyD
+                - 'gridcell "Lägg till i Gillade låtar 4:05 Fler alternativ för Goldberg Variations, BWV 988: Aria av Johann Sebastian Bach, Víkingur Ólafsson" [ref=e261]':
+                  - button "Lägg till i Gillade låtar" [ref=e262] [cursor=pointer]:
+                    - img [ref=e264]
+                  - generic [ref=e267]: 4:05
+                  - 'button "Fler alternativ för Goldberg Variations, BWV 988: Aria av Johann Sebastian Bach, Víkingur Ólafsson" [ref=e268] [cursor=pointer]':
+                    - img [ref=e270]
+              - 'row "Spela upp Goldberg Variations, BWV 988: Var. 3 av Johann Sebastian Bach, Víkingur Ólafsson Goldberg Variations, BWV 988: Var. 3 Johann Sebastian Bach, Víkingur Ólafsson Lägg till i Gillade låtar 1:50 Fler alternativ för Goldberg Variations, BWV 988: Var. 3 av Johann Sebastian Bach, Víkingur Ólafsson" [ref=e272]':
+                - 'gridcell "Spela upp Goldberg Variations, BWV 988: Var. 3 av Johann Sebastian Bach, Víkingur Ólafsson Goldberg Variations, BWV 988: Var. 3 Johann Sebastian Bach, Víkingur Ólafsson" [ref=e273]':
+                  - generic [ref=e274]:
+                    - img [ref=e275]
+                    - 'button "Spela upp Goldberg Variations, BWV 988: Var. 3 av Johann Sebastian Bach, Víkingur Ólafsson"':
+                      - img
+                  - generic [ref=e276]:
+                    - 'link "Goldberg Variations, BWV 988: Var. 3" [ref=e277] [cursor=pointer]':
+                      - /url: /track/0raMV7jy2eEO31jlVHBlFW
+                      - generic [ref=e278]: "Goldberg Variations, BWV 988: Var. 3"
+                    - generic [ref=e280]:
+                      - link "Johann Sebastian Bach" [ref=e281] [cursor=pointer]:
+                        - /url: /artist/5aIqB5nVVvmFsvSdExz408
+                      - text: ","
+                      - link "Víkingur Ólafsson" [ref=e282] [cursor=pointer]:
+                        - /url: /artist/0iqgjl0OG3z53PZVIB7ZyD
+                - 'gridcell "Lägg till i Gillade låtar 1:50 Fler alternativ för Goldberg Variations, BWV 988: Var. 3 av Johann Sebastian Bach, Víkingur Ólafsson" [ref=e283]':
+                  - button "Lägg till i Gillade låtar" [ref=e284] [cursor=pointer]:
+                    - img [ref=e286]
+                  - generic [ref=e289]: 1:50
+                  - 'button "Fler alternativ för Goldberg Variations, BWV 988: Var. 3 av Johann Sebastian Bach, Víkingur Ólafsson" [ref=e290] [cursor=pointer]':
+                    - img [ref=e292]
+              - 'row "Spela upp Goldberg Variations, BWV 988: Var. 21 av Johann Sebastian Bach, Víkingur Ólafsson Goldberg Variations, BWV 988: Var. 21 Johann Sebastian Bach, Víkingur Ólafsson Lägg till i Gillade låtar 3:15 Fler alternativ för Goldberg Variations, BWV 988: Var. 21 av Johann Sebastian Bach, Víkingur Ólafsson" [ref=e294]':
+                - 'gridcell "Spela upp Goldberg Variations, BWV 988: Var. 21 av Johann Sebastian Bach, Víkingur Ólafsson Goldberg Variations, BWV 988: Var. 21 Johann Sebastian Bach, Víkingur Ólafsson" [ref=e295]':
+                  - generic [ref=e296]:
+                    - img [ref=e297]
+                    - 'button "Spela upp Goldberg Variations, BWV 988: Var. 21 av Johann Sebastian Bach, Víkingur Ólafsson"':
+                      - img
+                  - generic [ref=e298]:
+                    - 'link "Goldberg Variations, BWV 988: Var. 21" [ref=e299] [cursor=pointer]':
+                      - /url: /track/7izqT26X2qmMbqiNAQZruO
+                      - generic [ref=e300]: "Goldberg Variations, BWV 988: Var. 21"
+                    - generic [ref=e302]:
+                      - link "Johann Sebastian Bach" [ref=e303] [cursor=pointer]:
+                        - /url: /artist/5aIqB5nVVvmFsvSdExz408
+                      - text: ","
+                      - link "Víkingur Ólafsson" [ref=e304] [cursor=pointer]:
+                        - /url: /artist/0iqgjl0OG3z53PZVIB7ZyD
+                - 'gridcell "Lägg till i Gillade låtar 3:15 Fler alternativ för Goldberg Variations, BWV 988: Var. 21 av Johann Sebastian Bach, Víkingur Ólafsson" [ref=e305]':
+                  - button "Lägg till i Gillade låtar" [ref=e306] [cursor=pointer]:
+                    - img [ref=e308]
+                  - generic [ref=e311]: 3:15
+                  - 'button "Fler alternativ för Goldberg Variations, BWV 988: Var. 21 av Johann Sebastian Bach, Víkingur Ólafsson" [ref=e312] [cursor=pointer]':
+                    - img [ref=e314]
+              - 'row "Spela upp Goldberg Variations, BWV 988: Var. 1 av Johann Sebastian Bach, Víkingur Ólafsson Goldberg Variations, BWV 988: Var. 1 Johann Sebastian Bach, Víkingur Ólafsson Lägg till i Gillade låtar 1:30 Fler alternativ för Goldberg Variations, BWV 988: Var. 1 av Johann Sebastian Bach, Víkingur Ólafsson" [ref=e316]':
+                - 'gridcell "Spela upp Goldberg Variations, BWV 988: Var. 1 av Johann Sebastian Bach, Víkingur Ólafsson Goldberg Variations, BWV 988: Var. 1 Johann Sebastian Bach, Víkingur Ólafsson" [ref=e317]':
+                  - generic [ref=e318]:
+                    - img [ref=e319]
+                    - 'button "Spela upp Goldberg Variations, BWV 988: Var. 1 av Johann Sebastian Bach, Víkingur Ólafsson"':
+                      - img
+                  - generic [ref=e320]:
+                    - 'link "Goldberg Variations, BWV 988: Var. 1" [ref=e321] [cursor=pointer]':
+                      - /url: /track/63WAgbEce35P5Bym5nlx6Z
+                      - generic [ref=e322]: "Goldberg Variations, BWV 988: Var. 1"
+                    - generic [ref=e324]:
+                      - link "Johann Sebastian Bach" [ref=e325] [cursor=pointer]:
+                        - /url: /artist/5aIqB5nVVvmFsvSdExz408
+                      - text: ","
+                      - link "Víkingur Ólafsson" [ref=e326] [cursor=pointer]:
+                        - /url: /artist/0iqgjl0OG3z53PZVIB7ZyD
+                - 'gridcell "Lägg till i Gillade låtar 1:30 Fler alternativ för Goldberg Variations, BWV 988: Var. 1 av Johann Sebastian Bach, Víkingur Ólafsson" [ref=e327]':
+                  - button "Lägg till i Gillade låtar" [ref=e328] [cursor=pointer]:
+                    - img [ref=e330]
+                  - generic [ref=e333]: 1:30
+                  - 'button "Fler alternativ för Goldberg Variations, BWV 988: Var. 1 av Johann Sebastian Bach, Víkingur Ólafsson" [ref=e334] [cursor=pointer]':
+                    - img [ref=e336]
+          - region "Artister" [ref=e338]:
+            - group [ref=e340]:
+              - heading [level=2] [ref=e343]:
+                - link [ref=e345] [cursor=pointer]:
+                  - /url: /search/V%C3%ADkingur%20%C3%93lafsson%20Bach%20Goldberg%20Variations/artists
+                  - text: Artister
+            - generic "Víkingur Ólafsson" [ref=e346] [cursor=pointer]:
+              - button "Víkingur Ólafsson Artist" [ref=e347]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - button "Spela upp Víkingur Ólafsson":
+                      - generic:
+                        - generic:
+                          - img
+              - generic [ref=e350]:
+                - link "Víkingur Ólafsson" [ref=e351]:
+                  - /url: /artist/0iqgjl0OG3z53PZVIB7ZyD
+                  - paragraph [ref=e352]:
+                    - generic [ref=e353]: Víkingur Ólafsson
+                - generic [ref=e356]: Artist
+            - generic "Johann Sebastian Bach" [ref=e357] [cursor=pointer]:
+              - button "Johann Sebastian Bach Artist" [ref=e358]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - button "Spela upp Johann Sebastian Bach":
+                      - generic:
+                        - generic:
+                          - img
+              - generic [ref=e361]:
+                - link "Johann Sebastian Bach" [ref=e362]:
+                  - /url: /artist/5aIqB5nVVvmFsvSdExz408
+                  - paragraph [ref=e363]:
+                    - generic [ref=e364]: Johann Sebastian Bach
+                - generic [ref=e367]: Artist
+            - generic "Ólafur Arnalds" [ref=e368] [cursor=pointer]:
+              - button "Ólafur Arnalds Artist" [ref=e369]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - button "Spela upp Ólafur Arnalds":
+                      - generic:
+                        - generic:
+                          - img
+              - generic [ref=e372]:
+                - link "Ólafur Arnalds" [ref=e373]:
+                  - /url: /artist/7E3BRXV9ZbCt5lQTCXMTia
+                  - paragraph [ref=e374]:
+                    - generic [ref=e375]: Ólafur Arnalds
+                - generic [ref=e378]: Artist
+            - generic "Glenn Gould" [ref=e379] [cursor=pointer]:
+              - button "Glenn Gould Artist" [ref=e380]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - button "Spela upp Glenn Gould":
+                      - generic:
+                        - generic:
+                          - img
+              - generic [ref=e383]:
+                - link "Glenn Gould" [ref=e384]:
+                  - /url: /artist/13dkPjqmbcchm8cXjEJQeP
+                  - paragraph [ref=e385]:
+                    - generic [ref=e386]: Glenn Gould
+                - generic [ref=e389]: Artist
+            - generic "Viking Spirit" [ref=e390] [cursor=pointer]:
+              - button "Viking Spirit Artist" [ref=e391]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - button "Spela upp Viking Spirit":
+                      - generic:
+                        - generic:
+                          - img
+              - generic [ref=e394]:
+                - link "Viking Spirit" [ref=e395]:
+                  - /url: /artist/2MJDygWqHWuksKAYCl3MUz
+                  - paragraph [ref=e396]:
+                    - generic [ref=e397]: Viking Spirit
+                - generic [ref=e400]: Artist
+          - region "Album" [ref=e401]:
+            - group [ref=e403]:
+              - heading [level=2] [ref=e406]:
+                - link [ref=e408] [cursor=pointer]:
+                  - /url: /search/V%C3%ADkingur%20%C3%93lafsson%20Bach%20Goldberg%20Variations/albums
+                  - text: Album
+            - 'generic "J.S. Bach: Goldberg Variations" [ref=e409] [cursor=pointer]':
+              - 'button "J.S. Bach: Goldberg Variations 2023 • Johann Sebastian Bach, Víkingur Ólafsson" [ref=e410]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - 'button "Spela upp J.S. Bach: Goldberg Variations av Johann Sebastian Bach, Víkingur Ólafsson"':
+                      - generic:
+                        - generic:
+                          - img
+              - generic [ref=e413]:
+                - 'link "J.S. Bach: Goldberg Variations" [ref=e414]':
+                  - /url: /album/5kBtLULy6vMwjFRSSEEIjP
+                  - paragraph [ref=e415]:
+                    - generic [ref=e416]: "J.S. Bach: Goldberg Variations"
+                - generic [ref=e419]:
+                  - time [ref=e420]: 2023 •
+                  - link "Johann Sebastian Bach" [ref=e421]:
+                    - /url: /artist/5aIqB5nVVvmFsvSdExz408
+                  - text: ","
+                  - link "Víkingur Ólafsson" [ref=e422]:
+                    - /url: /artist/0iqgjl0OG3z53PZVIB7ZyD
+            - 'generic "J.S. Bach: Goldberg Variations, BWV 988: Var. 21" [ref=e423] [cursor=pointer]':
+              - 'button "J.S. Bach: Goldberg Variations, BWV 988: Var. 21 2023 • Johann Sebastian Bach, Víkingur Ólafsson" [ref=e424]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - 'button "Spela upp J.S. Bach: Goldberg Variations, BWV 988: Var. 21 av Johann Sebastian Bach, Víkingur Ólafsson"':
+                      - generic:
+                        - generic:
+                          - img
+              - generic [ref=e427]:
+                - 'link "J.S. Bach: Goldberg Variations, BWV 988: Var. 21" [ref=e428]':
+                  - /url: /album/3jKFKndTaIy2veF3S9Uwld
+                  - paragraph [ref=e429]:
+                    - generic [ref=e430]: "J.S. Bach: Goldberg Variations, BWV 988: Var. 21"
+                - generic [ref=e433]:
+                  - time [ref=e434]: 2023 •
+                  - link "Johann Sebastian Bach" [ref=e435]:
+                    - /url: /artist/5aIqB5nVVvmFsvSdExz408
+                  - text: ","
+                  - link "Víkingur Ólafsson" [ref=e436]:
+                    - /url: /artist/0iqgjl0OG3z53PZVIB7ZyD
+            - 'generic "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)" [ref=e437] [cursor=pointer]':
+              - 'button "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster) 1981 • Johann Sebastian Bach, Glenn Gould" [ref=e438]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - 'button "Spela upp Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster) av Johann Sebastian Bach, Glenn Gould"':
+                      - generic:
+                        - generic:
+                          - img
+              - generic [ref=e441]:
+                - 'link "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)" [ref=e442]':
+                  - /url: /album/1aCpHSQE5ghxibsQ5gkBe0
+                  - paragraph [ref=e443]:
+                    - generic [ref=e444]: "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)"
+                - generic [ref=e447]:
+                  - time [ref=e448]: 1981 •
+                  - link "Johann Sebastian Bach" [ref=e449]:
+                    - /url: /artist/5aIqB5nVVvmFsvSdExz408
+                  - text: ","
+                  - link "Glenn Gould" [ref=e450]:
+                    - /url: /artist/13dkPjqmbcchm8cXjEJQeP
+            - 'generic "J.S. Bach: Goldberg Variations, BWV 988: Aria" [ref=e451] [cursor=pointer]':
+              - 'button "J.S. Bach: Goldberg Variations, BWV 988: Aria 2023 • Johann Sebastian Bach, Víkingur Ólafsson" [ref=e452]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - 'button "Spela upp J.S. Bach: Goldberg Variations, BWV 988: Aria av Johann Sebastian Bach, Víkingur Ólafsson"':
+                      - generic:
+                        - generic:
+                          - img
+              - generic [ref=e455]:
+                - 'link "J.S. Bach: Goldberg Variations, BWV 988: Aria" [ref=e456]':
+                  - /url: /album/2geJLd7c3hxTvwdlLZT79j
+                  - paragraph [ref=e457]:
+                    - generic [ref=e458]: "J.S. Bach: Goldberg Variations, BWV 988: Aria"
+                - generic [ref=e461]:
+                  - time [ref=e462]: 2023 •
+                  - link "Johann Sebastian Bach" [ref=e463]:
+                    - /url: /artist/5aIqB5nVVvmFsvSdExz408
+                  - text: ","
+                  - link "Víkingur Ólafsson" [ref=e464]:
+                    - /url: /artist/0iqgjl0OG3z53PZVIB7ZyD
+            - 'generic "J.S. Bach: Goldberg Variations, BWV 988: Var. 13" [ref=e465] [cursor=pointer]':
+              - 'button "J.S. Bach: Goldberg Variations, BWV 988: Var. 13 2023 • Johann Sebastian Bach, Víkingur Ólafsson" [ref=e466]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - 'button "Spela upp J.S. Bach: Goldberg Variations, BWV 988: Var. 13 av Johann Sebastian Bach, Víkingur Ólafsson"':
+                      - generic:
+                        - generic:
+                          - img
+              - generic [ref=e469]:
+                - 'link "J.S. Bach: Goldberg Variations, BWV 988: Var. 13" [ref=e470]':
+                  - /url: /album/61HBbCtK1rsOSUazQaHFY5
+                  - paragraph [ref=e471]:
+                    - generic [ref=e472]: "J.S. Bach: Goldberg Variations, BWV 988: Var. 13"
+                - generic [ref=e475]:
+                  - time [ref=e476]: 2023 •
+                  - link "Johann Sebastian Bach" [ref=e477]:
+                    - /url: /artist/5aIqB5nVVvmFsvSdExz408
+                  - text: ","
+                  - link "Víkingur Ólafsson" [ref=e478]:
+                    - /url: /artist/0iqgjl0OG3z53PZVIB7ZyD
+          - region "Spellistor" [ref=e479]:
+            - group [ref=e481]:
+              - heading [level=2] [ref=e484]:
+                - link [ref=e486] [cursor=pointer]:
+                  - /url: /search/V%C3%ADkingur%20%C3%93lafsson%20Bach%20Goldberg%20Variations/playlists
+                  - text: Spellistor
+            - generic "Bach Goldberg Variations Harpsichord Organ" [ref=e487] [cursor=pointer]:
+              - button "Bach Goldberg Variations Harpsichord Organ Av woutergamer999" [ref=e488]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - button "Spela upp Bach Goldberg Variations Harpsichord Organ":
+                      - generic:
+                        - generic:
+                          - img
+              - generic [ref=e491]:
+                - link "Bach Goldberg Variations Harpsichord Organ" [ref=e492]:
+                  - /url: /playlist/6rKHufjtdEHnp841WduJHs
+                  - paragraph [ref=e493]:
+                    - generic [ref=e494]: Bach Goldberg Variations Harpsichord Organ
+                - generic [ref=e498]: Av woutergamer999
+            - generic "Svenska vackra visor" [ref=e499] [cursor=pointer]:
+              - button "Svenska vackra visor Av Malin Gavlefors" [ref=e500]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - button "Spela upp Svenska vackra visor":
+                      - generic:
+                        - generic:
+                          - img
+              - generic [ref=e503]:
+                - link "Svenska vackra visor" [ref=e504]:
+                  - /url: /playlist/0Mtxn1jUTMYc1LdZeAKlvd
+                  - paragraph [ref=e505]:
+                    - generic [ref=e506]: Svenska vackra visor
+                - generic [ref=e510]: Av Malin Gavlefors
+            - generic "Finaste Svenska Visorna" [ref=e511] [cursor=pointer]:
+              - button "Finaste Svenska Visorna Av violetaradic" [ref=e512]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - button "Spela upp Finaste Svenska Visorna":
+                      - generic:
+                        - generic:
+                          - img
+              - generic [ref=e515]:
+                - link "Finaste Svenska Visorna" [ref=e516]:
+                  - /url: /playlist/79xuCBexyvBNRSz5LuDW0g
+                  - paragraph [ref=e517]:
+                    - generic [ref=e518]: Finaste Svenska Visorna
+                - generic [ref=e522]: Av violetaradic
+            - generic "Völund smed" [ref=e523] [cursor=pointer]:
+              - button "Völund smed Av Andhug" [ref=e524]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - button "Spela upp Völund smed":
+                      - generic:
+                        - generic:
+                          - img
+              - generic [ref=e527]:
+                - link "Völund smed" [ref=e528]:
+                  - /url: /playlist/0KLYi5fEYRgbLNXBbfGoup
+                  - paragraph [ref=e529]:
+                    - generic [ref=e530]: Völund smed
+                - generic [ref=e534]: Av Andhug
+            - generic "Vårvisor & sommarsånger" [ref=e535] [cursor=pointer]:
+              - button "Vårvisor & sommarsånger Av musicant" [ref=e536]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - button "Spela upp Vårvisor & sommarsånger":
+                      - generic:
+                        - generic:
+                          - img
+              - generic [ref=e539]:
+                - link "Vårvisor & sommarsånger" [ref=e540]:
+                  - /url: /playlist/4E0WJo7hFiccvoK39X7Vr4
+                  - paragraph [ref=e541]:
+                    - generic [ref=e542]: Vårvisor & sommarsånger
+                - generic [ref=e546]: Av musicant
+          - region "Poddar" [ref=e547]:
+            - group [ref=e549]:
+              - heading [level=2] [ref=e552]:
+                - link [ref=e554] [cursor=pointer]:
+                  - /url: /search/V%C3%ADkingur%20%C3%93lafsson%20Bach%20Goldberg%20Variations/podcasts
+                  - text: Poddar
+            - generic "VAFALLS" [ref=e555] [cursor=pointer]:
+              - button "VAFALLS Acast" [ref=e556]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+              - generic [ref=e559]:
+                - link "VAFALLS" [ref=e560]:
+                  - /url: /show/7E2UflqN67CmyyRJXm0LPn
+                  - paragraph [ref=e561]:
+                    - generic [ref=e562]: VAFALLS
+                - generic [ref=e565]: Acast
+            - generic "P3 Historia" [ref=e566] [cursor=pointer]:
+              - button "P3 Historia Sveriges Radio" [ref=e567]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+              - generic [ref=e570]:
+                - link "P3 Historia" [ref=e571]:
+                  - /url: /show/4cZEkEQ3r1bcG8XA1iJK4X
+                  - paragraph [ref=e572]:
+                    - generic [ref=e573]: P3 Historia
+                - generic [ref=e576]: Sveriges Radio
+            - generic "P3 Musikdokumentär" [ref=e577] [cursor=pointer]:
+              - button "P3 Musikdokumentär Sveriges Radio" [ref=e578]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+              - generic [ref=e581]:
+                - link "P3 Musikdokumentär" [ref=e582]:
+                  - /url: /show/4EZLUugsB0A1sWaNQPH5hd
+                  - paragraph [ref=e583]:
+                    - generic [ref=e584]: P3 Musikdokumentär
+                - generic [ref=e587]: Sveriges Radio
+            - generic "Krigshistoriepodden" [ref=e588] [cursor=pointer]:
+              - button "Krigshistoriepodden Krigshistoriepodden" [ref=e589]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+              - generic [ref=e592]:
+                - link "Krigshistoriepodden" [ref=e593]:
+                  - /url: /show/585Uz4niGrkbN36rPdGiL3
+                  - paragraph [ref=e594]:
+                    - generic [ref=e595]: Krigshistoriepodden
+                - generic [ref=e598]: Krigshistoriepodden
+            - generic "P3 ID" [ref=e599] [cursor=pointer]:
+              - button "P3 ID Sveriges Radio" [ref=e600]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+              - generic [ref=e603]:
+                - link "P3 ID" [ref=e604]:
+                  - /url: /show/1IZHH1NSSsw4onrMec62N1
+                  - paragraph [ref=e605]:
+                    - generic [ref=e606]: P3 ID
+                - generic [ref=e609]: Sveriges Radio
+          - region "Avsnitt" [ref=e610]:
+            - group [ref=e612]:
+              - heading [level=2] [ref=e615]:
+                - link [ref=e617] [cursor=pointer]:
+                  - /url: /search/V%C3%ADkingur%20%C3%93lafsson%20Bach%20Goldberg%20Variations/episodes
+                  - text: Avsnitt
+            - generic "Víkingur Ólafsson" [ref=e618] [cursor=pointer]:
+              - button "Víkingur Ólafsson dec. 2024•133 min" [ref=e619]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - button "Spela upp Víkingur Ólafsson":
+                      - generic:
+                        - generic:
+                          - img
+              - generic [ref=e622]:
+                - link "Víkingur Ólafsson" [ref=e623]:
+                  - /url: /episode/36OQuU6XwvVsqlNb3q3NnT
+                  - paragraph [ref=e624]:
+                    - generic [ref=e625]: Víkingur Ólafsson
+                - generic [ref=e629]: dec. 2024•133 min
+            - generic "Bachs älskade Goldbergvariationer" [ref=e630] [cursor=pointer]:
+              - button "Bachs älskade Goldbergvariationer feb. 2021•23 min" [ref=e631]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - button "Spela upp Bachs älskade Goldbergvariationer":
+                      - generic:
+                        - generic:
+                          - img
+              - generic [ref=e634]:
+                - link "Bachs älskade Goldbergvariationer" [ref=e635]:
+                  - /url: /episode/1g83zYIGkEhBHeXZ0Xx7Ko
+                  - paragraph [ref=e636]:
+                    - generic [ref=e637]: Bachs älskade Goldbergvariationer
+                - generic [ref=e641]: feb. 2021•23 min
+            - generic "Víkingur Ólafsson on Bach’s Goldberg Variations, Ken Loach’s The Old Oak" [ref=e642] [cursor=pointer]:
+              - button "Víkingur Ólafsson on Bach’s Goldberg Variations, Ken Loach’s The Old Oak Explicit sep. 2023•43 min" [ref=e643]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - button "Spela upp Víkingur Ólafsson on Bach’s Goldberg Variations, Ken Loach’s The Old Oak":
+                      - generic:
+                        - generic:
+                          - img
+              - generic [ref=e646]:
+                - link "Víkingur Ólafsson on Bach’s Goldberg Variations, Ken Loach’s The Old Oak" [ref=e647]:
+                  - /url: /episode/3kQiMXnMfch2LQJBv2mMfu
+                  - paragraph [ref=e648]:
+                    - generic [ref=e649]: Víkingur Ólafsson on Bach’s Goldberg Variations, Ken Loach’s The Old Oak
+                - generic [ref=e653]:
+                  - generic "Explicit" [ref=e655]:
+                    - generic [ref=e656]: E
+                  - text: sep. 2023•43 min
+            - 'generic "Víkingur Ólafsson: The billion-stream pianist" [ref=e657] [cursor=pointer]':
+              - 'button "Víkingur Ólafsson: The billion-stream pianist mars 2025•34 min" [ref=e658]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - 'button "Spela upp Víkingur Ólafsson: The billion-stream pianist"':
+                      - generic:
+                        - generic:
+                          - img
+              - generic [ref=e661]:
+                - 'link "Víkingur Ólafsson: The billion-stream pianist" [ref=e662]':
+                  - /url: /episode/2aFKq0fFDk8sPsw2zEvkBz
+                  - paragraph [ref=e663]:
+                    - generic [ref=e664]: "Víkingur Ólafsson: The billion-stream pianist"
+                - generic [ref=e668]: mars 2025•34 min
+            - generic "Sagan om den Gyllene gitarren" [ref=e669] [cursor=pointer]:
+              - button "Sagan om den Gyllene gitarren feb. 2013•12 min" [ref=e670]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - button "Spela upp Sagan om den Gyllene gitarren":
+                      - generic:
+                        - generic:
+                          - img
+              - generic [ref=e673]:
+                - link "Sagan om den Gyllene gitarren" [ref=e674]:
+                  - /url: /episode/3nsUwrqbczEUfXBwIXfzWi
+                  - paragraph [ref=e675]:
+                    - generic [ref=e676]: Sagan om den Gyllene gitarren
+                - generic [ref=e680]: feb. 2013•12 min
+            - text: • • • • •
+          - region "Ljudböcker" [ref=e681]:
+            - group [ref=e683]:
+              - heading [level=2] [ref=e686]:
+                - link [ref=e688] [cursor=pointer]:
+                  - /url: /search/V%C3%ADkingur%20%C3%93lafsson%20Bach%20Goldberg%20Variations/audiobooks
+                  - text: Ljudböcker
+            - generic "Ingen väg tillbaka" [ref=e689] [cursor=pointer]:
+              - button "Ingen väg tillbaka Anders Nilsson" [ref=e690]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+              - generic [ref=e693]:
+                - link "Ingen väg tillbaka" [ref=e694]:
+                  - /url: /show/4bgPfDXfIt7JXx9mAy99xp
+                  - paragraph [ref=e695]:
+                    - generic [ref=e696]: Ingen väg tillbaka
+                - generic [ref=e699]: Anders Nilsson
+            - 'generic "Mikael Persbrandt : Så som jag minns det" [ref=e700] [cursor=pointer]':
+              - 'button "Mikael Persbrandt : Så som jag minns det Carl-Johan Vallgren" [ref=e701]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+              - generic [ref=e704]:
+                - 'link "Mikael Persbrandt : Så som jag minns det" [ref=e705]':
+                  - /url: /show/36NJgM2eliyIBzmIlKsKg3
+                  - paragraph [ref=e706]:
+                    - generic [ref=e707]: "Mikael Persbrandt : Så som jag minns det"
+                - generic [ref=e710]: Carl-Johan Vallgren
+            - generic "Vägen in" [ref=e711] [cursor=pointer]:
+              - button "Vägen in Anders Nilsson" [ref=e712]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+              - generic [ref=e715]:
+                - link "Vägen in" [ref=e716]:
+                  - /url: /show/7JuUO3gM8rXy0gjMYVgYP9
+                  - paragraph [ref=e717]:
+                    - generic [ref=e718]: Vägen in
+                - generic [ref=e721]: Anders Nilsson
+            - generic "Väninnorna på Nordiska Kompaniet" [ref=e722] [cursor=pointer]:
+              - button "Väninnorna på Nordiska Kompaniet Ruth Kvarnström-Jones" [ref=e723]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+              - generic [ref=e726]:
+                - link "Väninnorna på Nordiska Kompaniet" [ref=e727]:
+                  - /url: /show/5a2VnvGr6K3hnKXD0bzXDB
+                  - paragraph [ref=e728]:
+                    - generic [ref=e729]: Väninnorna på Nordiska Kompaniet
+                - generic [ref=e732]: Ruth Kvarnström-Jones
+            - generic "Minnet av en mardröm" [ref=e733] [cursor=pointer]:
+              - button "Minnet av en mardröm Anna Jansson" [ref=e734]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+              - generic [ref=e737]:
+                - link "Minnet av en mardröm" [ref=e738]:
+                  - /url: /show/6qBtv424UwDGEhwSdkwxHv
+                  - paragraph [ref=e739]:
+                    - generic [ref=e740]: Minnet av en mardröm
+                - generic [ref=e743]: Anna Jansson
+          - region "Genrer och teman" [ref=e744]:
+            - group [ref=e746]:
+              - heading [level=2] [ref=e749]:
+                - link [ref=e751] [cursor=pointer]:
+                  - /url: /search/V%C3%ADkingur%20%C3%93lafsson%20Bach%20Goldberg%20Variations/genres
+                  - text: Genrer och teman
+            - generic "Kompositörer från romantiken" [ref=e752] [cursor=pointer]:
+              - button "Kompositörer från romantiken" [ref=e753]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+              - link "Kompositörer från romantiken" [ref=e757]:
+                - /url: /genre/0JQ5IMCbQBLtnAiM8ZtxqN
+                - paragraph [ref=e758]:
+                  - generic [ref=e759]: Kompositörer från romantiken
+            - generic "Utforska barocken" [ref=e760] [cursor=pointer]:
+              - button "Utforska barocken" [ref=e761]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+              - link "Utforska barocken" [ref=e765]:
+                - /url: /genre/0JQ5IMCbQBLrko78caDHfY
+                - paragraph [ref=e766]:
+                  - generic [ref=e767]: Utforska barocken
+            - generic "Kompositörer från klassiska eran" [ref=e768] [cursor=pointer]:
+              - button "Kompositörer från klassiska eran" [ref=e769]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+              - link "Kompositörer från klassiska eran" [ref=e773]:
+                - /url: /genre/0JQ5IMCbQBLi8XUzpdhmAc
+                - paragraph [ref=e774]:
+                  - generic [ref=e775]: Kompositörer från klassiska eran
+            - generic "1900‑talets klassiska kompositörer" [ref=e776] [cursor=pointer]:
+              - button "1900‑talets klassiska kompositörer" [ref=e777]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+              - link "1900‑talets klassiska kompositörer" [ref=e781]:
+                - /url: /genre/0JQ5IMCbQBLokIqQTdMpCB
+                - paragraph [ref=e782]:
+                  - generic [ref=e783]: 1900‑talets klassiska kompositörer
+            - generic "Nya releaser inom klassiskt" [ref=e784] [cursor=pointer]:
+              - button "Nya releaser inom klassiskt" [ref=e785]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+              - link "Nya releaser inom klassiskt" [ref=e789]:
+                - /url: /genre/0JQ5IMCbQBLlFWgA08n9OU
+                - paragraph [ref=e790]:
+                  - generic [ref=e791]: Nya releaser inom klassiskt
+      - generic [ref=e167]:
+        - separator [ref=e168]
+        - navigation [ref=e793]:
+          - generic [ref=e794]:
+            - generic [ref=e795]:
+              - list [ref=e797]:
+                - paragraph [ref=e798]: Företaget
+                - link "Om" [ref=e799] [cursor=pointer]:
+                  - /url: https://www.spotify.com/se/about-us/contact/
+                - link "Jobb" [ref=e800] [cursor=pointer]:
+                  - /url: https://www.lifeatspotify.com/
+                - link "For the Record" [ref=e801] [cursor=pointer]:
+                  - /url: https://newsroom.spotify.com/
+              - list [ref=e803]:
+                - paragraph [ref=e804]: Communities
+                - link "För artister" [ref=e805] [cursor=pointer]:
+                  - /url: https://artists.spotify.com/
+                - link "Utvecklare" [ref=e806] [cursor=pointer]:
+                  - /url: https://developer.spotify.com/
+                - link "Annonsering" [ref=e807] [cursor=pointer]:
+                  - /url: https://ads.spotify.com/
+                - link "Investerare" [ref=e808] [cursor=pointer]:
+                  - /url: https://investors.spotify.com/
+                - link "Försäljare" [ref=e809] [cursor=pointer]:
+                  - /url: https://spotifyforvendors.com/
+              - list [ref=e811]:
+                - paragraph [ref=e812]: Användbara länkar
+                - link "Support" [ref=e813] [cursor=pointer]:
+                  - /url: https://support.spotify.com/
+                - link "Gratis mobilapp" [ref=e814] [cursor=pointer]:
+                  - /url: https://www.spotify.com/se/free/
+                - link "Popularitet efter land" [ref=e815] [cursor=pointer]:
+                  - /url: /popular-in/se
+                - link "Importera din musik" [ref=e816] [cursor=pointer]:
+                  - /url: https://www.spotify.com/se/import-music/
+              - list [ref=e818]:
+                - paragraph [ref=e819]: Spotify‑planer
+                - link "Premium Individual" [ref=e820] [cursor=pointer]:
+                  - /url: https://www.spotify.com/se/premium/#ref=spotifycom_footer_premium_individual
+                - link "Premium Duo" [ref=e821] [cursor=pointer]:
+                  - /url: https://www.spotify.com/se/duo/#ref=spotifycom_footer_premium_duo
+                - link "Premium Family" [ref=e822] [cursor=pointer]:
+                  - /url: https://www.spotify.com/se/family/#ref=spotifycom_footer_premium_family
+                - link "Premium Student" [ref=e823] [cursor=pointer]:
+                  - /url: https://www.spotify.com/se/student/#ref=spotifycom_footer_premium_student
+                - link "Spotify Free" [ref=e824] [cursor=pointer]:
+                  - /url: https://www.spotify.com/se/free/#ref=spotifycom_footer_free
+            - generic [ref=e825]:
+              - link "Instagram" [ref=e827] [cursor=pointer]:
+                - /url: https://instagram.com/spotify
+                - img [ref=e829]
+              - link "Twitter" [ref=e833] [cursor=pointer]:
+                - /url: https://twitter.com/spotify
+                - img [ref=e835]
+              - link "Facebook" [ref=e838] [cursor=pointer]:
+                - /url: https://www.facebook.com/Spotify
+                - img [ref=e840]
+          - separator [ref=e842]
+          - generic [ref=e845]: © 2026 Spotify AB
+  - dialog "Vi bryr oss om din integritet" [ref=e847]:
+    - generic [ref=e849]:
+      - generic [ref=e851]:
+        - heading "Vi bryr oss om din integritet" [level=2] [ref=e852]
+        - generic [ref=e853]: Vi och våra 88 affärspartners använder cookies för att lagra och få tillgång till personuppgifter så som webbplatsdata för att tillhandahålla och anpassa innehåll och annonser samt för att mäta webbplatstrafik. Du kan läsa mer om för vilka syften vi och våra affärspartners använder cookies och begränsa användningen av cookies genom att klicka på knappen ”Cookieinställningar” nedan. Du kan återvända till dina cookieinställningar och ändra dina val eller återkalla ditt samtycke när som helst genom att klicka på länken till dina cookieinställningar i vår Cookie Policy. Vi arbetar i samordning med ett branschramverk och signalerar dina preferenser globalt för alla deltagande webbplatser.
+        - generic [ref=e854]:
+          - heading "Vi och våra partners behandlar data för att tillhandahålla:" [level=3] [ref=e855]
+          - paragraph [ref=e857]:
+            - text: Lagra och/eller få åtkomst till information på en enhet. Personanpassad reklam. Personanpassat innehåll. Reklam och innehållsmätning, forskning angående målgrupp och tjänsteutveckling.
+            - button "Lista över partner (leverantörer)" [ref=e858] [cursor=pointer]
+      - generic [ref=e860]:
+        - button "Acceptera Cookies" [ref=e861] [cursor=pointer]
+        - button "AVVISA ALLA" [ref=e862] [cursor=pointer]
+        - button "Cookieinställningar, Öppnar dialogrutan för inställningscenter" [ref=e863] [cursor=pointer]: Cookieinställningar

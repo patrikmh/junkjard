@@ -1,0 +1,113 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - link "Hoppa till huvudinnehållet" [ref=e6] [cursor=pointer]:
+      - /url: "#main-view"
+      - generic [ref=e7]: Hoppa till huvudinnehållet
+    - link "Spotify" [ref=e9] [cursor=pointer]:
+      - /url: /
+      - img "Spotify" [ref=e10]
+    - generic [ref=e12]:
+      - button "Hem" [ref=e13] [cursor=pointer]:
+        - img [ref=e15]
+      - search [ref=e18]:
+        - button "Sök" [ref=e20] [cursor=pointer]:
+          - img [ref=e22]
+        - generic [ref=e24]:
+          - combobox "Vad vill du spela upp?" [ref=e25]
+          - generic:
+            - generic: ⌘ShiftL
+        - button "Utforska" [ref=e28] [cursor=pointer]:
+          - img [ref=e30]
+    - generic [ref=e34]:
+      - button "Premium" [ref=e35] [cursor=pointer]
+      - button "Support" [ref=e36] [cursor=pointer]
+      - button "Ladda ned" [ref=e37] [cursor=pointer]
+      - link "Installera app" [ref=e39] [cursor=pointer]:
+        - /url: /download
+        - img [ref=e41]
+        - generic [ref=e44]: Installera app
+      - generic [ref=e45]:
+        - button "Registrera dig" [ref=e46] [cursor=pointer]
+        - button "Logga in" [ref=e47] [cursor=pointer]:
+          - generic [ref=e48]: Logga in
+  - generic [ref=e49]:
+    - navigation "Huvudmeny" [ref=e50]:
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - generic [ref=e55]:
+            - heading "Ditt bibliotek" [level=1] [ref=e57]
+            - button "Skapa" [ref=e59] [cursor=pointer]:
+              - img [ref=e60]
+          - generic [ref=e64]:
+            - generic [ref=e65]:
+              - generic [ref=e66]:
+                - generic [ref=e67]: Skapa din första spellista
+                - generic [ref=e68]: Det är enkelt, och vi hjälper dig
+              - button "Skapa spellista" [ref=e70] [cursor=pointer]:
+                - generic [ref=e71]: Skapa spellista
+            - generic [ref=e72]:
+              - generic [ref=e73]:
+                - generic [ref=e74]: Nu hittar vi några poddar att följa
+                - generic [ref=e75]: Vi håller dig uppdaterad om nya avsnitt
+              - link "Utforska poddar" [ref=e77] [cursor=pointer]:
+                - /url: /genre/podcasts-web
+                - generic [ref=e78]: Utforska poddar
+            - generic:
+              - grid "Ditt bibliotek":
+                - generic:
+                  - row
+                  - row
+        - button "Svenska" [ref=e81] [cursor=pointer]:
+          - img [ref=e83]
+          - text: Svenska
+    - generic [ref=e86]:
+      - text: Ändra storlek på huvudnavigeringen
+      - slider "Ändra storlek på huvudnavigeringen" [ref=e87]: "290"
+  - complementary "Fältet Nu spelas" [ref=e89]:
+    - generic [ref=e90] [cursor=pointer]:
+      - generic [ref=e91]:
+        - paragraph [ref=e92]: Förhandsvisning av Spotify
+        - paragraph [ref=e93]: Registrera dig för att få obegränsat med låtar och poddar med reklam då och då. Inget kreditkort behövs.
+      - button "Registrera dig gratis" [ref=e94]:
+        - generic [ref=e95]: Registrera dig gratis
+    - generic:
+      - generic "Spelarkontroller" [ref=e97]:
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - switch "Aktivera shuffle" [disabled] [ref=e100]:
+              - img [ref=e102]
+            - button "Föregående" [disabled] [ref=e105]:
+              - img [ref=e107]
+          - button "Pausa" [disabled] [ref=e109]:
+            - img [ref=e112]
+          - generic [ref=e114]:
+            - button "Nästa" [disabled] [ref=e115]:
+              - img [ref=e117]
+            - checkbox "Inaktivera repetera" [disabled] [ref=e119]:
+              - img [ref=e121]
+        - generic [ref=e123]:
+          - generic [ref=e124]: "-:--"
+          - generic [ref=e127]:
+            - text: Ändra Lyssnat
+            - slider "Ändra Lyssnat" [disabled] [ref=e128]: "0"
+          - generic [ref=e134]: "-:--"
+      - generic [ref=e136]:
+        - button "Vyn Nu spelas" [disabled] [ref=e137]:
+          - img [ref=e139]
+        - generic [ref=e142]:
+          - button "Ljud av" [ref=e143] [cursor=pointer]:
+            - img [ref=e145]
+          - generic [ref=e150]:
+            - text: Ändra volym
+            - slider "Ändra volym" [ref=e151]: "1"
+  - main "Spotify – Sök" [ref=e162]:
+    - generic [ref=e164]:
+      - generic:
+        - generic:
+          - list
+          - generic:
+            - generic:
+              - img
+            - generic:
+              - img
+    - separator [ref=e168]

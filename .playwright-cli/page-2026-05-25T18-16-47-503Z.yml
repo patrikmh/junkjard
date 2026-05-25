@@ -1,0 +1,18 @@
+- generic [ref=e2]:
+  - separator [ref=e3]
+  - iframe [ref=e8]:
+    - generic [ref=f3e2]:
+      - generic [ref=f3e3]:
+        - checkbox "Jag är inte en robot" [ref=f3e7]
+        - generic [ref=f3e11]: Jag är inte en robot
+      - generic [ref=f3e15]: reCAPTCHA
+  - separator [ref=e9]
+  - generic [ref=e10]:
+    - text: Om den här sidan
+    - text: Våra system har upptäckt ovanlig trafik från ditt nätverk. Den här sidan kontrollerar att det inte är en robot, utan du, som skickar begäranden.
+    - link "Varför hände detta?" [ref=e11] [cursor=pointer]:
+      - /url: "#"
+    - generic [ref=e12]:
+      - text: "IP-adress: 31.208.29.154"
+      - text: "Tid: 2026-05-25T18:16:47Z"
+      - text: "Webbadress: https://www.google.com/search?q=%22gpt-5.5-mini%22+OpenAI+model&sca_esv=fc0429090c82337a&source=hp&ei=8JEUatKZK_mG7NYP84CuEQ&iflsig=AFdpzrgAAAAAahSgAGsqRzUZfGp-adXWtotUm75fVrmv&ved=0ahUKEwjS0fz-hdWUAxV5A9sEHXOAKwIQ4dUDCBI&oq=%22gpt-5.5-mini%22+OpenAI+model&gs_lp=Egdnd3Mtd2l6IhsiZ3B0LTUuNS1taW5pIiBPcGVuQUkgbW9kZWxInZ0BUABYAHAAeACQAQCYAXKgAXKqAQMwLjG4AQzIAQD4AQGYAgCgAgCYAwCSBwCgB4oBsgcAuAcAwgcAyAcAgAgB&sclient=gws-wiz&sei=DpIUasb4MMuN1fIP0_PR2A0"

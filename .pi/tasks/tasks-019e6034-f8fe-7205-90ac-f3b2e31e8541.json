@@ -1,0 +1,17 @@
+{
+  "nextId": 7,
+  "tasks": [
+    {
+      "id": "6",
+      "subject": "Extract investigable item content into separate editable docs",
+      "description": "The resume has draggable/investigable items (Mechanical drive, CRT terminal, Raspberry Pi, Cyber head, Old transcripts, Rotary phone, Brass telescope, Spiral notebook, Vinyl record, Old paperback). Each shows rich inspection content when clicked. Extract all item descriptions/titles into separate Markdown/JSON documents in a new items/ directory so they can be easily edited without touching the HTML. Then wire the frontend to load them dynamically.",
+      "status": "in_progress",
+      "activeForm": "Wiring inspector content into HTML",
+      "metadata": {},
+      "blocks": [],
+      "blockedBy": [],
+      "createdAt": 1779731511138,
+      "updatedAt": 1779732823639
+    }
+  ]
+}

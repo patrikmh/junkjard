@@ -1,0 +1,3 @@
+[     507ms] [WARNING] A preload for 'https://duckduckgo.com/country.json' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute. @ https://duckduckgo.com/_next/static/chunks/pages/_app-907f2a2b90aba8a9.js:0
+[    3830ms] [WARNING] Attempted to start an event that already exists: homepage_search-from-homepage @ https://duckduckgo.com/_next/static/chunks/pages/_app-907f2a2b90aba8a9.js:0
+[    4594ms] [WARNING] useTranslation: DISMISS is not available @ https://duckduckgo.com/dist/wpm.main.62987e61dfd0777898cd.js:0

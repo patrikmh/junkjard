@@ -1,0 +1,47 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - link "Om" [ref=e220] [cursor=pointer]:
+      - /url: https://about.google/?fg=1&utm_source=google-SE&utm_medium=referral&utm_campaign=hp-header
+    - link "Store" [ref=e221] [cursor=pointer]:
+      - /url: https://store.google.com/SE?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=sv-SE
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - link "Gmail" [ref=e222] [cursor=pointer]:
+          - /url: https://mail.google.com/mail/&ogbl
+        - link "Sök efter bilder" [ref=e223] [cursor=pointer]:
+          - /url: https://www.google.com/imghp?hl=sv&ogbl
+          - text: Bilder
+      - button "Googles appar" [ref=e224] [cursor=pointer]:
+        - img [ref=e16]
+      - link "Logga in" [ref=e225] [cursor=pointer]:
+        - /url: https://accounts.google.com/ServiceLogin?hl=sv&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e
+  - img "Google" [ref=e226]
+  - search [ref=e26]:
+    - generic [ref=e28]:
+      - generic [ref=e30]:
+        - img [ref=e34]
+        - combobox "Sök" [ref=e227]: "\"gpt-5.5-mini\" OpenAI model"
+        - button "Rensa" [ref=e228] [cursor=pointer]:
+          - img [ref=e218]
+      - generic [ref=e51]:
+        - button "Sök på Google" [ref=e229] [cursor=pointer]
+        - button "Jag har tur" [ref=e230] [cursor=pointer]
+  - contentinfo [ref=e56]:
+    - generic [ref=e57]: Sverige
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - link "Annonsering" [ref=e231] [cursor=pointer]:
+          - /url: https://www.google.com/intl/sv_se/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+        - link "Företagslösningar" [ref=e232] [cursor=pointer]:
+          - /url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+        - link "Så fungerar Sök" [ref=e233] [cursor=pointer]:
+          - /url: https://google.com/search/howsearchworks/?fg=1
+      - link "Koldioxidneutralt sedan 2007" [ref=e234] [cursor=pointer]:
+        - /url: https://sustainability.google/intl/sv/commitments-europe/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=
+      - generic [ref=e65]:
+        - link "Integritet" [ref=e235] [cursor=pointer]:
+          - /url: https://policies.google.com/privacy?hl=sv&fg=1
+        - link "Villkor" [ref=e236] [cursor=pointer]:
+          - /url: https://policies.google.com/terms?hl=sv&fg=1
+        - button "Inställningar" [ref=e237] [cursor=pointer]:
+          - generic [ref=e72]: Inställningar

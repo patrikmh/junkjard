@@ -1,0 +1,2595 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "OpenAI Developers" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "OpenAI Developers" [ref=e5]
+      - navigation [ref=e6]:
+        - link "Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "API" [ref=e10] [cursor=pointer]:
+          - /url: /api
+          - text: API
+          - img [ref=e11]
+        - link "Codex" [ref=e14] [cursor=pointer]:
+          - /url: /codex
+          - text: Codex
+          - img [ref=e15]
+        - link "ChatGPT" [ref=e18] [cursor=pointer]:
+          - /url: /chatgpt
+          - text: ChatGPT
+          - img [ref=e19]
+        - link "Resources" [ref=e22] [cursor=pointer]:
+          - /url: /learn
+          - text: Resources
+          - img [ref=e23]
+      - generic [ref=e25]:
+        - button "Start searching" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: Start searching
+          - img [ref=e28]
+        - link "API Dashboard" [ref=e33] [cursor=pointer]:
+          - /url: https://platform.openai.com/login
+          - generic [ref=e34]:
+            - generic [ref=e35]: API Dashboard
+            - img [ref=e36]
+        - button "Toggle light and dark theme" [ref=e38] [cursor=pointer]:
+          - img [ref=e39]
+  - generic [ref=e41]:
+    - navigation [ref=e43]:
+      - generic [ref=e44]:
+        - heading "Get started" [level=3] [ref=e45]
+        - list [ref=e46]:
+          - listitem [ref=e47]:
+            - link "Overview" [ref=e48] [cursor=pointer]:
+              - /url: /api/docs
+              - generic [ref=e49]: Overview
+          - listitem [ref=e50]:
+            - link "Quickstart" [ref=e51] [cursor=pointer]:
+              - /url: /api/docs/quickstart
+              - generic [ref=e52]: Quickstart
+          - listitem [ref=e53]:
+            - link "Models" [ref=e54] [cursor=pointer]:
+              - /url: /api/docs/models
+              - generic [ref=e55]: Models
+          - listitem [ref=e56]:
+            - link "Pricing" [ref=e57] [cursor=pointer]:
+              - /url: /api/docs/pricing
+              - generic [ref=e58]: Pricing
+          - listitem [ref=e59]:
+            - group [ref=e60]:
+              - generic "SDKs and CLI" [ref=e61] [cursor=pointer]:
+                - link "SDKs and CLI" [ref=e62]:
+                  - /url: /api/docs/libraries
+                  - generic [ref=e63]: SDKs and CLI
+                - img [ref=e64]
+          - listitem [ref=e66]:
+            - 'link "Latest: GPT-5.5" [ref=e67] [cursor=pointer]':
+              - /url: /api/docs/guides/latest-model
+              - generic [ref=e68]: "Latest: GPT-5.5"
+          - listitem [ref=e69]:
+            - link "Prompt guidance" [ref=e70] [cursor=pointer]:
+              - /url: /api/docs/guides/prompt-guidance
+              - generic [ref=e71]: Prompt guidance
+      - generic [ref=e72]:
+        - heading "Core concepts" [level=3] [ref=e73]
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "Text generation" [ref=e76] [cursor=pointer]:
+              - /url: /api/docs/guides/text
+              - generic [ref=e77]: Text generation
+          - listitem [ref=e78]:
+            - link "Code generation" [ref=e79] [cursor=pointer]:
+              - /url: /api/docs/guides/code-generation
+              - generic [ref=e80]: Code generation
+          - listitem [ref=e81]:
+            - link "Images and vision" [ref=e82] [cursor=pointer]:
+              - /url: /api/docs/guides/images-vision
+              - generic [ref=e83]: Images and vision
+          - listitem [ref=e84]:
+            - link "Audio and speech" [ref=e85] [cursor=pointer]:
+              - /url: /api/docs/guides/audio
+              - generic [ref=e86]: Audio and speech
+          - listitem [ref=e87]:
+            - link "Structured output" [ref=e88] [cursor=pointer]:
+              - /url: /api/docs/guides/structured-outputs
+              - generic [ref=e89]: Structured output
+          - listitem [ref=e90]:
+            - link "Function calling" [ref=e91] [cursor=pointer]:
+              - /url: /api/docs/guides/function-calling
+              - generic [ref=e92]: Function calling
+          - listitem [ref=e93]:
+            - link "Responses API" [ref=e94] [cursor=pointer]:
+              - /url: /api/docs/guides/migrate-to-responses
+              - generic [ref=e95]: Responses API
+          - listitem [ref=e96]:
+            - link "Using tools" [ref=e97] [cursor=pointer]:
+              - /url: /api/docs/guides/tools
+              - generic [ref=e98]: Using tools
+      - generic [ref=e99]:
+        - heading "Agents SDK" [level=3] [ref=e100]
+        - list [ref=e101]:
+          - listitem [ref=e102]:
+            - link "Overview" [ref=e103] [cursor=pointer]:
+              - /url: /api/docs/guides/agents
+              - generic [ref=e104]: Overview
+          - listitem [ref=e105]:
+            - link "Quickstart" [ref=e106] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/quickstart
+              - generic [ref=e107]: Quickstart
+          - listitem [ref=e108]:
+            - link "Agent definitions" [ref=e109] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/define-agents
+              - generic [ref=e110]: Agent definitions
+          - listitem [ref=e111]:
+            - link "Models and providers" [ref=e112] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/models
+              - generic [ref=e113]: Models and providers
+          - listitem [ref=e114]:
+            - link "Running agents" [ref=e115] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/running-agents
+              - generic [ref=e116]: Running agents
+          - listitem [ref=e117]:
+            - link "Sandbox agents" [ref=e118] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/sandboxes
+              - generic [ref=e119]: Sandbox agents
+          - listitem [ref=e120]:
+            - link "Orchestration" [ref=e121] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/orchestration
+              - generic [ref=e122]: Orchestration
+          - listitem [ref=e123]:
+            - link "Guardrails" [ref=e124] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/guardrails-approvals
+              - generic [ref=e125]: Guardrails
+          - listitem [ref=e126]:
+            - link "Results and state" [ref=e127] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/results
+              - generic [ref=e128]: Results and state
+          - listitem [ref=e129]:
+            - link "Integrations and observability" [ref=e130] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/integrations-observability
+              - generic [ref=e131]: Integrations and observability
+          - listitem [ref=e132]:
+            - link "Evaluate agent workflows" [ref=e133] [cursor=pointer]:
+              - /url: /api/docs/guides/agent-evals
+              - generic [ref=e134]: Evaluate agent workflows
+          - listitem [ref=e135]:
+            - link "Voice agents" [ref=e136] [cursor=pointer]:
+              - /url: /api/docs/guides/voice-agents
+              - generic [ref=e137]: Voice agents
+          - listitem [ref=e138]:
+            - group [ref=e139]:
+              - generic "Agent Builder" [ref=e140] [cursor=pointer]:
+                - generic [ref=e141]: Agent Builder
+                - img [ref=e142]
+      - generic [ref=e144]:
+        - heading "Tools" [level=3] [ref=e145]
+        - list [ref=e146]:
+          - listitem [ref=e147]:
+            - link "Web search" [ref=e148] [cursor=pointer]:
+              - /url: /api/docs/guides/tools-web-search
+              - generic [ref=e149]: Web search
+          - listitem [ref=e150]:
+            - group [ref=e151]:
+              - generic "MCP and Connectors" [ref=e152] [cursor=pointer]:
+                - link "MCP and Connectors" [ref=e153]:
+                  - /url: /api/docs/guides/tools-connectors-mcp
+                  - generic [ref=e154]: MCP and Connectors
+                - img [ref=e155]
+          - listitem [ref=e157]:
+            - link "Skills" [ref=e158] [cursor=pointer]:
+              - /url: /api/docs/guides/tools-skills
+              - generic [ref=e159]: Skills
+          - listitem [ref=e160]:
+            - link "Shell" [ref=e161] [cursor=pointer]:
+              - /url: /api/docs/guides/tools-shell
+              - generic [ref=e162]: Shell
+          - listitem [ref=e163]:
+            - link "Computer use" [ref=e164] [cursor=pointer]:
+              - /url: /api/docs/guides/tools-computer-use
+              - generic [ref=e165]: Computer use
+          - listitem [ref=e166]:
+            - group [ref=e167]:
+              - generic "File search and retrieval" [ref=e168] [cursor=pointer]:
+                - generic [ref=e169]: File search and retrieval
+                - img [ref=e170]
+          - listitem [ref=e172]:
+            - link "Tool search" [ref=e173] [cursor=pointer]:
+              - /url: /api/docs/guides/tools-tool-search
+              - generic [ref=e174]: Tool search
+          - listitem [ref=e175]:
+            - group [ref=e176]:
+              - generic "More tools" [ref=e177] [cursor=pointer]:
+                - generic [ref=e178]: More tools
+                - img [ref=e179]
+      - generic [ref=e181]:
+        - heading "Run and scale" [level=3] [ref=e182]
+        - list [ref=e183]:
+          - listitem [ref=e184]:
+            - link "Conversation state" [ref=e185] [cursor=pointer]:
+              - /url: /api/docs/guides/conversation-state
+              - generic [ref=e186]: Conversation state
+          - listitem [ref=e187]:
+            - link "Background mode" [ref=e188] [cursor=pointer]:
+              - /url: /api/docs/guides/background
+              - generic [ref=e189]: Background mode
+          - listitem [ref=e190]:
+            - link "Streaming" [ref=e191] [cursor=pointer]:
+              - /url: /api/docs/guides/streaming-responses
+              - generic [ref=e192]: Streaming
+          - listitem [ref=e193]:
+            - link "WebSocket mode" [ref=e194] [cursor=pointer]:
+              - /url: /api/docs/guides/websocket-mode
+              - generic [ref=e195]: WebSocket mode
+          - listitem [ref=e196]:
+            - link "Webhooks" [ref=e197] [cursor=pointer]:
+              - /url: /api/docs/guides/webhooks
+              - generic [ref=e198]: Webhooks
+          - listitem [ref=e199]:
+            - link "File inputs" [ref=e200] [cursor=pointer]:
+              - /url: /api/docs/guides/file-inputs
+              - generic [ref=e201]: File inputs
+          - listitem [ref=e202]:
+            - group [ref=e203]:
+              - generic "Context management" [ref=e204] [cursor=pointer]:
+                - generic [ref=e205]: Context management
+                - img [ref=e206]
+          - listitem [ref=e208]:
+            - group [ref=e209]:
+              - generic "Prompting" [ref=e210] [cursor=pointer]:
+                - generic [ref=e211]: Prompting
+                - img [ref=e212]
+          - listitem [ref=e214]:
+            - group [ref=e215]:
+              - generic "Reasoning" [ref=e216] [cursor=pointer]:
+                - generic [ref=e217]: Reasoning
+                - img [ref=e218]
+      - generic [ref=e220]:
+        - heading "Evaluation" [level=3] [ref=e221]
+        - list [ref=e222]:
+          - listitem [ref=e223]:
+            - link "Getting started" [ref=e224] [cursor=pointer]:
+              - /url: /api/docs/guides/evaluation-getting-started
+              - generic [ref=e225]: Getting started
+          - listitem [ref=e226]:
+            - link "Working with evals" [ref=e227] [cursor=pointer]:
+              - /url: /api/docs/guides/evals
+              - generic [ref=e228]: Working with evals
+          - listitem [ref=e229]:
+            - link "Prompt optimizer" [ref=e230] [cursor=pointer]:
+              - /url: /api/docs/guides/prompt-optimizer
+              - generic [ref=e231]: Prompt optimizer
+          - listitem [ref=e232]:
+            - link "External models" [ref=e233] [cursor=pointer]:
+              - /url: /api/docs/guides/external-models
+              - generic [ref=e234]: External models
+          - listitem [ref=e235]:
+            - link "Best practices" [ref=e236] [cursor=pointer]:
+              - /url: /api/docs/guides/evaluation-best-practices
+              - generic [ref=e237]: Best practices
+      - generic [ref=e238]:
+        - heading "Realtime and audio" [level=3] [ref=e239]
+        - list [ref=e240]:
+          - listitem [ref=e241]:
+            - link "Overview" [ref=e242] [cursor=pointer]:
+              - /url: /api/docs/guides/realtime
+              - generic [ref=e243]: Overview
+          - listitem [ref=e244]:
+            - link "Voice agents" [ref=e245] [cursor=pointer]:
+              - /url: /api/docs/guides/voice-agents
+              - generic [ref=e246]: Voice agents
+          - listitem [ref=e247]:
+            - link "Live translation" [ref=e248] [cursor=pointer]:
+              - /url: /api/docs/guides/realtime-translation
+              - generic [ref=e249]: Live translation
+          - listitem [ref=e250]:
+            - group [ref=e251]:
+              - generic "Transcription" [ref=e252] [cursor=pointer]:
+                - generic [ref=e253]: Transcription
+                - img [ref=e254]
+          - listitem [ref=e256]:
+            - link "Speech generation" [ref=e257] [cursor=pointer]:
+              - /url: /api/docs/guides/text-to-speech
+              - generic [ref=e258]: Speech generation
+          - listitem [ref=e259]:
+            - link "Realtime prompting guide" [ref=e260] [cursor=pointer]:
+              - /url: /api/docs/guides/realtime-models-prompting
+              - generic [ref=e261]: Realtime prompting guide
+          - listitem [ref=e262]:
+            - group [ref=e263]:
+              - generic "Connection methods" [ref=e264] [cursor=pointer]:
+                - generic [ref=e265]: Connection methods
+                - img [ref=e266]
+          - listitem [ref=e268]:
+            - group [ref=e269]:
+              - generic "Realtime sessions" [ref=e270] [cursor=pointer]:
+                - generic [ref=e271]: Realtime sessions
+                - img [ref=e272]
+      - generic [ref=e274]:
+        - heading "Model optimization" [level=3] [ref=e275]
+        - list [ref=e276]:
+          - listitem [ref=e277]:
+            - link "Optimization cycle" [ref=e278] [cursor=pointer]:
+              - /url: /api/docs/guides/model-optimization
+              - generic [ref=e279]: Optimization cycle
+          - listitem [ref=e280]:
+            - group [ref=e281]:
+              - generic "Fine-tuning" [ref=e282] [cursor=pointer]:
+                - generic [ref=e283]: Fine-tuning
+                - img [ref=e284]
+          - listitem [ref=e286]:
+            - link "Graders" [ref=e287] [cursor=pointer]:
+              - /url: /api/docs/guides/graders
+              - generic [ref=e288]: Graders
+      - generic [ref=e289]:
+        - heading "Specialized models" [level=3] [ref=e290]
+        - list [ref=e291]:
+          - listitem [ref=e292]:
+            - link "Image generation" [ref=e293] [cursor=pointer]:
+              - /url: /api/docs/guides/image-generation
+              - generic [ref=e294]: Image generation
+          - listitem [ref=e295]:
+            - link "Video generation" [ref=e296] [cursor=pointer]:
+              - /url: /api/docs/guides/video-generation
+              - generic [ref=e297]: Video generation
+          - listitem [ref=e298]:
+            - link "Deep research" [ref=e299] [cursor=pointer]:
+              - /url: /api/docs/guides/deep-research
+              - generic [ref=e300]: Deep research
+          - listitem [ref=e301]:
+            - link "Embeddings" [ref=e302] [cursor=pointer]:
+              - /url: /api/docs/guides/embeddings
+              - generic [ref=e303]: Embeddings
+          - listitem [ref=e304]:
+            - link "Moderation" [ref=e305] [cursor=pointer]:
+              - /url: /api/docs/guides/moderation
+              - generic [ref=e306]: Moderation
+      - generic [ref=e307]:
+        - heading "Going live" [level=3] [ref=e308]
+        - list [ref=e309]:
+          - listitem [ref=e310]:
+            - link "Production best practices" [ref=e311] [cursor=pointer]:
+              - /url: /api/docs/guides/production-best-practices
+              - generic [ref=e312]: Production best practices
+          - listitem [ref=e313]:
+            - link "Deployment checklist" [ref=e314] [cursor=pointer]:
+              - /url: /api/docs/guides/deployment-checklist
+              - generic [ref=e315]: Deployment checklist
+          - listitem [ref=e316]:
+            - group [ref=e317]:
+              - generic "Latency optimization" [ref=e318] [cursor=pointer]:
+                - generic [ref=e319]: Latency optimization
+                - img [ref=e320]
+          - listitem [ref=e322]:
+            - group [ref=e323]:
+              - generic "Cost optimization" [ref=e324] [cursor=pointer]:
+                - generic [ref=e325]: Cost optimization
+                - img [ref=e326]
+          - listitem [ref=e328]:
+            - link "Accuracy optimization" [ref=e329] [cursor=pointer]:
+              - /url: /api/docs/guides/optimizing-llm-accuracy
+              - generic [ref=e330]: Accuracy optimization
+          - listitem [ref=e331]:
+            - group [ref=e332]:
+              - generic "Safety" [ref=e333] [cursor=pointer]:
+                - generic [ref=e334]: Safety
+                - img [ref=e335]
+      - generic [ref=e337]:
+        - heading "Legacy APIs" [level=3] [ref=e338]
+        - list [ref=e339]:
+          - listitem [ref=e340]:
+            - group [ref=e341]:
+              - generic "Assistants API" [ref=e342] [cursor=pointer]:
+                - generic [ref=e343]: Assistants API
+                - img [ref=e344]
+      - generic [ref=e346]:
+        - heading "Resources" [level=3] [ref=e347]
+        - list [ref=e348]:
+          - listitem [ref=e349]:
+            - link "Terms and policies" [ref=e350] [cursor=pointer]:
+              - /url: https://openai.com/policies
+              - generic [ref=e351]: Terms and policies
+              - img [ref=e352]
+          - listitem [ref=e354]:
+            - link "Changelog" [ref=e355] [cursor=pointer]:
+              - /url: /api/docs/changelog
+              - generic [ref=e356]: Changelog
+          - listitem [ref=e357]:
+            - link "Your data" [ref=e358] [cursor=pointer]:
+              - /url: /api/docs/guides/your-data
+              - generic [ref=e359]: Your data
+          - listitem [ref=e360]:
+            - link "Permissions" [ref=e361] [cursor=pointer]:
+              - /url: /api/docs/guides/rbac
+              - generic [ref=e362]: Permissions
+          - listitem [ref=e363]:
+            - link "Rate limits" [ref=e364] [cursor=pointer]:
+              - /url: /api/docs/guides/rate-limits
+              - generic [ref=e365]: Rate limits
+          - listitem [ref=e366]:
+            - link "Admin APIs" [ref=e367] [cursor=pointer]:
+              - /url: /api/docs/guides/admin-apis
+              - generic [ref=e368]: Admin APIs
+          - listitem [ref=e369]:
+            - link "Deprecations" [ref=e370] [cursor=pointer]:
+              - /url: /api/docs/deprecations
+              - generic [ref=e371]: Deprecations
+          - listitem [ref=e372]:
+            - link "MCP for deep research" [ref=e373] [cursor=pointer]:
+              - /url: /api/docs/mcp
+              - generic [ref=e374]: MCP for deep research
+          - listitem [ref=e375]:
+            - link "Developer mode" [ref=e376] [cursor=pointer]:
+              - /url: /api/docs/guides/developer-mode
+              - generic [ref=e377]: Developer mode
+          - listitem [ref=e378]:
+            - group [ref=e379]:
+              - generic "ChatGPT Actions" [ref=e380] [cursor=pointer]:
+                - generic [ref=e381]: ChatGPT Actions
+                - img [ref=e382]
+    - main [ref=e384]:
+      - generic [ref=e386]:
+        - heading "Changelog" [level=1] [ref=e387]
+        - generic [ref=e388]:
+          - img [ref=e390]
+          - generic [ref=e395]:
+            - text: Upcoming deprecations can be found on the
+            - link "deprecations page" [ref=e396] [cursor=pointer]:
+              - /url: /api/docs/deprecations
+            - text: .
+        - generic [ref=e397]:
+          - heading "May, 2026" [level=3] [ref=e398]
+          - generic [ref=e400]:
+            - generic [ref=e402]: May 19
+            - generic [ref=e403]:
+              - generic [ref=e406]: Feature
+              - generic [ref=e407]:
+                - paragraph [ref=e408]:
+                  - text: Released
+                  - link "Secure MCP Tunnel" [ref=e409] [cursor=pointer]:
+                    - /url: /api/docs/guides/secure-mcp-tunnels
+                  - text: for enterprise customers. Secure MCP Tunnel lets supported OpenAI products including ChatGPT web, Codex, Responses API, and AgentKit connect to private or on-prem MCP servers through a customer-hosted
+                  - code [ref=e410]: tunnel-client
+                  - text: without exposing those servers to the public internet.
+                - paragraph [ref=e411]: Initial GA is account-led rather than self-serve.
+          - generic [ref=e413]:
+            - generic [ref=e415]: May 12
+            - generic [ref=e416]:
+              - generic [ref=e417]:
+                - generic [ref=e419]: Update
+                - generic [ref=e420]: dall-e-2
+                - generic [ref=e421]: dall-e-3
+                - generic [ref=e422]: v1/realtime
+              - generic [ref=e423]:
+                - paragraph [ref=e424]: Deprecated DALL·E model snapshots and the Realtime API Beta.
+                - paragraph [ref=e425]:
+                  - text: DALL·E model snapshots
+                  - code [ref=e426]: dall-e-2
+                  - text: and
+                  - code [ref=e427]: dall-e-3
+                  - text: were deprecated and removed from the API on May 12, 2026. We recommend using
+                  - code [ref=e428]: gpt-image-2
+                  - text: ","
+                  - code [ref=e429]: gpt-image-1
+                  - text: ", or"
+                  - code [ref=e430]: gpt-image-1-mini
+                  - text: instead.
+                - paragraph [ref=e431]:
+                  - text: The Realtime API Beta was deprecated and removed from the API on May 12, 2026. If you are still using the beta interface, migrate to the released Realtime API. See
+                  - link "the migration guide" [ref=e432] [cursor=pointer]:
+                    - /url: /api/docs/guides/realtime#beta-to-ga-migration
+                  - text: and the full
+                  - link "deprecations page" [ref=e433] [cursor=pointer]:
+                    - /url: /api/docs/deprecations
+                  - text: .
+          - generic [ref=e435]:
+            - generic [ref=e437]: May 11
+            - generic [ref=e438]:
+              - generic [ref=e439]:
+                - generic [ref=e441]: Feature
+                - generic [ref=e442]: v1/responses
+              - paragraph [ref=e444]:
+                - text: Added
+                - code [ref=e445]: return_token_budget
+                - text: for the Responses API
+                - link "web search tool" [ref=e446] [cursor=pointer]:
+                  - /url: /api/docs/guides/tools-web-search#run-longer-web-research
+                - text: . Use it to opt in to longer GPT-5+ reasoning web search runs for high-effort research and evaluation workloads.
+          - generic [ref=e448]:
+            - generic [ref=e450]: May 7
+            - generic [ref=e451]:
+              - generic [ref=e452]:
+                - generic [ref=e454]: Feature
+                - generic [ref=e455]: gpt-realtime-2
+                - generic [ref=e456]: gpt-realtime-translate
+                - generic [ref=e457]: gpt-realtime-whisper
+                - generic [ref=e458]: v1/realtime
+                - generic [ref=e459]: v1/realtime/translations
+                - generic [ref=e460]: v1/realtime/transcription_sessions
+              - generic [ref=e461]:
+                - paragraph [ref=e462]:
+                  - text: Released
+                  - link "Realtime 2" [ref=e463] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-realtime-2
+                  - text: ", a new realtime voice model with configurable reasoning for speech-to-speech agents, along with"
+                  - link "Realtime Translate" [ref=e464] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-realtime-translate
+                  - text: for streaming speech translation and
+                  - link "Realtime Whisper" [ref=e465] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-realtime-whisper
+                  - text: for streaming speech-to-text.
+                - paragraph [ref=e466]:
+                  - text: Updated the
+                  - link "Realtime and audio guide" [ref=e467] [cursor=pointer]:
+                    - /url: /api/docs/guides/realtime
+                  - text: ", added a dedicated"
+                  - link "Realtime translation guide" [ref=e468] [cursor=pointer]:
+                    - /url: /api/docs/guides/realtime-translation
+                  - text: ", refreshed"
+                  - link "Realtime transcription" [ref=e469] [cursor=pointer]:
+                    - /url: /api/docs/guides/realtime-transcription
+                  - text: for streaming transcripts, and moved realtime prompting guidance into
+                  - link "Using realtime models" [ref=e470] [cursor=pointer]:
+                    - /url: /api/docs/guides/realtime-models-prompting
+                  - text: .
+          - generic [ref=e472]:
+            - generic [ref=e474]: May 7
+            - generic [ref=e475]:
+              - generic [ref=e478]: Feature
+              - paragraph [ref=e480]:
+                - text: Released the
+                - link "OpenAI Developers plugin for Codex" [ref=e481] [cursor=pointer]:
+                  - /url: https://developers.openai.com/learn/developers-codex-plugin
+                - text: . This helps you build AI applications and agents in Codex with OpenAI Platform access and OpenAI API setup guidance.
+          - generic [ref=e483]:
+            - generic [ref=e485]: May 6
+            - generic [ref=e486]:
+              - generic [ref=e489]: Update
+              - paragraph [ref=e491]:
+                - text: The updated Agents SDK is now available in TypeScript, with support for sandbox agents and an open-source harness built in. Learn more
+                - link "here" [ref=e492] [cursor=pointer]:
+                  - /url: https://developers.openai.com/api/docs/guides/agents
+                - text: .
+          - generic [ref=e494]:
+            - generic [ref=e496]: May 5
+            - generic [ref=e497]:
+              - generic [ref=e498]:
+                - generic [ref=e500]: Update
+                - generic [ref=e501]: chat-latest
+              - paragraph [ref=e503]:
+                - text: Released
+                - code [ref=e504]: chat-latest
+                - text: snapshot which points to the latest Instant model currently used in ChatGPT. We recommend leveraging
+                - link "GPT-5.5" [ref=e505] [cursor=pointer]:
+                  - /url: https://developers.openai.com/api/docs/guides/latest-model
+                - text: for production API usage, but feel free to use this model to test our latest improvements for chat use cases. The underlying model snapshot will be regularly updated. Read more
+                - link "here" [ref=e506] [cursor=pointer]:
+                  - /url: /api/docs/models/chat-latest
+                - text: .
+          - generic [ref=e508]:
+            - generic [ref=e510]: May 4
+            - generic [ref=e511]:
+              - generic [ref=e514]: Update
+              - paragraph [ref=e516]:
+                - text: Admin APIs are now supported in the OpenAI SDKs for Node, Python, Go, Ruby, and Java. See the
+                - link "Admin APIs guide" [ref=e517] [cursor=pointer]:
+                  - /url: /api/docs/guides/admin-apis
+                - text: for setup instructions and examples.
+        - generic [ref=e518]:
+          - heading "April, 2026" [level=3] [ref=e519]
+          - generic [ref=e521]:
+            - generic [ref=e523]: Apr 24
+            - generic [ref=e524]:
+              - generic [ref=e525]:
+                - generic [ref=e527]: Feature
+                - generic [ref=e528]: gpt-5.5
+                - generic [ref=e529]: gpt-5.5-pro
+                - generic [ref=e530]: v1/responses
+                - generic [ref=e531]: v1/chat/completions
+                - generic [ref=e532]: v1/batch
+              - generic [ref=e533]:
+                - paragraph [ref=e534]:
+                  - text: Released
+                  - link "GPT-5.5" [ref=e535] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-5.5
+                  - text: ", a new frontier model for complex professional work, to the Chat Completions and Responses API, and released"
+                  - link "GPT-5.5 pro" [ref=e536] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-5.5-pro
+                  - text: for Responses API requests for tougher problems that benefit from more compute.
+                - paragraph [ref=e537]: "GPT-5.5 supports a 1M token context window, image input, structured outputs, function calling, prompt caching, Batch, tool search, built-in computer use, hosted shell, apply patch, Skills, MCP, and web search. Key updates include:"
+                - list [ref=e538]:
+                  - listitem [ref=e539]:
+                    - text: • Reasoning effort now defaults to
+                    - code [ref=e540]: medium
+                    - text: .
+                  - listitem [ref=e541]:
+                    - text: • When
+                    - code [ref=e542]: image_detail
+                    - text: is unset or set to
+                    - code [ref=e543]: auto
+                    - text: ", the model now uses"
+                    - link "original behavior" [ref=e544] [cursor=pointer]:
+                      - /url: https://developers.openai.com/api/docs/guides/latest-model#behavioral-changes
+                    - text: .
+                  - listitem [ref=e545]:
+                    - text: • Caching for GPT-5.5 only works with extended prompt caching. In-memory prompt caching is not supported. Learn more
+                    - link "here" [ref=e546] [cursor=pointer]:
+                      - /url: https://developers.openai.com/api/docs/guides/latest-model#behavioral-changes
+                    - text: .
+          - generic [ref=e548]:
+            - generic [ref=e550]: Apr 21
+            - generic [ref=e551]:
+              - generic [ref=e552]:
+                - generic [ref=e554]: Feature
+                - generic [ref=e555]: gpt-image-2
+                - generic [ref=e556]: v1/images/generations
+                - generic [ref=e557]: v1/images/edits
+                - generic [ref=e558]: v1/batch
+              - paragraph [ref=e560]:
+                - text: Released
+                - link "GPT Image 2" [ref=e561] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-image-2
+                - text: ", a state-of-the-art image generation model for image generation and editing. GPT Image 2 supports flexible image sizes, high-fidelity image inputs, token-based image pricing, and Batch API support with a 50% discount."
+          - generic [ref=e563]:
+            - generic [ref=e565]: Apr 15
+            - generic [ref=e566]:
+              - generic [ref=e569]: Update
+              - generic [ref=e570]:
+                - paragraph [ref=e571]:
+                  - text: Updated the
+                  - link "Agents SDK" [ref=e572] [cursor=pointer]:
+                    - /url: /api/docs/guides/agents
+                  - text: "with new capabilities, including:"
+                - list [ref=e573]:
+                  - listitem [ref=e574]: • running agents in controlled sandboxes;
+                  - listitem [ref=e575]: • inspecting and customizing the open-source harness; and
+                  - listitem [ref=e576]: • controlling when memories are created and where they're stored.
+        - generic [ref=e577]:
+          - heading "March, 2026" [level=3] [ref=e578]
+          - generic [ref=e580]:
+            - generic [ref=e582]: Mar 17
+            - generic [ref=e583]:
+              - generic [ref=e584]:
+                - generic [ref=e586]: Feature
+                - generic [ref=e587]: gpt-5.4-mini
+                - generic [ref=e588]: gpt-5.4-nano
+                - generic [ref=e589]: v1/responses
+                - generic [ref=e590]: v1/chat/completions
+              - generic [ref=e591]:
+                - paragraph [ref=e592]:
+                  - text: Released
+                  - link "GPT-5.4 mini" [ref=e593] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-5.4-mini
+                  - text: and
+                  - link "GPT-5.4 nano" [ref=e594] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-5.4-nano
+                  - text: to the Chat Completions and Responses API. GPT-5.4 mini brings GPT-5.4-class capabilities to a faster, more efficient model for high-volume workloads, while GPT-5.4 nano is optimized for simple high-volume tasks where speed and cost matter most.
+                - paragraph [ref=e595]:
+                  - text: GPT-5.4 mini supports
+                  - link "tool search" [ref=e596] [cursor=pointer]:
+                    - /url: /api/docs/guides/tools-tool-search
+                  - text: ", built-in"
+                  - link "computer use" [ref=e597] [cursor=pointer]:
+                    - /url: /api/docs/guides/tools-computer-use
+                  - text: ", and"
+                  - link "compaction" [ref=e598] [cursor=pointer]:
+                    - /url: /api/docs/guides/compaction
+                  - text: . GPT-5.4 nano supports compaction, but does not support tool search or computer use.
+          - generic [ref=e600]:
+            - generic [ref=e602]: Mar 16
+            - generic [ref=e603]:
+              - generic [ref=e604]:
+                - generic [ref=e606]: Update
+                - generic [ref=e607]: gpt-5.3-chat-latest
+              - paragraph [ref=e609]:
+                - text: Updated the
+                - link "gpt-5.3-chat-latest" [ref=e610] [cursor=pointer]:
+                  - /url: https://developers.openai.com/api/docs/models/gpt-5.3-chat-latest
+                - text: slug to point to the latest model currently used in ChatGPT.
+          - generic [ref=e612]:
+            - generic [ref=e614]: Mar 13
+            - generic [ref=e615]:
+              - generic [ref=e616]:
+                - generic [ref=e618]: Fix
+                - generic [ref=e619]: gpt-5.4
+                - generic [ref=e620]: v1/responses
+                - generic [ref=e621]: v1/chat/completions
+              - paragraph [ref=e623]:
+                - text: Updated our image encoder to fix a small bug with
+                - code [ref=e624]: input_image
+                - text: inputs in GPT-5.4. Some image understanding use cases may now see improved quality. No action is required.
+          - generic [ref=e626]:
+            - generic [ref=e628]: Mar 12
+            - generic [ref=e629]:
+              - generic [ref=e630]:
+                - generic [ref=e632]: Feature
+                - generic [ref=e633]: sora-2
+                - generic [ref=e634]: sora-2-pro
+                - generic [ref=e635]: v1/videos
+                - generic [ref=e636]: v1/videos/characters
+                - generic [ref=e637]: v1/videos/extensions
+                - generic [ref=e638]: v1/batch
+              - paragraph [ref=e640]:
+                - text: Expanded the Sora API with reusable character references, longer generations up to
+                - code [ref=e641]: "20"
+                - text: seconds,
+                - code [ref=e642]: 1080p
+                - text: output for
+                - code [ref=e643]: sora-2-pro
+                - text: ", video extensions, and Batch API support for"
+                - code [ref=e644]: POST /v1/videos
+                - text: .
+                - code [ref=e645]: 1080p
+                - text: generations on
+                - code [ref=e646]: sora-2-pro
+                - text: are billed at
+                - code [ref=e647]: $0.70
+                - text: per second. Learn more
+                - link "here" [ref=e648] [cursor=pointer]:
+                  - /url: /api/docs/guides/video-generation
+                - text: .
+          - generic [ref=e650]:
+            - generic [ref=e652]: Mar 12
+            - generic [ref=e653]:
+              - generic [ref=e654]:
+                - generic [ref=e656]: Update
+                - generic [ref=e657]: sora-2
+                - generic [ref=e658]: sora-2-pro
+                - generic [ref=e659]: v1/videos/edits
+                - generic [ref=e660]: "v1/videos/{video_id}/remix"
+              - paragraph [ref=e662]:
+                - text: Added
+                - code [ref=e663]: POST /v1/videos/edits
+                - text: for editing existing videos. This will replace
+                - code [ref=e664]: "POST /v1/videos/{video_id}/remix"
+                - text: ", which will be deprecated in"
+                - code [ref=e665]: "6"
+                - text: months. Learn more
+                - link "here" [ref=e666] [cursor=pointer]:
+                  - /url: /api/docs/guides/video-generation#edit-existing-videos
+                - text: .
+          - generic [ref=e668]:
+            - generic [ref=e670]: Mar 5
+            - generic [ref=e671]:
+              - generic [ref=e672]:
+                - generic [ref=e674]: Feature
+                - generic [ref=e675]: gpt-5.4
+                - generic [ref=e676]: gpt-5.4-pro
+                - generic [ref=e677]: v1/responses
+                - generic [ref=e678]: v1/chat/completions
+              - generic [ref=e679]:
+                - paragraph [ref=e680]:
+                  - text: Released
+                  - link "GPT-5.4" [ref=e681] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-5.4
+                  - text: ", our newest frontier model for professional work, to the Chat Completions and Responses API, and released"
+                  - link "GPT-5.4 pro" [ref=e682] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-5.4-pro
+                  - text: to the Responses API for tougher problems that benefit from more compute.
+                - paragraph [ref=e683]: "Also released:"
+                - list [ref=e684]:
+                  - listitem [ref=e685]:
+                    - text: •
+                    - link "Tool search" [ref=e686] [cursor=pointer]:
+                      - /url: /api/docs/guides/tools-tool-search
+                    - text: in the Responses API, which lets models defer large tool surfaces until runtime to reduce token usage, preserve cache performance, and improve latency.
+                  - listitem [ref=e687]:
+                    - text: • Built-in
+                    - link "Computer use" [ref=e688] [cursor=pointer]:
+                      - /url: /api/docs/guides/tools-computer-use
+                    - text: support in GPT-5.4 through the Responses API
+                    - code [ref=e689]: computer
+                    - text: tool for screenshot-based UI interaction.
+                  - listitem [ref=e690]:
+                    - text: • A 1M token context window and native
+                    - link "Compaction" [ref=e691] [cursor=pointer]:
+                      - /url: /api/docs/guides/compaction
+                    - text: support for longer-running agent workflows.
+          - generic [ref=e693]:
+            - generic [ref=e695]: Mar 3
+            - generic [ref=e696]:
+              - generic [ref=e697]:
+                - generic [ref=e699]: Feature
+                - generic [ref=e700]: gpt-5.3-chat-latest
+                - generic [ref=e701]: v1/chat/completions
+                - generic [ref=e702]: v1/responses
+              - paragraph [ref=e704]:
+                - text: Released
+                - code [ref=e705]: gpt-5.3-chat-latest
+                - text: to the Chat Completions and Responses API. This model points to the GPT-5.3 Instant snapshot currently used in ChatGPT. Read more
+                - link "here" [ref=e706] [cursor=pointer]:
+                  - /url: https://developers.openai.com/api/docs/models/gpt-5.3-chat-latest
+                - text: .
+        - generic [ref=e707]:
+          - heading "February, 2026" [level=3] [ref=e708]
+          - generic [ref=e710]:
+            - generic [ref=e712]: Feb 24
+            - generic [ref=e713]:
+              - generic [ref=e714]:
+                - generic [ref=e716]: Feature
+                - generic [ref=e717]: v1/responses
+                - generic [ref=e718]: v1/chat/completions
+              - paragraph [ref=e720]:
+                - text: Expanded
+                - code [ref=e721]: input_file
+                - text: support to accept more document, presentation, spreadsheet, code, and text file types. Learn more
+                - link "here" [ref=e722] [cursor=pointer]:
+                  - /url: /api/docs/guides/file-inputs
+                - text: .
+          - generic [ref=e724]:
+            - generic [ref=e726]: Feb 24
+            - generic [ref=e727]:
+              - generic [ref=e728]:
+                - generic [ref=e730]: Feature
+                - generic [ref=e731]: v1/responses
+              - paragraph [ref=e733]:
+                - text: Released
+                - code [ref=e734]: phase
+                - text: to the Responses API. It labels an assistant message as intermediate commentary (
+                - code [ref=e735]: commentary
+                - text: ) or the final answer (
+                - code [ref=e736]: final_answer
+                - text: ). Read more
+                - link "here" [ref=e737] [cursor=pointer]:
+                  - /url: https://developers.openai.com/api/reference/resources/responses/methods/create#(resource)%20responses%20%3E%20(model)%20easy_input_message%20%3E%20(schema)%20%3E%20(property)%20phase
+                - text: .
+          - generic [ref=e739]:
+            - generic [ref=e741]: Feb 24
+            - generic [ref=e742]:
+              - generic [ref=e743]:
+                - generic [ref=e745]: Feature
+                - generic [ref=e746]: gpt-5.3-codex
+                - generic [ref=e747]: v1/responses
+              - paragraph [ref=e749]:
+                - text: Released
+                - code [ref=e750]: gpt-5.3-codex
+                - text: to the Responses API. Read more
+                - link "here" [ref=e751] [cursor=pointer]:
+                  - /url: https://developers.openai.com/api/docs/models/gpt-5.3-codex
+                - text: .
+          - generic [ref=e753]:
+            - generic [ref=e755]: Feb 23
+            - generic [ref=e756]:
+              - generic [ref=e757]:
+                - generic [ref=e759]: Feature
+                - generic [ref=e760]: v1/responses
+              - paragraph [ref=e762]:
+                - text: Launched WebSocket mode for the Responses API. Learn more
+                - link "here" [ref=e763] [cursor=pointer]:
+                  - /url: /api/docs/guides/websocket-mode/
+                - text: .
+          - generic [ref=e765]:
+            - generic [ref=e767]: Feb 23
+            - generic [ref=e768]:
+              - generic [ref=e769]:
+                - generic [ref=e771]: Feature
+                - generic [ref=e772]: gpt-realtime-1.5
+                - generic [ref=e773]: gpt-audio-1.5
+                - generic [ref=e774]: v1/realtime
+                - generic [ref=e775]: v1/chat/completions
+              - generic [ref=e776]:
+                - paragraph [ref=e777]:
+                  - text: Released
+                  - code [ref=e778]: gpt-realtime-1.5
+                  - text: to the Realtime API. Read more
+                  - link "here" [ref=e779] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-realtime-1.5
+                  - text: .
+                - paragraph [ref=e780]:
+                  - text: Released
+                  - code [ref=e781]: gpt-audio-1.5
+                  - text: to the Chat Completions API. Read more
+                  - link "here" [ref=e782] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-audio-1.5
+                  - text: .
+          - generic [ref=e784]:
+            - generic [ref=e786]: Feb 10
+            - generic [ref=e787]:
+              - generic [ref=e788]:
+                - generic [ref=e790]: Feature
+                - generic [ref=e791]: gpt-image-1.5
+                - generic [ref=e792]: gpt-image-1
+                - generic [ref=e793]: gpt-image-1-mini
+                - generic [ref=e794]: chatgpt-image-latest
+                - generic [ref=e795]: v1/batch
+              - paragraph [ref=e797]:
+                - link "Batch API" [ref=e798] [cursor=pointer]:
+                  - /url: /api/docs/guides/batch
+                - text: "is now supported for GPT Image models:"
+                - code [ref=e799]: gpt-image-1.5
+                - text: ","
+                - code [ref=e800]: chatgpt-image-latest
+                - text: ","
+                - code [ref=e801]: gpt-image-1
+                - text: ", and"
+                - code [ref=e802]: gpt-image-1-mini
+                - text: .
+          - generic [ref=e804]:
+            - generic [ref=e806]: Feb 10
+            - generic [ref=e807]:
+              - generic [ref=e808]:
+                - generic [ref=e810]: Update
+                - generic [ref=e811]: gpt-5.2-chat-latest
+              - paragraph [ref=e813]:
+                - text: Updated the
+                - link "gpt-5.2-chat-latest" [ref=e814] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5.2-chat-latest
+                - text: slug to point to the latest model currently used in ChatGPT.
+          - generic [ref=e816]:
+            - generic [ref=e818]: Feb 10
+            - generic [ref=e819]:
+              - generic [ref=e820]:
+                - generic [ref=e822]: Feature
+                - generic [ref=e823]: v1/responses
+              - paragraph [ref=e825]:
+                - text: Launched
+                - link "server-side compaction" [ref=e826] [cursor=pointer]:
+                  - /url: /api/docs/guides/context-management#server-side-compaction
+                - text: in the Responses API.
+          - generic [ref=e828]:
+            - generic [ref=e830]: Feb 10
+            - generic [ref=e831]:
+              - generic [ref=e832]:
+                - generic [ref=e834]: Feature
+                - generic [ref=e835]: v1/responses
+              - paragraph [ref=e837]:
+                - text: Launched support for
+                - link "Skills" [ref=e838] [cursor=pointer]:
+                  - /url: /api/docs/guides/tools-skills
+                - text: in the Responses API. We support Skills across both local execution and hosted container-based execution.
+          - generic [ref=e840]:
+            - generic [ref=e842]: Feb 10
+            - generic [ref=e843]:
+              - generic [ref=e844]:
+                - generic [ref=e846]: Feature
+                - generic [ref=e847]: v1/responses
+              - paragraph [ref=e849]:
+                - text: Launched a new
+                - link "Hosted Shell" [ref=e850] [cursor=pointer]:
+                  - /url: /api/docs/guides/tools-shell#hosted-shell-quickstart
+                - text: tool, as well as support for networking in containers.
+          - generic [ref=e852]:
+            - generic [ref=e854]: Feb 9
+            - generic [ref=e855]:
+              - generic [ref=e856]:
+                - generic [ref=e858]: Feature
+                - generic [ref=e859]: gpt-image-1.5
+                - generic [ref=e860]: gpt-image-1
+                - generic [ref=e861]: gpt-image-1-mini
+                - generic [ref=e862]: chatgpt-image-latest
+                - generic [ref=e863]: v1/images/edits
+              - paragraph [ref=e865]:
+                - text: Added support for
+                - code [ref=e866]: application/json
+                - text: requests on
+                - code [ref=e867]: /v1/images/edits
+                - text: for GPT image models. JSON requests use
+                - code [ref=e868]: images
+                - text: (and optional
+                - code [ref=e869]: mask
+                - text: ) with
+                - code [ref=e870]: image_url
+                - text: or
+                - code [ref=e871]: file_id
+                - text: references instead of multipart uploads.
+          - generic [ref=e873]:
+            - generic [ref=e875]: Feb 3
+            - generic [ref=e876]:
+              - generic [ref=e877]:
+                - generic [ref=e879]: Update
+                - generic [ref=e880]: gpt-5.2
+                - generic [ref=e881]: gpt-5.2-codex
+              - paragraph [ref=e883]:
+                - text: We have optimized our inference stack for API customers and
+                - link "GPT-5.2" [ref=e884] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/models/gpt-5.2
+                - text: and
+                - link "GPT-5.2-Codex" [ref=e885] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/models/gpt-5.2-codex
+                - text: now run ~40% faster. Model and model weights are unchanged.
+        - generic [ref=e886]:
+          - heading "January, 2026" [level=3] [ref=e887]
+          - generic [ref=e889]:
+            - generic [ref=e891]: Jan 15
+            - generic [ref=e892]:
+              - generic [ref=e895]: Announcement
+              - paragraph [ref=e897]:
+                - text: Announced
+                - link "Open Responses" [ref=e898] [cursor=pointer]:
+                  - /url: https://www.openresponses.org/
+                - text: ": an open-source spec for building multi-provider, interoperable LLM interfaces built on top of the original OpenAI Responses API."
+          - generic [ref=e900]:
+            - generic [ref=e902]: Jan 14
+            - generic [ref=e903]:
+              - generic [ref=e904]:
+                - generic [ref=e906]: Feature
+                - generic [ref=e907]: gpt-5.2-codex
+                - generic [ref=e908]: v1/responses
+              - paragraph [ref=e910]:
+                - text: Released
+                - code [ref=e911]: gpt-5.2-codex
+                - text: to the Responses API. GPT-5.2-Codex is a version of GPT-5.2 optimized for agentic coding tasks in Codex or similar environments. Read more
+                - link "here" [ref=e912] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/models/gpt-5.2-codex
+                - text: .
+          - generic [ref=e914]:
+            - generic [ref=e916]: Jan 13
+            - generic [ref=e917]:
+              - generic [ref=e918]:
+                - generic [ref=e920]: Feature
+                - generic [ref=e921]: v1/realtime
+              - paragraph [ref=e923]:
+                - text: Added dedicated SIP IP ranges for Realtime API.
+                - code [ref=e924]: sip.api.openai.com
+                - text: does GeoIP routing, and will direct SIP traffic to the closest region.
+                - link "Learn more" [ref=e925] [cursor=pointer]:
+                  - /url: /api/docs/guides/realtime-sip#dedicated-sip-ip-ranges
+                - text: .
+          - generic [ref=e927]:
+            - generic [ref=e929]: Jan 13
+            - generic [ref=e930]:
+              - generic [ref=e931]:
+                - generic [ref=e933]: Update
+                - generic [ref=e934]: gpt-realtime-mini
+                - generic [ref=e935]: gpt-audio-mini
+              - paragraph [ref=e937]:
+                - text: Updated the
+                - link "gpt-realtime-mini" [ref=e938] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/models/gpt-realtime
+                - text: and
+                - link "gpt-audio-mini" [ref=e939] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/models/gpt-audio-mini
+                - text: slugs to point to the 2025-12-15 snapshots. If you need the previous model snapshots, use
+                - code [ref=e940]: gpt-realtime-mini-2025-10-06
+                - text: and
+                - code [ref=e941]: gpt-audio-mini-2025-10-06
+                - text: .
+          - generic [ref=e943]:
+            - generic [ref=e945]: Jan 13
+            - generic [ref=e946]:
+              - generic [ref=e947]:
+                - generic [ref=e949]: Update
+                - generic [ref=e950]: sora-2
+              - paragraph [ref=e952]:
+                - text: Updated the
+                - link "sora-2" [ref=e953] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/models/sora-2
+                - text: slug to point to
+                - code [ref=e954]: sora-2-2025-12-08
+                - text: . If you need the previous model snapshot, use
+                - code [ref=e955]: sora-2-2025-10-06
+                - text: .
+          - generic [ref=e957]:
+            - generic [ref=e959]: Jan 13
+            - generic [ref=e960]:
+              - generic [ref=e961]:
+                - generic [ref=e963]: Update
+                - generic [ref=e964]: gpt-4o-mini-tts
+                - generic [ref=e965]: gpt-4o-mini-transcribe
+              - paragraph [ref=e967]:
+                - text: Updated the
+                - code [ref=e968]: gpt-4o-mini-tts
+                - text: and
+                - code [ref=e969]: gpt-4o-mini-transcribe
+                - text: slugs to point to the
+                - code [ref=e970]: 2025-12-15
+                - text: snapshots. If you need the previous model snapshots, use
+                - code [ref=e971]: gpt-4o-mini-tts-2025-03-20
+                - text: and
+                - code [ref=e972]: gpt-4o-mini-transcribe-2025-03-20
+                - text: . We currently recomend using
+                - code [ref=e973]: gpt-4o-mini-transcribe
+                - text: over
+                - code [ref=e974]: gpt-4o-transcribe
+                - text: for the best results.
+          - generic [ref=e976]:
+            - generic [ref=e978]: Jan 9
+            - generic [ref=e979]:
+              - generic [ref=e980]:
+                - generic [ref=e982]: Fix
+                - generic [ref=e983]: gpt-image-1.5
+                - generic [ref=e984]: chatgpt-image-latest
+              - paragraph [ref=e986]:
+                - text: Fixed an issue where
+                - code [ref=e987]: gpt-image-1.5
+                - text: and
+                - code [ref=e988]: chatgpt-image-latest
+                - text: were incorrectly using high fidelity for image edits through
+                - code [ref=e989]: /v1/images/edits
+                - text: ", even when"
+                - code [ref=e990]: fidelity
+                - text: was explicitly set to
+                - code [ref=e991]: low
+                - text: (the default).
+        - generic [ref=e992]:
+          - heading "December, 2025" [level=3] [ref=e993]
+          - generic [ref=e995]:
+            - generic [ref=e997]: Dec 19
+            - generic [ref=e998]:
+              - generic [ref=e999]:
+                - generic [ref=e1001]: Update
+                - generic [ref=e1002]: gpt-image-1.5
+                - generic [ref=e1003]: chatgpt-image-latest
+              - paragraph [ref=e1005]:
+                - text: Added
+                - code [ref=e1006]: gpt-image-1.5
+                - text: and
+                - code [ref=e1007]: chatgpt-image-latest
+                - text: to the Responses API image generation tool.
+          - generic [ref=e1009]:
+            - generic [ref=e1011]: Dec 16
+            - generic [ref=e1012]:
+              - generic [ref=e1013]:
+                - generic [ref=e1015]: Feature
+                - generic [ref=e1016]: gpt-image-1.5
+                - generic [ref=e1017]: chatgpt-image-latest
+              - paragraph [ref=e1019]:
+                - text: Released
+                - link "gpt-image-1.5" [ref=e1020] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/models/gpt-image-1.5
+                - text: and
+                - link "chatgpt-image-latest" [ref=e1021] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/models/chatgpt-image-latest
+                - text: ", our latest and most advanced models for image generation. Read more"
+                - link "here" [ref=e1022] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/guides/image-generation
+                - text: .
+          - generic [ref=e1024]:
+            - generic [ref=e1026]: Dec 15
+            - generic [ref=e1027]:
+              - generic [ref=e1028]:
+                - generic [ref=e1030]: Feature
+                - generic [ref=e1031]: gpt-realtime-mini
+                - generic [ref=e1032]: gpt-audio-mini
+                - generic [ref=e1033]: gpt-4o-mini-transcribe
+                - generic [ref=e1034]: gpt-4o-mini-tts
+              - generic [ref=e1035]:
+                - paragraph [ref=e1036]:
+                  - text: Released four new dated audio snapshots. These updates deliver reliability, quality, and voice fidelity improvements for real-time, voice-driven applications. Read more
+                  - link "here" [ref=e1037] [cursor=pointer]:
+                    - /url: /blog/updates-audio-models
+                  - text: .
+                - list [ref=e1038]:
+                  - listitem [ref=e1039]: • gpt-realtime-mini-2025-12-15
+                  - listitem [ref=e1040]: • gpt-audio-mini-2025-12-15
+                  - listitem [ref=e1041]: • gpt-4o-mini-transcribe-2025-12-15
+                  - listitem [ref=e1042]: • gpt-4o-mini-tts-2025-12-15
+                - paragraph [ref=e1043]:
+                  - text: This launch also includes support for
+                  - link "Custom voices" [ref=e1044] [cursor=pointer]:
+                    - /url: https://platform.openai.com/docs/guides/text-to-speech#custom-voices
+                  - text: for eligible customers.
+          - generic [ref=e1046]:
+            - generic [ref=e1048]: Dec 11
+            - generic [ref=e1049]:
+              - generic [ref=e1050]:
+                - generic [ref=e1052]: Feature
+                - generic [ref=e1053]: gpt-5.2
+                - generic [ref=e1054]: gpt-5.2-chat-latest
+                - generic [ref=e1055]: v1/responses
+                - generic [ref=e1056]: v1/chat/completions
+              - generic [ref=e1057]:
+                - paragraph [ref=e1058]:
+                  - text: Released
+                  - link "GPT-5.2" [ref=e1059] [cursor=pointer]:
+                    - /url: https://platform.openai.com/docs/models/gpt-5.2
+                  - text: ", the newest flagship model in the GPT-5 model family. GPT-5.2 shows improvements over the previous GPT-5.1 in:"
+                - list [ref=e1060]:
+                  - listitem [ref=e1061]: • General intelligence
+                  - listitem [ref=e1062]: • Instruction following
+                  - listitem [ref=e1063]: • Accuracy and token efficiency
+                  - listitem [ref=e1064]: • Multimodality—especially vision
+                  - listitem [ref=e1065]: • Code generation—especially front-end UI creation
+                  - listitem [ref=e1066]: • Tool calling and context management in the API
+                  - listitem [ref=e1067]: • Spreadsheet understanding and creation.
+                - paragraph [ref=e1068]: What's new in 5.2 is a new xhigh reasoning effort level, concise reasoning summaries, and new context management using compaction.
+          - generic [ref=e1070]:
+            - generic [ref=e1072]: Dec 11
+            - generic [ref=e1073]:
+              - generic [ref=e1074]:
+                - generic [ref=e1076]: Feature
+                - generic [ref=e1077]: v1/responses/compact
+              - paragraph [ref=e1079]:
+                - text: Released
+                - link "client-side compaction" [ref=e1080] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/guides/conversation-state#compaction-advanced
+                - text: . For long-running conversations with the Responses API, you can use the
+                - code [ref=e1081]: /responses/compact
+                - text: endpoint to shrink the context you send with each turn.
+          - generic [ref=e1083]:
+            - generic [ref=e1085]: Dec 4
+            - generic [ref=e1086]:
+              - generic [ref=e1087]:
+                - generic [ref=e1089]: Feature
+                - generic [ref=e1090]: gpt-5.1-codex-max
+                - generic [ref=e1091]: v1/responses
+              - paragraph [ref=e1093]:
+                - text: Released
+                - code [ref=e1094]: gpt-5.1-codex-max
+                - text: to the Responses API. GPT-5.1-Codex is our most intelligent coding model optimized for long-horizon, agentic coding tasks. Read more
+                - link "here" [ref=e1095] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/models/gpt-5.1-codex-max
+                - text: .
+        - generic [ref=e1096]:
+          - heading "November, 2025" [level=3] [ref=e1097]
+          - generic [ref=e1099]:
+            - generic [ref=e1101]: Nov 20
+            - generic [ref=e1102]:
+              - generic [ref=e1103]:
+                - generic [ref=e1105]: Feature
+                - generic [ref=e1106]: v1/realtime
+              - paragraph [ref=e1108]:
+                - text: Added support for DTMF key presses in the Realtime API. You can now receive DTMF events while using a Realtime sideband connection. See
+                - link "docs here" [ref=e1109] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/api-reference/realtime-server-events/input_audio_buffer/dtmf_event_received
+                - text: for more information.
+          - generic [ref=e1111]:
+            - generic [ref=e1113]: Nov 13
+            - generic [ref=e1114]:
+              - generic [ref=e1115]:
+                - generic [ref=e1117]: Feature
+                - generic [ref=e1118]: gpt-5.1
+                - generic [ref=e1119]: gpt-5.1-codex
+                - generic [ref=e1120]: gpt-5.1-chat-latest
+                - generic [ref=e1121]: gpt-5.1-codex-mini
+                - generic [ref=e1122]: v1/responses
+                - generic [ref=e1123]: v1/chat/completions
+              - generic [ref=e1124]:
+                - paragraph [ref=e1125]:
+                  - text: Released
+                  - link "GPT-5.1" [ref=e1126] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-5.1
+                  - text: ", the newest flagship model in the GPT-5 model family. GPT-5.1 is trained to be especially proficient in:"
+                - list [ref=e1127]:
+                  - listitem [ref=e1128]: • Steerability and faster responses when less thinking's required
+                  - listitem [ref=e1129]: • Code generation and coding use cases
+                  - listitem [ref=e1130]: • Agentic workflows
+                - paragraph [ref=e1131]:
+                  - text: Note that GPT-5.1 defaults to a new
+                  - code [ref=e1132]: none
+                  - text: reasoning setting for faster responses when less thinking's required—different from the previous
+                  - code [ref=e1133]: medium
+                  - text: default setting in GPT-5.
+          - generic [ref=e1135]:
+            - generic [ref=e1137]: Nov 13
+            - generic [ref=e1138]:
+              - generic [ref=e1141]: Feature
+              - paragraph [ref=e1143]:
+                - text: Released
+                - link "enhanced role-based access controls (RBAC)" [ref=e1144] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/guides/rbac#page-top
+                - text: . Role-based access control (RBAC) lets you decide who can do what across your organization and projects—both through the API and in the Dashboard.
+          - generic [ref=e1146]:
+            - generic [ref=e1148]: Nov 13
+            - generic [ref=e1149]:
+              - generic [ref=e1150]:
+                - generic [ref=e1152]: Feature
+                - generic [ref=e1153]: gpt-5.1-codex
+                - generic [ref=e1154]: gpt-5.1-codex-mini
+                - generic [ref=e1155]: v1/responses
+              - paragraph [ref=e1157]:
+                - text: Released
+                - code [ref=e1158]: gpt-5.1-codex
+                - text: and
+                - code [ref=e1159]: gpt-5.1-codex-mini
+                - text: to the Responses API. GPT-5.1-Codex is a version of GPT-5.1 optimized for agentic coding tasks in Codex or similar environments. Read more
+                - link "here" [ref=e1160] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/models/gpt-5.1-codex
+                - text: .
+          - generic [ref=e1162]:
+            - generic [ref=e1164]: Nov 13
+            - generic [ref=e1165]:
+              - generic [ref=e1168]: Feature
+              - paragraph [ref=e1170]:
+                - text: Released
+                - link "extended prompt cache retention" [ref=e1171] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/guides/prompt-caching#extended-prompt-cache-retention
+                - text: . Extended prompt cache retention keeps cached prefixes active for longer, up to a maximum of 24 hours. Extended Prompt Caching works by offloading the key/value tensors to GPU-local storage when memory is full, significantly increasing the storage capacity available for caching.
+        - generic [ref=e1172]:
+          - heading "October, 2025" [level=3] [ref=e1173]
+          - generic [ref=e1175]:
+            - generic [ref=e1177]: Oct 29
+            - generic [ref=e1178]:
+              - generic [ref=e1179]:
+                - generic [ref=e1181]: Feature
+                - generic [ref=e1182]: gpt-oss-safeguard-120b
+                - generic [ref=e1183]: gpt-oss-safeguard-20b
+              - paragraph [ref=e1185]:
+                - text: gpt-oss-safeguard-120b and gpt-oss-safeguard-20b are safety reasoning models built-upon gpt-oss. Read more
+                - link "here" [ref=e1186] [cursor=pointer]:
+                  - /url: https://huggingface.co/collections/openai/gpt-oss-safeguard
+                - text: .
+          - generic [ref=e1188]:
+            - generic [ref=e1190]: Oct 24
+            - generic [ref=e1191]:
+              - generic [ref=e1194]: Feature
+              - paragraph [ref=e1196]:
+                - text: Released
+                - link "Enterprise Key Management (EKM)" [ref=e1197] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/guides/your-data#enterprise-key-management-ekm
+                - text: . Enterprise Key Management (EKM) allows you to encrypt your customer content at OpenAI using keys managed by your own external Key Management System (KMS).
+          - generic [ref=e1199]:
+            - generic [ref=e1201]: Oct 24
+            - generic [ref=e1202]:
+              - generic [ref=e1205]: Feature
+              - paragraph [ref=e1207]:
+                - text: Released
+                - link "UK data residency" [ref=e1208] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/guides/your-data#data-residency-controls
+                - text: .
+          - generic [ref=e1210]:
+            - generic [ref=e1212]: Oct 6
+            - generic [ref=e1213]:
+              - generic [ref=e1214]:
+                - generic [ref=e1216]: Feature
+                - generic [ref=e1217]: gpt-5-pro
+                - generic [ref=e1218]: gpt-realtime-mini
+                - generic [ref=e1219]: gpt-audio-mini
+                - generic [ref=e1220]: gpt-image-1-mini
+                - generic [ref=e1221]: sora-2
+                - generic [ref=e1222]: sora-2-pro
+                - generic [ref=e1223]: v1/responses
+                - generic [ref=e1224]: v1/batch
+                - generic [ref=e1225]: v1/chat/completions
+                - generic [ref=e1226]: v1/videos
+                - generic [ref=e1227]: v1/realtime
+                - generic [ref=e1228]: v1/images/generations
+              - generic [ref=e1229]:
+                - paragraph [ref=e1230]:
+                  - text: Released several new features at
+                  - link "OpenAI DevDay" [ref=e1231] [cursor=pointer]:
+                    - /url: https://openai.com/devday/
+                  - text: ":"
+                - paragraph [ref=e1232]:
+                  - text: Released
+                  - link "gpt-5-pro" [ref=e1233] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-5-pro
+                  - text: ", a version of"
+                  - link "GPT-5" [ref=e1234] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-5
+                  - text: that uses more compute to think harder and provide consistently better answers.
+                - paragraph [ref=e1235]:
+                  - text: Released
+                  - link "gpt-realtime-mini" [ref=e1236] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-realtime-mini
+                  - text: and
+                  - link "gpt-audio-mini" [ref=e1237] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-audio-mini
+                  - text: for more cost-efficient speech to speech performance.
+                - paragraph [ref=e1238]:
+                  - text: Released
+                  - link "gpt-image-1-mini" [ref=e1239] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-image-1-mini
+                  - text: for more cost-efficient image generation and editing.
+                - paragraph [ref=e1240]:
+                  - text: Launched
+                  - link "v1/videos" [ref=e1241] [cursor=pointer]:
+                    - /url: /api/docs/guides/video-generation
+                  - text: for rich, detailed, and dynamic video generation and remixing with our latest
+                  - link "Sora 2" [ref=e1242] [cursor=pointer]:
+                    - /url: /api/docs/models/sora-2
+                  - text: and
+                  - link "Sora 2 Pro" [ref=e1243] [cursor=pointer]:
+                    - /url: /api/docs/models/sora-2-pro
+                  - text: models.
+                - paragraph [ref=e1244]:
+                  - text: Launched
+                  - link "Agent Builder" [ref=e1245] [cursor=pointer]:
+                    - /url: /api/docs/guides/agent-builder
+                  - text: for visually creating custom multi-agent workflows.
+                - paragraph [ref=e1246]:
+                  - text: Launched
+                  - link "ChatKit" [ref=e1247] [cursor=pointer]:
+                    - /url: /api/docs/guides/chatkit
+                  - text: ", an embeddable chat interface for deploying agents."
+                - paragraph [ref=e1248]:
+                  - text: Released
+                  - link "Trace Evals, Datasets, and Prompt Optimization tools" [ref=e1249] [cursor=pointer]:
+                    - /url: /api/docs/guides/agent-evals
+                  - text: .
+                - paragraph [ref=e1250]:
+                  - link "Evals" [ref=e1251] [cursor=pointer]:
+                    - /url: /api/docs/guides/evals
+                  - text: ": Released Third-Party Model Support."
+                - paragraph [ref=e1252]:
+                  - text: Launched
+                  - link "Service health dashboard" [ref=e1253] [cursor=pointer]:
+                    - /url: https://platform.openai.com/settings/organization/service-health
+                  - text: .
+          - generic [ref=e1255]:
+            - generic [ref=e1257]: Oct 1
+            - generic [ref=e1258]:
+              - generic [ref=e1261]: Feature
+              - paragraph [ref=e1263]:
+                - text: Released
+                - link "IP allowlist" [ref=e1264] [cursor=pointer]:
+                  - /url: https://platform.openai.com/settings/organization/security/ip-allowlist
+                - text: . IP allowlisting restricts API access to only the IP addresses or ranges you specify.
+        - generic [ref=e1265]:
+          - heading "September, 2025" [level=3] [ref=e1266]
+          - generic [ref=e1268]:
+            - generic [ref=e1270]: Sep 26
+            - generic [ref=e1271]:
+              - generic [ref=e1272]:
+                - generic [ref=e1274]: Feature
+                - generic [ref=e1275]: v1/responses
+              - paragraph [ref=e1277]:
+                - text: Added support for image and file as a
+                - link "tool call output" [ref=e1278] [cursor=pointer]:
+                  - /url: docs/guides/function-calling#how-it-works
+                - text: in Responses API.
+          - generic [ref=e1280]:
+            - generic [ref=e1282]: Sep 23
+            - generic [ref=e1283]:
+              - generic [ref=e1284]:
+                - generic [ref=e1286]: Feature
+                - generic [ref=e1287]: gpt-5-codex
+                - generic [ref=e1288]: v1/responses
+              - paragraph [ref=e1290]:
+                - text: Launched special-purpose model
+                - link "gpt-5-codex" [ref=e1291] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5-codex
+                - text: ", built and optimized for use with the"
+                - link "Codex CLI" [ref=e1292] [cursor=pointer]:
+                  - /url: https://github.com/openai/codex
+                - text: .
+        - generic [ref=e1293]:
+          - heading "August, 2025" [level=3] [ref=e1294]
+          - generic [ref=e1296]:
+            - generic [ref=e1298]: Aug 28
+            - generic [ref=e1299]:
+              - generic [ref=e1300]:
+                - generic [ref=e1302]: Feature
+                - generic [ref=e1303]: v1/realtime
+              - paragraph [ref=e1305]:
+                - text: The OpenAI Realtime API is now generally available. Learn more
+                - link "in our Realtime API guide" [ref=e1306] [cursor=pointer]:
+                  - /url: /api/docs/guides/realtime
+                - text: .
+          - generic [ref=e1308]:
+            - generic [ref=e1310]: Aug 21
+            - generic [ref=e1311]:
+              - generic [ref=e1312]:
+                - generic [ref=e1314]: Feature
+                - generic [ref=e1315]: v1/responses
+              - paragraph [ref=e1317]:
+                - text: Added support for
+                - link "connectors" [ref=e1318] [cursor=pointer]:
+                  - /url: /api/docs/guides/tools-connectors-mcp
+                - text: to the Responses API. Connectors are OpenAI-maintained MCP wrappers for popular services like Google apps, Dropbox, and more that can be used to give model read access to data stored in those services.
+          - generic [ref=e1320]:
+            - generic [ref=e1322]: Aug 20
+            - generic [ref=e1323]:
+              - generic [ref=e1324]:
+                - generic [ref=e1326]: Feature
+                - generic [ref=e1327]: v1/conversations
+                - generic [ref=e1328]: v1/responses
+                - generic [ref=e1329]: v1/assistants
+              - paragraph [ref=e1331]:
+                - text: Released the Conversations API, which allows you to create and manage long-running conversations with the Responses API. See the
+                - link "migration guide" [ref=e1332] [cursor=pointer]:
+                  - /url: /api/docs/assistants/migration
+                - text: to see a side-by-side comparison and learn how to migrate from an Assistants API integration to Responses and Conversations.
+          - generic [ref=e1334]:
+            - generic [ref=e1336]: Aug 7
+            - generic [ref=e1337]:
+              - generic [ref=e1338]:
+                - generic [ref=e1340]: Feature
+                - generic [ref=e1341]: v1/chat/completions
+                - generic [ref=e1342]: v1/responses
+              - generic [ref=e1343]:
+                - paragraph [ref=e1344]:
+                  - text: Released GPT-5 family of models in the API, including
+                  - link "gpt-5" [ref=e1345] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-5
+                    - code [ref=e1346]: gpt-5
+                  - text: ","
+                  - link "gpt-5-mini" [ref=e1347] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-5-mini
+                    - code [ref=e1348]: gpt-5-mini
+                  - text: ", and"
+                  - link "gpt-5-nano" [ref=e1349] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-5-nano
+                    - code [ref=e1350]: gpt-5-nano
+                  - text: .
+                - paragraph [ref=e1351]:
+                  - text: Introduced the
+                  - code [ref=e1352]: minimal
+                  - link "reasoning effort" [ref=e1353] [cursor=pointer]:
+                    - /url: /api/docs/guides/reasoning
+                  - text: value to optimize for fast responses in GPT-5 models (which support reasoning).
+                - paragraph [ref=e1354]:
+                  - text: Introduced
+                  - code [ref=e1355]: custom
+                  - link "tool call" [ref=e1356] [cursor=pointer]:
+                    - /url: /api/docs/guides/function-calling#custom-tools
+                  - text: type, which allows for freeform inputs to and outputs from the model when tool calling.
+        - generic [ref=e1357]:
+          - heading "June, 2025" [level=3] [ref=e1358]
+          - generic [ref=e1360]:
+            - generic [ref=e1362]: Jun 27
+            - generic [ref=e1363]:
+              - generic [ref=e1366]: Feature
+              - paragraph [ref=e1368]:
+                - text: Launched support for
+                - link "Priority processing" [ref=e1369] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/guides/priority-processing
+                - text: . Priority processing delivers significantly lower and more consistent latency compared to Standard processing while keeping pay-as-you-go flexibility.
+          - generic [ref=e1371]:
+            - generic [ref=e1373]: Jun 24
+            - generic [ref=e1374]:
+              - generic [ref=e1375]:
+                - generic [ref=e1377]: Feature
+                - generic [ref=e1378]: o3-deep-research
+                - generic [ref=e1379]: o3-deep-research-2025-06-26
+                - generic [ref=e1380]: o4-mini-deep-research
+                - generic [ref=e1381]: o4-mini-deep-research-2025-06-26
+                - generic [ref=e1382]: v1/responses
+              - generic [ref=e1383]:
+                - paragraph [ref=e1384]:
+                  - text: Released
+                  - link "o3-deep-research" [ref=e1385] [cursor=pointer]:
+                    - /url: /api/docs/models/o3-deep-research
+                  - text: and
+                  - link "o4-mini-deep-research" [ref=e1386] [cursor=pointer]:
+                    - /url: /api/docs/models/o4-mini-deep-research
+                  - text: ", deep research variants of our o-series reasoning models optimized for deep analysis and research tasks. Learn more in the"
+                  - link "deep research guide" [ref=e1387] [cursor=pointer]:
+                    - /url: /api/docs/guides/deep-research
+                  - text: .
+                - paragraph [ref=e1388]:
+                  - text: Added support for async event handling with
+                  - link "webhooks" [ref=e1389] [cursor=pointer]:
+                    - /url: /api/docs/guides/webhooks
+                  - text: .
+                  - link "Reduced and simplified pricing" [ref=e1390] [cursor=pointer]:
+                    - /url: /api/docs/pricing
+                  - text: for the web search tool. Added support for the
+                  - link "web search tool" [ref=e1391] [cursor=pointer]:
+                    - /url: /api/docs/guides/tools-web-search
+                  - text: .
+          - generic [ref=e1393]:
+            - generic [ref=e1395]: Jun 13
+            - generic [ref=e1396]:
+              - generic [ref=e1397]:
+                - generic [ref=e1399]: Feature
+                - generic [ref=e1400]: v1/responses
+              - paragraph [ref=e1402]:
+                - link "New reusable prompts" [ref=e1403] [cursor=pointer]:
+                  - /url: /chat/edit
+                - text: are now available in the dashboard and
+                - link "Responses API" [ref=e1404] [cursor=pointer]:
+                  - /url: /api/docs/api-reference/responses/create
+                - text: . Via API, you can now reference templates created in the dashboard via the
+                - code [ref=e1405]: prompt
+                - text: parameter (with a prompt
+                - code [ref=e1406]: id
+                - text: ", optional"
+                - code [ref=e1407]: version
+                - text: ) and supply dynamic
+                - code [ref=e1408]: variables
+                - text: that can include strings, images, or file inputs. Reusable prompts are not available in Chat Completions.
+                - link "Learn more" [ref=e1409] [cursor=pointer]:
+                  - /url: /api/docs/guides/text?api-mode=responses#reusable-prompts
+                - text: .
+          - generic [ref=e1411]:
+            - generic [ref=e1413]: Jun 10
+            - generic [ref=e1414]:
+              - generic [ref=e1415]:
+                - generic [ref=e1417]: Feature
+                - generic [ref=e1418]: o3-pro
+                - generic [ref=e1419]: v1/responses
+                - generic [ref=e1420]: v1/batch
+              - paragraph [ref=e1422]:
+                - text: Released
+                - link "o3-pro" [ref=e1423] [cursor=pointer]:
+                  - /url: /api/docs/models/o3-pro
+                - text: ", a version of the"
+                - link "o3" [ref=e1424] [cursor=pointer]:
+                  - /url: /api/docs/models/o3
+                - text: reasoning model that uses more compute to answer hard problems with better reasoning and consistency.
+                - link "Prices for the o3 model have also been reduced" [ref=e1425] [cursor=pointer]:
+                  - /url: /api/docs/pricing
+                - text: for all API requests, including batch and flex processing.
+          - generic [ref=e1427]:
+            - generic [ref=e1429]: Jun 4
+            - generic [ref=e1430]:
+              - generic [ref=e1431]:
+                - generic [ref=e1433]: Feature
+                - generic [ref=e1434]: v1/fine_tuning
+              - paragraph [ref=e1436]:
+                - text: Added fine-tuning support with
+                - link "direct preference optimization" [ref=e1437] [cursor=pointer]:
+                  - /url: /api/docs/guides/direct-preference-optimization
+                - text: for the models
+                - code [ref=e1438]: gpt-4.1-2025-04-14
+                - text: ","
+                - code [ref=e1439]: gpt-4.1-mini-2025-04-14
+                - text: ", and"
+                - code [ref=e1440]: gpt-4.1-nano-2025-04-14
+                - text: .
+          - generic [ref=e1442]:
+            - generic [ref=e1444]: Jun 3
+            - generic [ref=e1445]:
+              - generic [ref=e1446]:
+                - generic [ref=e1448]: Feature
+                - generic [ref=e1449]: v1/chat/completions
+                - generic [ref=e1450]: v1/realtime
+              - paragraph [ref=e1452]:
+                - text: New model snapshots available for
+                - link "gpt-4o-audio-preview" [ref=e1453] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4o-audio-preview
+                - text: and
+                - link "gpt-4o-realtime-preview" [ref=e1454] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4o-realtime-preview
+                - text: . Released
+                - link "Agents SDK for TypeScript" [ref=e1455] [cursor=pointer]:
+                  - /url: https://openai.github.io/openai-agents-js
+                - text: .
+        - generic [ref=e1456]:
+          - heading "May, 2025" [level=3] [ref=e1457]
+          - generic [ref=e1459]:
+            - generic [ref=e1461]: May 20
+            - generic [ref=e1462]:
+              - generic [ref=e1463]:
+                - generic [ref=e1465]: Feature
+                - generic [ref=e1466]: v1/responses
+              - paragraph [ref=e1468]:
+                - text: Added support for new built-in tools in the Responses API, including
+                - link "remote MCP servers" [ref=e1469] [cursor=pointer]:
+                  - /url: /api/docs/guides/tools-remote-mcp
+                - text: and
+                - link "code interpreter" [ref=e1470] [cursor=pointer]:
+                  - /url: /api/docs/guides/tools-code-interpreter
+                - text: .
+                - link "Learn more about tools" [ref=e1471] [cursor=pointer]:
+                  - /url: /api/docs/guides/tools
+                - text: .
+          - generic [ref=e1473]:
+            - generic [ref=e1475]: May 20
+            - generic [ref=e1476]:
+              - generic [ref=e1477]:
+                - generic [ref=e1479]: Feature
+                - generic [ref=e1480]: v1/responses
+                - generic [ref=e1481]: v1/chat/completions
+              - paragraph [ref=e1483]:
+                - text: Added support for using
+                - code [ref=e1484]: strict
+                - text: mode for tool schemas when using parallel tool calling with non-fine-tuned models. Added new
+                - link "schema features" [ref=e1485] [cursor=pointer]:
+                  - /url: /api/docs/guides/structured-outputs?api-mode=responses#supported-schemas
+                - text: ", including string validation for"
+                - code [ref=e1486]: email
+                - text: and other patterns and specifying ranges for numbers and arrays.
+          - generic [ref=e1488]:
+            - generic [ref=e1490]: May 15
+            - generic [ref=e1491]:
+              - generic [ref=e1492]:
+                - generic [ref=e1494]: Feature
+                - generic [ref=e1495]: codex-mini-latest
+                - generic [ref=e1496]: v1/responses
+                - generic [ref=e1497]: v1/chat/completions
+              - paragraph [ref=e1499]:
+                - text: Launched
+                - link "codex-mini-latest" [ref=e1500] [cursor=pointer]:
+                  - /url: /api/docs/models/codex-mini-latest
+                - text: in the API, optimized for use with the
+                - link "Codex CLI" [ref=e1501] [cursor=pointer]:
+                  - /url: https://github.com/openai/codex
+                - text: .
+          - generic [ref=e1503]:
+            - generic [ref=e1505]: May 7
+            - generic [ref=e1506]:
+              - generic [ref=e1507]:
+                - generic [ref=e1509]: Feature
+                - generic [ref=e1510]: v1/fine-tuning
+                - generic [ref=e1511]: v1/responses
+                - generic [ref=e1512]: v1/chat/completions
+              - paragraph [ref=e1514]:
+                - text: Launched support for
+                - link "reinforcement fine-tuning" [ref=e1515] [cursor=pointer]:
+                  - /url: /api/docs/guides/reinforcement-fine-tuning
+                - text: . Learn about available
+                - link "fine-tuning methods" [ref=e1516] [cursor=pointer]:
+                  - /url: /api/docs/guides/fine-tuning
+                - text: .
+                - link "gpt-4.1-nano" [ref=e1517] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4.1-nano
+                - text: is now available for fine-tuning.
+        - generic [ref=e1518]:
+          - heading "April, 2025" [level=3] [ref=e1519]
+          - generic [ref=e1521]:
+            - generic [ref=e1523]: Apr 30
+            - generic [ref=e1524]:
+              - generic [ref=e1527]: Feature
+              - paragraph [ref=e1529]:
+                - text: Launched support for
+                - link "Enhanced API Budget Alerts & Auto-recharge Limits" [ref=e1530] [cursor=pointer]:
+                  - /url: https://platform.openai.com/settings/organization/limits
+                - text: .
+          - generic [ref=e1532]:
+            - generic [ref=e1534]: Apr 23
+            - generic [ref=e1535]:
+              - generic [ref=e1536]:
+                - generic [ref=e1538]: Feature
+                - generic [ref=e1539]: v1/images/generations
+                - generic [ref=e1540]: v1/images/edits
+              - generic [ref=e1541]:
+                - paragraph [ref=e1542]:
+                  - text: Added a new image generation model,
+                  - code [ref=e1543]: gpt-image-1
+                  - text: . This model sets a new standard for image generation, with improved quality and instruction following.
+                - paragraph [ref=e1544]:
+                  - text: Updated the Image Generation and Edit endpoints to support new parameters specific to the
+                  - code [ref=e1545]: gpt-image-1
+                  - text: model.
+          - generic [ref=e1547]:
+            - generic [ref=e1549]: Apr 16
+            - generic [ref=e1550]:
+              - generic [ref=e1551]:
+                - generic [ref=e1553]: Feature
+                - generic [ref=e1554]: v1/chat/completions
+                - generic [ref=e1555]: v1/responses
+              - generic [ref=e1556]:
+                - paragraph [ref=e1557]:
+                  - text: Added two new o-series reasoning models,
+                  - code [ref=e1558]: o3
+                  - text: and
+                  - code [ref=e1559]: o4-mini
+                  - text: . They set a new standard for math, science, and coding, visual reasoning tasks, and technical writing.
+                - paragraph [ref=e1560]: Launched Codex, our code generation CLI tool.
+          - generic [ref=e1562]:
+            - generic [ref=e1564]: Apr 14
+            - generic [ref=e1565]:
+              - generic [ref=e1566]:
+                - generic [ref=e1568]: Feature
+                - generic [ref=e1569]: gpt-4.1
+                - generic [ref=e1570]: gpt-4.1-mini
+                - generic [ref=e1571]: gpt-4.1-nano
+                - generic [ref=e1572]: v1/responses
+                - generic [ref=e1573]: v1/chat/completions
+                - generic [ref=e1574]: v1/fine_tuning
+              - paragraph [ref=e1576]:
+                - text: Added
+                - link "gpt-4.1" [ref=e1577] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4.1
+                  - code [ref=e1578]: gpt-4.1
+                - text: ","
+                - link "gpt-4.1-mini" [ref=e1579] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4.1-mini
+                  - code [ref=e1580]: gpt-4.1-mini
+                - text: ", and"
+                - link "gpt-4.1-nano" [ref=e1581] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4.1-nano
+                  - code [ref=e1582]: gpt-4.1-nano
+                - text: models to the API. These new models feature improved instruction following, coding, and a larger context window (up to 1M tokens).
+                - code [ref=e1583]: gpt-4.1
+                - text: and
+                - code [ref=e1584]: gpt-4.1-mini
+                - text: are available for supervised fine-tuning. Announced deprecation of
+                - link "gpt-4.5-preview" [ref=e1585] [cursor=pointer]:
+                  - /url: /api/docs/deprecations
+                  - code [ref=e1586]: gpt-4.5-preview
+                - text: .
+        - generic [ref=e1587]:
+          - heading "March, 2025" [level=3] [ref=e1588]
+          - generic [ref=e1590]:
+            - generic [ref=e1592]: Mar 20
+            - generic [ref=e1593]:
+              - generic [ref=e1594]:
+                - generic [ref=e1596]: Update
+                - generic [ref=e1597]: v1/audio
+              - paragraph [ref=e1599]:
+                - text: Added
+                - code [ref=e1600]: gpt-4o-mini-tts
+                - text: ","
+                - code [ref=e1601]: gpt-4o-transcribe
+                - text: ","
+                - code [ref=e1602]: gpt-4o-mini-transcribe
+                - text: ", and"
+                - code [ref=e1603]: whisper-1
+                - text: models to the Audio API.
+          - generic [ref=e1605]:
+            - generic [ref=e1607]: Mar 19
+            - generic [ref=e1608]:
+              - generic [ref=e1609]:
+                - generic [ref=e1611]: Feature
+                - generic [ref=e1612]: o1-pro
+                - generic [ref=e1613]: v1/responses
+                - generic [ref=e1614]: v1/batch
+              - paragraph [ref=e1616]:
+                - text: Released
+                - link "o1-pro" [ref=e1617] [cursor=pointer]:
+                  - /url: /api/docs/models/o1-pro
+                - text: ", a version of the"
+                - link "o1" [ref=e1618] [cursor=pointer]:
+                  - /url: /api/docs/models/o1
+                - text: reasoning model that uses more compute to answer hard problems with better reasoning and consistency.
+          - generic [ref=e1620]:
+            - generic [ref=e1622]: Mar 11
+            - generic [ref=e1623]:
+              - generic [ref=e1624]:
+                - generic [ref=e1626]: Feature
+                - generic [ref=e1627]: gpt-4o-search-preview
+                - generic [ref=e1628]: gpt-4o-mini-search-preview
+                - generic [ref=e1629]: computer-use-preview
+                - generic [ref=e1630]: v1/chat/completions
+                - generic [ref=e1631]: v1/assistants
+                - generic [ref=e1632]: v1/responses
+              - generic [ref=e1633]:
+                - paragraph [ref=e1634]: "Released several new models and tools and a new API for agentic workflows:"
+                - list [ref=e1635]:
+                  - listitem [ref=e1636]:
+                    - text: • Released the
+                    - link "Responses API" [ref=e1637] [cursor=pointer]:
+                      - /url: /api/docs/guides/responses-vs-chat-completions
+                    - text: ", a new API for creating and using agents and tools."
+                  - listitem [ref=e1638]:
+                    - text: "• Released a set of built-in tools for the Responses API:"
+                    - link "web search" [ref=e1639] [cursor=pointer]:
+                      - /url: /api/docs/guides/tools-web-search
+                    - text: ","
+                    - link "file search" [ref=e1640] [cursor=pointer]:
+                      - /url: /api/docs/guides/tools-file-search
+                    - text: ", and"
+                    - link "computer use" [ref=e1641] [cursor=pointer]:
+                      - /url: /api/docs/guides/tools-computer-use
+                    - text: .
+                  - listitem [ref=e1642]:
+                    - text: • Released the
+                    - link "Agents SDK" [ref=e1643] [cursor=pointer]:
+                      - /url: /api/docs/guides/agents
+                    - text: ", an orchestration framework for designing, building, and deploying agents."
+                  - listitem [ref=e1644]:
+                    - text: "• Announced new models:"
+                    - code [ref=e1645]: gpt-4o-search-preview
+                    - text: ","
+                    - code [ref=e1646]: gpt-4o-mini-search-preview
+                    - text: ","
+                    - code [ref=e1647]: computer-use-preview
+                    - text: .
+                  - listitem [ref=e1648]:
+                    - text: • Announced plans to bring all
+                    - link "Assistants API" [ref=e1649] [cursor=pointer]:
+                      - /url: /api/docs/assistants
+                    - text: features to the easier to use
+                    - link "Responses API" [ref=e1650] [cursor=pointer]:
+                      - /url: /api/docs/guides/responses-vs-chat-completions
+                    - text: ", with an anticipated sunset date for Assistants in 2026 (after achieving full feature parity)."
+          - generic [ref=e1652]:
+            - generic [ref=e1654]: Mar 3
+            - generic [ref=e1655]:
+              - generic [ref=e1656]:
+                - generic [ref=e1658]: Feature
+                - generic [ref=e1659]: v1/fine_tuning/jobs
+              - paragraph [ref=e1661]:
+                - text: Added
+                - code [ref=e1662]: metadata
+                - text: field support to fine-tuning jobs.
+        - generic [ref=e1663]:
+          - heading "February, 2025" [level=3] [ref=e1664]
+          - generic [ref=e1666]:
+            - generic [ref=e1668]: Feb 27
+            - generic [ref=e1669]:
+              - generic [ref=e1670]:
+                - generic [ref=e1672]: Feature
+                - generic [ref=e1673]: GPT-4.5
+                - generic [ref=e1674]: v1/chat/completions
+                - generic [ref=e1675]: v1/assistants
+                - generic [ref=e1676]: v1/batch
+              - paragraph [ref=e1678]:
+                - text: Released a research preview of
+                - link "GPT-4.5" [ref=e1679] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4-5
+                - text: —our largest and most capable chat model yet. GPT-4.5's high "EQ" and understanding of user intent make it better at creative tasks and agentic planning.
+          - generic [ref=e1681]:
+            - generic [ref=e1683]: Feb 25
+            - generic [ref=e1684]:
+              - generic [ref=e1687]: Feature
+              - paragraph [ref=e1689]:
+                - text: Launched the
+                - link "API Usage Dashboard Update" [ref=e1690] [cursor=pointer]:
+                  - /url: https://help.openai.com/en/articles/10478918-api-usage-dashboard
+                - text: . This update addresses requests for additional data filters, such as project selection, date picker, and fine-grained intervals. There’s also better support for viewing usage across different products and service tiers.
+          - generic [ref=e1692]:
+            - generic [ref=e1694]: Feb 5
+            - generic [ref=e1695]:
+              - generic [ref=e1698]: Feature
+              - paragraph [ref=e1700]:
+                - text: Introducing data residency in Europe. Read more
+                - link "here" [ref=e1701] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/guides/your-data
+                - text: .
+        - generic [ref=e1702]:
+          - heading "January, 2025" [level=3] [ref=e1703]
+          - generic [ref=e1705]:
+            - generic [ref=e1707]: Jan 31
+            - generic [ref=e1708]:
+              - generic [ref=e1709]:
+                - generic [ref=e1711]: Feature
+                - generic [ref=e1712]: o3-mini
+                - generic [ref=e1713]: o3-mini-2025-01-31
+                - generic [ref=e1714]: v1/chat/completions
+              - paragraph [ref=e1716]:
+                - text: Launched
+                - link "o3-mini" [ref=e1717] [cursor=pointer]:
+                  - /url: /api/docs/models/o3-mini
+                - text: ", a new small reasoning model that is optimized for science, math, and coding tasks."
+          - generic [ref=e1719]:
+            - generic [ref=e1721]: Jan 21
+            - generic [ref=e1722]:
+              - generic [ref=e1723]:
+                - generic [ref=e1725]: Feature
+                - generic [ref=e1726]: o1
+              - paragraph [ref=e1728]:
+                - text: Expanded access to
+                - link "o1 model" [ref=e1729] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/models/o1
+                - text: . The o1 series of models are trained with reinforcement learning to perform complex reasoning.
+        - generic [ref=e1730]:
+          - heading "December, 2024" [level=3] [ref=e1731]
+          - generic [ref=e1733]:
+            - generic [ref=e1735]: Dec 18
+            - generic [ref=e1736]:
+              - generic [ref=e1739]: Feature
+              - generic [ref=e1740]:
+                - paragraph [ref=e1741]:
+                  - text: Launched
+                  - link "Admin API Key Rotations" [ref=e1742] [cursor=pointer]:
+                    - /url: /api/docs/api-reference/admin-api-keys
+                  - text: ", enabling customers to programmatically rotate their admin api keys."
+                - paragraph [ref=e1743]:
+                  - text: Updated
+                  - link "Admin API Invites" [ref=e1744] [cursor=pointer]:
+                    - /url: /api/docs/api-reference/invite
+                  - text: ", enabling customers to programmatically invite users to projects at the same time they are invited to organizations."
+          - generic [ref=e1746]:
+            - generic [ref=e1748]: Dec 17
+            - generic [ref=e1749]:
+              - generic [ref=e1750]:
+                - generic [ref=e1752]: Feature
+                - generic [ref=e1753]: o1
+                - generic [ref=e1754]: gpt-4o
+                - generic [ref=e1755]: gpt-4o-mini
+                - generic [ref=e1756]: v1/fine_tuning
+                - generic [ref=e1757]: v1/chat/completions
+                - generic [ref=e1758]: v1/realtime
+              - generic [ref=e1759]:
+                - paragraph [ref=e1760]:
+                  - text: Added new models for
+                  - link "o1" [ref=e1761] [cursor=pointer]:
+                    - /url: /api/docs/models/o1
+                  - text: ","
+                  - link "gpt-4o-realtime" [ref=e1762] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-4o-realtime-preview
+                  - text: ","
+                  - link "gpt-4o-audio" [ref=e1763] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-4o-audio-preview
+                  - text: and
+                  - link "more" [ref=e1764] [cursor=pointer]:
+                    - /url: /api/docs/models
+                  - text: .
+                - paragraph [ref=e1765]:
+                  - text: Added WebRTC connection method for the
+                  - link "Realtime API" [ref=e1766] [cursor=pointer]:
+                    - /url: /api/docs/guides/realtime
+                  - text: .
+                - paragraph [ref=e1767]:
+                  - text: Added
+                  - link "reasoning_effort parameter" [ref=e1768] [cursor=pointer]:
+                    - /url: /api/docs/api-reference/chat/create#chat-create-reasoning_effort
+                    - code [ref=e1769]: reasoning_effort
+                    - text: parameter
+                  - text: for o1 models.
+                - paragraph [ref=e1770]:
+                  - text: Added
+                  - link "developer message role" [ref=e1771] [cursor=pointer]:
+                    - /url: /api/docs/api-reference/chat/create#chat-create-messages
+                    - code [ref=e1772]: developer
+                    - text: message role
+                  - text: for o1 model. Note that o1-preview and o1-mini do not support system or developer messages.
+                - paragraph [ref=e1773]:
+                  - text: Launched Preference Fine-tuning using
+                  - link "Direct Preference Optimization (DPO)" [ref=e1774] [cursor=pointer]:
+                    - /url: /api/docs/guides/fine-tuning#preference
+                  - text: .
+                - paragraph [ref=e1775]:
+                  - text: Launched beta SDKs for Go and Java.
+                  - link "Learn more" [ref=e1776] [cursor=pointer]:
+                    - /url: /api/docs/libraries
+                  - text: .
+                - paragraph [ref=e1777]:
+                  - text: Added
+                  - link "Realtime API" [ref=e1778] [cursor=pointer]:
+                    - /url: /api/docs/guides/realtime
+                  - text: support in the
+                  - link "Python SDK" [ref=e1779] [cursor=pointer]:
+                    - /url: https://github.com/openai/openai-python
+                  - text: .
+          - generic [ref=e1781]:
+            - generic [ref=e1783]: Dec 4
+            - generic [ref=e1784]:
+              - generic [ref=e1787]: Feature
+              - paragraph [ref=e1789]:
+                - text: Launched
+                - link "Usage API" [ref=e1790] [cursor=pointer]:
+                  - /url: /api/docs/api-reference/usage
+                - text: ", enabling customers to programmatically query activities and spending across OpenAI APIs."
+        - generic [ref=e1791]:
+          - heading "November, 2024" [level=3] [ref=e1792]
+          - generic [ref=e1794]:
+            - generic [ref=e1796]: Nov 20
+            - generic [ref=e1797]:
+              - generic [ref=e1798]:
+                - generic [ref=e1800]: Update
+                - generic [ref=e1801]: v1/chat/completions
+              - paragraph [ref=e1803]:
+                - text: Released
+                - link "gpt-4o-2024-11-20" [ref=e1804] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4o
+                - text: ", our newest model in the gpt-4o series."
+          - generic [ref=e1806]:
+            - generic [ref=e1808]: Nov 4
+            - generic [ref=e1809]:
+              - generic [ref=e1810]:
+                - generic [ref=e1812]: Feature
+                - generic [ref=e1813]: v1/chat/completions
+              - paragraph [ref=e1815]:
+                - text: Released
+                - link "Predicted Outputs" [ref=e1816] [cursor=pointer]:
+                  - /url: /api/docs/guides/predicted-outputs
+                - text: ", which greatly reduces latency for model responses where much of the response is known ahead of time. This is most common when regenerating the content of documents and code files with only minor changes."
+        - generic [ref=e1817]:
+          - heading "October, 2024" [level=3] [ref=e1818]
+          - generic [ref=e1820]:
+            - generic [ref=e1822]: Oct 30
+            - generic [ref=e1823]:
+              - generic [ref=e1824]:
+                - generic [ref=e1826]: Feature
+                - generic [ref=e1827]: gpt-4o-realtime-preview
+                - generic [ref=e1828]: gpt-4o-audio-preview
+                - generic [ref=e1829]: v1/chat/completions
+              - paragraph [ref=e1831]:
+                - text: Added five new voice types in the
+                - link "Realtime API" [ref=e1832] [cursor=pointer]:
+                  - /url: /api/docs/guides/realtime
+                - text: and
+                - link "Chat Completions API" [ref=e1833] [cursor=pointer]:
+                  - /url: /api/docs/guides/audio
+                - text: .
+          - generic [ref=e1835]:
+            - generic [ref=e1837]: Oct 17
+            - generic [ref=e1838]:
+              - generic [ref=e1839]:
+                - generic [ref=e1841]: Feature
+                - generic [ref=e1842]: gpt-4o-audio-preview
+                - generic [ref=e1843]: v1/chat/completions
+              - paragraph [ref=e1845]:
+                - text: Released
+                - link "new gpt-4o-audio-preview model" [ref=e1846] [cursor=pointer]:
+                  - /url: /api/docs/guides/audio
+                  - text: new
+                  - code [ref=e1847]: gpt-4o-audio-preview
+                  - text: model
+                - text: for chat completions, which supports both audio inputs and outputs. Uses the same underlying model as the
+                - link "Realtime API" [ref=e1848] [cursor=pointer]:
+                  - /url: /api/docs/guides/realtime
+                - text: .
+          - generic [ref=e1850]:
+            - generic [ref=e1852]: Oct 1
+            - generic [ref=e1853]:
+              - generic [ref=e1854]:
+                - generic [ref=e1856]: Feature
+                - generic [ref=e1857]: v1/realtime
+                - generic [ref=e1858]: v1/chat/completions
+                - generic [ref=e1859]: v1/fine_tuning
+              - generic [ref=e1860]:
+                - paragraph [ref=e1861]:
+                  - text: Released several new features at
+                  - link "OpenAI DevDay in San Francisco" [ref=e1862] [cursor=pointer]:
+                    - /url: https://openai.com/devday/
+                  - text: ":"
+                - paragraph [ref=e1863]:
+                  - link "Realtime API" [ref=e1864] [cursor=pointer]:
+                    - /url: /api/docs/guides/realtime
+                  - text: ": Build fast speech-to-speech experiences into your applications using a WebSockets interface."
+                - paragraph [ref=e1865]:
+                  - link "Model distillation" [ref=e1866] [cursor=pointer]:
+                    - /url: /api/docs/guides/distillation
+                  - text: ": Platform for fine-tuning cost-efficient models with your outputs from a large frontier model."
+                - paragraph [ref=e1867]:
+                  - link "Image fine-tuning" [ref=e1868] [cursor=pointer]:
+                    - /url: /api/docs/guides/fine-tuning#vision
+                  - text: ": Fine-tune GPT-4o with images and text to improve vision capabilities."
+                - paragraph [ref=e1869]:
+                  - link "Evals" [ref=e1870] [cursor=pointer]:
+                    - /url: /api/docs/guides/evals
+                  - text: ": Create and run custom evaluations to measure model performance on specific tasks."
+                - paragraph [ref=e1871]:
+                  - link "Prompt caching" [ref=e1872] [cursor=pointer]:
+                    - /url: /api/docs/guides/prompt-caching
+                  - text: ": Discounts and faster processing times on recently seen input tokens."
+                - paragraph [ref=e1873]:
+                  - link "Generate in playground" [ref=e1874] [cursor=pointer]:
+                    - /url: /chat/edit
+                  - text: ": Easily generate prompts, function definitions, and structured output schemas in the playground using the Generate button."
+        - generic [ref=e1875]:
+          - heading "September, 2024" [level=3] [ref=e1876]
+          - generic [ref=e1878]:
+            - generic [ref=e1880]: Sep 26
+            - generic [ref=e1881]:
+              - generic [ref=e1882]:
+                - generic [ref=e1884]: Feature
+                - generic [ref=e1885]: omni-moderation-latest
+                - generic [ref=e1886]: v1/moderations
+              - paragraph [ref=e1888]:
+                - text: Released
+                - link "new omni-moderation-latest moderation model" [ref=e1889] [cursor=pointer]:
+                  - /url: /api/docs/guides/moderation
+                  - text: new
+                  - code [ref=e1890]: omni-moderation-latest
+                  - text: moderation model
+                - text: ", which supports both images and text (for some categories), supports two new text-only harm categories, and has more accurate scores."
+          - generic [ref=e1892]:
+            - generic [ref=e1894]: Sep 12
+            - generic [ref=e1895]:
+              - generic [ref=e1896]:
+                - generic [ref=e1898]: Feature
+                - generic [ref=e1899]: o1-preview
+                - generic [ref=e1900]: o1-mini
+                - generic [ref=e1901]: v1/chat/completions
+              - paragraph [ref=e1903]:
+                - text: Released
+                - link "o1-preview and o1-mini" [ref=e1904] [cursor=pointer]:
+                  - /url: /api/docs/guides/reasoning
+                - text: ", new large language models trained with reinforcement learning to perform complex reasoning tasks."
+        - generic [ref=e1905]:
+          - heading "August, 2024" [level=3] [ref=e1906]
+          - generic [ref=e1908]:
+            - generic [ref=e1910]: Aug 29
+            - generic [ref=e1911]:
+              - generic [ref=e1912]:
+                - generic [ref=e1914]: Feature
+                - generic [ref=e1915]: v1/assistants
+              - paragraph [ref=e1917]:
+                - text: Assistants API now supports
+                - link "including file search results used by the file search tool, and customizing ranking behavior" [ref=e1918] [cursor=pointer]:
+                  - /url: /api/docs/assistants/tools/file-search#improve-file-search-result-relevance-with-chunk-ranking
+                - text: .
+          - generic [ref=e1920]:
+            - generic [ref=e1922]: Aug 20
+            - generic [ref=e1923]:
+              - generic [ref=e1924]:
+                - generic [ref=e1926]: Feature
+                - generic [ref=e1927]: gpt-4o
+                - generic [ref=e1928]: v1/fine_tuning
+              - paragraph [ref=e1930]:
+                - text: GA release for
+                - link "gpt-4o-2024-08-06 fine-tuning" [ref=e1931] [cursor=pointer]:
+                  - /url: /api/docs/guides/fine-tuning
+                  - code [ref=e1932]: gpt-4o-2024-08-06
+                  - text: fine-tuning
+                - text: —all API users can now fine-tune the latest GPT-4o model.
+          - generic [ref=e1934]:
+            - generic [ref=e1936]: Aug 15
+            - generic [ref=e1937]:
+              - generic [ref=e1938]:
+                - generic [ref=e1940]: Update
+                - generic [ref=e1941]: gpt-4o
+                - generic [ref=e1942]: v1/chat/completions
+              - paragraph [ref=e1944]:
+                - text: Released
+                - link "dynamic model for chatgpt-4o-latest" [ref=e1945] [cursor=pointer]:
+                  - /url: /api/docs/models/chatgpt-4o-latest
+                  - text: dynamic model for
+                  - code [ref=e1946]: chatgpt-4o-latest
+                - text: —this model will point to the latest GPT-4o model used by ChatGPT.
+          - generic [ref=e1948]:
+            - generic [ref=e1950]: Aug 6
+            - generic [ref=e1951]:
+              - generic [ref=e1954]: Update
+              - generic [ref=e1955]:
+                - paragraph [ref=e1956]:
+                  - text: Launched
+                  - link "Structured Outputs" [ref=e1957] [cursor=pointer]:
+                    - /url: /api/docs/guides/structured-outputs
+                  - text: —model outputs now reliably adhere to developer supplied JSON Schemas.
+                - paragraph [ref=e1958]:
+                  - text: Released
+                  - link "gpt-4o-2024-08-06" [ref=e1959] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-4o
+                  - text: ", our newest model in the gpt-4o series."
+          - generic [ref=e1961]:
+            - generic [ref=e1963]: Aug 1
+            - generic [ref=e1964]:
+              - generic [ref=e1967]: Update
+              - paragraph [ref=e1969]:
+                - text: Launched
+                - link "Admin and Audit Log APIs" [ref=e1970] [cursor=pointer]:
+                  - /url: /api/docs/api-reference/administration
+                - text: ", allowing customers to programmatically administer their organization and monitor changes using the audit logs. Audit logging must be enabled within"
+                - link "settings" [ref=e1971] [cursor=pointer]:
+                  - /url: settings/organization/general
+                - text: .
+        - generic [ref=e1972]:
+          - heading "July, 2024" [level=3] [ref=e1973]
+          - generic [ref=e1975]:
+            - generic [ref=e1977]: Jul 24
+            - generic [ref=e1978]:
+              - generic [ref=e1981]: Update
+              - paragraph [ref=e1983]:
+                - text: Launched
+                - link "self-serve SSO configuration" [ref=e1984] [cursor=pointer]:
+                  - /url: https://help.openai.com/en/articles/9641482-api-platform-single-sign-on-sso-integration-for-existing-enterprise-customers
+                - text: ", allowing Enterprise customers on custom and unlimited billing to set up authentication against their desired IDP."
+          - generic [ref=e1986]:
+            - generic [ref=e1988]: Jul 23
+            - generic [ref=e1989]:
+              - generic [ref=e1992]: Update
+              - paragraph [ref=e1994]:
+                - text: Launched
+                - link "fine-tuning for GPT-4o mini" [ref=e1995] [cursor=pointer]:
+                  - /url: /api/docs/guides/fine-tuning
+                - text: ", enabling even higher performance for specific use cases."
+          - generic [ref=e1997]:
+            - generic [ref=e1999]: Jul 18
+            - generic [ref=e2000]:
+              - generic [ref=e2003]: Update
+              - paragraph [ref=e2005]:
+                - text: Released
+                - link "GPT-4o mini" [ref=e2006] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4o-mini
+                - text: ", our affordable an intelligent small model for fast, lightweight tasks."
+          - generic [ref=e2008]:
+            - generic [ref=e2010]: Jul 17
+            - generic [ref=e2011]:
+              - generic [ref=e2014]: Update
+              - paragraph [ref=e2016]:
+                - text: Released
+                - link "Uploads" [ref=e2017] [cursor=pointer]:
+                  - /url: /api/docs/api-reference/uploads
+                - text: to upload large files in multiple parts.
+        - generic [ref=e2018]:
+          - heading "June, 2024" [level=3] [ref=e2019]
+          - generic [ref=e2021]:
+            - generic [ref=e2023]: Jun 6
+            - generic [ref=e2024]:
+              - generic [ref=e2027]: Update
+              - generic [ref=e2028]:
+                - paragraph [ref=e2029]:
+                  - link "Parallel function calling" [ref=e2030] [cursor=pointer]:
+                    - /url: /api/docs/guides/function-calling#configure-parallel-function-calling
+                  - text: can be disabled in Chat Completions and the Assistants API by passing
+                  - code [ref=e2031]: parallel_tool_calls=false
+                  - text: .
+                - paragraph [ref=e2032]:
+                  - link ".NET SDK" [ref=e2033] [cursor=pointer]:
+                    - /url: /api/docs/libraries#dotnet-library
+                  - text: launched in Beta.
+          - generic [ref=e2035]:
+            - generic [ref=e2037]: Jun 3
+            - generic [ref=e2038]:
+              - generic [ref=e2041]: Update
+              - paragraph [ref=e2043]:
+                - text: Added support for
+                - link "file search customizations" [ref=e2044] [cursor=pointer]:
+                  - /url: /api/docs/assistants/tools/file-search#customizing-file-search-settings
+                - text: .
+        - generic [ref=e2045]:
+          - heading "May, 2024" [level=3] [ref=e2046]
+          - generic [ref=e2048]:
+            - generic [ref=e2050]: May 15
+            - generic [ref=e2051]:
+              - generic [ref=e2054]: Update
+              - generic [ref=e2055]:
+                - paragraph [ref=e2056]:
+                  - text: Added support for
+                  - link "archiving projects" [ref=e2057] [cursor=pointer]:
+                    - /url: /projects
+                  - text: . Only organization owners can access this functionality.
+                - paragraph [ref=e2058]:
+                  - text: Added support for
+                  - link "setting cost limits" [ref=e2059] [cursor=pointer]:
+                    - /url: /settings/organization/general
+                  - text: on a per-project basis for pay as you go customers.
+          - generic [ref=e2061]:
+            - generic [ref=e2063]: May 13
+            - generic [ref=e2064]:
+              - generic [ref=e2067]: Update
+              - paragraph [ref=e2069]:
+                - text: Released
+                - link "GPT-4o" [ref=e2070] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4o
+                - text: in the API. GPT-4o is our fastest and most affordable flagship model.
+          - generic [ref=e2072]:
+            - generic [ref=e2074]: May 9
+            - generic [ref=e2075]:
+              - generic [ref=e2078]: Update
+              - paragraph [ref=e2080]:
+                - text: Added support for
+                - link "image inputs to the Assistants API." [ref=e2081] [cursor=pointer]:
+                  - /url: /api/docs/assistants/overview
+          - generic [ref=e2083]:
+            - generic [ref=e2085]: May 7
+            - generic [ref=e2086]:
+              - generic [ref=e2089]: Update
+              - paragraph [ref=e2091]:
+                - text: Added support for
+                - link "fine-tuned models to the Batch API" [ref=e2092] [cursor=pointer]:
+                  - /url: /api/docs/guides/batch#model-availability
+                - text: .
+          - generic [ref=e2094]:
+            - generic [ref=e2096]: May 6
+            - generic [ref=e2097]:
+              - generic [ref=e2100]: Update
+              - paragraph [ref=e2102]:
+                - text: Added
+                - 'link "stream_options: {\"include_usage\": true}" [ref=e2103] [cursor=pointer]':
+                  - /url: /api/docs/api-reference/chat/create#chat-create-stream_options
+                  - code [ref=e2104]: "stream_options: {\"include_usage\": true}"
+                - text: parameter to the Chat Completions and Completions APIs. Setting this gives developers access to usage stats when using streaming.
+          - generic [ref=e2106]:
+            - generic [ref=e2108]: May 2
+            - generic [ref=e2109]:
+              - generic [ref=e2112]: Update
+              - paragraph [ref=e2114]:
+                - text: Added
+                - link "a new endpoint" [ref=e2115] [cursor=pointer]:
+                  - /url: /api/docs/api-reference/messages/deleteMessage
+                - text: to delete a message from a thread in the Assistants API.
+        - generic [ref=e2116]:
+          - heading "April, 2024" [level=3] [ref=e2117]
+          - generic [ref=e2119]:
+            - generic [ref=e2121]: Apr 29
+            - generic [ref=e2122]:
+              - generic [ref=e2125]: Update
+              - generic [ref=e2126]:
+                - paragraph [ref=e2127]:
+                  - text: Added a new
+                  - 'link "function calling option tool_choice: \"required\"" [ref=e2128] [cursor=pointer]':
+                    - /url: /api/docs/guides/function-calling#function-calling-behavior
+                    - text: function calling option
+                    - code [ref=e2129]: "tool_choice: \"required\""
+                  - text: to the Chat Completions and Assistants APIs.
+                - paragraph [ref=e2130]:
+                  - text: Added a
+                  - link "guide for the Batch API" [ref=e2131] [cursor=pointer]:
+                    - /url: /api/docs/guides/batch
+                  - text: and Batch API support for
+                  - link "embeddings models" [ref=e2132] [cursor=pointer]:
+                    - /url: /api/docs/guides/batch#model-availability
+          - generic [ref=e2134]:
+            - generic [ref=e2136]: Apr 17
+            - generic [ref=e2137]:
+              - generic [ref=e2140]: Update
+              - paragraph [ref=e2142]:
+                - text: Introduced a
+                - link "series of updates to the Assistants API" [ref=e2143] [cursor=pointer]:
+                  - /url: /api/docs/assistants/whats-new
+                - text: ", including a new file search tool allowing up to 10,000 files per assistant, new token controls, and support for tool choice."
+          - generic [ref=e2145]:
+            - generic [ref=e2147]: Apr 16
+            - generic [ref=e2148]:
+              - generic [ref=e2151]: Update
+              - paragraph [ref=e2153]:
+                - text: Introduced
+                - link "project based hierarchy" [ref=e2154] [cursor=pointer]:
+                  - /url: ../settings/organization/general
+                - text: for organizing work by projects, including the ability to create
+                - link "API keys" [ref=e2155] [cursor=pointer]:
+                  - /url: /api/docs/api-reference/authentication
+                - text: and manage rate and cost limits on a per-project basis (cost limits available only for Enterprise customers).
+          - generic [ref=e2157]:
+            - generic [ref=e2159]: Apr 15
+            - generic [ref=e2160]:
+              - generic [ref=e2163]: Update
+              - paragraph [ref=e2165]:
+                - text: Released
+                - link "Batch API" [ref=e2166] [cursor=pointer]:
+                  - /url: /api/docs/guides/batch
+          - generic [ref=e2168]:
+            - generic [ref=e2170]: Apr 9
+            - generic [ref=e2171]:
+              - generic [ref=e2174]: Update
+              - paragraph [ref=e2176]:
+                - text: Released
+                - link "GPT-4 Turbo with Vision" [ref=e2177] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4-turbo
+                - text: in general availability in the API
+          - generic [ref=e2179]:
+            - generic [ref=e2181]: Apr 4
+            - generic [ref=e2182]:
+              - generic [ref=e2185]: Update
+              - generic [ref=e2186]:
+                - paragraph [ref=e2187]:
+                  - text: Added support for
+                  - link "seed" [ref=e2188] [cursor=pointer]:
+                    - /url: /api/docs/api-reference/fine-tuning/create
+                  - text: in the fine-tuning API
+                - paragraph [ref=e2189]:
+                  - text: Added support for
+                  - link "checkpoints" [ref=e2190] [cursor=pointer]:
+                    - /url: /api/docs/api-reference/fine-tuning/list-checkpoints
+                  - text: in the fine-tuning API
+                - paragraph [ref=e2191]:
+                  - text: Added support for
+                  - link "adding Messages when creating a Run" [ref=e2192] [cursor=pointer]:
+                    - /url: /api/docs/api-reference/runs/createRun#runs-createrun-additional_messages
+                  - text: in the Assistants API
+          - generic [ref=e2194]:
+            - generic [ref=e2196]: Apr 1
+            - generic [ref=e2197]:
+              - generic [ref=e2200]: Update
+              - paragraph [ref=e2202]:
+                - text: Added support for
+                - link "filtering Messages by run_id" [ref=e2203] [cursor=pointer]:
+                  - /url: /api/docs/api-reference/messages/listMessages#messages-listmessages-run_id
+                - text: in the Assistants API
+        - generic [ref=e2204]:
+          - heading "March, 2024" [level=3] [ref=e2205]
+          - generic [ref=e2207]:
+            - generic [ref=e2209]: Mar 29
+            - generic [ref=e2210]:
+              - generic [ref=e2213]: Update
+              - paragraph [ref=e2215]:
+                - text: Added support for
+                - link "temperature" [ref=e2216] [cursor=pointer]:
+                  - /url: /api/docs/api-reference/runs/createRun#runs-createrun-temperature
+                - text: and
+                - link "assistant message creation" [ref=e2217] [cursor=pointer]:
+                  - /url: /api/docs/api-reference/messages/createMessage#messages-createmessage-role
+                - text: in the Assistants API
+          - generic [ref=e2219]:
+            - generic [ref=e2221]: Mar 14
+            - generic [ref=e2222]:
+              - generic [ref=e2225]: Update
+              - paragraph [ref=e2227]:
+                - text: Added support for
+                - link "streaming" [ref=e2228] [cursor=pointer]:
+                  - /url: /api/docs/assistants/overview
+                - text: in the Assistants API
+        - generic [ref=e2229]:
+          - heading "February, 2024" [level=3] [ref=e2230]
+          - generic [ref=e2232]:
+            - generic [ref=e2234]: Feb 9
+            - generic [ref=e2235]:
+              - generic [ref=e2238]: Update
+              - paragraph [ref=e2240]:
+                - text: Added
+                - link "timestamp_granularities parameter" [ref=e2241] [cursor=pointer]:
+                  - /url: /api/docs/guides/speech-to-text#timestamps
+                  - code [ref=e2242]: timestamp_granularities
+                  - text: parameter
+                - text: to the Audio API
+          - generic [ref=e2244]:
+            - generic [ref=e2246]: Feb 1
+            - generic [ref=e2247]:
+              - generic [ref=e2250]: Update
+              - paragraph [ref=e2252]:
+                - text: Released
+                - link "gpt-3.5-turbo-0125, an updated GPT-3.5 Turbo model" [ref=e2253] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-3-5-turbo
+        - generic [ref=e2254]:
+          - heading "January, 2024" [level=3] [ref=e2255]
+          - generic [ref=e2257]:
+            - generic [ref=e2259]: Jan 25
+            - generic [ref=e2260]:
+              - generic [ref=e2263]: Update
+              - generic [ref=e2264]:
+                - paragraph [ref=e2265]: Released embedding V3 models and an updated GPT-4 Turbo preview
+                - paragraph [ref=e2266]:
+                  - text: Added
+                  - link "dimensions parameter" [ref=e2267] [cursor=pointer]:
+                    - /url: /api/docs/api-reference/embeddings/create#embeddings-create-dimensions
+                    - code [ref=e2268]: dimensions
+                    - text: parameter
+                  - text: to the Embeddings API
+        - generic [ref=e2269]:
+          - heading "December, 2023" [level=3] [ref=e2270]
+          - generic [ref=e2272]:
+            - generic [ref=e2274]: Dec 20
+            - generic [ref=e2275]:
+              - generic [ref=e2278]: Update
+              - paragraph [ref=e2280]:
+                - text: Added
+                - link "additional_instructions parameter" [ref=e2281] [cursor=pointer]:
+                  - /url: /api/docs/api-reference/runs/createRun#runs-createrun-additional_instructions
+                  - code [ref=e2282]: additional_instructions
+                  - text: parameter
+                - text: to run creation in the Assistants API
+          - generic [ref=e2284]:
+            - generic [ref=e2286]: Dec 15
+            - generic [ref=e2287]:
+              - generic [ref=e2290]: Update
+              - paragraph [ref=e2292]:
+                - text: Added
+                - link "logprobs and top_logprobs parameters" [ref=e2293] [cursor=pointer]:
+                  - /url: /api/docs/api-reference/chat/create#chat-create-logprobs
+                  - code [ref=e2294]: logprobs
+                  - text: and
+                  - code [ref=e2295]: top_logprobs
+                  - text: parameters
+                - text: to the Chat Completions API
+          - generic [ref=e2297]:
+            - generic [ref=e2299]: Dec 14
+            - generic [ref=e2300]:
+              - generic [ref=e2303]: Update
+              - paragraph [ref=e2305]:
+                - text: Changed
+                - link "function parameters" [ref=e2306] [cursor=pointer]:
+                  - /url: /api/docs/api-reference/chat/create#chat-create-tools
+                - text: argument on a tool call to be optional
+        - generic [ref=e2307]:
+          - heading "November, 2023" [level=3] [ref=e2308]
+          - generic [ref=e2310]:
+            - generic [ref=e2312]: Nov 30
+            - generic [ref=e2313]:
+              - generic [ref=e2316]: Update
+              - paragraph [ref=e2318]:
+                - text: Released
+                - link "OpenAI Deno SDK" [ref=e2319] [cursor=pointer]:
+                  - /url: https://deno.land/x/openai
+          - generic [ref=e2321]:
+            - generic [ref=e2323]: Nov 6
+            - generic [ref=e2324]:
+              - generic [ref=e2327]: Update
+              - generic [ref=e2328]:
+                - paragraph [ref=e2329]:
+                  - text: Released
+                  - link "GPT-4 Turbo Preview" [ref=e2330] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-4-turbo
+                  - text: ","
+                  - link "updated GPT-3.5 Turbo" [ref=e2331] [cursor=pointer]:
+                    - /url: /api/docs/models/gpt-3-5-turbo
+                  - text: ","
+                  - link "GPT-4 Turbo with Vision" [ref=e2332] [cursor=pointer]:
+                    - /url: /api/docs/guides/vision
+                  - text: ","
+                  - link "Assistants API" [ref=e2333] [cursor=pointer]:
+                    - /url: /api/docs/assistants/overview
+                  - text: ","
+                  - link "DALL·E 3 in the API" [ref=e2334] [cursor=pointer]:
+                    - /url: /api/docs/models/dall-e-3
+                  - text: ", and"
+                  - link "text-to-speech API" [ref=e2335] [cursor=pointer]:
+                    - /url: /api/docs/guides/text-to-speech
+                - paragraph [ref=e2336]:
+                  - text: Deprecated the Chat Completions
+                  - code [ref=e2337]: functions
+                  - text: parameter
+                  - link "in favor of tools" [ref=e2338] [cursor=pointer]:
+                    - /url: /api/docs/api-reference/chat/create#chat-create-tools
+                    - text: in favor of
+                    - code [ref=e2339]: tools
+                - paragraph [ref=e2340]:
+                  - text: Released
+                  - link "OpenAI Python SDK V1.0" [ref=e2341] [cursor=pointer]:
+                    - /url: /api/docs/libraries#python-library
+        - generic [ref=e2342]:
+          - heading "October, 2023" [level=3] [ref=e2343]
+          - generic [ref=e2345]:
+            - generic [ref=e2347]: Oct 16
+            - generic [ref=e2348]:
+              - generic [ref=e2351]: Update
+              - generic [ref=e2352]:
+                - paragraph [ref=e2353]:
+                  - text: Added
+                  - link "encoding_format parameter" [ref=e2354] [cursor=pointer]:
+                    - /url: /api/docs/api-reference/embeddings/create#embeddings-create-encoding_format
+                    - code [ref=e2355]: encoding_format
+                    - text: parameter
+                  - text: to the Embeddings API
+                - paragraph [ref=e2356]:
+                  - text: Added
+                  - code [ref=e2357]: max_tokens
+                  - text: to the
+                  - link "Moderation models" [ref=e2358] [cursor=pointer]:
+                    - /url: /api/docs/models/text-moderation-latest
+          - generic [ref=e2360]:
+            - generic [ref=e2362]: Oct 6
+            - generic [ref=e2363]:
+              - generic [ref=e2366]: Update
+              - paragraph [ref=e2368]:
+                - text: Added
+                - link "function calling support" [ref=e2369] [cursor=pointer]:
+                  - /url: /api/docs/guides/fine-tuning#fine-tuning-examples
+                - text: to the Fine-tuning API

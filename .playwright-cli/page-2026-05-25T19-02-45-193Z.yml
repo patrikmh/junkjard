@@ -1,0 +1,454 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/#use-a2ui-with-any-agent-framework-using-ag-ui
+  - banner [ref=e3]:
+    - navigation "Header" [ref=e4]:
+      - link "A2UI" [ref=e5] [cursor=pointer]:
+        - /url: https://a2ui.org/
+        - img "logo" [ref=e6]
+      - generic [ref=e8]:
+        - generic [ref=e10]: A2UI
+        - generic:
+          - generic: Use A2UI with Any Agent Framework (AG-UI)
+      - generic [ref=e11]:
+        - radio "Switch to dark mode"
+        - generic "Switch to dark mode" [ref=e12] [cursor=pointer]:
+          - img [ref=e13]
+        - radio "Switch to light mode"
+      - dialog [ref=e15]:
+        - search [ref=e16]:
+          - generic [ref=e17]:
+            - textbox "Search" [ref=e18]
+            - generic:
+              - img
+            - navigation "Search":
+              - button "Clear":
+                - img
+          - generic [ref=e20]: Initializing search
+      - link "google/A2UI 15k 1.2k" [ref=e22] [cursor=pointer]:
+        - /url: https://github.com/google/A2UI
+        - img [ref=e24]
+        - generic [ref=e26]:
+          - text: google/A2UI
+          - list [ref=e27]:
+            - listitem [ref=e28]: 15k
+            - listitem [ref=e29]: 1.2k
+  - generic [ref=e30]:
+    - main [ref=e31]:
+      - generic [ref=e32]:
+        - navigation "Navigation" [ref=e36]:
+          - generic [ref=e37]: A2UI
+          - list [ref=e38]:
+            - listitem [ref=e39]:
+              - link "Home" [ref=e40] [cursor=pointer]:
+                - /url: https://a2ui.org/
+                - generic [ref=e41]: Home
+            - listitem [ref=e42]:
+              - generic [ref=e44]: Introduction & FAQ
+            - listitem [ref=e46]:
+              - link "Quickstart" [ref=e47] [cursor=pointer]:
+                - /url: https://a2ui.org/quickstart/
+                - generic [ref=e48]: Quickstart
+            - listitem [ref=e49]:
+              - link "A2UI Composer ⭐" [ref=e50] [cursor=pointer]:
+                - /url: https://a2ui.org/composer/
+                - generic [ref=e51]: A2UI Composer ⭐
+            - listitem [ref=e52]:
+              - generic [ref=e54]: Concepts
+            - listitem [ref=e56]:
+              - generic [ref=e58]: Guides
+              - navigation "Guides" [ref=e60]:
+                - list [ref=e61]:
+                  - listitem [ref=e62]:
+                    - link "Client Setup" [ref=e63] [cursor=pointer]:
+                      - /url: https://a2ui.org/guides/client-setup/
+                      - generic [ref=e64]: Client Setup
+                  - listitem [ref=e65]:
+                    - link "Agent Development" [ref=e66] [cursor=pointer]:
+                      - /url: https://a2ui.org/guides/agent-development/
+                      - generic [ref=e67]: Agent Development
+                  - listitem [ref=e68]:
+                    - link "Use A2UI with Any Agent Framework (AG-UI)" [ref=e69] [cursor=pointer]:
+                      - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/
+                      - generic [ref=e70]: Use A2UI with Any Agent Framework (AG-UI)
+                  - listitem [ref=e71]:
+                    - link "Renderer Development" [ref=e72] [cursor=pointer]:
+                      - /url: https://a2ui.org/guides/renderer-development/
+                      - generic [ref=e73]: Renderer Development
+                  - listitem [ref=e74]:
+                    - link "Defining Your Own Catalog" [ref=e75] [cursor=pointer]:
+                      - /url: https://a2ui.org/guides/defining-your-own-catalog/
+                      - generic [ref=e76]: Defining Your Own Catalog
+                  - listitem [ref=e77]:
+                    - link "Authoring Custom Components" [ref=e78] [cursor=pointer]:
+                      - /url: https://a2ui.org/guides/authoring-components/
+                      - generic [ref=e79]: Authoring Custom Components
+                  - listitem [ref=e80]:
+                    - link "Theming & Styling" [ref=e81] [cursor=pointer]:
+                      - /url: https://a2ui.org/guides/theming/
+                      - generic [ref=e82]: Theming & Styling
+                  - listitem [ref=e83]:
+                    - link "A2UI over MCP" [ref=e84] [cursor=pointer]:
+                      - /url: https://a2ui.org/guides/a2ui_over_mcp/
+                      - generic [ref=e85]: A2UI over MCP
+                  - listitem [ref=e86]:
+                    - link "MCP Apps in A2UI" [ref=e87] [cursor=pointer]:
+                      - /url: https://a2ui.org/guides/mcp-apps-in-a2ui/
+                      - generic [ref=e88]: MCP Apps in A2UI
+                  - listitem [ref=e89]:
+                    - link "A2UI in MCP Apps" [ref=e90] [cursor=pointer]:
+                      - /url: https://a2ui.org/guides/a2ui-in-mcp-apps/
+                      - generic [ref=e91]: A2UI in MCP Apps
+            - listitem [ref=e92]:
+              - generic [ref=e94]: Reference
+            - listitem [ref=e96]:
+              - generic [ref=e98]: Specifications
+            - listitem [ref=e100]:
+              - generic [ref=e102]: Ecosystem
+            - listitem [ref=e104]:
+              - link "Roadmap" [ref=e105] [cursor=pointer]:
+                - /url: https://a2ui.org/roadmap/
+                - generic [ref=e106]: Roadmap
+        - navigation "Table of contents" [ref=e110]:
+          - generic [ref=e111]: Table of contents
+          - list [ref=e112]:
+            - listitem [ref=e113]:
+              - link "1. Set up CopilotKit" [ref=e114] [cursor=pointer]:
+                - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/#1-set-up-copilotkit
+                - generic [ref=e115]: 1. Set up CopilotKit
+            - listitem [ref=e116]:
+              - link "2. Enable A2UI" [ref=e117] [cursor=pointer]:
+                - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/#2-enable-a2ui
+                - generic [ref=e118]: 2. Enable A2UI
+              - navigation "2. Enable A2UI" [ref=e119]:
+                - list [ref=e120]:
+                  - listitem [ref=e121]:
+                    - link "Backend" [ref=e122] [cursor=pointer]:
+                      - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/#backend
+                      - generic [ref=e123]: Backend
+                  - listitem [ref=e124]:
+                    - link "Frontend" [ref=e125] [cursor=pointer]:
+                      - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/#frontend
+                      - generic [ref=e126]: Frontend
+                  - listitem [ref=e127]:
+                    - link "Custom components (BYOC)" [ref=e128] [cursor=pointer]:
+                      - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/#custom-components-byoc
+                      - generic [ref=e129]: Custom components (BYOC)
+                    - navigation "Custom components (BYOC)" [ref=e130]:
+                      - list [ref=e131]:
+                        - listitem [ref=e132]:
+                          - link "1. Define component schemas" [ref=e133] [cursor=pointer]:
+                            - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/#1-define-component-schemas
+                            - generic [ref=e134]: 1. Define component schemas
+                        - listitem [ref=e135]:
+                          - link "2. Create React renderers" [ref=e136] [cursor=pointer]:
+                            - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/#2-create-react-renderers
+                            - generic [ref=e137]: 2. Create React renderers
+                        - listitem [ref=e138]:
+                          - link "3. Pass the catalog to CopilotKit" [ref=e139] [cursor=pointer]:
+                            - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/#3-pass-the-catalog-to-copilotkit
+                            - generic [ref=e140]: 3. Pass the catalog to CopilotKit
+            - listitem [ref=e141]:
+              - link "3. Advanced usage" [ref=e142] [cursor=pointer]:
+                - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/#3-advanced-usage
+                - generic [ref=e143]: 3. Advanced usage
+            - listitem [ref=e144]:
+              - link "What's next" [ref=e145] [cursor=pointer]:
+                - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/#whats-next
+                - generic [ref=e146]: What's next
+        - generic [ref=e147]:
+          - navigation "Navigation" [ref=e148]:
+            - list [ref=e149]:
+              - listitem [ref=e150]:
+                - link "Home" [ref=e151] [cursor=pointer]:
+                  - /url: https://a2ui.org/
+                  - generic [ref=e152]: Home
+              - listitem [ref=e153]:
+                - link "Guides" [ref=e154] [cursor=pointer]:
+                  - /url: https://a2ui.org/guides/client-setup/
+                  - generic [ref=e155]: Guides
+          - article [ref=e156]:
+            - link "View source of this page" [ref=e157] [cursor=pointer]:
+              - /url: https://github.com/google/A2UI/raw/main/docs/guides/a2ui-with-any-agent-framework.md
+              - img [ref=e158]
+            - heading "Use A2UI with Any Agent Framework (Using AG-UI) ¶" [level=1] [ref=e160]:
+              - text: Use A2UI with Any Agent Framework (Using AG-UI)
+              - link "¶" [ref=e161] [cursor=pointer]:
+                - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/#use-a2ui-with-any-agent-framework-using-ag-ui
+            - paragraph [ref=e162]:
+              - text: A2UI is a declarative UI format.
+              - link "AG-UI" [ref=e163] [cursor=pointer]:
+                - /url: https://ag-ui.com/
+              - text: is the transport that carries A2UI messages between an agent and the browser. CopilotKit's AG-UI implementation is the fastest path to putting A2UI in front of users today — any agent framework CopilotKit supports (ADK, LangGraph, CrewAI, Mastra, custom Python/TS services, etc.) can emit A2UI and render it in a React app with no transport glue.
+            - generic [ref=e164]:
+              - paragraph [ref=e165]: Source of truth
+              - paragraph [ref=e166]:
+                - text: This guide mirrors the key steps from CopilotKit's
+                - link "ADK + A2UI docs" [ref=e167] [cursor=pointer]:
+                  - /url: https://docs.copilotkit.ai/adk/generative-ui/a2ui
+                - text: . Refer to the CopilotKit docs for the latest API surface.
+            - heading "1. Set up CopilotKit ¶" [level=2] [ref=e168]:
+              - text: 1. Set up CopilotKit
+              - link "¶" [ref=e169] [cursor=pointer]:
+                - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/#1-set-up-copilotkit
+            - paragraph [ref=e170]: "Install CopilotKit into a React/Next.js app with the framework of your choice (ADK, LangGraph, CrewAI, Mastra, etc.):"
+            - generic [ref=e172]:
+              - navigation [ref=e173]:
+                - button "Toggle line selection" [ref=e174] [cursor=pointer]
+                - button "Copy to clipboard" [ref=e175] [cursor=pointer]
+              - code [ref=e176]:
+                - generic [ref=e177]: npx copilotkit@latest init
+            - paragraph [ref=e178]:
+              - text: Or follow the
+              - link "CopilotKit quickstart" [ref=e179] [cursor=pointer]:
+                - /url: https://docs.copilotkit.ai/quickstart
+              - text: to wire it into an existing project. This is the standard CopilotKit setup — no A2UI-specific scaffold.
+            - heading "2. Enable A2UI ¶" [level=2] [ref=e180]:
+              - text: 2. Enable A2UI
+              - link "¶" [ref=e181] [cursor=pointer]:
+                - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/#2-enable-a2ui
+            - heading "Backend ¶" [level=3] [ref=e182]:
+              - text: Backend
+              - link "¶" [ref=e183] [cursor=pointer]:
+                - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/#backend
+            - paragraph [ref=e184]:
+              - text: Turn on A2UI in
+              - code [ref=e185]: CopilotRuntime
+              - text: and inject the
+              - code [ref=e186]: render_a2ui
+              - text: "tool so your agent can produce A2UI surfaces:"
+            - generic [ref=e187]:
+              - generic [ref=e188]: app/api/copilotkit/route.ts
+              - generic [ref=e189]:
+                - navigation [ref=e190]:
+                  - button "Toggle line selection" [ref=e191] [cursor=pointer]
+                  - button "Copy to clipboard" [ref=e192] [cursor=pointer]
+                - code [ref=e193]:
+                  - generic [ref=e194]: "import {CopilotRuntime} from '@copilotkit/runtime';"
+                  - generic [ref=e196]: "const runtime = new CopilotRuntime({"
+                  - generic [ref=e197]: "agents: {default: myAgent},"
+                  - generic [ref=e198]: "a2ui: {injectA2UITool: true},"
+                  - generic [ref=e199]: "});"
+            - paragraph [ref=e200]:
+              - text: Scope to specific agents with
+              - code [ref=e201]: "a2ui: { injectA2UITool: true, agents: [\"my-agent\"] }"
+              - text: .
+            - heading "Frontend ¶" [level=3] [ref=e202]:
+              - text: Frontend
+              - link "¶" [ref=e203] [cursor=pointer]:
+                - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/#frontend
+            - paragraph [ref=e204]: "The A2UI renderer activates automatically. Optionally pass a theme:"
+            - generic [ref=e206]:
+              - navigation [ref=e207]:
+                - button "Toggle line selection" [ref=e208] [cursor=pointer]
+                - button "Copy to clipboard" [ref=e209] [cursor=pointer]
+              - code [ref=e210]:
+                - generic [ref=e211]: "import {CopilotKitProvider} from '@copilotkit/react-core/v2';"
+                - generic [ref=e212]: import '@copilotkit/react-core/v2/styles.css';
+                - generic [ref=e213]: "import {myCustomTheme} from '@copilotkit/a2ui-renderer';"
+                - generic [ref=e215]: "<CopilotKitProvider runtimeUrl=\"/api/copilotkit\" a2ui={{theme: myCustomTheme}}>"
+                - generic [ref=e216]: "{children}"
+                - generic [ref=e217]: </CopilotKitProvider>;
+            - heading "Custom components (BYOC) ¶" [level=3] [ref=e218]:
+              - text: Custom components (BYOC)
+              - link "¶" [ref=e219] [cursor=pointer]:
+                - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/#custom-components-byoc
+            - paragraph [ref=e220]:
+              - text: A2UI ships with a built-in catalog (Text, Image, Card, …) that gets you a working surface immediately. The real power is extending it with
+              - emphasis [ref=e221]: your
+              - text: "React components — your design system, your data shapes — so the agent can compose interfaces from primitives you already trust. A catalog has three pieces:"
+            - list [ref=e222]:
+              - listitem [ref=e223]:
+                - strong [ref=e224]: Definitions
+                - text: — Zod schemas plus a natural-language description. This is what the agent sees in its system prompt.
+              - listitem [ref=e225]:
+                - strong [ref=e226]: Renderers
+                - text: — typed React components, one per definition. This is what the user sees.
+              - listitem [ref=e227]:
+                - strong [ref=e228]: Registration
+                - text: — pass the catalog through the provider so the A2UI renderer knows how to draw your components.
+            - heading "1. Define component schemas ¶" [level=4] [ref=e229]:
+              - text: 1. Define component schemas
+              - link "¶" [ref=e230] [cursor=pointer]:
+                - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/#1-define-component-schemas
+            - paragraph [ref=e231]:
+              - text: Create platform-agnostic definitions with Zod. The
+              - code [ref=e232]: description
+              - text: field gets injected into the agent's prompt so the LLM knows when to reach for each component; the schema validates the props the agent sends.
+            - generic [ref=e233]:
+              - generic [ref=e234]: lib/a2ui/definitions.ts
+              - generic [ref=e235]:
+                - navigation [ref=e236]:
+                  - button "Toggle line selection" [ref=e237] [cursor=pointer]
+                  - button "Copy to clipboard" [ref=e238] [cursor=pointer]
+                - code [ref=e239]:
+                  - generic [ref=e240]: "import {z} from 'zod';"
+                  - generic [ref=e242]: "export const myDefinitions = {"
+                  - generic [ref=e243]: "StatusBadge: {"
+                  - generic [ref=e244]: "description: 'A colored status badge.',"
+                  - generic [ref=e245]: "props: z.object({"
+                  - generic [ref=e246]: "text: z.string(),"
+                  - generic [ref=e247]: "variant: z.enum(['success', 'warning', 'error']).optional(),"
+                  - generic [ref=e248]: "}),"
+                  - generic [ref=e249]: "},"
+                  - generic [ref=e250]: "Metric: {"
+                  - generic [ref=e251]: "description: 'A key metric with label and value.',"
+                  - generic [ref=e252]: "props: z.object({"
+                  - generic [ref=e253]: "label: z.string(),"
+                  - generic [ref=e254]: "value: z.string(),"
+                  - generic [ref=e255]: "trend: z.enum(['up', 'down']).optional(),"
+                  - generic [ref=e256]: "}),"
+                  - generic [ref=e257]: "},"
+                  - generic [ref=e258]: "};"
+                  - generic [ref=e260]: export type MyDefinitions = typeof myDefinitions;
+            - heading "2. Create React renderers ¶" [level=4] [ref=e261]:
+              - text: 2. Create React renderers
+              - link "¶" [ref=e262] [cursor=pointer]:
+                - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/#2-create-react-renderers
+            - paragraph [ref=e263]:
+              - text: Map each definition to a React component.
+              - code [ref=e264]: createCatalog
+              - text: is generic over the definitions type, so the props your renderer receives are type-checked against the Zod schema — a typo in
+              - code [ref=e265]: props.text
+              - text: is a compile error.
+            - generic [ref=e266]:
+              - generic [ref=e267]: lib/a2ui/renderers.tsx
+              - generic [ref=e268]:
+                - navigation [ref=e269]:
+                  - button "Toggle line selection" [ref=e270] [cursor=pointer]
+                  - button "Copy to clipboard" [ref=e271] [cursor=pointer]
+                - code [ref=e272]:
+                  - generic [ref=e273]: "'use client';"
+                  - generic [ref=e275]: "import {createCatalog, type CatalogRenderers} from '@copilotkit/a2ui-renderer';"
+                  - generic [ref=e276]: "import {myDefinitions, type MyDefinitions} from './definitions';"
+                  - generic [ref=e278]: "const myRenderers: CatalogRenderers<MyDefinitions> = {"
+                  - generic [ref=e279]: "StatusBadge: ({props}) => {"
+                  - generic [ref=e280]: "const colors = {"
+                  - generic [ref=e281]: "success: {bg: '#dcfce7', text: '#166534'},"
+                  - generic [ref=e282]: "warning: {bg: '#fef3c7', text: '#92400e'},"
+                  - generic [ref=e283]: "error: {bg: '#fee2e2', text: '#991b1b'},"
+                  - generic [ref=e284]: "};"
+                  - generic [ref=e285]: const c = colors[props.variant ?? 'success'];
+                  - generic [ref=e286]: return (
+                  - generic [ref=e287]: <span
+                  - generic [ref=e288]: "style={{"
+                  - generic [ref=e289]: "padding: '2px 8px',"
+                  - generic [ref=e290]: "borderRadius: 9999,"
+                  - generic [ref=e291]: "fontSize: '0.75rem',"
+                  - generic [ref=e292]: "background: c.bg,"
+                  - generic [ref=e293]: "color: c.text,"
+                  - generic [ref=e294]: "}}"
+                  - generic [ref=e295]: ">"
+                  - generic [ref=e296]: "{props.text}"
+                  - generic [ref=e297]: </span>
+                  - generic [ref=e298]: );
+                  - generic [ref=e299]: "},"
+                  - generic [ref=e301]: "Metric: ({props}) => ("
+                  - generic [ref=e302]: <div>
+                  - generic [ref=e303]: "<div style={{fontSize: '0.75rem', color: '#6b7280'}}>{props.label}</div>"
+                  - generic [ref=e304]: "<div style={{fontSize: '1.5rem', fontWeight: 700}}>"
+                  - generic [ref=e305]: "{props.value} {props.trend === 'up' ? '↑' : props.trend === 'down' ? '↓' : ''}"
+                  - generic [ref=e306]: </div>
+                  - generic [ref=e307]: </div>
+                  - generic [ref=e308]: ),
+                  - generic [ref=e309]: "};"
+                  - generic [ref=e311]: "export const myCatalog = createCatalog(myDefinitions, myRenderers, {"
+                  - generic [ref=e312]: "catalogId: 'my-app-catalog',"
+                  - generic [ref=e313]: "includeBasicCatalog: true, // merges with built-in components"
+                  - generic [ref=e314]: "});"
+            - paragraph [ref=e315]:
+              - code [ref=e316]: catalogId
+              - text: is the stable handle the agent uses to target this catalog;
+              - code [ref=e317]: "includeBasicCatalog: true"
+              - text: keeps the built-in components available alongside your own (omit it to render
+              - emphasis [ref=e318]: only
+              - text: your components).
+            - heading "3. Pass the catalog to CopilotKit ¶" [level=4] [ref=e319]:
+              - text: 3. Pass the catalog to CopilotKit
+              - link "¶" [ref=e320] [cursor=pointer]:
+                - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/#3-pass-the-catalog-to-copilotkit
+            - generic [ref=e321]:
+              - generic [ref=e322]: app/layout.tsx
+              - generic [ref=e323]:
+                - navigation [ref=e324]:
+                  - button "Toggle line selection" [ref=e325] [cursor=pointer]
+                  - button "Copy to clipboard" [ref=e326] [cursor=pointer]
+                - code [ref=e327]:
+                  - generic [ref=e328]: "'use client';"
+                  - generic [ref=e330]: "import {CopilotKitProvider} from '@copilotkit/react-core/v2';"
+                  - generic [ref=e331]: import '@copilotkit/react-core/v2/styles.css';
+                  - generic [ref=e332]: "import {myCatalog} from '@/lib/a2ui/renderers';"
+                  - generic [ref=e334]: "export default function Layout({children}: {children: React.ReactNode}) {"
+                  - generic [ref=e335]: return (
+                  - generic [ref=e336]: "<CopilotKitProvider runtimeUrl=\"/api/copilotkit\" a2ui={{catalog: myCatalog}}>"
+                  - generic [ref=e337]: "{children}"
+                  - generic [ref=e338]: </CopilotKitProvider>
+                  - generic [ref=e339]: );
+                  - generic [ref=e340]: "}"
+            - paragraph [ref=e341]: Agents will now see your custom components alongside the built-ins and can use them in any A2UI surface they emit.
+            - paragraph [ref=e342]:
+              - text: For the full BYOC reference (multiple catalogs, theming hooks, advanced patterns), see CopilotKit's
+              - link "Custom Components (BYOC) section" [ref=e343] [cursor=pointer]:
+                - /url: https://docs.copilotkit.ai/adk/generative-ui/a2ui#custom-components-byoc
+              - text: .
+            - heading "3. Advanced usage ¶" [level=2] [ref=e344]:
+              - text: 3. Advanced usage
+              - link "¶" [ref=e345] [cursor=pointer]:
+                - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/#3-advanced-usage
+            - paragraph [ref=e346]:
+              - text: For the full A2UI integration surface (custom catalogs, fine-grained control, advanced patterns), see CopilotKit's
+              - link "A2UI docs" [ref=e347] [cursor=pointer]:
+                - /url: https://docs.copilotkit.ai/generative-ui/a2ui
+              - text: .
+            - heading "What's next ¶" [level=2] [ref=e348]:
+              - text: What's next
+              - link "¶" [ref=e349] [cursor=pointer]:
+                - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/#whats-next
+            - list [ref=e350]:
+              - listitem [ref=e351]:
+                - strong [ref=e352]:
+                  - link "A2UI Composer" [ref=e353] [cursor=pointer]:
+                    - /url: https://a2ui-composer.ag-ui.com/
+                - text: — build widgets visually.
+              - listitem [ref=e354]:
+                - strong [ref=e355]:
+                  - link "Concepts › Transports" [ref=e356] [cursor=pointer]:
+                    - /url: https://a2ui.org/concepts/transports/
+                - text: — how A2UI maps onto AG-UI.
+              - listitem [ref=e357]:
+                - strong [ref=e358]:
+                  - link "v0.9 specification" [ref=e359] [cursor=pointer]:
+                    - /url: https://a2ui.org/specification/v0.9-a2ui/
+                - text: — the underlying protocol.
+      - button "Back to top":
+        - img
+        - text: Back to top
+    - contentinfo [ref=e360]:
+      - navigation "Footer" [ref=e361]:
+        - 'link "Previous: Agent Development" [ref=e362] [cursor=pointer]':
+          - /url: https://a2ui.org/guides/agent-development/
+          - img [ref=e364]
+          - generic [ref=e366]:
+            - text: Previous
+            - generic [ref=e367]: Agent Development
+        - 'link "Next: Renderer Development" [ref=e368] [cursor=pointer]':
+          - /url: https://a2ui.org/guides/renderer-development/
+          - generic [ref=e369]:
+            - text: Next
+            - generic [ref=e370]: Renderer Development
+          - img [ref=e372]
+      - generic [ref=e376]:
+        - generic [ref=e377]:
+          - text: Copyright Google 2025 |
+          - link "Terms" [ref=e378] [cursor=pointer]:
+            - /url: //policies.google.com/terms
+          - text: "|"
+          - link "Privacy" [ref=e379] [cursor=pointer]:
+            - /url: //policies.google.com/privacy
+          - text: "|"
+          - link "Manage cookies" [ref=e380] [cursor=pointer]:
+            - /url: https://a2ui.org/guides/a2ui-with-any-agent-framework/#__consent
+        - text: Made with
+        - link "Material for MkDocs" [ref=e381] [cursor=pointer]:
+          - /url: https://squidfunk.github.io/mkdocs-material/
+  - progressbar

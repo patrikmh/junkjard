@@ -1,0 +1,633 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - dialog:
+      - generic [ref=e3]:
+        - generic [ref=e4]:
+          - paragraph
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - generic [ref=e8]: Microsoft och våra tredjepartsleverantörer använder cookies och liknande tekniker för att leverera, underhålla och förbättra våra tjänster och annonser. Om du godkänner det kommer vi att använda dessa data för anpassning av annonser och associerade analyser.
+            - generic [ref=e9]:
+              - text: Du kan välja Acceptera om du vill godkänna dessa användningar. Avvisa om du vill avböja dessa användningar eller klicka på Fler alternativ om du vill granska alternativen. Du kan ändra ditt val under Hantera cookieinställningar längst ned på den här sidan.
+              - link "Sekretesspolicy" [ref=e10] [cursor=pointer]:
+                - /url: https://go.microsoft.com/fwlink/?LinkId=521839
+          - generic [ref=e11]:
+            - link "Acceptera" [ref=e13] [cursor=pointer]:
+              - /url: "javascript: void(0)"
+            - link "Avvisa" [ref=e15] [cursor=pointer]:
+              - /url: "javascript: void(0)"
+            - link "Fler alternativ" [ref=e16] [cursor=pointer]:
+              - /url: "javascript: void(0)"
+  - generic [ref=e17]:
+    - main [ref=e30]:
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - heading "Microsoft-logotypbild" [level=1] [ref=e33]:
+            - img "Microsoft-logotypbild" [ref=e34] [cursor=pointer]
+          - navigation [ref=e42]:
+            - menubar [ref=e43]:
+              - menuitem "Copilot" [ref=e44] [cursor=pointer]:
+                - link "Copilot" [ref=e45]:
+                  - /url: /chat?FORM=hpcodx&intent=bing
+                  - generic [ref=e47]: Copilot
+              - menuitem "Bilder" [ref=e48] [cursor=pointer]:
+                - link "Bilder" [ref=e49]:
+                  - /url: /images?FORM=Z9LH
+              - menuitem "Videoklipp" [ref=e50] [cursor=pointer]:
+                - link "Videoklipp" [ref=e51]:
+                  - /url: /videos?FORM=Z9LH1
+              - menuitem "Kartor" [ref=e52] [cursor=pointer]:
+                - link "Kartor" [ref=e53]:
+                  - /url: /maps?FORM=Z9LH2
+              - menuitem "Nyheter" [ref=e54] [cursor=pointer]:
+                - link "Nyheter" [ref=e55]:
+                  - /url: /news/search?q=Huvudrubriker&nvaug=%5bNewsVertical+Category%3d%22rt_MaxClass%22%5d&FORM=Z9LH3
+              - menuitem ". . . Mer" [ref=e56] [cursor=pointer]:
+                - text: . . .
+                - button "Mer" [ref=e57]
+        - generic [ref=e59]:
+          - link "English" [ref=e61] [cursor=pointer]:
+            - /url: /?setlang=en&cc=se&cc=SE
+          - complementary "Poäng och inställningar för kontot" [ref=e62]:
+            - link "Logga in Logga in" [ref=e63] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e64]: Logga in
+              - generic "Logga in" [ref=e65]
+            - button "Microsoft Rewards" [ref=e66] [cursor=pointer]:
+              - generic [ref=e68]:
+                - generic [ref=e69]: Rewards
+                - img [ref=e71]
+            - button "Inställningar och snabblänkar" [ref=e76] [cursor=pointer]
+      - generic [ref=e77]:
+        - search [ref=e78]:
+          - img [ref=e80] [cursor=pointer]
+          - combobox "Skriv din sökning här – sökförslagen visas medan du söker" [ref=e84]
+          - button "Rensa" [ref=e86]:
+            - img [ref=e87]
+          - link "Öppna Copilot" [ref=e89] [cursor=pointer]:
+            - /url: /chat?FORM=hpcodx&intent=bing
+        - generic [ref=e94]:
+          - link "Bildskapare" [ref=e95] [cursor=pointer]:
+            - /url: /images/create/ai-image-generator?bicsource=hp&FORM=bicbhp
+            - generic [ref=e97]: Bildskapare
+          - link "Videoskapare" [ref=e98] [cursor=pointer]:
+            - /url: /images/create/ai-video-generator?bicsource=hp&FORM=bvcbhp
+            - generic [ref=e100]: Videoskapare
+          - link "Textskapare" [ref=e101] [cursor=pointer]:
+            - /url: /search?q=bing ai-skrivande&FORM=btcbhp
+            - generic [ref=e103]: Textskapare
+    - generic [ref=e106]:
+      - generic [ref=e108]:
+        - generic:
+          - 'heading "Dagens bild: View over Jaipur from Hawa Mahal, Rajasthan" [level=3]':
+            - 'link "Dagens bild: View over Jaipur from Hawa Mahal, Rajasthan"':
+              - /url: /search?q=Hawa+Mahal&form=hpcapt&filters=HpDate:"20260525_0700"+mgzv3configlist:"BingQA_Encyclopedia_Layout"
+              - text: View over Jaipur from Hawa Mahal, Rajasthan
+          - generic:
+            - generic: © byheaven/Getty Images
+            - list:
+              - listitem:
+                - button "Hämta den här bilden. Bilden får endast användas som skrivbordsunderlägg."
+        - generic [ref=e109]:
+          - link "Info" [ref=e111] [cursor=pointer]:
+            - /url: /search?q=Hawa+Mahal&form=hpcapt&filters=HpDate:"20260525_0700"+mgzv3configlist:"BingQA_Encyclopedia_Layout"
+            - img [ref=e113]
+            - heading "Info" [level=2] [ref=e116]
+          - generic [ref=e117] [cursor=pointer]:
+            - status [ref=e118]
+            - button "Föregående bild" [ref=e119]
+            - button "Nästa bild" [disabled] [ref=e121]
+      - button "Feedback" [ref=e123] [cursor=pointer]:
+        - img [ref=e124]
+        - generic: Feedback
+      - generic [ref=e126]:
+        - region "Trendar på Bing" [ref=e127]:
+          - generic:
+            - status [ref=e128]
+            - button "Toggle feed area position" [expanded] [ref=e129] [cursor=pointer]
+            - button "Tidigare nyheter" [disabled]
+            - button "Mer nyheter" [ref=e131] [cursor=pointer]
+          - list [ref=e133]:
+            - listitem [ref=e134]:
+              - list [ref=e135]:
+                - listitem [ref=e136] [cursor=pointer]:
+                  - 'link "Hinten i TV4: David Hellenius slutar efter 6 år? © Hänt" [ref=e137]':
+                    - /url: /search?q=Hinten+i+TV4%3a+David+Hellenius+slutar+efter+6+%c3%a5r%3f&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_9616B95CE1BA19D0C1685869D7A7D394%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%220%22+tnOrder%3a%22f6f821f0-af17-47eb-ad20-1b2222135054%22&form=HPNN01
+                    - generic [ref=e138]:
+                      - 'heading "Hinten i TV4: David Hellenius slutar efter 6 år?" [level=2] [ref=e139]':
+                        - generic [ref=e140]: "Hinten i TV4: David Hellenius slutar efter 6 år?"
+                      - img "© Hänt" [ref=e141]
+                      - link "Läs artikel":
+                        - /url: https://www.msn.com/sv-se/nyheter/other/hinten-i-tv4-david-hellenius-slutar-efter-6-år/ar-AA2416yP?ocid=TobArticle
+                        - img [ref=e142]
+                - listitem [ref=e145] [cursor=pointer]:
+                  - 'link "Ny bild på Trumps hand blir viral: \"Han ruttnar i realtid\" © Dagens.se" [ref=e146]':
+                    - /url: /search?q=Ny+bild+p%c3%a5+Trumps+hand+blir+viral%3a+%22Han+ruttnar+i+realtid%22&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_AE016B97066FC81AF122E17FAA40E29C%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%221%22+tnOrder%3a%22f6f821f0-af17-47eb-ad20-1b2222135054%22&form=HPNN01
+                    - generic [ref=e147]:
+                      - 'heading "Ny bild på Trumps hand blir viral: \"Han ruttnar i realtid\"" [level=2] [ref=e148]':
+                        - generic [ref=e149]: "Ny bild på Trumps hand blir viral: \"Han ruttnar i realtid\""
+                      - img "© Dagens.se" [ref=e150]
+                      - link "Läs artikel":
+                        - /url: https://www.msn.com/sv-se/nyheter/other/ny-bild-på-trumps-hand-blir-viral-han-ruttnar-i-realtid/ar-AA241E19?ocid=TobArticle
+                        - img [ref=e151]
+                - listitem [ref=e154] [cursor=pointer]:
+                  - link "Alla barn är allas barn – nu kan Sverige andas ut © Omni" [ref=e155]:
+                    - /url: /search?q=Alla+barn+%c3%a4r+allas+barn+%e2%80%93+nu+kan+Sverige+andas+ut&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_D07EA86F9A3A0E472C517E7047C6B17C%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%222%22+tnOrder%3a%22f6f821f0-af17-47eb-ad20-1b2222135054%22&form=HPNN01
+                    - generic [ref=e156]:
+                      - heading "Alla barn är allas barn – nu kan Sverige andas ut" [level=2] [ref=e157]:
+                        - generic [ref=e158]: Alla barn är allas barn – nu kan Sverige andas ut
+                      - img "© Omni" [ref=e159]
+                      - link "Läs artikel":
+                        - /url: https://www.msn.com/sv-se/nyheter/other/alla-barn-är-allas-barn-nu-kan-sverige-andas-ut/ar-AA240prs?ocid=TobArticle
+                        - img [ref=e160]
+                - listitem [ref=e163] [cursor=pointer]:
+                  - link "Ica-butikens misstag blev succé – kunderna köpte upp allt © Nyheter24" [ref=e164]:
+                    - /url: /search?q=Ica-butikens+misstag+blev+succ%c3%a9+%e2%80%93+kunderna+k%c3%b6pte+upp+allt&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_D57E695A7BEAC51BF77FDBBE70B08F8D%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%223%22+tnOrder%3a%22f6f821f0-af17-47eb-ad20-1b2222135054%22&form=HPNN01
+                    - generic [ref=e165]:
+                      - heading "Ica-butikens misstag blev succé – kunderna köpte upp allt" [level=2] [ref=e166]:
+                        - generic [ref=e167]: Ica-butikens misstag blev succé – kunderna köpte upp allt
+                      - img "© Nyheter24" [ref=e168]
+                      - link "Läs artikel":
+                        - /url: https://www.msn.com/sv-se/nyheter/utrikes/ica-butikens-misstag-blev-succé-kunderna-köpte-upp-allt/ar-AA241eOI?ocid=TobArticle
+                        - img [ref=e169]
+                - listitem [ref=e172] [cursor=pointer]:
+                  - link "TV4 anmäls efter händelsen i Robinson © Nyheter24" [ref=e173]:
+                    - /url: /search?q=TV4+anm%c3%a4ls+efter+h%c3%a4ndelsen+i+Robinson&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_C61D5ADC22F84C15B345A97CEDE58863%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%224%22+tnOrder%3a%22f6f821f0-af17-47eb-ad20-1b2222135054%22&form=HPNN01
+                    - generic [ref=e174]:
+                      - heading "TV4 anmäls efter händelsen i Robinson" [level=2] [ref=e175]:
+                        - generic [ref=e176]: TV4 anmäls efter händelsen i Robinson
+                      - img "© Nyheter24" [ref=e177]
+                      - link "Läs artikel":
+                        - /url: https://www.msn.com/sv-se/noje/kandisnyheter/tv4-anmäls-efter-händelsen-i-robinson/ar-AA241Tio?ocid=TobArticle
+                        - img [ref=e178]
+                - listitem [ref=e181] [cursor=pointer]:
+                  - link "Samsung betalar 3,2 miljoner i bonus till varje anställd © Dagens PS" [ref=e182]:
+                    - /url: /search?q=Samsung+betalar+3%2c2+miljoner+i+bonus+till+varje+anst%c3%a4lld&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_C9C7DC1D8A492132563B21F0E4C843F9%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%225%22+tnOrder%3a%22f6f821f0-af17-47eb-ad20-1b2222135054%22&form=HPNN01
+                    - generic [ref=e183]:
+                      - heading "Samsung betalar 3,2 miljoner i bonus till varje anställd" [level=2] [ref=e184]:
+                        - generic [ref=e185]: Samsung betalar 3,2 miljoner i bonus till varje anställd
+                      - img "© Dagens PS" [ref=e186]
+                      - link "Läs artikel":
+                        - /url: https://www.msn.com/sv-se/nyheter/other/samsung-betalar-3-2-miljoner-i-bonus-till-varje-anställd/ar-AA2411ra?ocid=TobArticle
+                        - img [ref=e187]
+                - listitem [ref=e190] [cursor=pointer]:
+                  - link "Tre månader – sen är Europas lager slut © Realtid.se" [ref=e191]:
+                    - /url: /search?q=Tre+m%c3%a5nader+%e2%80%93+sen+%c3%a4r+Europas+lager+slut&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_F363794A8536493DD4F349A6CE3F5C5C%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%226%22+tnOrder%3a%22f6f821f0-af17-47eb-ad20-1b2222135054%22&form=HPNN01
+                    - generic [ref=e192]:
+                      - heading "Tre månader – sen är Europas lager slut" [level=2] [ref=e193]:
+                        - generic [ref=e194]: Tre månader – sen är Europas lager slut
+                      - img "© Realtid.se" [ref=e195]
+                      - link "Läs artikel":
+                        - /url: https://www.msn.com/sv-se/nyheter/other/tre-månader-sen-är-europas-lager-slut/ar-AA241p5X?ocid=TobArticle
+                        - img [ref=e196]
+                - listitem [ref=e199] [cursor=pointer]:
+                  - link "M får egen majoritet om de rikaste får välja © Omni" [ref=e200]:
+                    - /url: /search?q=M+f%c3%a5r+egen+majoritet+om+de+rikaste+f%c3%a5r+v%c3%a4lja&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_010ED0CBE04B304A0443400E6833C274%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%227%22+tnOrder%3a%22f6f821f0-af17-47eb-ad20-1b2222135054%22&form=HPNN01
+                    - generic [ref=e201]:
+                      - heading "M får egen majoritet om de rikaste får välja" [level=2] [ref=e202]:
+                        - generic [ref=e203]: M får egen majoritet om de rikaste får välja
+                      - img "© Omni" [ref=e204]
+                      - link "Läs artikel":
+                        - /url: https://www.msn.com/sv-se/nyheter/other/m-får-egen-majoritet-om-de-rikaste-får-välja/ar-AA240NfD?ocid=TobArticle
+                        - img [ref=e205]
+                - listitem [ref=e208] [cursor=pointer]:
+                  - link "Person hittad död efter brand © TT Nyhetsbyrån" [ref=e209]:
+                    - /url: /search?q=Person+hittad+d%c3%b6d+efter+brand&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_ABC62A12F1516070349E2BF81372228C%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%228%22+tnOrder%3a%22f6f821f0-af17-47eb-ad20-1b2222135054%22&form=HPNN01
+                    - generic [ref=e210]:
+                      - heading "Person hittad död efter brand" [level=2] [ref=e211]:
+                        - generic [ref=e212]: Person hittad död efter brand
+                      - img "© TT Nyhetsbyrån" [ref=e213]
+                      - link "Läs artikel":
+                        - /url: https://www.msn.com/sv-se/nyheter/inrikes/person-hittad-död-efter-brand/ar-AA240H6b?ocid=TobArticle
+                        - img [ref=e214]
+                - listitem [ref=e217] [cursor=pointer]:
+                  - link "Sebastian Samuelssons nya familjebeslut som påverkar säsongen © Sportbibeln nyheter" [ref=e218]:
+                    - /url: /search?q=Sebastian+Samuelssons+nya+familjebeslut+som+p%c3%a5verkar+s%c3%a4songen&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_B1258B20E5EDD5BF7456248714A394B2%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%229%22+tnOrder%3a%22f6f821f0-af17-47eb-ad20-1b2222135054%22&form=HPNN01
+                    - generic [ref=e219]:
+                      - heading "Sebastian Samuelssons nya familjebeslut som påverkar säsongen" [level=2] [ref=e220]:
+                        - generic [ref=e221]: Sebastian Samuelssons nya familjebeslut som påverkar säsongen
+                      - img "© Sportbibeln nyheter" [ref=e222]
+                      - link "Läs artikel":
+                        - /url: https://www.msn.com/sv-se/nyheter/other/sebastian-samuelssons-nya-familjebeslut-som-påverkar-säsongen/ar-AA241vyo?ocid=TobArticle
+                        - img [ref=e223]
+                - listitem [ref=e226] [cursor=pointer]:
+                  - link "Världens största gruvjätte struntade i klimatlöften © Omni" [ref=e227]:
+                    - /url: /search?q=V%c3%a4rldens+st%c3%b6rsta+gruvj%c3%a4tte+struntade+i+klimatl%c3%b6ften&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_7A5A74C6BEC1F29D8204605C5DC4737C%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%2210%22+tnOrder%3a%22f6f821f0-af17-47eb-ad20-1b2222135054%22&form=HPNN01
+                    - generic [ref=e228]:
+                      - heading "Världens största gruvjätte struntade i klimatlöften" [level=2] [ref=e229]:
+                        - generic [ref=e230]: Världens största gruvjätte struntade i klimatlöften
+                      - img "© Omni" [ref=e231]
+                      - link "Läs artikel":
+                        - /url: https://www.msn.com/sv-se/nyheter/other/världens-största-gruvjätte-struntade-i-klimatlöften/ar-AA240xlM?ocid=TobArticle
+                        - img [ref=e232]
+                - listitem [ref=e235] [cursor=pointer]:
+                  - link "Ryssland hotar med FN-domstol över behandlingen av ryssar i Baltikum © Dagens.se" [ref=e236]:
+                    - /url: /search?q=Ryssland+hotar+med+FN-domstol+%c3%b6ver+behandlingen+av+ryssar+i+Baltikum&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_C42EBFB4115442BE428E54F3861055BA%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%2211%22+tnOrder%3a%22f6f821f0-af17-47eb-ad20-1b2222135054%22&form=HPNN01
+                    - generic [ref=e237]:
+                      - heading "Ryssland hotar med FN-domstol över behandlingen av ryssar i Baltikum" [level=2] [ref=e238]:
+                        - generic [ref=e239]: Ryssland hotar med FN-domstol över behandlingen av ryssar i Baltikum
+                      - img "© Dagens.se" [ref=e240]
+                      - link "Läs artikel":
+                        - /url: https://www.msn.com/sv-se/nyheter/other/ryssland-hotar-med-fn-domstol-över-behandlingen-av-ryssar-i-baltikum/ar-AA240vQJ?ocid=TobArticle
+                        - img [ref=e241]
+                - listitem [ref=e244] [cursor=pointer]:
+                  - link "Pandoras ask väntar om Alberta bryter sig loss © Omni" [ref=e245]:
+                    - /url: /search?q=Pandoras+ask+v%c3%a4ntar+om+Alberta+bryter+sig+loss&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_53F517F4B1D85DCCCC5AD759A32F80AE%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%2212%22+tnOrder%3a%22f6f821f0-af17-47eb-ad20-1b2222135054%22&form=HPNN01
+                    - generic [ref=e246]:
+                      - heading "Pandoras ask väntar om Alberta bryter sig loss" [level=2] [ref=e247]:
+                        - generic [ref=e248]: Pandoras ask väntar om Alberta bryter sig loss
+                      - img "© Omni" [ref=e249]
+                      - link "Läs artikel":
+                        - /url: https://www.msn.com/sv-se/nyheter/other/pandoras-ask-väntar-om-alberta-bryter-sig-loss/ar-AA240WD0?ocid=TobArticle
+                        - img [ref=e250]
+                - listitem [ref=e253] [cursor=pointer]:
+                  - 'link "Datum fastställt: Kanadensisk provins röstar om utträde i år © Dagens.se" [ref=e254]':
+                    - /url: /search?q=Datum+fastst%c3%a4llt%3a+Kanadensisk+provins+r%c3%b6star+om+uttr%c3%a4de+i+%c3%a5r&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_F9A4D5C4C2D56A77D0A9E961E1097E95%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%2213%22+tnOrder%3a%22f6f821f0-af17-47eb-ad20-1b2222135054%22&form=HPNN01
+                    - generic [ref=e255]:
+                      - 'heading "Datum fastställt: Kanadensisk provins röstar om utträde i år" [level=2] [ref=e256]':
+                        - generic [ref=e257]: "Datum fastställt: Kanadensisk provins röstar om utträde i år"
+                      - img "© Dagens.se" [ref=e258]
+                      - link "Läs artikel":
+                        - /url: https://www.msn.com/sv-se/nyheter/other/datum-fastställt-kanadensisk-provins-röstar-om-utträde-i-år/ar-AA240VIN?ocid=TobArticle
+                        - img [ref=e259]
+                - listitem [ref=e262] [cursor=pointer]:
+                  - link "Unga mammor – Natalie Eklinds beslut efter skilsmässan – så blir det nu för de 7 barnen © Hänt" [ref=e263]:
+                    - /url: /search?q=Unga+mammor+%e2%80%93+Natalie+Eklinds+beslut+efter+skilsm%c3%a4ssan+%e2%80%93+s%c3%a5+blir+det+nu+f%c3%b6r+de+7+barnen&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_C56AFB4F3660F9E7B192E516934A0481%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%2214%22+tnOrder%3a%22f6f821f0-af17-47eb-ad20-1b2222135054%22&form=HPNN01
+                    - generic [ref=e264]:
+                      - heading "Unga mammor – Natalie Eklinds beslut efter skilsmässan – så blir det nu för de 7 barnen" [level=2] [ref=e265]:
+                        - generic [ref=e266]: Unga mammor – Natalie Eklinds beslut efter skilsmässan – så blir det nu för de 7 barnen
+                      - img "© Hänt" [ref=e267]
+                      - link "Läs artikel":
+                        - /url: https://www.msn.com/sv-se/nyheter/other/unga-mammor-natalie-eklinds-beslut-efter-skilsmässan-så-blir-det-nu-för-de-7-barnen/ar-AA240mvo?ocid=TobArticle
+                        - img [ref=e268]
+                - listitem [ref=e271] [cursor=pointer]:
+                  - link "Klubbikonen pekar ut Potter efter West Hams fiasko © Omni" [ref=e272]:
+                    - /url: /search?q=Klubbikonen+pekar+ut+Potter+efter+West+Hams+fiasko&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_273B1F601B976814D13C31E945F9F952%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%2215%22+tnOrder%3a%22f6f821f0-af17-47eb-ad20-1b2222135054%22&form=HPNN01
+                    - generic [ref=e273]:
+                      - heading "Klubbikonen pekar ut Potter efter West Hams fiasko" [level=2] [ref=e274]:
+                        - generic [ref=e275]: Klubbikonen pekar ut Potter efter West Hams fiasko
+                      - img "© Omni" [ref=e276]
+                      - link "Läs artikel":
+                        - /url: https://www.msn.com/sv-se/nyheter/other/klubbikonen-pekar-ut-potter-efter-west-hams-fiasko/ar-AA240QDM?ocid=TobArticle
+                        - img [ref=e277]
+                - listitem [ref=e280] [cursor=pointer]:
+                  - 'link "Anna Book i tårar – skadan från Masked Singer läker aldrig: \"Konstant smärta\" © Hänt" [ref=e281]':
+                    - /url: /search?q=Anna+Book+i+t%c3%a5rar+%e2%80%93+skadan+fr%c3%a5n+Masked+Singer+l%c3%a4ker+aldrig%3a+%22Konstant+sm%c3%a4rta%22&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_5D2E6E43A50A7BCE3E1CAAB54922F0C8%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%2216%22+tnOrder%3a%22f6f821f0-af17-47eb-ad20-1b2222135054%22&form=HPNN01
+                    - generic [ref=e282]:
+                      - 'heading "Anna Book i tårar – skadan från Masked Singer läker aldrig: \"Konstant smärta\"" [level=2] [ref=e283]':
+                        - generic [ref=e284]: "Anna Book i tårar – skadan från Masked Singer läker aldrig: \"Konstant smärta\""
+                      - img "© Hänt" [ref=e285]
+                      - link "Läs artikel":
+                        - /url: https://www.msn.com/sv-se/nyheter/other/anna-book-i-tårar-skadan-från-masked-singer-läker-aldrig-konstant-smärta/ar-AA241nXI?ocid=TobArticle
+                        - img [ref=e286]
+                - listitem [ref=e289] [cursor=pointer]:
+                  - 'link "EU fördömer Rysslands senaste attack mot Kyiv: \"Utformad för att döda så många civila som möjligt\" © Dagens.se" [ref=e290]':
+                    - /url: /search?q=EU+f%c3%b6rd%c3%b6mer+Rysslands+senaste+attack+mot+Kyiv%3a+%22Utformad+f%c3%b6r+att+d%c3%b6da+s%c3%a5+m%c3%a5nga+civila+som+m%c3%b6jligt%22&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_16AB2C89EC69A046AF55284E80E38FF0%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%2217%22+tnOrder%3a%22f6f821f0-af17-47eb-ad20-1b2222135054%22&form=HPNN01
+                    - generic [ref=e291]:
+                      - 'heading "EU fördömer Rysslands senaste attack mot Kyiv: \"Utformad för att döda så många civila som möjligt\"" [level=2] [ref=e292]':
+                        - generic [ref=e293]: "EU fördömer Rysslands senaste attack mot Kyiv: \"Utformad för att döda så många civila som möjligt\""
+                      - img "© Dagens.se" [ref=e294]
+                      - link "Läs artikel":
+                        - /url: https://www.msn.com/sv-se/nyheter/other/eu-fördömer-rysslands-senaste-attack-mot-kyiv-utformad-för-att-döda-så-många-civila-som-möjligt/ar-AA241aSX?ocid=TobArticle
+                        - img [ref=e295]
+                - listitem [ref=e298] [cursor=pointer]:
+                  - link "Ny ansökan om kärnkraft - här vill de bygga © TT Nyhetsbyrån" [ref=e299]:
+                    - /url: /search?q=Ny+ans%c3%b6kan+om+k%c3%a4rnkraft+-+h%c3%a4r+vill+de+bygga&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_70A2786588B1FA71D256513A1D11D875%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%2218%22+tnOrder%3a%22f6f821f0-af17-47eb-ad20-1b2222135054%22&form=HPNN01
+                    - generic [ref=e300]:
+                      - heading "Ny ansökan om kärnkraft - här vill de bygga" [level=2] [ref=e301]:
+                        - generic [ref=e302]: Ny ansökan om kärnkraft - här vill de bygga
+                      - img "© TT Nyhetsbyrån" [ref=e303]
+                      - link "Läs artikel":
+                        - /url: https://www.msn.com/sv-se/ekonomi/marknader/ny-ansökan-om-kärnkraft-här-vill-de-bygga/ar-AA240h39?ocid=TobArticle
+                        - img [ref=e304]
+                - listitem [ref=e307] [cursor=pointer]:
+                  - 'link "Förtroendekrisen efter Northvolt: Ingen köper Lytens batterier © Dagens PS" [ref=e308]':
+                    - /url: /search?q=F%c3%b6rtroendekrisen+efter+Northvolt%3a+Ingen+k%c3%b6per+Lytens+batterier&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_56135A0B2D4657CCD6C8050D93797E75%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%2219%22+tnOrder%3a%22f6f821f0-af17-47eb-ad20-1b2222135054%22&form=HPNN01
+                    - generic [ref=e309]:
+                      - 'heading "Förtroendekrisen efter Northvolt: Ingen köper Lytens batterier" [level=2] [ref=e310]':
+                        - generic [ref=e311]: "Förtroendekrisen efter Northvolt: Ingen köper Lytens batterier"
+                      - img "© Dagens PS" [ref=e312]
+                      - link "Läs artikel":
+                        - /url: https://www.msn.com/sv-se/nyheter/other/förtroendekrisen-efter-northvolt-ingen-köper-lytens-batterier/ar-AA23ZrFX?ocid=TobArticle
+                        - img [ref=e313]
+        - complementary [ref=e316]:
+          - generic [ref=e318]:
+            - generic [ref=e319]: IDENTIFIERA
+            - main [ref=e326]:
+              - generic [ref=e329]:
+                - generic [ref=e332]:
+                  - tablist [ref=e334]:
+                    - tab [selected] [ref=e335] [cursor=pointer]
+                    - tab [ref=e337] [cursor=pointer]
+                    - tab [ref=e339] [cursor=pointer]
+                    - tab [ref=e341] [cursor=pointer]
+                    - tab [ref=e343] [cursor=pointer]
+                    - tab [ref=e345] [cursor=pointer]
+                    - tab [ref=e347] [cursor=pointer]
+                    - tab [ref=e349] [cursor=pointer]
+                    - tab [ref=e351] [cursor=pointer]
+                    - tab [ref=e353] [cursor=pointer]
+                    - tab [ref=e355] [cursor=pointer]
+                    - tab [ref=e357] [cursor=pointer]
+                    - tab [ref=e359] [cursor=pointer]
+                  - button [ref=e363]
+                  - button [ref=e366]
+                  - article "Europas sista diktator avslöjar när han ansluter sig till Putins krig" [ref=e367] [cursor=pointer]:
+                    - generic [ref=e369]:
+                      - img [ref=e370]
+                      - generic [ref=e371]:
+                        - generic [ref=e372]:
+                          - generic [ref=e373]:
+                            - generic [ref=e374]:
+                              - img [ref=e375]
+                              - generic [ref=e376]: Dagens.se
+                            - generic [ref=e377]: ·
+                            - generic [ref=e378]: 8 tim
+                          - link "Europas sista diktator avslöjar när han ansluter sig till Putins krig, Dagens.se" [ref=e379]:
+                            - /url: https://www.msn.com/sv-se/nyheter/other/europas-sista-diktator-avsl%C3%B6jar-n%C3%A4r-han-ansluter-sig-till-putins-krig/ar-AA23ZLJA
+                            - text: Europas sista diktator avslöjar när han ansluter sig till Putins krig
+                        - generic "Europas sista diktator avslöjar när han ansluter sig till Putins krig" [ref=e383]:
+                          - generic [ref=e386]:
+                            - button "27 Gillar" [ref=e387]:
+                              - generic [ref=e388]:
+                                - img [ref=e389]
+                                - generic [ref=e391]: "27"
+                            - button "Gillar inte" [ref=e392]:
+                              - img [ref=e394]
+                      - generic [ref=e396]:
+                        - button "Dölj artikeln" [ref=e397]:
+                          - img [ref=e398]
+                          - text: Dölj artikeln
+                        - button "Visa mer" [ref=e399]:
+                          - img [ref=e400]
+                - 'article "Anders, 46, hittade försvunna tvååringen: \"Enorm eufori\"" [ref=e401] [cursor=pointer]':
+                  - generic [ref=e403]:
+                    - img [ref=e404]
+                    - generic [ref=e405]:
+                      - generic [ref=e406]:
+                        - generic [ref=e407]:
+                          - generic [ref=e408]:
+                            - img [ref=e409]
+                            - generic [ref=e410]: Nyheter24
+                          - generic [ref=e411]: ·
+                          - generic [ref=e412]: 7 tim
+                        - 'link "Anders, 46, hittade försvunna tvååringen: \"Enorm eufori\", Nyheter24" [ref=e413]':
+                          - /url: https://www.msn.com/sv-se/nyheter/utrikes/anders-46-hittade-f%C3%B6rsvunna-tv%C3%A5%C3%A5ringen-enorm-eufori/ar-AA2401PU
+                          - text: "Anders, 46, hittade försvunna tvååringen: \"Enorm eufori\""
+                      - 'generic "Anders, 46, hittade försvunna tvååringen: \"Enorm eufori\"" [ref=e417]':
+                        - generic [ref=e420]:
+                          - button "34 Gillar" [ref=e421]:
+                            - generic [ref=e422]:
+                              - img [ref=e423]
+                              - generic [ref=e425]: "34"
+                          - button "Gillar inte" [ref=e426]:
+                            - img [ref=e428]
+                    - generic [ref=e430]:
+                      - button "Dölj artikeln" [ref=e431]:
+                        - img [ref=e432]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e433]:
+                        - img [ref=e434]
+                - article [ref=e435] [cursor=pointer]:
+                  - generic [ref=e441]:
+                    - generic [ref=e443]:
+                      - img "Allsvenskan" [ref=e445]
+                      - link "Allsvenskan" [ref=e446]:
+                        - /url: https://www.msn.com/sv-se/sport/fotboll/allsvenskan?ocid=BingHp01&cvid=a2e4c810f9ae4763e20e4ca17581f9da
+                        - heading "Allsvenskan" [level=2] [ref=e447]
+                      - generic [ref=e448]:
+                        - generic "Live nu" [ref=e449]:
+                          - button "Live nu" [ref=e450]
+                        - button "Fler alternativ" [ref=e451]
+                    - generic [ref=e455]:
+                      - link "Elfsborg LIVE H2 54:55 Häcken" [ref=e457]:
+                        - /url: https://www.msn.com/sv-se/sport/fotboll/allsvenskan/spel-center/sp-id-71542032?ocid=BingHp01&cvid=a2e4c810f9ae4763e20e4ca17581f9da
+                        - generic [ref=e458]:
+                          - generic [ref=e459]:
+                            - generic [ref=e460]:
+                              - button "Klicka för att följa Elfsborg":
+                                - generic:
+                                  - img
+                            - generic "Elfsborg" [ref=e461]
+                          - generic [ref=e463]:
+                            - generic "click to see score and details" [ref=e465]: LIVE
+                            - generic "H2 54:55" [ref=e466]:
+                              - generic "H2 54:55" [ref=e467]
+                          - generic [ref=e468]:
+                            - generic [ref=e469]:
+                              - button "Klicka för att följa Häcken":
+                                - generic:
+                                  - img
+                            - generic "Häcken" [ref=e470]
+                      - link "Göteborg LIVE H2 57:18 Mjällby" [ref=e472]:
+                        - /url: https://www.msn.com/sv-se/sport/fotboll/allsvenskan/spel-center/sp-id-67126570?ocid=BingHp01&cvid=a2e4c810f9ae4763e20e4ca17581f9da
+                        - generic [ref=e473]:
+                          - generic [ref=e474]:
+                            - generic [ref=e475]:
+                              - button "Klicka för att följa Göteborg":
+                                - generic:
+                                  - img
+                            - generic "Göteborg" [ref=e476]
+                          - generic [ref=e478]:
+                            - generic "click to see score and details" [ref=e480]: LIVE
+                            - generic "H2 57:18" [ref=e481]:
+                              - generic "H2 57:18" [ref=e482]
+                          - generic [ref=e483]:
+                            - generic [ref=e484]:
+                              - button "Klicka för att följa Mjällby":
+                                - generic:
+                                  - img
+                            - generic "Mjällby" [ref=e485]
+                      - link "AIK 15:00 30 maj Sirius" [ref=e487]:
+                        - /url: https://www.msn.com/sv-se/sport/fotboll/allsvenskan/spel-center/sp-id-67126582?ocid=BingHp01&cvid=a2e4c810f9ae4763e20e4ca17581f9da
+                        - generic [ref=e488]:
+                          - generic [ref=e489]:
+                            - generic [ref=e490]:
+                              - button "Klicka för att följa AIK":
+                                - generic:
+                                  - img
+                            - generic "AIK" [ref=e491]
+                          - generic [ref=e493]:
+                            - generic "15:00" [ref=e494]:
+                              - generic [ref=e495]: 15:00
+                            - generic "30 maj" [ref=e496]
+                          - generic [ref=e497]:
+                            - generic [ref=e498]:
+                              - button "Klicka för att följa Sirius":
+                                - generic:
+                                  - img
+                            - generic "Sirius" [ref=e499]
+                    - link "Visa mer Allsvenskan" [ref=e502]:
+                      - /url: https://www.msn.com/sv-se/sport/fotboll/allsvenskan?ocid=BingHp01&cvid=a2e4c810f9ae4763e20e4ca17581f9da
+                - article [ref=e503] [cursor=pointer]:
+                  - generic [ref=e508]:
+                    - generic [ref=e510]:
+                      - heading "Toppberättelser" [level=2] [ref=e513]
+                      - button "Fler alternativ" [ref=e515]
+                    - list [ref=e518]:
+                      - listitem "Drottning Margrethe inlagd på sjukhus igen" [ref=e519]:
+                        - generic [ref=e520]:
+                          - generic [ref=e521]:
+                            - img [ref=e522]
+                            - generic [ref=e523]:
+                              - generic: TT Nyhetsbyrån ·2 tim
+                          - generic [ref=e524]: Drottning Margrethe inlagd på sjukhus igen
+                      - listitem "UD markerar mot Ryssland efter Kyivattackerna" [ref=e525]:
+                        - generic [ref=e526]:
+                          - generic [ref=e527]:
+                            - img [ref=e528]
+                            - generic [ref=e529]:
+                              - generic: Omni ·1 tim
+                          - generic [ref=e530]: UD markerar mot Ryssland efter Kyivattackerna
+                      - listitem "Värmerekord i Europa – här är det 33,5 grader" [ref=e531]:
+                        - generic [ref=e532]:
+                          - generic [ref=e533]:
+                            - img [ref=e534]
+                            - generic [ref=e535]:
+                              - generic: Nyheter24 ·4 tim
+                          - generic [ref=e536]: Värmerekord i Europa – här är det 33,5 grader
+                    - generic [ref=e539]:
+                      - generic "Föregående" [ref=e540]:
+                        - button "Föregående" [ref=e541]
+                      - tablist [ref=e543]:
+                        - tab "tab-0" [selected] [ref=e544]
+                        - tab "tab-1" [ref=e546]
+                        - tab "tab-2" [ref=e548]
+                      - generic "Nästa" [ref=e550]:
+                        - button "Nästa" [ref=e551]
+                - article "Ryssland hotar europeisk granne med militära angrepp i passdispyt" [ref=e553] [cursor=pointer]:
+                  - generic [ref=e555]:
+                    - img [ref=e556]
+                    - generic [ref=e557]:
+                      - generic [ref=e558]:
+                        - generic [ref=e559]:
+                          - generic [ref=e560]:
+                            - img [ref=e561]
+                            - generic [ref=e562]: Dagens.se
+                          - generic [ref=e563]: ·
+                          - generic [ref=e564]: 5 tim
+                        - link "Ryssland hotar europeisk granne med militära angrepp i passdispyt, Dagens.se" [ref=e565]:
+                          - /url: https://www.msn.com/sv-se/nyheter/other/ryssland-hotar-europeisk-granne-med-milit%C3%A4ra-angrepp-i-passdispyt/ar-AA240QJc
+                          - text: Ryssland hotar europeisk granne med militära angrepp i passdispyt
+                      - generic "Ryssland hotar europeisk granne med militära angrepp i passdispyt" [ref=e569]:
+                        - generic [ref=e572]:
+                          - button "11 Gillar" [ref=e573]:
+                            - generic [ref=e574]:
+                              - img [ref=e575]
+                              - generic [ref=e577]: "11"
+                          - button "Gillar inte" [ref=e578]:
+                            - img [ref=e580]
+                    - generic [ref=e582]:
+                      - button "Dölj artikeln" [ref=e583]:
+                        - img [ref=e584]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e585]:
+                        - img [ref=e586]
+                - 'article "Hinten i TV4: David Hellenius slutar efter 6 år?" [ref=e587] [cursor=pointer]':
+                  - generic [ref=e589]:
+                    - img [ref=e590]
+                    - generic [ref=e591]:
+                      - generic [ref=e592]:
+                        - generic [ref=e593]:
+                          - generic [ref=e594]:
+                            - img [ref=e595]
+                            - generic [ref=e596]: Hänt
+                          - generic [ref=e597]: ·
+                          - generic [ref=e598]: 4 tim
+                        - 'link "Hinten i TV4: David Hellenius slutar efter 6 år?, Hänt" [ref=e599]':
+                          - /url: https://www.msn.com/sv-se/nyheter/other/hinten-i-tv4-david-hellenius-slutar-efter-6-%C3%A5r/ar-AA2416yP
+                          - text: "Hinten i TV4: David Hellenius slutar efter 6 år?"
+                      - 'generic "Hinten i TV4: David Hellenius slutar efter 6 år?" [ref=e603]':
+                        - generic [ref=e606]:
+                          - button "7 Gillar" [ref=e607]:
+                            - generic [ref=e608]:
+                              - img [ref=e609]
+                              - generic [ref=e611]: "7"
+                          - button "Gillar inte" [ref=e612]:
+                            - img [ref=e614]
+                    - generic [ref=e616]:
+                      - button "Dölj artikeln" [ref=e617]:
+                        - img [ref=e618]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e619]:
+                        - img [ref=e620]
+                - article "Iran attackerade amerikanskt krigsfartyg – USA:s hämnd kom direkt och skoningslöst" [ref=e621] [cursor=pointer]:
+                  - generic [ref=e623]:
+                    - generic [ref=e627]:
+                      - generic [ref=e628]:
+                        - generic [ref=e630]:
+                          - img [ref=e631]
+                          - generic [ref=e632]: Affärer och Geopolitik
+                        - link "Iran attackerade amerikanskt krigsfartyg – USA:s hämnd kom direkt och skoningslöst, Affärer och Geopolitik" [ref=e633]:
+                          - /url: https://www.msn.com/sv-se/nyheter/other/iran-attackerade-amerikanskt-krigsfartyg-usa-s-h%C3%A4mnd-kom-direkt-och-skoningsl%C3%B6st/vi-AA21DBGM
+                          - text: Iran attackerade amerikanskt krigsfartyg – USA:s hämnd kom direkt och skoningslöst
+                      - generic "Iran attackerade amerikanskt krigsfartyg – USA:s hämnd kom direkt och skoningslöst" [ref=e637]:
+                        - generic [ref=e640]:
+                          - button "250 Gillar" [ref=e641]:
+                            - generic [ref=e642]:
+                              - img [ref=e643]
+                              - generic [ref=e645]: "250"
+                          - button "Gillar inte" [ref=e646]:
+                            - img [ref=e648]
+                    - generic [ref=e650]:
+                      - button "Dölj artikeln" [ref=e651]:
+                        - img [ref=e652]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e653]:
+                        - img [ref=e654]
+                - article "Världens största gruvjätte struntade i klimatlöften" [ref=e655] [cursor=pointer]:
+                  - generic [ref=e657]:
+                    - img [ref=e658]
+                    - generic [ref=e659]:
+                      - generic [ref=e660]:
+                        - generic [ref=e661]:
+                          - generic [ref=e662]:
+                            - img [ref=e663]
+                            - generic [ref=e664]: Omni
+                          - generic [ref=e665]: ·
+                          - generic [ref=e666]: 5 tim
+                        - link "Världens största gruvjätte struntade i klimatlöften, Omni" [ref=e667]:
+                          - /url: https://www.msn.com/sv-se/nyheter/other/v%C3%A4rldens-st%C3%B6rsta-gruvj%C3%A4tte-struntade-i-klimatl%C3%B6ften/ar-AA240xlM
+                          - text: Världens största gruvjätte struntade i klimatlöften
+                      - generic "Världens största gruvjätte struntade i klimatlöften" [ref=e671]:
+                        - generic [ref=e674]:
+                          - button "6 Gillar" [ref=e675]:
+                            - generic [ref=e676]:
+                              - img [ref=e677]
+                              - generic [ref=e679]: "6"
+                          - button "Gillar inte" [ref=e680]:
+                            - img [ref=e682]
+                    - generic [ref=e684]:
+                      - button "Dölj artikeln" [ref=e685]:
+                        - img [ref=e686]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e687]:
+                        - img [ref=e688]
+                - article [ref=e689] [cursor=pointer]
+      - contentinfo:
+        - generic [ref=e692]:
+          - generic [ref=e693]: © 2026 Microsoft
+          - list [ref=e694]:
+            - listitem [ref=e695]:
+              - link "Sekretess och cookies" [ref=e696] [cursor=pointer]:
+                - /url: //go.microsoft.com/fwlink/?LinkId=521839
+            - listitem [ref=e697]:
+              - link "Juridisk information" [ref=e698] [cursor=pointer]:
+                - /url: //go.microsoft.com/fwlink/?LinkID=246338
+            - listitem [ref=e699]:
+              - link "Annonsera" [ref=e700] [cursor=pointer]:
+                - /url: //go.microsoft.com/fwlink/?linkid=868923
+            - listitem [ref=e701]:
+              - link "Om våra annonser" [ref=e702] [cursor=pointer]:
+                - /url: //go.microsoft.com/fwlink/?LinkID=286759
+            - listitem [ref=e703]:
+              - link "Hjälp" [ref=e704] [cursor=pointer]:
+                - /url: //support.microsoft.com/topic/82d20721-2d6f-4012-a13d-d1910ccf203f
+            - listitem [ref=e705]:
+              - link "Feedback" [ref=e706] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e707]:
+              - link "Europeiskt dataskydd" [ref=e708] [cursor=pointer]:
+                - /url: http://help.bing.microsoft.com/#apex/18/sv/10013/-1/sv
+            - listitem [ref=e709]:
+              - generic [ref=e710]: Hantera cookieinställningar

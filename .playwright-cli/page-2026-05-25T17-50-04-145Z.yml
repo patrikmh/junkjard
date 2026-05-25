@@ -1,0 +1,76 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - img
+    - generic [ref=e5]:
+      - img "Patrik"
+      - img
+      - img
+      - generic:
+        - img "Hi! I'm Patrik. Drag an object to the workbench to investigate it and find out more about me."
+    - generic "Bubba — Patrik's cat" [ref=e6]:
+      - generic: meow!
+    - generic [ref=e7]:
+      - generic: Mechanical drive
+    - generic [ref=e9]:
+      - generic: CRT terminal
+    - generic [ref=e11]:
+      - generic: Raspberry Pi
+    - generic [ref=e13]:
+      - generic: Cyber head
+    - generic [ref=e15]:
+      - generic: Old transcripts
+    - generic [ref=e17]:
+      - generic: Rotary phone
+    - generic [ref=e19]:
+      - generic: Brass telescope
+    - generic [ref=e21]:
+      - generic: Spiral notebook
+    - generic [ref=e23]:
+      - generic: Vinyl record
+    - generic [ref=e25]:
+      - generic: Old paperback
+    - generic "Catch me!" [ref=e27]
+    - generic "Something stirring in the shed..." [ref=e28]:
+      - generic: Something in the shed?
+      - text: "?"
+    - generic:
+      - img "Agent dog"
+      - img
+      - generic: Pssst. Click me. 🤫
+    - generic [ref=e29]:
+      - generic [ref=e30]: Inspection Tray
+      - generic: ↳ drop a part here to inspect it
+    - generic:
+      - generic [ref=e31]: Patrik's Junkyard
+      - generic [ref=e32]:
+        - generic [ref=e33]: 0/10
+        - generic [ref=e34]:
+          - generic "Mechanical drive" [ref=e35]
+          - generic "CRT terminal" [ref=e36]
+          - generic "Raspberry Pi" [ref=e37]
+          - generic "Cyber head" [ref=e38]
+          - generic "Old transcripts" [ref=e39]
+          - generic "Rotary phone" [ref=e40]
+          - generic "Brass telescope" [ref=e41]
+          - generic "Spiral notebook" [ref=e42]
+          - generic "Vinyl record" [ref=e43]
+          - generic "Old paperback" [ref=e44]
+    - generic [ref=e45]:
+      - button "Start over — restore everything" [ref=e46]:
+        - img [ref=e47]
+      - button "🔊" [ref=e52]
+  - button "Close assistant" [ref=e61]
+  - generic: Ask Patrik anything ✨
+  - dialog "Ask Patrik" [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e65]:
+        - generic [ref=e66]: Ask Patrik
+        - generic [ref=e67]: his little AI sidekick
+      - button "Close" [ref=e68]: ✕
+    - generic [ref=e69]:
+      - generic [ref=e70]: Hey there! I'm Patrik's little AI sidekick. Ask me anything — or tap a suggestion below. I can also show you rich cards.
+      - generic [ref=e81]: What do you do?
+      - generic [ref=e82]: I'm a Data Scientist based in Göteborg, Sweden, where I build production machine learning systems and develop AI agents. My work spans event marketing, automotive safety, and engineering consulting. I enjoy designing agentic systems, like autonomous agents that automate workflows and recommendation engines that personalize user experiences. With a background in Cognitive Neuroscience and Psychology, I combine scientific rigor with practical application — ensuring that the models I create are not just clever, but also useful. When I'm not tinkering with data and code, you might find me outdoors, canyoning, or working on some quirky projects at home, like an intelligent water fountain for my cat!
+    - generic [ref=e78]:
+      - textbox "Ask anything…" [ref=e79]
+      - button "Send" [disabled] [ref=e80]

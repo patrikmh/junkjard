@@ -1,0 +1,5 @@
+[     607ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://open.spotifycdn.com/cdn/build/web-player/vendor~web-player.03a68a86.js:0
+[    1079ms] [WARNING] Failed parsing 'srcset' attribute value since its 'w' descriptor is invalid. @ https://open.spotifycdn.com/cdn/build/web-player/vendor~web-player.03a68a86.js:13
+[    1079ms] [WARNING] Dropped srcset candidate "https://i.scdn.co/image/a2ec08fe69ecec2748fbc764aede8f1b03ae8f88" @ https://open.spotifycdn.com/cdn/build/web-player/vendor~web-player.03a68a86.js:13
+[    1106ms] [WARNING] Failed parsing 'srcset' attribute value since its 'w' descriptor is invalid. @ https://open.spotifycdn.com/cdn/build/web-player/vendor~web-player.03a68a86.js:13
+[    1106ms] [WARNING] Dropped srcset candidate "https://i.scdn.co/image/a2ec08fe69ecec2748fbc764aede8f1b03ae8f88" @ https://open.spotifycdn.com/cdn/build/web-player/vendor~web-player.03a68a86.js:13

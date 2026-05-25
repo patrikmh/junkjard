@@ -1,0 +1,35 @@
+- main [ref=e16]:
+  - generic [ref=e18]:
+    - heading "Microsoft-logotypbild" [level=1] [ref=e19]:
+      - img "Microsoft-logotypbild" [ref=e20] [cursor=pointer]
+    - navigation [ref=e28]:
+      - menubar [ref=e29]:
+        - menuitem "Copilot" [ref=e30] [cursor=pointer]:
+          - link "Copilot" [ref=e31]:
+            - /url: /chat?FORM=hpcodx&intent=bing
+            - generic [ref=e33]: Copilot
+        - menuitem "Bilder" [ref=e34] [cursor=pointer]:
+          - link "Bilder" [ref=e35]:
+            - /url: /images?FORM=Z9LH
+        - menuitem "Videoklipp" [ref=e36] [cursor=pointer]:
+          - link "Videoklipp" [ref=e37]:
+            - /url: /videos?FORM=Z9LH1
+        - menuitem "Kartor" [ref=e38] [cursor=pointer]:
+          - link "Kartor" [ref=e39]:
+            - /url: /maps?FORM=Z9LH2
+        - menuitem "Nyheter" [ref=e40] [cursor=pointer]:
+          - link "Nyheter" [ref=e41]:
+            - /url: /news/search?q=Huvudrubriker&nvaug=%5bNewsVertical+Category%3d%22rt_MaxClass%22%5d&FORM=Z9LH3
+        - menuitem ". . . Mer" [ref=e42] [cursor=pointer]:
+          - text: . . .
+          - button "Mer" [ref=e43]
+  - search [ref=e45]:
+    - img [ref=e47] [cursor=pointer]
+    - combobox "Skriv din sökning här – sökförslagen visas medan du söker" [active] [ref=e51]
+    - button "Röstsökning" [ref=e54]:
+      - img [ref=e55]
+    - button "Sök med en bild" [ref=e59] [cursor=pointer]
+    - button "Sök med ett skärmtangentbord" [ref=e60]:
+      - img [ref=e62] [cursor=pointer]
+    - link "Öppna Copilot" [ref=e64] [cursor=pointer]:
+      - /url: /chat?FORM=hpcodx&intent=bing

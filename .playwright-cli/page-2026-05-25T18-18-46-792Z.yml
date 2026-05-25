@@ -1,0 +1,849 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "OpenAI Developers" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "OpenAI Developers" [ref=e5]
+      - navigation [ref=e6]:
+        - link "Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "API" [ref=e10] [cursor=pointer]:
+          - /url: /api
+          - text: API
+          - img [ref=e11]
+        - link "Codex" [ref=e14] [cursor=pointer]:
+          - /url: /codex
+          - text: Codex
+          - img [ref=e15]
+        - link "ChatGPT" [ref=e18] [cursor=pointer]:
+          - /url: /chatgpt
+          - text: ChatGPT
+          - img [ref=e19]
+        - link "Resources" [ref=e22] [cursor=pointer]:
+          - /url: /learn
+          - text: Resources
+          - img [ref=e23]
+      - generic [ref=e25]:
+        - button "Start searching" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: Start searching
+          - img [ref=e28]
+        - link "API Dashboard" [ref=e33] [cursor=pointer]:
+          - /url: https://platform.openai.com/login
+          - generic [ref=e34]:
+            - generic [ref=e35]: API Dashboard
+            - img [ref=e36]
+        - button "Toggle light and dark theme" [ref=e38] [cursor=pointer]:
+          - img [ref=e39]
+  - generic [ref=e41]:
+    - navigation [ref=e43]:
+      - generic [ref=e44]:
+        - heading "Get started" [level=3] [ref=e45]
+        - list [ref=e46]:
+          - listitem [ref=e47]:
+            - link "Overview" [ref=e48] [cursor=pointer]:
+              - /url: /api/docs
+              - generic [ref=e49]: Overview
+          - listitem [ref=e50]:
+            - link "Quickstart" [ref=e51] [cursor=pointer]:
+              - /url: /api/docs/quickstart
+              - generic [ref=e52]: Quickstart
+          - listitem [ref=e53]:
+            - link "Models" [ref=e54] [cursor=pointer]:
+              - /url: /api/docs/models
+              - generic [ref=e55]: Models
+          - listitem [ref=e56]:
+            - link "Pricing" [ref=e57] [cursor=pointer]:
+              - /url: /api/docs/pricing
+              - generic [ref=e58]: Pricing
+          - listitem [ref=e59]:
+            - group [ref=e60]:
+              - generic "SDKs and CLI" [ref=e61] [cursor=pointer]:
+                - link "SDKs and CLI" [ref=e62]:
+                  - /url: /api/docs/libraries
+                  - generic [ref=e63]: SDKs and CLI
+                - img [ref=e64]
+          - listitem [ref=e66]:
+            - 'link "Latest: GPT-5.5" [ref=e67] [cursor=pointer]':
+              - /url: /api/docs/guides/latest-model
+              - generic [ref=e68]: "Latest: GPT-5.5"
+          - listitem [ref=e69]:
+            - link "Prompt guidance" [ref=e70] [cursor=pointer]:
+              - /url: /api/docs/guides/prompt-guidance
+              - generic [ref=e71]: Prompt guidance
+      - generic [ref=e72]:
+        - heading "Core concepts" [level=3] [ref=e73]
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "Text generation" [ref=e76] [cursor=pointer]:
+              - /url: /api/docs/guides/text
+              - generic [ref=e77]: Text generation
+          - listitem [ref=e78]:
+            - link "Code generation" [ref=e79] [cursor=pointer]:
+              - /url: /api/docs/guides/code-generation
+              - generic [ref=e80]: Code generation
+          - listitem [ref=e81]:
+            - link "Images and vision" [ref=e82] [cursor=pointer]:
+              - /url: /api/docs/guides/images-vision
+              - generic [ref=e83]: Images and vision
+          - listitem [ref=e84]:
+            - link "Audio and speech" [ref=e85] [cursor=pointer]:
+              - /url: /api/docs/guides/audio
+              - generic [ref=e86]: Audio and speech
+          - listitem [ref=e87]:
+            - link "Structured output" [ref=e88] [cursor=pointer]:
+              - /url: /api/docs/guides/structured-outputs
+              - generic [ref=e89]: Structured output
+          - listitem [ref=e90]:
+            - link "Function calling" [ref=e91] [cursor=pointer]:
+              - /url: /api/docs/guides/function-calling
+              - generic [ref=e92]: Function calling
+          - listitem [ref=e93]:
+            - link "Responses API" [ref=e94] [cursor=pointer]:
+              - /url: /api/docs/guides/migrate-to-responses
+              - generic [ref=e95]: Responses API
+          - listitem [ref=e96]:
+            - link "Using tools" [ref=e97] [cursor=pointer]:
+              - /url: /api/docs/guides/tools
+              - generic [ref=e98]: Using tools
+      - generic [ref=e99]:
+        - heading "Agents SDK" [level=3] [ref=e100]
+        - list [ref=e101]:
+          - listitem [ref=e102]:
+            - link "Overview" [ref=e103] [cursor=pointer]:
+              - /url: /api/docs/guides/agents
+              - generic [ref=e104]: Overview
+          - listitem [ref=e105]:
+            - link "Quickstart" [ref=e106] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/quickstart
+              - generic [ref=e107]: Quickstart
+          - listitem [ref=e108]:
+            - link "Agent definitions" [ref=e109] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/define-agents
+              - generic [ref=e110]: Agent definitions
+          - listitem [ref=e111]:
+            - link "Models and providers" [ref=e112] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/models
+              - generic [ref=e113]: Models and providers
+          - listitem [ref=e114]:
+            - link "Running agents" [ref=e115] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/running-agents
+              - generic [ref=e116]: Running agents
+          - listitem [ref=e117]:
+            - link "Sandbox agents" [ref=e118] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/sandboxes
+              - generic [ref=e119]: Sandbox agents
+          - listitem [ref=e120]:
+            - link "Orchestration" [ref=e121] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/orchestration
+              - generic [ref=e122]: Orchestration
+          - listitem [ref=e123]:
+            - link "Guardrails" [ref=e124] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/guardrails-approvals
+              - generic [ref=e125]: Guardrails
+          - listitem [ref=e126]:
+            - link "Results and state" [ref=e127] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/results
+              - generic [ref=e128]: Results and state
+          - listitem [ref=e129]:
+            - link "Integrations and observability" [ref=e130] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/integrations-observability
+              - generic [ref=e131]: Integrations and observability
+          - listitem [ref=e132]:
+            - link "Evaluate agent workflows" [ref=e133] [cursor=pointer]:
+              - /url: /api/docs/guides/agent-evals
+              - generic [ref=e134]: Evaluate agent workflows
+          - listitem [ref=e135]:
+            - link "Voice agents" [ref=e136] [cursor=pointer]:
+              - /url: /api/docs/guides/voice-agents
+              - generic [ref=e137]: Voice agents
+          - listitem [ref=e138]:
+            - group [ref=e139]:
+              - generic "Agent Builder" [ref=e140] [cursor=pointer]:
+                - generic [ref=e141]: Agent Builder
+                - img [ref=e142]
+      - generic [ref=e144]:
+        - heading "Tools" [level=3] [ref=e145]
+        - list [ref=e146]:
+          - listitem [ref=e147]:
+            - link "Web search" [ref=e148] [cursor=pointer]:
+              - /url: /api/docs/guides/tools-web-search
+              - generic [ref=e149]: Web search
+          - listitem [ref=e150]:
+            - group [ref=e151]:
+              - generic "MCP and Connectors" [ref=e152] [cursor=pointer]:
+                - link "MCP and Connectors" [ref=e153]:
+                  - /url: /api/docs/guides/tools-connectors-mcp
+                  - generic [ref=e154]: MCP and Connectors
+                - img [ref=e155]
+          - listitem [ref=e157]:
+            - link "Skills" [ref=e158] [cursor=pointer]:
+              - /url: /api/docs/guides/tools-skills
+              - generic [ref=e159]: Skills
+          - listitem [ref=e160]:
+            - link "Shell" [ref=e161] [cursor=pointer]:
+              - /url: /api/docs/guides/tools-shell
+              - generic [ref=e162]: Shell
+          - listitem [ref=e163]:
+            - link "Computer use" [ref=e164] [cursor=pointer]:
+              - /url: /api/docs/guides/tools-computer-use
+              - generic [ref=e165]: Computer use
+          - listitem [ref=e166]:
+            - group [ref=e167]:
+              - generic "File search and retrieval" [ref=e168] [cursor=pointer]:
+                - generic [ref=e169]: File search and retrieval
+                - img [ref=e170]
+          - listitem [ref=e172]:
+            - link "Tool search" [ref=e173] [cursor=pointer]:
+              - /url: /api/docs/guides/tools-tool-search
+              - generic [ref=e174]: Tool search
+          - listitem [ref=e175]:
+            - group [ref=e176]:
+              - generic "More tools" [ref=e177] [cursor=pointer]:
+                - generic [ref=e178]: More tools
+                - img [ref=e179]
+      - generic [ref=e181]:
+        - heading "Run and scale" [level=3] [ref=e182]
+        - list [ref=e183]:
+          - listitem [ref=e184]:
+            - link "Conversation state" [ref=e185] [cursor=pointer]:
+              - /url: /api/docs/guides/conversation-state
+              - generic [ref=e186]: Conversation state
+          - listitem [ref=e187]:
+            - link "Background mode" [ref=e188] [cursor=pointer]:
+              - /url: /api/docs/guides/background
+              - generic [ref=e189]: Background mode
+          - listitem [ref=e190]:
+            - link "Streaming" [ref=e191] [cursor=pointer]:
+              - /url: /api/docs/guides/streaming-responses
+              - generic [ref=e192]: Streaming
+          - listitem [ref=e193]:
+            - link "WebSocket mode" [ref=e194] [cursor=pointer]:
+              - /url: /api/docs/guides/websocket-mode
+              - generic [ref=e195]: WebSocket mode
+          - listitem [ref=e196]:
+            - link "Webhooks" [ref=e197] [cursor=pointer]:
+              - /url: /api/docs/guides/webhooks
+              - generic [ref=e198]: Webhooks
+          - listitem [ref=e199]:
+            - link "File inputs" [ref=e200] [cursor=pointer]:
+              - /url: /api/docs/guides/file-inputs
+              - generic [ref=e201]: File inputs
+          - listitem [ref=e202]:
+            - group [ref=e203]:
+              - generic "Context management" [ref=e204] [cursor=pointer]:
+                - generic [ref=e205]: Context management
+                - img [ref=e206]
+          - listitem [ref=e208]:
+            - group [ref=e209]:
+              - generic "Prompting" [ref=e210] [cursor=pointer]:
+                - generic [ref=e211]: Prompting
+                - img [ref=e212]
+          - listitem [ref=e214]:
+            - group [ref=e215]:
+              - generic "Reasoning" [ref=e216] [cursor=pointer]:
+                - generic [ref=e217]: Reasoning
+                - img [ref=e218]
+      - generic [ref=e220]:
+        - heading "Evaluation" [level=3] [ref=e221]
+        - list [ref=e222]:
+          - listitem [ref=e223]:
+            - link "Getting started" [ref=e224] [cursor=pointer]:
+              - /url: /api/docs/guides/evaluation-getting-started
+              - generic [ref=e225]: Getting started
+          - listitem [ref=e226]:
+            - link "Working with evals" [ref=e227] [cursor=pointer]:
+              - /url: /api/docs/guides/evals
+              - generic [ref=e228]: Working with evals
+          - listitem [ref=e229]:
+            - link "Prompt optimizer" [ref=e230] [cursor=pointer]:
+              - /url: /api/docs/guides/prompt-optimizer
+              - generic [ref=e231]: Prompt optimizer
+          - listitem [ref=e232]:
+            - link "External models" [ref=e233] [cursor=pointer]:
+              - /url: /api/docs/guides/external-models
+              - generic [ref=e234]: External models
+          - listitem [ref=e235]:
+            - link "Best practices" [ref=e236] [cursor=pointer]:
+              - /url: /api/docs/guides/evaluation-best-practices
+              - generic [ref=e237]: Best practices
+      - generic [ref=e238]:
+        - heading "Realtime and audio" [level=3] [ref=e239]
+        - list [ref=e240]:
+          - listitem [ref=e241]:
+            - link "Overview" [ref=e242] [cursor=pointer]:
+              - /url: /api/docs/guides/realtime
+              - generic [ref=e243]: Overview
+          - listitem [ref=e244]:
+            - link "Voice agents" [ref=e245] [cursor=pointer]:
+              - /url: /api/docs/guides/voice-agents
+              - generic [ref=e246]: Voice agents
+          - listitem [ref=e247]:
+            - link "Live translation" [ref=e248] [cursor=pointer]:
+              - /url: /api/docs/guides/realtime-translation
+              - generic [ref=e249]: Live translation
+          - listitem [ref=e250]:
+            - group [ref=e251]:
+              - generic "Transcription" [ref=e252] [cursor=pointer]:
+                - generic [ref=e253]: Transcription
+                - img [ref=e254]
+          - listitem [ref=e256]:
+            - link "Speech generation" [ref=e257] [cursor=pointer]:
+              - /url: /api/docs/guides/text-to-speech
+              - generic [ref=e258]: Speech generation
+          - listitem [ref=e259]:
+            - link "Realtime prompting guide" [ref=e260] [cursor=pointer]:
+              - /url: /api/docs/guides/realtime-models-prompting
+              - generic [ref=e261]: Realtime prompting guide
+          - listitem [ref=e262]:
+            - group [ref=e263]:
+              - generic "Connection methods" [ref=e264] [cursor=pointer]:
+                - generic [ref=e265]: Connection methods
+                - img [ref=e266]
+          - listitem [ref=e268]:
+            - group [ref=e269]:
+              - generic "Realtime sessions" [ref=e270] [cursor=pointer]:
+                - generic [ref=e271]: Realtime sessions
+                - img [ref=e272]
+      - generic [ref=e274]:
+        - heading "Model optimization" [level=3] [ref=e275]
+        - list [ref=e276]:
+          - listitem [ref=e277]:
+            - link "Optimization cycle" [ref=e278] [cursor=pointer]:
+              - /url: /api/docs/guides/model-optimization
+              - generic [ref=e279]: Optimization cycle
+          - listitem [ref=e280]:
+            - group [ref=e281]:
+              - generic "Fine-tuning" [ref=e282] [cursor=pointer]:
+                - generic [ref=e283]: Fine-tuning
+                - img [ref=e284]
+          - listitem [ref=e286]:
+            - link "Graders" [ref=e287] [cursor=pointer]:
+              - /url: /api/docs/guides/graders
+              - generic [ref=e288]: Graders
+      - generic [ref=e289]:
+        - heading "Specialized models" [level=3] [ref=e290]
+        - list [ref=e291]:
+          - listitem [ref=e292]:
+            - link "Image generation" [ref=e293] [cursor=pointer]:
+              - /url: /api/docs/guides/image-generation
+              - generic [ref=e294]: Image generation
+          - listitem [ref=e295]:
+            - link "Video generation" [ref=e296] [cursor=pointer]:
+              - /url: /api/docs/guides/video-generation
+              - generic [ref=e297]: Video generation
+          - listitem [ref=e298]:
+            - link "Deep research" [ref=e299] [cursor=pointer]:
+              - /url: /api/docs/guides/deep-research
+              - generic [ref=e300]: Deep research
+          - listitem [ref=e301]:
+            - link "Embeddings" [ref=e302] [cursor=pointer]:
+              - /url: /api/docs/guides/embeddings
+              - generic [ref=e303]: Embeddings
+          - listitem [ref=e304]:
+            - link "Moderation" [ref=e305] [cursor=pointer]:
+              - /url: /api/docs/guides/moderation
+              - generic [ref=e306]: Moderation
+      - generic [ref=e307]:
+        - heading "Going live" [level=3] [ref=e308]
+        - list [ref=e309]:
+          - listitem [ref=e310]:
+            - link "Production best practices" [ref=e311] [cursor=pointer]:
+              - /url: /api/docs/guides/production-best-practices
+              - generic [ref=e312]: Production best practices
+          - listitem [ref=e313]:
+            - link "Deployment checklist" [ref=e314] [cursor=pointer]:
+              - /url: /api/docs/guides/deployment-checklist
+              - generic [ref=e315]: Deployment checklist
+          - listitem [ref=e316]:
+            - group [ref=e317]:
+              - generic "Latency optimization" [ref=e318] [cursor=pointer]:
+                - generic [ref=e319]: Latency optimization
+                - img [ref=e320]
+          - listitem [ref=e322]:
+            - group [ref=e323]:
+              - generic "Cost optimization" [ref=e324] [cursor=pointer]:
+                - generic [ref=e325]: Cost optimization
+                - img [ref=e326]
+          - listitem [ref=e328]:
+            - link "Accuracy optimization" [ref=e329] [cursor=pointer]:
+              - /url: /api/docs/guides/optimizing-llm-accuracy
+              - generic [ref=e330]: Accuracy optimization
+          - listitem [ref=e331]:
+            - group [ref=e332]:
+              - generic "Safety" [ref=e333] [cursor=pointer]:
+                - generic [ref=e334]: Safety
+                - img [ref=e335]
+      - generic [ref=e337]:
+        - heading "Legacy APIs" [level=3] [ref=e338]
+        - list [ref=e339]:
+          - listitem [ref=e340]:
+            - group [ref=e341]:
+              - generic "Assistants API" [ref=e342] [cursor=pointer]:
+                - generic [ref=e343]: Assistants API
+                - img [ref=e344]
+      - generic [ref=e346]:
+        - heading "Resources" [level=3] [ref=e347]
+        - list [ref=e348]:
+          - listitem [ref=e349]:
+            - link "Terms and policies" [ref=e350] [cursor=pointer]:
+              - /url: https://openai.com/policies
+              - generic [ref=e351]: Terms and policies
+              - img [ref=e352]
+          - listitem [ref=e354]:
+            - link "Changelog" [ref=e355] [cursor=pointer]:
+              - /url: /api/docs/changelog
+              - generic [ref=e356]: Changelog
+          - listitem [ref=e357]:
+            - link "Your data" [ref=e358] [cursor=pointer]:
+              - /url: /api/docs/guides/your-data
+              - generic [ref=e359]: Your data
+          - listitem [ref=e360]:
+            - link "Permissions" [ref=e361] [cursor=pointer]:
+              - /url: /api/docs/guides/rbac
+              - generic [ref=e362]: Permissions
+          - listitem [ref=e363]:
+            - link "Rate limits" [ref=e364] [cursor=pointer]:
+              - /url: /api/docs/guides/rate-limits
+              - generic [ref=e365]: Rate limits
+          - listitem [ref=e366]:
+            - link "Admin APIs" [ref=e367] [cursor=pointer]:
+              - /url: /api/docs/guides/admin-apis
+              - generic [ref=e368]: Admin APIs
+          - listitem [ref=e369]:
+            - link "Deprecations" [ref=e370] [cursor=pointer]:
+              - /url: /api/docs/deprecations
+              - generic [ref=e371]: Deprecations
+          - listitem [ref=e372]:
+            - link "MCP for deep research" [ref=e373] [cursor=pointer]:
+              - /url: /api/docs/mcp
+              - generic [ref=e374]: MCP for deep research
+          - listitem [ref=e375]:
+            - link "Developer mode" [ref=e376] [cursor=pointer]:
+              - /url: /api/docs/guides/developer-mode
+              - generic [ref=e377]: Developer mode
+          - listitem [ref=e378]:
+            - group [ref=e379]:
+              - generic "ChatGPT Actions" [ref=e380] [cursor=pointer]:
+                - generic [ref=e381]: ChatGPT Actions
+                - img [ref=e382]
+    - main [ref=e384]:
+      - generic [ref=e386]:
+        - link "Models" [ref=e388] [cursor=pointer]:
+          - /url: /api/docs/models
+          - img [ref=e389]
+          - text: Models
+        - generic [ref=e391]:
+          - generic [ref=e392]:
+            - generic [ref=e393]:
+              - img "gpt-5.4-mini" [ref=e396]
+              - generic [ref=e397]:
+                - generic [ref=e398]:
+                  - generic [ref=e399]: GPT-5.4 mini
+                  - generic [ref=e400]:
+                    - button "Default" [ref=e401] [cursor=pointer]:
+                      - generic [ref=e404]: Default
+                      - img [ref=e406]
+                    - button [ref=e408] [cursor=pointer]:
+                      - img [ref=e412]
+                - generic [ref=e414]: Our strongest mini model yet for coding, computer use, and subagents
+            - generic [ref=e415]:
+              - button "Compare" [ref=e416] [cursor=pointer]:
+                - generic [ref=e417]: Compare
+              - button "Try in Playground" [ref=e418] [cursor=pointer]:
+                - generic [ref=e419]: Try in Playground
+          - generic [ref=e420]:
+            - generic [ref=e421]:
+              - generic [ref=e422]: Reasoning
+              - generic [ref=e424]:
+                - img [ref=e425]
+                - img [ref=e428]
+                - img [ref=e431]
+                - img [ref=e434]
+              - generic [ref=e437]: Higher
+            - generic [ref=e439]:
+              - generic [ref=e440]: Speed
+              - generic [ref=e442]:
+                - img [ref=e443]
+                - img [ref=e445]
+                - img [ref=e447]
+                - img [ref=e449]
+              - generic [ref=e451]: Fast
+            - generic [ref=e453]:
+              - generic [ref=e454]: Price
+              - generic [ref=e456]:
+                - generic [ref=e457]:
+                  - generic "$0.75" [ref=e458]
+                  - generic [ref=e459]: •
+                - generic "$4.5" [ref=e461]
+              - generic [ref=e463]:
+                - generic "Input" [ref=e464]:
+                  - generic [ref=e465]: Input
+                  - generic [ref=e466]: •
+                - generic "Output" [ref=e467]:
+                  - generic [ref=e468]: Output
+            - generic [ref=e470]:
+              - generic [ref=e471]: Input
+              - generic [ref=e472]:
+                - img [ref=e474]
+                - img [ref=e478]
+                - img [ref=e481]:
+                  - img [ref=e483]
+                  - img [ref=e486]
+                - img [ref=e489]:
+                  - img [ref=e491]
+                  - img [ref=e494]
+              - generic [ref=e496]: Text, image
+            - generic [ref=e498]:
+              - generic [ref=e499]: Output
+              - generic [ref=e500]:
+                - img [ref=e502]
+                - img [ref=e506]:
+                  - img [ref=e508]
+                  - img [ref=e510]
+                - img [ref=e513]:
+                  - img [ref=e515]
+                  - img [ref=e518]
+                - img [ref=e521]:
+                  - img [ref=e523]
+                  - img [ref=e526]
+              - generic [ref=e528]: Text
+          - generic [ref=e529]:
+            - paragraph [ref=e532]:
+              - text: GPT-5.4 mini brings the strengths of GPT-5.4 to a faster, more efficient model designed for high-volume workloads. Learn more in our
+              - link "latest model guide" [ref=e533] [cursor=pointer]:
+                - /url: /api/docs/guides/latest-model
+              - text: .
+            - generic [ref=e534]:
+              - generic [ref=e535]:
+                - img [ref=e537]
+                - generic [ref=e539]: 400,000 context window
+              - generic [ref=e540]:
+                - img [ref=e542]
+                - generic [ref=e544]: 128,000 max output tokens
+              - generic [ref=e545]:
+                - img [ref=e547]
+                - generic [ref=e549]: Aug 31, 2025 knowledge cutoff
+              - generic [ref=e550]:
+                - img [ref=e552]
+                - generic [ref=e554]: Reasoning token support
+          - generic [ref=e556]:
+            - generic [ref=e557]: Pricing
+            - generic [ref=e558]:
+              - generic [ref=e559]:
+                - text: Pricing is based on the number of tokens used, or other metrics based on the model type. For tool-specific models, like search and computer use, there’s a fee per tool call. See details in the
+                - link "pricing page" [ref=e560] [cursor=pointer]:
+                  - /url: /api/docs/pricing
+                - text: .
+              - generic [ref=e561]:
+                - generic [ref=e562]:
+                  - generic [ref=e563]: Text tokens
+                  - generic [ref=e564]:
+                    - generic [ref=e565]:
+                      - generic [ref=e566]: Per 1M tokens
+                      - generic [ref=e567]: ∙
+                      - generic [ref=e568]: Batch API price
+                    - switch [ref=e570] [cursor=pointer]
+                - generic [ref=e572]:
+                  - generic [ref=e573]:
+                    - generic [ref=e574]: Input
+                    - generic [ref=e575]: $0.75
+                  - generic [ref=e576]:
+                    - generic [ref=e577]: Cached input
+                    - generic [ref=e578]: $0.075
+                  - generic [ref=e579]:
+                    - generic [ref=e580]: Output
+                    - generic [ref=e581]: $4.50
+                - generic [ref=e582]:
+                  - generic [ref=e583]:
+                    - generic [ref=e584]: Quick comparison
+                    - generic [ref=e585]:
+                      - generic [ref=e586] [cursor=pointer]: Input
+                      - generic [ref=e587] [cursor=pointer]: Cached input
+                      - generic [ref=e588] [cursor=pointer]: Output
+                  - generic [ref=e589]:
+                    - generic [ref=e590]:
+                      - generic [ref=e591]: GPT-5.4
+                      - generic [ref=e595]: $2.50
+                    - generic [ref=e596]:
+                      - generic [ref=e597]: GPT-5.4 mini
+                      - generic [ref=e601]: $0.75
+                    - generic [ref=e602]:
+                      - generic [ref=e603]: GPT-5.4 nano
+                      - generic [ref=e607]: $0.20
+                - paragraph [ref=e609]: Regional processing (data residency) endpoints are charged a 10% uplift for GPT-5.4 mini.
+          - generic [ref=e611]:
+            - generic [ref=e612]: Modalities
+            - generic [ref=e614]:
+              - generic [ref=e615]:
+                - img [ref=e618]
+                - generic [ref=e621]:
+                  - generic [ref=e622]: Text
+                  - generic [ref=e623]: Input and output
+              - generic [ref=e624]:
+                - img [ref=e627]
+                - generic [ref=e629]:
+                  - generic [ref=e630]: Image
+                  - generic [ref=e631]: Input only
+              - generic [ref=e632]:
+                - img [ref=e635]:
+                  - img [ref=e637]
+                  - img [ref=e640]
+                - generic [ref=e642]:
+                  - generic [ref=e643]: Audio
+                  - generic [ref=e644]: Not supported
+              - generic [ref=e645]:
+                - img [ref=e648]:
+                  - img [ref=e650]
+                  - img [ref=e653]
+                - generic [ref=e655]:
+                  - generic [ref=e656]: Video
+                  - generic [ref=e657]: Not supported
+          - generic [ref=e659]:
+            - generic [ref=e660]: Endpoints
+            - generic [ref=e662]:
+              - generic [ref=e663]:
+                - img [ref=e666]
+                - generic [ref=e669]:
+                  - generic [ref=e670]: Chat Completions
+                  - generic [ref=e671]: v1/chat/completions
+              - generic [ref=e672]:
+                - img [ref=e675]
+                - generic [ref=e678]:
+                  - generic [ref=e679]: Responses
+                  - generic [ref=e680]: v1/responses
+              - generic [ref=e681]:
+                - img [ref=e684]:
+                  - img [ref=e686]
+                  - img [ref=e688]
+                - generic [ref=e690]:
+                  - generic [ref=e691]: Realtime
+                  - generic [ref=e692]: v1/realtime
+              - generic [ref=e693]:
+                - img [ref=e696]:
+                  - img [ref=e698]
+                  - img [ref=e700]
+                - generic [ref=e702]:
+                  - generic [ref=e703]: Realtime translation
+                  - generic [ref=e704]: v1/realtime/translations
+              - generic [ref=e705]:
+                - img [ref=e708]:
+                  - img [ref=e710]
+                  - img [ref=e712]
+                - generic [ref=e714]:
+                  - generic [ref=e715]: Realtime transcription
+                  - generic [ref=e716]: v1/realtime/transcription_sessions
+              - generic [ref=e717]:
+                - img [ref=e720]:
+                  - img [ref=e722]
+                  - img [ref=e725]
+                - generic [ref=e727]:
+                  - generic [ref=e728]: Assistants
+                  - generic [ref=e729]: v1/assistants
+              - generic [ref=e730]:
+                - img [ref=e733]
+                - generic [ref=e736]:
+                  - generic [ref=e737]: Batch
+                  - generic [ref=e738]: v1/batch
+              - generic [ref=e739]:
+                - img [ref=e742]:
+                  - img [ref=e744]
+                  - img [ref=e746]
+                - generic [ref=e748]:
+                  - generic [ref=e749]: Fine-tuning
+                  - generic [ref=e750]: v1/fine-tuning
+              - generic [ref=e751]:
+                - img [ref=e754]:
+                  - img [ref=e756]
+                  - img [ref=e758]
+                - generic [ref=e760]:
+                  - generic [ref=e761]: Embeddings
+                  - generic [ref=e762]: v1/embeddings
+              - generic [ref=e763]:
+                - img [ref=e766]:
+                  - img [ref=e768]
+                  - img [ref=e770]
+                - generic [ref=e772]:
+                  - generic [ref=e773]: Image generation
+                  - generic [ref=e774]: v1/images/generations
+              - generic [ref=e775]:
+                - img [ref=e778]:
+                  - img [ref=e780]
+                  - img [ref=e783]
+                - generic [ref=e785]:
+                  - generic [ref=e786]: Videos
+                  - generic [ref=e787]: v1/videos
+              - generic [ref=e788]:
+                - img [ref=e791]:
+                  - img [ref=e793]
+                  - img [ref=e796]
+                - generic [ref=e798]:
+                  - generic [ref=e799]: Image edit
+                  - generic [ref=e800]: v1/images/edits
+              - generic [ref=e801]:
+                - img [ref=e804]:
+                  - img [ref=e806]
+                  - img [ref=e808]
+                - generic [ref=e810]:
+                  - generic [ref=e811]: Speech generation
+                  - generic [ref=e812]: v1/audio/speech
+              - generic [ref=e813]:
+                - img [ref=e816]:
+                  - img [ref=e818]
+                  - img [ref=e820]
+                - generic [ref=e822]:
+                  - generic [ref=e823]: Transcription
+                  - generic [ref=e824]: v1/audio/transcriptions
+              - generic [ref=e825]:
+                - img [ref=e828]:
+                  - img [ref=e830]
+                  - img [ref=e832]
+                - generic [ref=e834]:
+                  - generic [ref=e835]: Translation
+                  - generic [ref=e836]: v1/audio/translations
+              - generic [ref=e837]:
+                - img [ref=e840]:
+                  - img [ref=e842]
+                  - img [ref=e844]
+                - generic [ref=e846]:
+                  - generic [ref=e847]: Moderation
+                  - generic [ref=e848]: v1/moderations
+              - generic [ref=e849]:
+                - img [ref=e852]:
+                  - img [ref=e854]
+                  - img [ref=e857]
+                - generic [ref=e859]:
+                  - generic [ref=e860]: Completions (legacy)
+                  - generic [ref=e861]: v1/completions
+          - generic [ref=e863]:
+            - generic [ref=e864]: Features
+            - generic [ref=e866]:
+              - generic [ref=e867]:
+                - img [ref=e870]
+                - generic [ref=e872]:
+                  - generic [ref=e873]: Streaming
+                  - generic [ref=e874]: Supported
+              - generic [ref=e875]:
+                - img [ref=e878]
+                - generic [ref=e881]:
+                  - generic [ref=e882]: Function calling
+                  - generic [ref=e883]: Supported
+              - generic [ref=e884]:
+                - img [ref=e887]
+                - generic [ref=e889]:
+                  - generic [ref=e890]: Structured outputs
+                  - generic [ref=e891]: Supported
+              - generic [ref=e892]:
+                - img [ref=e895]:
+                  - img [ref=e897]
+                  - img [ref=e899]
+                - generic [ref=e901]:
+                  - generic [ref=e902]: Fine-tuning
+                  - generic [ref=e903]: Not supported
+          - generic [ref=e905]:
+            - generic [ref=e906]: Tools
+            - generic [ref=e907]:
+              - generic [ref=e908]: Tools supported by this model when using the Responses API.
+              - generic [ref=e909]:
+                - generic [ref=e910]:
+                  - img [ref=e913]
+                  - generic [ref=e915]:
+                    - generic [ref=e916]: Web search
+                    - generic [ref=e917]: Supported
+                - generic [ref=e918]:
+                  - img [ref=e921]
+                  - generic [ref=e923]:
+                    - generic [ref=e924]: File search
+                    - generic [ref=e925]: Supported
+                - generic [ref=e926]:
+                  - img [ref=e929]
+                  - generic [ref=e931]:
+                    - generic [ref=e932]: Image generation
+                    - generic [ref=e933]: Supported
+                - generic [ref=e934]:
+                  - img [ref=e937]
+                  - generic [ref=e939]:
+                    - generic [ref=e940]: Code interpreter
+                    - generic [ref=e941]: Supported
+                - generic [ref=e942]:
+                  - img [ref=e945]
+                  - generic [ref=e947]:
+                    - generic [ref=e948]: Hosted shell
+                    - generic [ref=e949]: Supported
+                - generic [ref=e950]:
+                  - img [ref=e953]
+                  - generic [ref=e955]:
+                    - generic [ref=e956]: Apply patch
+                    - generic [ref=e957]: Supported
+                - generic [ref=e958]:
+                  - img [ref=e961]
+                  - generic [ref=e963]:
+                    - generic [ref=e964]: Skills
+                    - generic [ref=e965]: Supported
+                - generic [ref=e966]:
+                  - img [ref=e969]
+                  - generic [ref=e971]:
+                    - generic [ref=e972]: Computer use
+                    - generic [ref=e973]: Supported
+                - generic [ref=e974]:
+                  - img [ref=e977]
+                  - generic [ref=e980]:
+                    - generic [ref=e981]: MCP
+                    - generic [ref=e982]: Supported
+                - generic [ref=e983]:
+                  - img [ref=e986]
+                  - generic [ref=e988]:
+                    - generic [ref=e989]: Tool search
+                    - generic [ref=e990]: Supported
+          - generic [ref=e992]:
+            - generic [ref=e993]: Snapshots
+            - generic [ref=e994]:
+              - generic [ref=e995]: Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-5.4 mini.
+              - generic [ref=e997]:
+                - generic [ref=e998]:
+                  - img "gpt-5.4-mini" [ref=e1000]
+                  - generic [ref=e1002]:
+                    - generic [ref=e1003]: gpt-5.4-mini
+                    - generic [ref=e1004]:
+                      - img [ref=e1005]
+                      - generic [ref=e1007]: gpt-5.4-mini-2026-03-17
+                - generic [ref=e1009]: gpt-5.4-mini-2026-03-17
+          - generic [ref=e1013]:
+            - generic [ref=e1014]: Rate limits
+            - generic [ref=e1015]:
+              - generic [ref=e1016]: Rate limits ensure fair and reliable access to the API by placing specific caps on requests, tokens, audio duration, or other usage within a given time period. Your usage tier determines how high these limits are set and automatically increases as you send more requests and spend more on the API.
+              - table [ref=e1018]:
+                - rowgroup [ref=e1019]:
+                  - row "Tier RPM TPM Batch queue limit" [ref=e1020]:
+                    - columnheader "Tier" [ref=e1021]
+                    - columnheader "RPM" [ref=e1022]
+                    - columnheader "TPM" [ref=e1023]
+                    - columnheader "Batch queue limit" [ref=e1024]
+                - rowgroup [ref=e1025]:
+                  - row "Free Not supported" [ref=e1026]:
+                    - cell "Free" [ref=e1027]
+                    - cell "Not supported" [ref=e1028]
+                  - row "Tier 1 500 500,000 5,000,000" [ref=e1029]:
+                    - cell "Tier 1" [ref=e1030]
+                    - cell "500" [ref=e1031]
+                    - cell "500,000" [ref=e1032]
+                    - cell "5,000,000" [ref=e1033]
+                  - row "Tier 2 5,000 2,000,000 20,000,000" [ref=e1034]:
+                    - cell "Tier 2" [ref=e1035]
+                    - cell "5,000" [ref=e1036]
+                    - cell "2,000,000" [ref=e1037]
+                    - cell "20,000,000" [ref=e1038]
+                  - row "Tier 3 5,000 4,000,000 40,000,000" [ref=e1039]:
+                    - cell "Tier 3" [ref=e1040]
+                    - cell "5,000" [ref=e1041]
+                    - cell "4,000,000" [ref=e1042]
+                    - cell "40,000,000" [ref=e1043]
+                  - row "Tier 4 10,000 10,000,000 1,000,000,000" [ref=e1044]:
+                    - cell "Tier 4" [ref=e1045]
+                    - cell "10,000" [ref=e1046]
+                    - cell "10,000,000" [ref=e1047]
+                    - cell "1,000,000,000" [ref=e1048]
+                  - row "Tier 5 30,000 180,000,000 15,000,000,000" [ref=e1049]:
+                    - cell "Tier 5" [ref=e1050]
+                    - cell "30,000" [ref=e1051]
+                    - cell "180,000,000" [ref=e1052]
+                    - cell "15,000,000,000" [ref=e1053]

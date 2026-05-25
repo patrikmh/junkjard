@@ -1,0 +1,715 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "OpenAI Developers" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "OpenAI Developers" [ref=e5]
+      - navigation [ref=e6]:
+        - link "Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "API" [ref=e10] [cursor=pointer]:
+          - /url: /api
+          - text: API
+          - img [ref=e11]
+        - link "Codex" [ref=e14] [cursor=pointer]:
+          - /url: /codex
+          - text: Codex
+          - img [ref=e15]
+        - link "ChatGPT" [ref=e18] [cursor=pointer]:
+          - /url: /chatgpt
+          - text: ChatGPT
+          - img [ref=e19]
+        - link "Resources" [ref=e22] [cursor=pointer]:
+          - /url: /learn
+          - text: Resources
+          - img [ref=e23]
+      - generic [ref=e25]:
+        - button "Start searching" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: Start searching
+          - img [ref=e28]
+        - link "API Dashboard" [ref=e33] [cursor=pointer]:
+          - /url: https://platform.openai.com/login
+          - generic [ref=e34]:
+            - generic [ref=e35]: API Dashboard
+            - img [ref=e36]
+        - button "Toggle light and dark theme" [ref=e38] [cursor=pointer]:
+          - img [ref=e39]
+  - generic [ref=e41]:
+    - navigation [ref=e43]:
+      - generic [ref=e44]:
+        - heading "Get started" [level=3] [ref=e45]
+        - list [ref=e46]:
+          - listitem [ref=e47]:
+            - link "Overview" [ref=e48] [cursor=pointer]:
+              - /url: /api/docs
+              - generic [ref=e49]: Overview
+          - listitem [ref=e50]:
+            - link "Quickstart" [ref=e51] [cursor=pointer]:
+              - /url: /api/docs/quickstart
+              - generic [ref=e52]: Quickstart
+          - listitem [ref=e53]:
+            - link "Models" [ref=e54] [cursor=pointer]:
+              - /url: /api/docs/models
+              - generic [ref=e55]: Models
+          - listitem [ref=e56]:
+            - link "Pricing" [ref=e57] [cursor=pointer]:
+              - /url: /api/docs/pricing
+              - generic [ref=e58]: Pricing
+          - listitem [ref=e59]:
+            - group [ref=e60]:
+              - generic "SDKs and CLI" [ref=e61] [cursor=pointer]:
+                - link "SDKs and CLI" [ref=e62]:
+                  - /url: /api/docs/libraries
+                  - generic [ref=e63]: SDKs and CLI
+                - img [ref=e64]
+          - listitem [ref=e66]:
+            - 'link "Latest: GPT-5.5" [ref=e67] [cursor=pointer]':
+              - /url: /api/docs/guides/latest-model
+              - generic [ref=e68]: "Latest: GPT-5.5"
+          - listitem [ref=e69]:
+            - link "Prompt guidance" [ref=e70] [cursor=pointer]:
+              - /url: /api/docs/guides/prompt-guidance
+              - generic [ref=e71]: Prompt guidance
+      - generic [ref=e72]:
+        - heading "Core concepts" [level=3] [ref=e73]
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "Text generation" [ref=e76] [cursor=pointer]:
+              - /url: /api/docs/guides/text
+              - generic [ref=e77]: Text generation
+          - listitem [ref=e78]:
+            - link "Code generation" [ref=e79] [cursor=pointer]:
+              - /url: /api/docs/guides/code-generation
+              - generic [ref=e80]: Code generation
+          - listitem [ref=e81]:
+            - link "Images and vision" [ref=e82] [cursor=pointer]:
+              - /url: /api/docs/guides/images-vision
+              - generic [ref=e83]: Images and vision
+          - listitem [ref=e84]:
+            - link "Audio and speech" [ref=e85] [cursor=pointer]:
+              - /url: /api/docs/guides/audio
+              - generic [ref=e86]: Audio and speech
+          - listitem [ref=e87]:
+            - link "Structured output" [ref=e88] [cursor=pointer]:
+              - /url: /api/docs/guides/structured-outputs
+              - generic [ref=e89]: Structured output
+          - listitem [ref=e90]:
+            - link "Function calling" [ref=e91] [cursor=pointer]:
+              - /url: /api/docs/guides/function-calling
+              - generic [ref=e92]: Function calling
+          - listitem [ref=e93]:
+            - link "Responses API" [ref=e94] [cursor=pointer]:
+              - /url: /api/docs/guides/migrate-to-responses
+              - generic [ref=e95]: Responses API
+          - listitem [ref=e96]:
+            - link "Using tools" [ref=e97] [cursor=pointer]:
+              - /url: /api/docs/guides/tools
+              - generic [ref=e98]: Using tools
+      - generic [ref=e99]:
+        - heading "Agents SDK" [level=3] [ref=e100]
+        - list [ref=e101]:
+          - listitem [ref=e102]:
+            - link "Overview" [ref=e103] [cursor=pointer]:
+              - /url: /api/docs/guides/agents
+              - generic [ref=e104]: Overview
+          - listitem [ref=e105]:
+            - link "Quickstart" [ref=e106] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/quickstart
+              - generic [ref=e107]: Quickstart
+          - listitem [ref=e108]:
+            - link "Agent definitions" [ref=e109] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/define-agents
+              - generic [ref=e110]: Agent definitions
+          - listitem [ref=e111]:
+            - link "Models and providers" [ref=e112] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/models
+              - generic [ref=e113]: Models and providers
+          - listitem [ref=e114]:
+            - link "Running agents" [ref=e115] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/running-agents
+              - generic [ref=e116]: Running agents
+          - listitem [ref=e117]:
+            - link "Sandbox agents" [ref=e118] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/sandboxes
+              - generic [ref=e119]: Sandbox agents
+          - listitem [ref=e120]:
+            - link "Orchestration" [ref=e121] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/orchestration
+              - generic [ref=e122]: Orchestration
+          - listitem [ref=e123]:
+            - link "Guardrails" [ref=e124] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/guardrails-approvals
+              - generic [ref=e125]: Guardrails
+          - listitem [ref=e126]:
+            - link "Results and state" [ref=e127] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/results
+              - generic [ref=e128]: Results and state
+          - listitem [ref=e129]:
+            - link "Integrations and observability" [ref=e130] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/integrations-observability
+              - generic [ref=e131]: Integrations and observability
+          - listitem [ref=e132]:
+            - link "Evaluate agent workflows" [ref=e133] [cursor=pointer]:
+              - /url: /api/docs/guides/agent-evals
+              - generic [ref=e134]: Evaluate agent workflows
+          - listitem [ref=e135]:
+            - link "Voice agents" [ref=e136] [cursor=pointer]:
+              - /url: /api/docs/guides/voice-agents
+              - generic [ref=e137]: Voice agents
+          - listitem [ref=e138]:
+            - group [ref=e139]:
+              - generic "Agent Builder" [ref=e140] [cursor=pointer]:
+                - generic [ref=e141]: Agent Builder
+                - img [ref=e142]
+      - generic [ref=e144]:
+        - heading "Tools" [level=3] [ref=e145]
+        - list [ref=e146]:
+          - listitem [ref=e147]:
+            - link "Web search" [ref=e148] [cursor=pointer]:
+              - /url: /api/docs/guides/tools-web-search
+              - generic [ref=e149]: Web search
+          - listitem [ref=e150]:
+            - group [ref=e151]:
+              - generic "MCP and Connectors" [ref=e152] [cursor=pointer]:
+                - link "MCP and Connectors" [ref=e153]:
+                  - /url: /api/docs/guides/tools-connectors-mcp
+                  - generic [ref=e154]: MCP and Connectors
+                - img [ref=e155]
+          - listitem [ref=e157]:
+            - link "Skills" [ref=e158] [cursor=pointer]:
+              - /url: /api/docs/guides/tools-skills
+              - generic [ref=e159]: Skills
+          - listitem [ref=e160]:
+            - link "Shell" [ref=e161] [cursor=pointer]:
+              - /url: /api/docs/guides/tools-shell
+              - generic [ref=e162]: Shell
+          - listitem [ref=e163]:
+            - link "Computer use" [ref=e164] [cursor=pointer]:
+              - /url: /api/docs/guides/tools-computer-use
+              - generic [ref=e165]: Computer use
+          - listitem [ref=e166]:
+            - group [ref=e167]:
+              - generic "File search and retrieval" [ref=e168] [cursor=pointer]:
+                - generic [ref=e169]: File search and retrieval
+                - img [ref=e170]
+          - listitem [ref=e172]:
+            - link "Tool search" [ref=e173] [cursor=pointer]:
+              - /url: /api/docs/guides/tools-tool-search
+              - generic [ref=e174]: Tool search
+          - listitem [ref=e175]:
+            - group [ref=e176]:
+              - generic "More tools" [ref=e177] [cursor=pointer]:
+                - generic [ref=e178]: More tools
+                - img [ref=e179]
+      - generic [ref=e181]:
+        - heading "Run and scale" [level=3] [ref=e182]
+        - list [ref=e183]:
+          - listitem [ref=e184]:
+            - link "Conversation state" [ref=e185] [cursor=pointer]:
+              - /url: /api/docs/guides/conversation-state
+              - generic [ref=e186]: Conversation state
+          - listitem [ref=e187]:
+            - link "Background mode" [ref=e188] [cursor=pointer]:
+              - /url: /api/docs/guides/background
+              - generic [ref=e189]: Background mode
+          - listitem [ref=e190]:
+            - link "Streaming" [ref=e191] [cursor=pointer]:
+              - /url: /api/docs/guides/streaming-responses
+              - generic [ref=e192]: Streaming
+          - listitem [ref=e193]:
+            - link "WebSocket mode" [ref=e194] [cursor=pointer]:
+              - /url: /api/docs/guides/websocket-mode
+              - generic [ref=e195]: WebSocket mode
+          - listitem [ref=e196]:
+            - link "Webhooks" [ref=e197] [cursor=pointer]:
+              - /url: /api/docs/guides/webhooks
+              - generic [ref=e198]: Webhooks
+          - listitem [ref=e199]:
+            - link "File inputs" [ref=e200] [cursor=pointer]:
+              - /url: /api/docs/guides/file-inputs
+              - generic [ref=e201]: File inputs
+          - listitem [ref=e202]:
+            - group [ref=e203]:
+              - generic "Context management" [ref=e204] [cursor=pointer]:
+                - generic [ref=e205]: Context management
+                - img [ref=e206]
+          - listitem [ref=e208]:
+            - group [ref=e209]:
+              - generic "Prompting" [ref=e210] [cursor=pointer]:
+                - generic [ref=e211]: Prompting
+                - img [ref=e212]
+          - listitem [ref=e214]:
+            - group [ref=e215]:
+              - generic "Reasoning" [ref=e216] [cursor=pointer]:
+                - generic [ref=e217]: Reasoning
+                - img [ref=e218]
+      - generic [ref=e220]:
+        - heading "Evaluation" [level=3] [ref=e221]
+        - list [ref=e222]:
+          - listitem [ref=e223]:
+            - link "Getting started" [ref=e224] [cursor=pointer]:
+              - /url: /api/docs/guides/evaluation-getting-started
+              - generic [ref=e225]: Getting started
+          - listitem [ref=e226]:
+            - link "Working with evals" [ref=e227] [cursor=pointer]:
+              - /url: /api/docs/guides/evals
+              - generic [ref=e228]: Working with evals
+          - listitem [ref=e229]:
+            - link "Prompt optimizer" [ref=e230] [cursor=pointer]:
+              - /url: /api/docs/guides/prompt-optimizer
+              - generic [ref=e231]: Prompt optimizer
+          - listitem [ref=e232]:
+            - link "External models" [ref=e233] [cursor=pointer]:
+              - /url: /api/docs/guides/external-models
+              - generic [ref=e234]: External models
+          - listitem [ref=e235]:
+            - link "Best practices" [ref=e236] [cursor=pointer]:
+              - /url: /api/docs/guides/evaluation-best-practices
+              - generic [ref=e237]: Best practices
+      - generic [ref=e238]:
+        - heading "Realtime and audio" [level=3] [ref=e239]
+        - list [ref=e240]:
+          - listitem [ref=e241]:
+            - link "Overview" [ref=e242] [cursor=pointer]:
+              - /url: /api/docs/guides/realtime
+              - generic [ref=e243]: Overview
+          - listitem [ref=e244]:
+            - link "Voice agents" [ref=e245] [cursor=pointer]:
+              - /url: /api/docs/guides/voice-agents
+              - generic [ref=e246]: Voice agents
+          - listitem [ref=e247]:
+            - link "Live translation" [ref=e248] [cursor=pointer]:
+              - /url: /api/docs/guides/realtime-translation
+              - generic [ref=e249]: Live translation
+          - listitem [ref=e250]:
+            - group [ref=e251]:
+              - generic "Transcription" [ref=e252] [cursor=pointer]:
+                - generic [ref=e253]: Transcription
+                - img [ref=e254]
+          - listitem [ref=e256]:
+            - link "Speech generation" [ref=e257] [cursor=pointer]:
+              - /url: /api/docs/guides/text-to-speech
+              - generic [ref=e258]: Speech generation
+          - listitem [ref=e259]:
+            - link "Realtime prompting guide" [ref=e260] [cursor=pointer]:
+              - /url: /api/docs/guides/realtime-models-prompting
+              - generic [ref=e261]: Realtime prompting guide
+          - listitem [ref=e262]:
+            - group [ref=e263]:
+              - generic "Connection methods" [ref=e264] [cursor=pointer]:
+                - generic [ref=e265]: Connection methods
+                - img [ref=e266]
+          - listitem [ref=e268]:
+            - group [ref=e269]:
+              - generic "Realtime sessions" [ref=e270] [cursor=pointer]:
+                - generic [ref=e271]: Realtime sessions
+                - img [ref=e272]
+      - generic [ref=e274]:
+        - heading "Model optimization" [level=3] [ref=e275]
+        - list [ref=e276]:
+          - listitem [ref=e277]:
+            - link "Optimization cycle" [ref=e278] [cursor=pointer]:
+              - /url: /api/docs/guides/model-optimization
+              - generic [ref=e279]: Optimization cycle
+          - listitem [ref=e280]:
+            - group [ref=e281]:
+              - generic "Fine-tuning" [ref=e282] [cursor=pointer]:
+                - generic [ref=e283]: Fine-tuning
+                - img [ref=e284]
+          - listitem [ref=e286]:
+            - link "Graders" [ref=e287] [cursor=pointer]:
+              - /url: /api/docs/guides/graders
+              - generic [ref=e288]: Graders
+      - generic [ref=e289]:
+        - heading "Specialized models" [level=3] [ref=e290]
+        - list [ref=e291]:
+          - listitem [ref=e292]:
+            - link "Image generation" [ref=e293] [cursor=pointer]:
+              - /url: /api/docs/guides/image-generation
+              - generic [ref=e294]: Image generation
+          - listitem [ref=e295]:
+            - link "Video generation" [ref=e296] [cursor=pointer]:
+              - /url: /api/docs/guides/video-generation
+              - generic [ref=e297]: Video generation
+          - listitem [ref=e298]:
+            - link "Deep research" [ref=e299] [cursor=pointer]:
+              - /url: /api/docs/guides/deep-research
+              - generic [ref=e300]: Deep research
+          - listitem [ref=e301]:
+            - link "Embeddings" [ref=e302] [cursor=pointer]:
+              - /url: /api/docs/guides/embeddings
+              - generic [ref=e303]: Embeddings
+          - listitem [ref=e304]:
+            - link "Moderation" [ref=e305] [cursor=pointer]:
+              - /url: /api/docs/guides/moderation
+              - generic [ref=e306]: Moderation
+      - generic [ref=e307]:
+        - heading "Going live" [level=3] [ref=e308]
+        - list [ref=e309]:
+          - listitem [ref=e310]:
+            - link "Production best practices" [ref=e311] [cursor=pointer]:
+              - /url: /api/docs/guides/production-best-practices
+              - generic [ref=e312]: Production best practices
+          - listitem [ref=e313]:
+            - link "Deployment checklist" [ref=e314] [cursor=pointer]:
+              - /url: /api/docs/guides/deployment-checklist
+              - generic [ref=e315]: Deployment checklist
+          - listitem [ref=e316]:
+            - group [ref=e317]:
+              - generic "Latency optimization" [ref=e318] [cursor=pointer]:
+                - generic [ref=e319]: Latency optimization
+                - img [ref=e320]
+          - listitem [ref=e322]:
+            - group [ref=e323]:
+              - generic "Cost optimization" [ref=e324] [cursor=pointer]:
+                - generic [ref=e325]: Cost optimization
+                - img [ref=e326]
+          - listitem [ref=e328]:
+            - link "Accuracy optimization" [ref=e329] [cursor=pointer]:
+              - /url: /api/docs/guides/optimizing-llm-accuracy
+              - generic [ref=e330]: Accuracy optimization
+          - listitem [ref=e331]:
+            - group [ref=e332]:
+              - generic "Safety" [ref=e333] [cursor=pointer]:
+                - generic [ref=e334]: Safety
+                - img [ref=e335]
+      - generic [ref=e337]:
+        - heading "Legacy APIs" [level=3] [ref=e338]
+        - list [ref=e339]:
+          - listitem [ref=e340]:
+            - group [ref=e341]:
+              - generic "Assistants API" [ref=e342] [cursor=pointer]:
+                - generic [ref=e343]: Assistants API
+                - img [ref=e344]
+      - generic [ref=e346]:
+        - heading "Resources" [level=3] [ref=e347]
+        - list [ref=e348]:
+          - listitem [ref=e349]:
+            - link "Terms and policies" [ref=e350] [cursor=pointer]:
+              - /url: https://openai.com/policies
+              - generic [ref=e351]: Terms and policies
+              - img [ref=e352]
+          - listitem [ref=e354]:
+            - link "Changelog" [ref=e355] [cursor=pointer]:
+              - /url: /api/docs/changelog
+              - generic [ref=e356]: Changelog
+          - listitem [ref=e357]:
+            - link "Your data" [ref=e358] [cursor=pointer]:
+              - /url: /api/docs/guides/your-data
+              - generic [ref=e359]: Your data
+          - listitem [ref=e360]:
+            - link "Permissions" [ref=e361] [cursor=pointer]:
+              - /url: /api/docs/guides/rbac
+              - generic [ref=e362]: Permissions
+          - listitem [ref=e363]:
+            - link "Rate limits" [ref=e364] [cursor=pointer]:
+              - /url: /api/docs/guides/rate-limits
+              - generic [ref=e365]: Rate limits
+          - listitem [ref=e366]:
+            - link "Admin APIs" [ref=e367] [cursor=pointer]:
+              - /url: /api/docs/guides/admin-apis
+              - generic [ref=e368]: Admin APIs
+          - listitem [ref=e369]:
+            - link "Deprecations" [ref=e370] [cursor=pointer]:
+              - /url: /api/docs/deprecations
+              - generic [ref=e371]: Deprecations
+          - listitem [ref=e372]:
+            - link "MCP for deep research" [ref=e373] [cursor=pointer]:
+              - /url: /api/docs/mcp
+              - generic [ref=e374]: MCP for deep research
+          - listitem [ref=e375]:
+            - link "Developer mode" [ref=e376] [cursor=pointer]:
+              - /url: /api/docs/guides/developer-mode
+              - generic [ref=e377]: Developer mode
+          - listitem [ref=e378]:
+            - group [ref=e379]:
+              - generic "ChatGPT Actions" [ref=e380] [cursor=pointer]:
+                - generic [ref=e381]: ChatGPT Actions
+                - img [ref=e382]
+    - main [ref=e384]:
+      - generic [ref=e387]:
+        - generic [ref=e388]:
+          - heading "Models" [level=1] [ref=e391]
+          - generic [ref=e392]:
+            - heading "Choosing a model" [level=2] [ref=e393]
+            - paragraph [ref=e394]: If you're not sure where to start, use gpt-5.5, our flagship model for complex reasoning and coding. If you're optimizing for latency and cost, choose a smaller variant like gpt-5.4-mini or gpt-5.4-nano.
+            - paragraph [ref=e395]:
+              - text: All latest OpenAI models support text and image input, text output, multilingual capabilities, and vision. Models are available via the
+              - link "Responses API" [ref=e396] [cursor=pointer]:
+                - /url: /api/docs/api-reference/responses
+              - text: and our
+              - link "Client SDKs" [ref=e397] [cursor=pointer]:
+                - /url: /api/docs/libraries
+              - text: .
+          - generic [ref=e399]:
+            - generic [ref=e400]:
+              - generic [ref=e401]:
+                - heading "Frontier models" [level=2] [ref=e402]
+                - generic [ref=e403]: Start with gpt-5.5 for complex reasoning and coding, or choose gpt-5.4-mini and gpt-5.4-nano for lower-latency, lower-cost workloads.
+              - generic [ref=e405]:
+                - button "View all" [ref=e406] [cursor=pointer]:
+                  - generic [ref=e407]: View all
+                - button "Compare models" [ref=e408] [cursor=pointer]:
+                  - generic [ref=e409]: Compare models
+            - generic [ref=e410]:
+              - link "GPT-5.5 New A new class of intelligence for coding and professional work. Model ID gpt-5.5 Reasoning none low medium high xhigh Input price $5 / Input MTok Output price $30 / Output MTok Latency Fast Max output 128K tokens Context window 1M Tools Functions, Web search, File search, Computer use Knowledge cutoff Dec 1, 2025" [ref=e411] [cursor=pointer]:
+                - /url: /api/docs/models/gpt-5.5
+                - img [ref=e415]
+                - generic [ref=e417]:
+                  - generic [ref=e418]:
+                    - generic [ref=e419]: GPT-5.5
+                    - generic [ref=e420]: New
+                  - generic [ref=e421]: A new class of intelligence for coding and professional work.
+                - generic [ref=e424]:
+                  - generic [ref=e425]:
+                    - generic [ref=e426]: Model ID
+                    - generic [ref=e428]:
+                      - button [ref=e429]:
+                        - img [ref=e433]
+                      - generic [ref=e435]: gpt-5.5
+                  - generic [ref=e436]:
+                    - link "Reasoning" [ref=e438]:
+                      - /url: https://developers.openai.com/api/docs/guides/reasoning#get-started-with-reasoning
+                      - generic [ref=e439]:
+                        - generic [ref=e440]: Reasoning
+                        - img [ref=e441]
+                    - generic [ref=e444]:
+                      - generic [ref=e445]: none
+                      - generic [ref=e446]: low
+                      - generic [ref=e447]: medium
+                      - generic [ref=e448]: high
+                      - generic [ref=e449]: xhigh
+                  - generic [ref=e450]:
+                    - generic [ref=e451]: Input price
+                    - generic [ref=e452]: $5 / Input MTok
+                  - generic [ref=e453]:
+                    - generic [ref=e454]: Output price
+                    - generic [ref=e455]: $30 / Output MTok
+                  - generic [ref=e456]:
+                    - generic [ref=e457]: Latency
+                    - generic [ref=e458]: Fast
+                  - generic [ref=e459]:
+                    - generic [ref=e460]:
+                      - generic [ref=e461]: Max output
+                      - generic [ref=e462]: 128K tokens
+                    - generic [ref=e463]:
+                      - generic [ref=e464]: Context window
+                      - generic [ref=e465]: 1M
+                    - generic [ref=e466]:
+                      - link "Tools" [ref=e468]:
+                        - /url: /api/docs/guides/tools
+                        - generic [ref=e469]:
+                          - generic [ref=e470]: Tools
+                          - img [ref=e471]
+                      - generic [ref=e473]: Functions, Web search, File search, Computer use
+                    - generic [ref=e474]:
+                      - generic [ref=e475]: Knowledge cutoff
+                      - generic [ref=e476]: Dec 1, 2025
+              - link "GPT-5.4 A more affordable model for coding and professional work. Model ID gpt-5.4 Reasoning none low medium high xhigh Input price $2.50 / Input MTok Output price $15 / Output MTok Latency Fast Max output 128K tokens Context window 1M Tools Functions, Web search, File search, Computer use Knowledge cutoff Aug 31, 2025" [ref=e477] [cursor=pointer]:
+                - /url: /api/docs/models/gpt-5.4
+                - img [ref=e481]
+                - generic [ref=e483]:
+                  - generic [ref=e485]: GPT-5.4
+                  - generic [ref=e486]: A more affordable model for coding and professional work.
+                - generic [ref=e489]:
+                  - generic [ref=e490]:
+                    - generic [ref=e491]: Model ID
+                    - generic [ref=e493]:
+                      - button [ref=e494]:
+                        - img [ref=e498]
+                      - generic [ref=e500]: gpt-5.4
+                  - generic [ref=e501]:
+                    - link "Reasoning" [ref=e503]:
+                      - /url: https://developers.openai.com/api/docs/guides/reasoning#get-started-with-reasoning
+                      - generic [ref=e504]:
+                        - generic [ref=e505]: Reasoning
+                        - img [ref=e506]
+                    - generic [ref=e509]:
+                      - generic [ref=e510]: none
+                      - generic [ref=e511]: low
+                      - generic [ref=e512]: medium
+                      - generic [ref=e513]: high
+                      - generic [ref=e514]: xhigh
+                  - generic [ref=e515]:
+                    - generic [ref=e516]: Input price
+                    - generic [ref=e517]: $2.50 / Input MTok
+                  - generic [ref=e518]:
+                    - generic [ref=e519]: Output price
+                    - generic [ref=e520]: $15 / Output MTok
+                  - generic [ref=e521]:
+                    - generic [ref=e522]: Latency
+                    - generic [ref=e523]: Fast
+                  - generic [ref=e524]:
+                    - generic [ref=e525]:
+                      - generic [ref=e526]: Max output
+                      - generic [ref=e527]: 128K tokens
+                    - generic [ref=e528]:
+                      - generic [ref=e529]: Context window
+                      - generic [ref=e530]: 1M
+                    - generic [ref=e531]:
+                      - link "Tools" [ref=e533]:
+                        - /url: /api/docs/guides/tools
+                        - generic [ref=e534]:
+                          - generic [ref=e535]: Tools
+                          - img [ref=e536]
+                      - generic [ref=e538]: Functions, Web search, File search, Computer use
+                    - generic [ref=e539]:
+                      - generic [ref=e540]: Knowledge cutoff
+                      - generic [ref=e541]: Aug 31, 2025
+              - link "GPT-5.4 mini Our strongest mini model yet for coding, computer use, and subagents Model ID gpt-5.4-mini Reasoning none low medium high xhigh Input price $0.75 / Input MTok Output price $4.50 / Output MTok Latency Faster Max output 128K tokens Context window 400K Tools Functions, Web search, File search, Computer use Knowledge cutoff Aug 31, 2025" [ref=e542] [cursor=pointer]:
+                - /url: /api/docs/models/gpt-5.4-mini
+                - img [ref=e546]
+                - generic [ref=e548]:
+                  - generic [ref=e550]: GPT-5.4 mini
+                  - generic [ref=e551]: Our strongest mini model yet for coding, computer use, and subagents
+                - generic [ref=e554]:
+                  - generic [ref=e555]:
+                    - generic [ref=e556]: Model ID
+                    - generic [ref=e558]:
+                      - button [ref=e559]:
+                        - img [ref=e563]
+                      - generic [ref=e565]: gpt-5.4-mini
+                  - generic [ref=e566]:
+                    - link "Reasoning" [ref=e568]:
+                      - /url: https://developers.openai.com/api/docs/guides/reasoning#get-started-with-reasoning
+                      - generic [ref=e569]:
+                        - generic [ref=e570]: Reasoning
+                        - img [ref=e571]
+                    - generic [ref=e574]:
+                      - generic [ref=e575]: none
+                      - generic [ref=e576]: low
+                      - generic [ref=e577]: medium
+                      - generic [ref=e578]: high
+                      - generic [ref=e579]: xhigh
+                  - generic [ref=e580]:
+                    - generic [ref=e581]: Input price
+                    - generic [ref=e582]: $0.75 / Input MTok
+                  - generic [ref=e583]:
+                    - generic [ref=e584]: Output price
+                    - generic [ref=e585]: $4.50 / Output MTok
+                  - generic [ref=e586]:
+                    - generic [ref=e587]: Latency
+                    - generic [ref=e588]: Faster
+                  - generic [ref=e589]:
+                    - generic [ref=e590]:
+                      - generic [ref=e591]: Max output
+                      - generic [ref=e592]: 128K tokens
+                    - generic [ref=e593]:
+                      - generic [ref=e594]: Context window
+                      - generic [ref=e595]: 400K
+                    - generic [ref=e596]:
+                      - link "Tools" [ref=e598]:
+                        - /url: /api/docs/guides/tools
+                        - generic [ref=e599]:
+                          - generic [ref=e600]: Tools
+                          - img [ref=e601]
+                      - generic [ref=e603]: Functions, Web search, File search, Computer use
+                    - generic [ref=e604]:
+                      - generic [ref=e605]: Knowledge cutoff
+                      - generic [ref=e606]: Aug 31, 2025
+            - button "View less" [active] [ref=e736] [cursor=pointer]:
+              - generic [ref=e609]:
+                - generic [ref=e610]: View less
+                - img [ref=e611]
+        - generic [ref=e614]:
+          - generic [ref=e615]:
+            - heading "Specialized models" [level=2] [ref=e616]
+            - paragraph [ref=e617]: Purpose-built for specific tasks.
+          - generic [ref=e618]:
+            - generic [ref=e621]:
+              - generic [ref=e622]:
+                - generic [ref=e623]: Image
+                - generic [ref=e624]: Models for image generation and editing
+              - link "gpt-image-2 GPT Image 2 State-of-the-art image generation model" [ref=e626] [cursor=pointer]:
+                - /url: /api/docs/models/gpt-image-2
+                - generic [ref=e627]:
+                  - img "gpt-image-2" [ref=e629]
+                  - generic [ref=e630]:
+                    - generic [ref=e632]: GPT Image 2
+                    - generic [ref=e633]: State-of-the-art image generation model
+            - generic [ref=e636]:
+              - generic [ref=e637]:
+                - generic [ref=e638]: Realtime
+                - generic [ref=e639]: Models for realtime speech and translation
+              - generic [ref=e640]:
+                - link "gpt-realtime-2 gpt-realtime-2 Reasoning model for realtime voice interactions" [ref=e641] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-realtime-2
+                  - generic [ref=e642]:
+                    - img "gpt-realtime-2" [ref=e644]
+                    - generic [ref=e645]:
+                      - generic [ref=e647]: gpt-realtime-2
+                      - generic [ref=e648]: Reasoning model for realtime voice interactions
+                - link "gpt-realtime-translate gpt-realtime-translate Streaming speech-to-speech translation model" [ref=e649] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-realtime-translate
+                  - generic [ref=e650]:
+                    - img "gpt-realtime-translate" [ref=e652]
+                    - generic [ref=e653]:
+                      - generic [ref=e655]: gpt-realtime-translate
+                      - generic [ref=e656]: Streaming speech-to-speech translation model
+                - link "gpt-realtime-1.5 gpt-realtime-1.5 The best voice model for audio in, audio out" [ref=e657] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-realtime-1.5
+                  - generic [ref=e658]:
+                    - img "gpt-realtime-1.5" [ref=e660]
+                    - generic [ref=e661]:
+                      - generic [ref=e663]: gpt-realtime-1.5
+                      - generic [ref=e664]: The best voice model for audio in, audio out
+                - link "gpt-realtime-mini gpt-realtime-mini A cost-efficient version of GPT Realtime" [ref=e665] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-realtime-mini
+                  - generic [ref=e666]:
+                    - img "gpt-realtime-mini" [ref=e668]
+                    - generic [ref=e669]:
+                      - generic [ref=e671]: gpt-realtime-mini
+                      - generic [ref=e672]: A cost-efficient version of GPT Realtime
+            - generic [ref=e675]:
+              - generic [ref=e676]:
+                - generic [ref=e677]: Speech generation
+                - generic [ref=e678]: Models for generating natural-sounding speech from text
+              - link "gpt-4o-mini-tts GPT-4o mini TTS Text-to-speech model powered by GPT-4o mini" [ref=e680] [cursor=pointer]:
+                - /url: /api/docs/models/gpt-4o-mini-tts
+                - generic [ref=e681]:
+                  - img "gpt-4o-mini-tts" [ref=e683]
+                  - generic [ref=e684]:
+                    - generic [ref=e686]: GPT-4o mini TTS
+                    - generic [ref=e687]: Text-to-speech model powered by GPT-4o mini
+            - generic [ref=e690]:
+              - generic [ref=e691]:
+                - generic [ref=e692]: Transcription
+                - generic [ref=e693]: Models for transcribing speech into text
+              - generic [ref=e694]:
+                - link "gpt-realtime-whisper gpt-realtime-whisper Streaming speech-to-text model for realtime transcription" [ref=e695] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-realtime-whisper
+                  - generic [ref=e696]:
+                    - img "gpt-realtime-whisper" [ref=e698]
+                    - generic [ref=e699]:
+                      - generic [ref=e701]: gpt-realtime-whisper
+                      - generic [ref=e702]: Streaming speech-to-text model for realtime transcription
+                - link "gpt-4o-transcribe GPT-4o Transcribe Speech-to-text model powered by GPT-4o" [ref=e703] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4o-transcribe
+                  - generic [ref=e704]:
+                    - img "gpt-4o-transcribe" [ref=e706]
+                    - generic [ref=e707]:
+                      - generic [ref=e709]: GPT-4o Transcribe
+                      - generic [ref=e710]: Speech-to-text model powered by GPT-4o
+                - link "gpt-4o-mini-transcribe GPT-4o mini Transcribe Speech-to-text model powered by GPT-4o mini" [ref=e711] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4o-mini-transcribe
+                  - generic [ref=e712]:
+                    - img "gpt-4o-mini-transcribe" [ref=e714]
+                    - generic [ref=e715]:
+                      - generic [ref=e717]: GPT-4o mini Transcribe
+                      - generic [ref=e718]: Speech-to-text model powered by GPT-4o mini
+        - generic [ref=e719]:
+          - generic [ref=e723]:
+            - generic [ref=e724]:
+              - heading "Browse our full catalog of models" [level=2] [ref=e725]
+              - paragraph [ref=e726]: Diverse models for a variety of tasks
+            - generic [ref=e727]:
+              - button "View all models" [ref=e728] [cursor=pointer]:
+                - generic [ref=e729]: View all models
+              - button "Compare models" [ref=e730] [cursor=pointer]:
+                - generic [ref=e731]: Compare models
+          - generic [ref=e733]:
+            - link "How we use your data" [ref=e734] [cursor=pointer]:
+              - /url: /api/docs/guides/your-data
+            - text: ·
+            - link "Deprecated models" [ref=e735] [cursor=pointer]:
+              - /url: /api/docs/deprecations

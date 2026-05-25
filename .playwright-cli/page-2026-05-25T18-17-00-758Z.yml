@@ -1,0 +1,416 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - button "Hoppa till innehåll" [ref=e3] [cursor=pointer]:
+      - generic [ref=e5]: Hoppa till innehåll
+    - button "Feedback om hjälpmedel" [ref=e6] [cursor=pointer]:
+      - generic [ref=e8]: Feedback om hjälpmedel
+    - generic [ref=e9]:
+      - link "Tillbaka till Bing-sökning" [ref=e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Tillbaka till Bing-sökning" [level=1] [ref=e11]
+      - search [ref=e12]:
+        - button "Sök" [ref=e15] [cursor=pointer]
+        - searchbox "Skriv din sökning här – sökförslagen visas medan du söker" [ref=e16]: "\"gpt-5.5-mini\" OpenAI model"
+        - button "Röstsökning" [ref=e20] [cursor=pointer]
+        - button "Sök med en bild" [ref=e23] [cursor=pointer]
+        - status [ref=e25]
+    - complementary "Poäng och inställningar för kontot" [ref=e26]:
+      - button "Microsoft Rewards" [ref=e27] [cursor=pointer]:
+        - generic [ref=e29]:
+          - generic [ref=e30]: "1"
+          - img [ref=e32]
+      - link "Logga in" [ref=e44] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic "Logga in" [ref=e45]
+    - navigation "Sökfilter" [ref=e46]:
+      - list [ref=e47]:
+        - listitem [ref=e48]:
+          - link "Alla" [ref=e49] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e50]:
+          - link "Sök" [ref=e51] [cursor=pointer]:
+            - /url: /copilotsearch?q=%22gpt-5.5-mini%22+OpenAI+model&FORM=CSSCOP
+            - img [ref=e52]
+            - text: Sök
+        - listitem [ref=e54]:
+          - link "Shopping" [ref=e55] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=ccd71e294b7799719e4a4e865ba4ebeaa166db11889dae370934c6617dd46b0dJmltdHM9MTc3OTY2NzIwMA&ptn=3&ver=2&hsh=4&fclid=22c67363-e9a0-69b4-189f-6407e8d06850&u=a1L3Nob3A_cT0lMjJncHQtNS41LW1pbmklMjIrT3BlbkFJK21vZGVsJkZPUk09U0hPUFRC&ntb=1
+        - listitem [ref=e56]:
+          - link "Bilder" [ref=e57] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=798ea2dfbfeddab9e2d14cef382efdb50962f79ffabfd7b09be2ef8e5838ae19JmltdHM9MTc3OTY2NzIwMA&ptn=3&ver=2&hsh=4&fclid=22c67363-e9a0-69b4-189f-6407e8d06850&u=a1L2ltYWdlcy9zZWFyY2g_cT0lMjJncHQtNS41LW1pbmklMjIrT3BlbkFJK21vZGVsJkZPUk09SERSU0Mz&ntb=1
+        - listitem [ref=e58]:
+          - link "Videoklipp" [ref=e59] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6c9818b9f0485ca6fbce0f51e1c6e4235c6ce2c2ab07c0597d113742211d11d2JmltdHM9MTc3OTY2NzIwMA&ptn=3&ver=2&hsh=4&fclid=22c67363-e9a0-69b4-189f-6407e8d06850&u=a1L3ZpZGVvcy9zZWFyY2g_cT0lMjJncHQtNS41LW1pbmklMjIrT3BlbkFJK21vZGVsJkZPUk09SERSU0M0&ntb=1
+        - listitem [ref=e60]:
+          - link "Kartor" [ref=e61] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=d6b28222c0ef83191ffa922e281a26f93b026801048f3e9bfc0496545b29bc05JmltdHM9MTc3OTY2NzIwMA&ptn=3&ver=2&hsh=4&fclid=22c67363-e9a0-69b4-189f-6407e8d06850&u=a1L21hcHM_cT0lMjJncHQtNS41LW1pbmklMjIrT3BlbkFJK21vZGVsJkZPUk09SERSU0M2&ntb=1
+        - listitem [ref=e62]:
+          - link "Copilot" [ref=e63] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=4219bcbd1ba7e104062243258679930e8ba9cd7a10baae5338c29bbbe3483f13JmltdHM9MTc3OTY2NzIwMA&ptn=3&ver=2&hsh=4&fclid=22c67363-e9a0-69b4-189f-6407e8d06850&u=a1L2NoYXQ_cHJvbXB0PSUyMmdwdC01LjUtbWluaSUyMitPcGVuQUkrbW9kZWwmc2VuZHF1ZXJ5PTEmRk9STT1TQ0NPRFg&ntb=1
+        - listitem [ref=e64]:
+          - button "Mer" [ref=e65] [cursor=pointer]:
+            - img [ref=e67]
+            - text: Mer
+  - generic [ref=e69]:
+    - main "Sökresultat" [ref=e70]:
+      - generic [ref=e72]: Ungefär 63 500 resultat
+      - list [ref=e80]:
+        - listitem [ref=e81]:
+          - generic [ref=e82]:
+            - link "Utforska den här bilden" [ref=e85] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=iQwsnITd&id=A4A3DE40602FC453EAA3AD4F7DDE2A6FDC49FE5D&thid=OIP.iQwsnITdMhCIbSUY9nw8AwHaD4&mediaurl=https://developers.openai.com/og/api/docs/models/gpt-5.4-mini.png&q=%22gpt-5.5-mini%22+OpenAI+model&ck=8D74B952B5E555619F4C716BF61A3D7E&idpp=rc&expw=1200&exph=630&form=rc2idp
+              - img [ref=e86]
+            - generic [ref=e87]:
+              - link "openai.com" [ref=e89] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=5d84950d7580fa334537c875a2efca2220b8c11867936e8673a1c4a1cb7480b4JmltdHM9MTc3OTY2NzIwMA&ptn=3&ver=2&hsh=4&fclid=22c67363-e9a0-69b4-189f-6407e8d06850&u=a1aHR0cHM6Ly9kZXZlbG9wZXJzLm9wZW5haS5jb20vYXBpL2RvY3MvbW9kZWxzL2dwdC01LjQtbWluaQ&ntb=1
+                - img "Ikon för global webb" [ref=e93]
+                - generic [ref=e94]:
+                  - generic [ref=e95]: openai.com
+                  - generic [ref=e97]:
+                    - generic [ref=e98]: https://developers.openai.com › api › docs › …
+                    - generic [ref=e99]: Översätt det här resultatet
+              - heading "GPT-5.4 mini Model | OpenAI API" [level=2] [ref=e100]:
+                - link "GPT-5.4 mini Model | OpenAI API" [ref=e101] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=5d84950d7580fa334537c875a2efca2220b8c11867936e8673a1c4a1cb7480b4JmltdHM9MTc3OTY2NzIwMA&ptn=3&ver=2&hsh=4&fclid=22c67363-e9a0-69b4-189f-6407e8d06850&u=a1aHR0cHM6Ly9kZXZlbG9wZXJzLm9wZW5haS5jb20vYXBpL2RvY3MvbW9kZWxzL2dwdC01LjQtbWluaQ&ntb=1
+              - paragraph [ref=e102]: 17 mars 2026 · Below is a list of all available snapshots and aliases for GPT-5.4 mini. Rate limits ensure fair and reliable access to the API by placing specific …
+        - listitem [ref=e104]:
+          - list [ref=e105]:
+            - listitem [ref=e106]:
+              - generic [ref=e107]:
+                - generic [ref=e108] [cursor=pointer]:
+                  - generic [ref=e112]: ChatwithAI
+                  - generic [ref=e113]:
+                    - generic [ref=e114]: chatwithai.app › ChatGPT › GPT-Models
+                    - button "Om våra annonser" [ref=e115]:
+                      - img "Om våra annonser" [ref=e117]
+                - heading "Gpt 5 - GPT-5 + Claude + Gemini Here - One Plan — Multiple AIs" [level=2] [ref=e118]:
+                  - link "Gpt 5 - GPT-5 + Claude + Gemini Here - One Plan — Multiple AIs" [ref=e119] [cursor=pointer]:
+                    - /url: https://www.bing.com/aclick?ld=e87isVpRVTYqwf2MrYwDgK7DVUCUx5cusSfc0xGhXDkx124vWYaTxvexOUGDYSjoa-GN_zctTcKxprckLCzFfUD9dYo6n2eFrFWlh-GXHuLgK8129Hp62s5WTM70sIE5Vc7JtejD43YekPzO6QSZxoZW0zX1eELLNKuaUmjIzg3KuU56xAAYEA5kL0unzV9di1pTB5aqoXi5toGBTTV8Us-Ovw1bc&u=aHR0cHMlM2ElMmYlMmZjaGF0d2l0aGFpLmFwcCUyZmNoYXQlMmZpbmRleCUzZm1vZGVsJTNkZ3B0LTUuMSUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZDQ4NzcwNDk4NiUyNnV0bV9jb250ZW50JTNkMTIzNDc1Mjk4MjU4MTkxMyUyNnV0bV9hZHNldF9pZCUzZDEyMzQ3NTI5ODI1ODE5MTMlMjZ1dG1fdGVybSUzZGdwdCUyNTIwNSUyNnV0bV9uZXR3b3JrJTNkbyUyNnV0bV9tYXRjaHR5cGUlM2RwJTI2bXNjbGtpZCUzZGE3ZmRkYjljM2ViNTEwY2QwMGRiYjE4OGFjYWUyNWQ1&rlid=a7fddb9c3eb510cd00dbb188acae25d5&ntb=1
+                - generic [ref=e120]:
+                  - generic [ref=e121]:
+                    - generic [ref=e124]: Sponsrad
+                    - text: GPT-3.5, GPT-4, GPT-5 — plus Claude, Gemini and more. One app, top models. Try the latest Gpt 5 alongside Claude, Gemini, and DeepSeek. One multi-model platform.
+                  - paragraph [ref=e125]: Unlimited Conversations · Instant Model Switching · One Plan, Multiple AIs
+                - generic [ref=e126]:
+                  - list [ref=e127]:
+                    - listitem [ref=e128]:
+                      - link "Chat with Claude AI" [ref=e130] [cursor=pointer]:
+                        - /url: https://www.bing.com/aclick?ld=e8cRaTpp1zW9gFWtzy1fgK7jVUCUw9RDfFcV7AdXMKqY94XbKLXu9ujEN7n_6-PNG0E7THVckZ3Q-hfFZsvTGwTR3FhEXeWYK6XymZ2VrnFvSLoUnHBLcv1yOqZL5ZA8PrHNZ07ufzsrMVijQaH0-_d3XgmwalEYNZsWX52XABzmgzKtgmRP94GkwZfNKjyRcfcoRtTgoMlG7LejYquG5f4mtsJYs&u=aHR0cHMlM2ElMmYlMmZjaGF0d2l0aGFpLmFwcCUzZnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZDQ4NzcwNDk4NiUyNnV0bV9jb250ZW50JTNkMTIzNDc1Mjk4MjU4MTkxMyUyNnV0bV9hZHNldF9pZCUzZDEyMzQ3NTI5ODI1ODE5MTMlMjZ1dG1fdGVybSUzZGdwdCUyNTIwNSUyNnV0bV9uZXR3b3JrJTNkbyUyNnV0bV9tYXRjaHR5cGUlM2RwJTI2bXNjbGtpZCUzZGM3NzVhYzA5NjU0OTEwZWE3NTA1YzYxZGY3NTI2MGJj&rlid=c775ac09654910ea7505c61df75260bc&ntb=1
+                    - listitem [ref=e131]:
+                      - link "Start Chatting Now" [ref=e133] [cursor=pointer]:
+                        - /url: https://www.bing.com/aclick?ld=e81_u1n-XYMKLMGOvT2TXevTVUCUw6p59bz_MgKZLbZcNXzab1tFj51brhGxdHURzg4Ev4goHY-PxP0Qb0r8SSPM7TM6r1ut4UoNW_xvrI5z9aDe7g1QKshRg2mEPVuy2U835uv9qwoPkeZE1FrHuhfG58tYFxohzSO-Wtv4JMHw8vTMh4gEWw-I5s5lU4ptmNe5WmxzHU81BseAjLjkzhEf1HdWg&u=aHR0cHMlM2ElMmYlMmZjaGF0d2l0aGFpLmFwcCUzZnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZDQ4NzcwNDk4NiUyNnV0bV9jb250ZW50JTNkMTIzNDc1Mjk4MjU4MTkxMyUyNnV0bV9hZHNldF9pZCUzZDEyMzQ3NTI5ODI1ODE5MTMlMjZ1dG1fdGVybSUzZGdwdCUyNTIwNSUyNnV0bV9uZXR3b3JrJTNkbyUyNnV0bV9tYXRjaHR5cGUlM2RwJTI2bXNjbGtpZCUzZDI5ZGY2NGVlNGM0ZjEyNjI5ZTQzMGVmYWRlNTQ3NjI5&rlid=29df64ee4c4f12629e430efade547629&ntb=1
+                  - list [ref=e134]:
+                    - listitem [ref=e135]:
+                      - link "Try Gemini AI" [ref=e137] [cursor=pointer]:
+                        - /url: https://www.bing.com/aclick?ld=e8cTcLwSRyPgfw4T0VqyrarjVUCUz0v2tK-YSMiMIFaOhGNKMbl5UIOC-ymdG-S0UfPNfh3vkOhjFOgfz9hP5wJjereEdN7bU-z8DCwHgLliaYmKPIk2S1zVoGuX2ITh2ZX4yv08clzBOBk9kFcMJPcM81g3UR-aexqviCj71BGhJUbb_al8WjRw1l-DcDll7zctV1-jXtYP25wWRfef-x20lv8Mk&u=aHR0cHMlM2ElMmYlMmZjaGF0d2l0aGFpLmFwcCUzZnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZDQ4NzcwNDk4NiUyNnV0bV9jb250ZW50JTNkMTIzNDc1Mjk4MjU4MTkxMyUyNnV0bV9hZHNldF9pZCUzZDEyMzQ3NTI5ODI1ODE5MTMlMjZ1dG1fdGVybSUzZGdwdCUyNTIwNSUyNnV0bV9uZXR3b3JrJTNkbyUyNnV0bV9tYXRjaHR5cGUlM2RwJTI2bXNjbGtpZCUzZDgxMjdmNzM3MTQ3YjE3MDYwMjg2OWQyMzg2NjA3MDNl&rlid=8127f737147b170602869d238660703e&ntb=1
+                    - listitem [ref=e138]:
+                      - link "Use GPT Models" [ref=e140] [cursor=pointer]:
+                        - /url: https://www.bing.com/aclick?ld=e8mhpdPjwuo5Mrg8ml2o1nZTVUCUydo2Cy7wKBrk29XOIUPLxpI4Xe9CD5sJZfLqYnQHtgvkPW7yPEJXPLzrScywAXOse2s4is3U3EqqQLbKr6FnlacoNPRY016sZ8tyLKiRweWld7osfWmsGPTLPu5xg1AgfyR_MaHN4dfaSLbVZe2uDz8eeeHGnRsTmuQtTfvOx2gs79NAp7AfmSp6nhii3gQhQ&u=aHR0cHMlM2ElMmYlMmZjaGF0d2l0aGFpLmFwcCUzZnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZDQ4NzcwNDk4NiUyNnV0bV9jb250ZW50JTNkMTIzNDc1Mjk4MjU4MTkxMyUyNnV0bV9hZHNldF9pZCUzZDEyMzQ3NTI5ODI1ODE5MTMlMjZ1dG1fdGVybSUzZGdwdCUyNTIwNSUyNnV0bV9uZXR3b3JrJTNkbyUyNnV0bV9tYXRjaHR5cGUlM2RwJTI2bXNjbGtpZCUzZDQwZjNjODRjNTEzNjFhMDJjMTI1YTI1OGMzMmRlNTY5&rlid=40f3c84c51361a02c125a258c32de569&ntb=1
+        - listitem [ref=e141]:
+          - generic [ref=e142]:
+            - link "Utforska den här bilden" [ref=e145] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=T1jP+iMH&id=116643A0BEED1727ED8F4E617D28A724FB4FDE94&thid=OIP.T1jP-iMHOBZiDKosAZMtdgHaEH&mediaurl=https://artificialanalysis.ai/img/open-graph/og-image.png&q=%22gpt-5.5-mini%22+OpenAI+model&ck=369062E0A1CDC1246115CEE58BF3914A&idpp=rc&expw=1260&exph=700&form=rc2idp
+              - img [ref=e146]
+            - generic [ref=e147]:
+              - link "artificialanalysis.ai" [ref=e149] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=cf6cabdf6770243f58488885d6b53f6d68ebdf4f0ed3b7d8ffe4762b4cae261eJmltdHM9MTc3OTY2NzIwMA&ptn=3&ver=2&hsh=4&fclid=22c67363-e9a0-69b4-189f-6407e8d06850&u=a1aHR0cHM6Ly9hcnRpZmljaWFsYW5hbHlzaXMuYWkvbW9kZWxzL2dwdC01LW1pbmk&ntb=1
+                - img "Ikon för global webb" [ref=e153]
+                - generic [ref=e154]:
+                  - generic [ref=e155]: artificialanalysis.ai
+                  - generic [ref=e157]:
+                    - generic [ref=e158]: https://artificialanalysis.ai › models
+                    - generic [ref=e159]: Översätt det här resultatet
+              - heading "GPT-5 mini (high) - Intelligence, Performance & Price …" [level=2] [ref=e160]:
+                - link "GPT-5 mini (high) - Intelligence, Performance & Price …" [ref=e161] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=cf6cabdf6770243f58488885d6b53f6d68ebdf4f0ed3b7d8ffe4762b4cae261eJmltdHM9MTc3OTY2NzIwMA&ptn=3&ver=2&hsh=4&fclid=22c67363-e9a0-69b4-189f-6407e8d06850&u=a1aHR0cHM6Ly9hcnRpZmljaWFsYW5hbHlzaXMuYWkvbW9kZWxzL2dwdC01LW1pbmk&ntb=1
+              - paragraph [ref=e162]: Analysis of OpenAI's GPT-5 mini (high) and comparison to other AI models across key metrics including quality, price, performance (tokens per second & time to …
+        - listitem [ref=e164]:
+          - generic [ref=e165]:
+            - link "Utforska den här bilden" [ref=e168] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=pcllB6b4&id=A2B87E31F06292ACFB02EE533DF5A3CB22F7E984&thid=OIP.pcllB6b4ij07fCpLBApqOAHaD4&mediaurl=https://benchable.ai/images/models/openai/gpt-5-mini-2025-08-07.png&q=%22gpt-5.5-mini%22+OpenAI+model&ck=8393C464ED423D975E09AFB21A90044E&idpp=rc&expw=1200&exph=630&form=rc2idp
+              - img [ref=e169]
+            - generic [ref=e170]:
+              - link "benchable.ai" [ref=e172] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=899bf882c2eb37ef1d5d14afbc484aebeff8c123131051eb726064a58dd4f0b9JmltdHM9MTc3OTY2NzIwMA&ptn=3&ver=2&hsh=4&fclid=22c67363-e9a0-69b4-189f-6407e8d06850&u=a1aHR0cHM6Ly9iZW5jaGFibGUuYWkvbW9kZWxzL29wZW5haS9ncHQtNS1taW5pLTIwMjUtMDgtMDc&ntb=1
+                - img "Ikon för global webb" [ref=e176]
+                - generic [ref=e177]:
+                  - generic [ref=e178]: benchable.ai
+                  - generic [ref=e180]:
+                    - generic [ref=e181]: https://benchable.ai › models › openai
+                    - generic [ref=e182]: Översätt det här resultatet
+              - 'heading "OpenAI: GPT-5 Mini - AI Model Details & Benchmarks" [level=2] [ref=e183]':
+                - 'link "OpenAI: GPT-5 Mini - AI Model Details & Benchmarks" [ref=e184] [cursor=pointer]':
+                  - /url: https://www.bing.com/ck/a?!&&p=899bf882c2eb37ef1d5d14afbc484aebeff8c123131051eb726064a58dd4f0b9JmltdHM9MTc3OTY2NzIwMA&ptn=3&ver=2&hsh=4&fclid=22c67363-e9a0-69b4-189f-6407e8d06850&u=a1aHR0cHM6Ly9iZW5jaGFibGUuYWkvbW9kZWxzL29wZW5haS9ncHQtNS1taW5pLTIwMjUtMDgtMDc&ntb=1
+              - paragraph [ref=e185]: 7 aug. 2025 · GPT-5 Mini, released August 7, 2025, is a compact version of GPT …
+              - generic [ref=e187]:
+                - list [ref=e188]:
+                  - listitem [ref=e189]:
+                    - generic [ref=e190]: "Recensioner: 12"
+                - list
+        - listitem [ref=e192]:
+          - link "DataCamp" [ref=e194] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=3c15b0151a04eb60f4a5ed87636156031797e65f7394aeb2cf92d9a20822f8aaJmltdHM9MTc3OTY2NzIwMA&ptn=3&ver=2&hsh=4&fclid=22c67363-e9a0-69b4-189f-6407e8d06850&u=a1aHR0cHM6Ly93d3cuZGF0YWNhbXAuY29tL2Jsb2cvZ3B0LTUtNC1taW5pLW5hbm8&ntb=1
+            - img "Ikon för global webb" [ref=e198]
+            - generic [ref=e199]:
+              - generic [ref=e200]: DataCamp
+              - generic [ref=e202]:
+                - generic [ref=e203]: https://www.datacamp.com › blog
+                - generic [ref=e204]: Översätt det här resultatet
+          - 'heading "GPT-5.4 mini and nano: Benchmarks, Access, and Reactions" [level=2] [ref=e205]':
+            - 'link "GPT-5.4 mini and nano: Benchmarks, Access, and Reactions" [ref=e206] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=3c15b0151a04eb60f4a5ed87636156031797e65f7394aeb2cf92d9a20822f8aaJmltdHM9MTc3OTY2NzIwMA&ptn=3&ver=2&hsh=4&fclid=22c67363-e9a0-69b4-189f-6407e8d06850&u=a1aHR0cHM6Ly93d3cuZGF0YWNhbXAuY29tL2Jsb2cvZ3B0LTUtNC1taW5pLW5hbm8&ntb=1
+          - paragraph [ref=e208]: 17 mars 2026 · In this article, we will walk you through what GPT-5.4 mini and nano are, how they perform compared to GPT-5.4, and who can profit from OpenAI’s newest “fast lane” models.
+        - listitem [ref=e209]:
+          - link "cloudprice.net" [ref=e211] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=1056a40dc9c6de3aea6be9374bd2bb8ed463d574a0dd71dc2206bc973b3c7af7JmltdHM9MTc3OTY2NzIwMA&ptn=3&ver=2&hsh=4&fclid=22c67363-e9a0-69b4-189f-6407e8d06850&u=a1aHR0cHM6Ly9jbG91ZHByaWNlLm5ldC9tb2RlbHMvb3BlbmFpLWdwdC01LW1pbmk&ntb=1
+            - img "Ikon för global webb" [ref=e215]
+            - generic [ref=e216]:
+              - generic [ref=e217]: cloudprice.net
+              - generic [ref=e219]:
+                - generic [ref=e220]: https://cloudprice.net › models
+                - generic [ref=e221]: Översätt det här resultatet
+          - heading "GPT-5 Mini pricing & specs — OpenAI | CloudPrice" [level=2] [ref=e222]:
+            - link "GPT-5 Mini pricing & specs — OpenAI | CloudPrice" [ref=e223] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=1056a40dc9c6de3aea6be9374bd2bb8ed463d574a0dd71dc2206bc973b3c7af7JmltdHM9MTc3OTY2NzIwMA&ptn=3&ver=2&hsh=4&fclid=22c67363-e9a0-69b4-189f-6407e8d06850&u=a1aHR0cHM6Ly9jbG91ZHByaWNlLm5ldC9tb2RlbHMvb3BlbmFpLWdwdC01LW1pbmk&ntb=1
+          - generic [ref=e224]:
+            - paragraph [ref=e225]: GPT-5 Mini is OpenAI 's language model with a 400K context window and up to 128K output tokens, available from 8 providers, starting at $0.250 / 1M input and $2.00 / 1M output.
+            - generic [ref=e227]:
+              - list [ref=e228]:
+                - listitem [ref=e229]:
+                  - generic [ref=e230]: "Canonical ID: openai-gpt-5-mini"
+                - listitem [ref=e231]:
+                  - generic [ref=e232]: "Status: Active"
+              - list [ref=e233]:
+                - listitem [ref=e234]:
+                  - generic [ref=e235]: "Skapare: OpenAI"
+                - listitem [ref=e236]:
+                  - generic [ref=e237]: "Type: Language"
+        - listitem [ref=e238]:
+          - generic [ref=e239]:
+            - link "Utforska den här bilden" [ref=e242] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=TTuL7jLK&id=B8A98795818AA66E7E2117F1E304DECCCC1BE344&thid=OIP.TTuL7jLKylSNcS0qYweS6wHaD4&mediaurl=https://playground.roboflow.com/img-open-graph.png&q=%22gpt-5.5-mini%22+OpenAI+model&ck=9FFD4F810B55DF41B056E6878027AA2F&idpp=rc&expw=1200&exph=630&form=rc2idp
+              - img [ref=e243]
+            - generic [ref=e244]:
+              - link "roboflow.com" [ref=e246] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=86aa135bdc0ceeea76af4ebda0bdb71920e3e5f2c0b89f4d57fc7179f3327421JmltdHM9MTc3OTY2NzIwMA&ptn=3&ver=2&hsh=4&fclid=22c67363-e9a0-69b4-189f-6407e8d06850&u=a1aHR0cHM6Ly9wbGF5Z3JvdW5kLnJvYm9mbG93LmNvbS9tb2RlbHMvb3BlbmFpL2dwdC01LW1pbmk&ntb=1
+                - img "Ikon för global webb" [ref=e250]
+                - generic [ref=e251]:
+                  - generic [ref=e252]: roboflow.com
+                  - generic [ref=e254]:
+                    - generic [ref=e255]: https://playground.roboflow.com › models › o…
+                    - generic [ref=e256]: Översätt det här resultatet
+              - heading "GPT-5 Mini – Try, Compare & Deploy | Roboflow …" [level=2] [ref=e257]:
+                - link "GPT-5 Mini – Try, Compare & Deploy | Roboflow …" [ref=e258] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=86aa135bdc0ceeea76af4ebda0bdb71920e3e5f2c0b89f4d57fc7179f3327421JmltdHM9MTc3OTY2NzIwMA&ptn=3&ver=2&hsh=4&fclid=22c67363-e9a0-69b4-189f-6407e8d06850&u=a1aHR0cHM6Ly9wbGF5Z3JvdW5kLnJvYm9mbG93LmNvbS9tb2RlbHMvb3BlbmFpL2dwdC01LW1pbmk&ntb=1
+              - paragraph [ref=e259]: GPT-5 Mini, released by OpenAI on August 7, 2025, is a mid-tier variant of the GPT-5 family that balances cost, speed, and capability. It is multimodal, …
+        - listitem [ref=e261]:
+          - list [ref=e262]:
+            - listitem [ref=e263]:
+              - generic [ref=e264]:
+                - generic [ref=e265] [cursor=pointer]:
+                  - generic [ref=e269]: Ask AI Chat
+                  - generic [ref=e270]:
+                    - generic [ref=e271]: https://askaichat.app › ai › chatbot
+                    - button "Om våra annonser" [ref=e272]:
+                      - img "Om våra annonser" [ref=e274]
+                - heading "Chat with Built on GPT 5.5 - Ask AI Chat - Multi-LLM Aggregator" [level=2] [ref=e275]:
+                  - link "Chat with Built on GPT 5.5 - Ask AI Chat - Multi-LLM Aggregator" [ref=e276] [cursor=pointer]:
+                    - /url: https://www.bing.com/aclick?ld=e8RnQrJnZIPm6dbHmZs3ZEJjVUCUwbDWWlvBD2aHlBvmvMCqixo3dNIGV1LDs3MAfHV9vF7GBbwVZj7-LogHxAhjs0KmNAs7WwNaxE037_-b7HpFqe1iIj-mXlwE3eFkh0biTgnbiCNLdKTipTlzwB8rCyysjMBBE10Aklo8hKyaP2WDIoFUne7rG24XvAvcWaOBP7OXIJbF54QvtnaEuv5JvfDA8&u=aHR0cHMlM2ElMmYlMmZhc2thaWNoYXQuYXBwJTJmb25ib2FyZGluZyUyZm11bHRpLW1vZGVsLXRvb2xzJTJmZ3B0LTUuMiUzZnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZHdlYiUyNnV0bV9jYW1wYWlnbiUzZGFza2FpX3dlYl9ibmdfc2VhcmNoX3QxX2V1X2VuX3B1cmNoYXNlX2NoYXRncHRfMTIwMjI2JTI2dXRtX2NvbnRlbnQlM2Rhc2thaV93ZWJfYm5nX3NlYXJjaF90MV9ldV9lbl9wdXJjaGFzZV9jaGF0Z3B0XzEyMDIyNiUyNnV0bV90ZXJtJTNkY2hhdGdwdCUyNTIwNSUyNm1hdGNodHlwZSUzZHAlMjZkZXZpY2UlM2RjJTI2bmV0d29yayUzZG8lMjZwbGFjZW1lbnQlM2QlMjZjcmVhdGl2ZSUzZDgzMDgyMjY3Mzc0NzQzJTI2Y2FtcGFpZ25faWQlM2Q1MjM5MDAyOTklMjZhZGdyb3VwX2lkJTNkMTMyOTMxMjMwODEyMzY0NyUyNmxvY19pbnRlcmVzdF9tcyUzZCU3YkxvY0ludGVyZXN0TXMlN2QlMjZsb2NfcGh5c2ljYWxfbXMlM2QlN2JMb2NQaHlzaWNhbE1zJTdkJTI2bXNjbGtpZCUzZDQ5ZWRkNGJkYTk5NTE4ZjRkMzgxYmVhOTNiOGUzZjlkJTI2Z2VvJTNkJTdibXNsb2NwaHklN2QlMjZsYW5nJTNkJTdiTGFuZ3VhZ2UlN2Q&rlid=49edd4bda99518f4d381bea93b8e3f9d&ntb=1
+                - generic [ref=e277]:
+                  - generic [ref=e278]:
+                    - generic [ref=e281]: Sponsrad
+                    - text: Built on GPT 5 redefines writing—just ask, and get professional-grade content instantly. Stop switching between AI tools. Access all your favorite LLMs from one clean interface.
+                  - paragraph [ref=e282]: Advanced AI Models · All-in-One Tool · Latest AI Technology · Instant Answers
+                  - generic [ref=e283]: "Types: Smart Personal Assistant, Smart Typing Assistant, AI-Powered Writing"
+                - generic [ref=e287]:
+                  - button "Klicka för att bläddra åt höger" [ref=e288] [cursor=pointer]:
+                    - img [ref=e293]
+                  - list "Navigera med piltangenterna" [ref=e297]:
+                    - listitem [ref=e298] [cursor=pointer]:
+                      - link "Sign In" [ref=e300]:
+                        - /url: https://www.bing.com/aclick?ld=e8AItpCx2sbbT64t4HLk7WrTVUCUyZfgRNiDjIqY4J-Ws3uJwpynL_H81O3NPSpi0Tp7iHAPrsmcSaJ5slw7ZhaGMnqB20kqmKk5uLpTMQStb5drBgRQ_aXGuhwNIrcT5LRjXZr8V4nsSx7ti8wWSmVyNu6OiZmgCaHBmegFzDK7A4xjf6HSa0TckkY7V9wofmWXTvTP576LiaxEM5BWq0gfm9iSg&u=aHR0cHMlM2ElMmYlMmZhc2thaWNoYXQuYXBwJTJmb25ib2FyZGluZyUyZm11bHRpLW1vZGVsLXRvb2xzJTNmdXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkd2ViJTI2dXRtX2NhbXBhaWduJTNkYXNrYWlfd2ViX2JuZ19zZWFyY2hfdDFfZXVfZW5fcHVyY2hhc2VfY2hhdGdwdF8xMjAyMjYlMjZ1dG1fY29udGVudCUzZGFza2FpX3dlYl9ibmdfc2VhcmNoX3QxX2V1X2VuX3B1cmNoYXNlX2NoYXRncHRfMTIwMjI2JTI2dXRtX3Rlcm0lM2RjaGF0Z3B0JTI1MjA1JTI2bWF0Y2h0eXBlJTNkcCUyNmRldmljZSUzZGMlMjZuZXR3b3JrJTNkbyUyNnBsYWNlbWVudCUzZCUyNmNyZWF0aXZlJTNkODMwODIyNjczNzQ3NDMlMjZjYW1wYWlnbl9pZCUzZDUyMzkwMDI5OSUyNmFkZ3JvdXBfaWQlM2QxMzI5MzEyMzA4MTIzNjQ3JTI2bG9jX2ludGVyZXN0X21zJTNkJTdiTG9jSW50ZXJlc3RNcyU3ZCUyNmxvY19waHlzaWNhbF9tcyUzZCU3YkxvY1BoeXNpY2FsTXMlN2QlMjZtc2Nsa2lkJTNkZDg3YTNlYmQ0MTU0MTQ3ZjU1ZjE1NGE5ZDM0ZjU1ODYlMjZnZW8lM2QlN2Jtc2xvY3BoeSU3ZCUyNmxhbmclM2QlN2JMYW5ndWFnZSU3ZCUyNmdhZGlkJTNkc2l0ZWxpbmtfU2lnbl9JbiUyNm1zY2xraWQlM2RkODdhM2ViZDQxNTQxNDdmNTVmMTU0YTlkMzRmNTU4NiUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZGFza2FpX3dlYl9ibmdfc2VhcmNoX3QxX2V1X2VuX3B1cmNoYXNlX2NoYXRncHRfMTIwMjI2JTI2dXRtX3Rlcm0lM2RjaGF0Z3B0JTI1MjA1JTI2dXRtX2NvbnRlbnQlM2Rhc2thaV93ZWJfYm5nX3NlYXJjaF90MV9ldV9lbl9wdXJjaGFzZV9jaGF0Z3B0XzEyMDIyNg&rlid=d87a3ebd4154147f55f154a9d34f5586&ntb=1
+                        - generic [ref=e301]: Sign In
+                    - listitem [ref=e302] [cursor=pointer]:
+                      - link "Free Perplexity..." [ref=e304]:
+                        - /url: https://www.bing.com/aclick?ld=e8js8N0rVVx8fShC4CHxJ4NTVUCUzfz5hfhqXTFhR3SIuuLgHYS111AZiaoaXGRajWKGRfbqvNS5G7zWtKZW3C40G2GDhneC9wvGzHkkfxiXOrYkNvLkrj0G5jnIQJgYkL3nPQAo6DvWTurD9l7MCMjmxMLv_-OxG32eNtek2_rGg3gLF016wFrID3Og4s_zMNdwlKqVdFgSbN6ARDhOFP1OsKqHY&u=aHR0cHMlM2ElMmYlMmZhc2thaWNoYXQuYXBwJTJmb25ib2FyZGluZyUyZm11bHRpLW1vZGVsLXRvb2xzJTJmcGVycGxleGl0eSUzZnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZHdlYiUyNnV0bV9jYW1wYWlnbiUzZGFza2FpX3dlYl9ibmdfc2VhcmNoX3QxX2V1X2VuX3B1cmNoYXNlX2NoYXRncHRfMTIwMjI2JTI2dXRtX2NvbnRlbnQlM2Rhc2thaV93ZWJfYm5nX3NlYXJjaF90MV9ldV9lbl9wdXJjaGFzZV9jaGF0Z3B0XzEyMDIyNiUyNnV0bV90ZXJtJTNkY2hhdGdwdCUyNTIwNSUyNm1hdGNodHlwZSUzZHAlMjZkZXZpY2UlM2RjJTI2bmV0d29yayUzZG8lMjZwbGFjZW1lbnQlM2QlMjZjcmVhdGl2ZSUzZDgzMDgyMjY3Mzc0NzQzJTI2Y2FtcGFpZ25faWQlM2Q1MjM5MDAyOTklMjZhZGdyb3VwX2lkJTNkMTMyOTMxMjMwODEyMzY0NyUyNmxvY19pbnRlcmVzdF9tcyUzZCU3YkxvY0ludGVyZXN0TXMlN2QlMjZsb2NfcGh5c2ljYWxfbXMlM2QlN2JMb2NQaHlzaWNhbE1zJTdkJTI2bXNjbGtpZCUzZDkzZDRjMGZlMWQwZTFmNWMxMDRlYWFlYThmMTVkZjhmJTI2Z2VvJTNkJTdibXNsb2NwaHklN2QlMjZsYW5nJTNkJTdiTGFuZ3VhZ2UlN2Q&rlid=93d4c0fe1d0e1f5c104eaaea8f15df8f&ntb=1
+                        - generic [ref=e305]: Free Perplexity...
+                    - listitem [ref=e306] [cursor=pointer]:
+                      - link "Ask AI Chatbot Codeway..." [ref=e308]:
+                        - /url: https://www.bing.com/aclick?ld=e8M0yMMJrzmemB-Pn3Xz70ADVUCUxraKclgLCdNF8v5nllxIaSploVUVR9wrLpWJdeHmq5ObsRe69n7OKXVn77h9jqzOc04wugnqMOYuVgYiHt-tW-QmFwM_6cqYtJ0JTh4pmmGQyeHnzMlx2VfyFseXVJTkeFiE8Bocpk2JnaJf4fBpJjP1zft0bFjTKGwXBrsNSuIBVqlNchaMPHxoXW8jYjvyk&u=aHR0cHMlM2ElMmYlMmZhc2thaWNoYXQuYXBwJTJmb25ib2FyZGluZyUyZmNoYXQlM2Z1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2R3ZWIlMjZ1dG1fY2FtcGFpZ24lM2Rhc2thaV93ZWJfYm5nX3NlYXJjaF90MV9ldV9lbl9wdXJjaGFzZV9jaGF0Z3B0XzEyMDIyNiUyNnV0bV9jb250ZW50JTNkYXNrYWlfd2ViX2JuZ19zZWFyY2hfdDFfZXVfZW5fcHVyY2hhc2VfY2hhdGdwdF8xMjAyMjYlMjZ1dG1fdGVybSUzZGNoYXRncHQlMjUyMDUlMjZtYXRjaHR5cGUlM2RwJTI2ZGV2aWNlJTNkYyUyNm5ldHdvcmslM2RvJTI2cGxhY2VtZW50JTNkJTI2Y3JlYXRpdmUlM2Q4MzA4MjI2NzM3NDc0MyUyNmNhbXBhaWduX2lkJTNkNTIzOTAwMjk5JTI2YWRncm91cF9pZCUzZDEzMjkzMTIzMDgxMjM2NDclMjZsb2NfaW50ZXJlc3RfbXMlM2QlN2JMb2NJbnRlcmVzdE1zJTdkJTI2bG9jX3BoeXNpY2FsX21zJTNkJTdiTG9jUGh5c2ljYWxNcyU3ZCUyNm1zY2xraWQlM2RjMDE4ZjgyOTg1NGQxMjA4Njc3ZDkyM2QxNzU2M2E0YyUyNmdlbyUzZCU3Ym1zbG9jcGh5JTdkJTI2bGFuZyUzZCU3Ykxhbmd1YWdlJTdk&rlid=c018f829854d1208677d923d17563a4c&ntb=1
+                        - generic [ref=e309]: Ask AI Chatbot Codeway...
+                    - listitem [ref=e310] [cursor=pointer]:
+                      - link "Try Grok Chatbot Now" [ref=e312]:
+                        - /url: https://www.bing.com/aclick?ld=e8Ms_gNYpt1Dn6VzmjimxiNTVUCUxu0fylFuph1CLAScVzIcbguIGhe8qu28lacrjPPH2NVKE8NcStCODFwycBXSYkliqtJSLXljDSZT8TKvCbxrmFA9ZWYFRRdt1hZxaPNgQ_evQnL6WUATk15q_cD-sT9PxSnymKNLwjhSYXeS9xEil1aAWi24TxqDdgcV_wfiCsUAEsxsgLu6CVOBsRPFPnCnk&u=aHR0cHMlM2ElMmYlMmZhc2thaWNoYXQuYXBwJTJmb25ib2FyZGluZyUyZm11bHRpLW1vZGVsLXRvb2xzJTJmZ3JvayUzZnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZHdlYiUyNnV0bV9jYW1wYWlnbiUzZGFza2FpX3dlYl9ibmdfc2VhcmNoX3QxX2V1X2VuX3B1cmNoYXNlX2NoYXRncHRfMTIwMjI2JTI2dXRtX2NvbnRlbnQlM2Rhc2thaV93ZWJfYm5nX3NlYXJjaF90MV9ldV9lbl9wdXJjaGFzZV9jaGF0Z3B0XzEyMDIyNiUyNnV0bV90ZXJtJTNkY2hhdGdwdCUyNTIwNSUyNm1hdGNodHlwZSUzZHAlMjZkZXZpY2UlM2RjJTI2bmV0d29yayUzZG8lMjZwbGFjZW1lbnQlM2QlMjZjcmVhdGl2ZSUzZDgzMDgyMjY3Mzc0NzQzJTI2Y2FtcGFpZ25faWQlM2Q1MjM5MDAyOTklMjZhZGdyb3VwX2lkJTNkMTMyOTMxMjMwODEyMzY0NyUyNmxvY19pbnRlcmVzdF9tcyUzZCU3YkxvY0ludGVyZXN0TXMlN2QlMjZsb2NfcGh5c2ljYWxfbXMlM2QlN2JMb2NQaHlzaWNhbE1zJTdkJTI2bXNjbGtpZCUzZDQ0NTRjMDA2ZTg3MzFjZDJjMWQyYWExMjdhNjhiMDViJTI2Z2VvJTNkJTdibXNsb2NwaHklN2QlMjZsYW5nJTNkJTdiTGFuZ3VhZ2UlN2Q&rlid=4454c006e8731cd2c1d2aa127a68b05b&ntb=1
+                        - generic [ref=e313]: Try Grok Chatbot Now
+                    - listitem [ref=e314] [cursor=pointer]:
+                      - link "Join Now for Free" [ref=e316]:
+                        - /url: https://www.bing.com/aclick?ld=e8ppRhRqV3k2EcI4g33GF09jVUCUzRTPWpljW2GQMZlFJ2RmmgSZ01VqFEtgotoJObJfPOXdFRwAaK7PWqa14wKu9kehC01kuf7NcYS6Cx7rw2ZmXXE0hclgk0kFUBPs6BEfHj6M_umh42EZ7duu0DXPRE5Q0BQXyjcs5YiaSdwwUdnNZB2TcfUATZKmoFDFWO_PL0CmvIX4aFCT5oPpxWQ51zj00&u=aHR0cHMlM2ElMmYlMmYlMmZhc2thaWNoYXQuYXBwJTJmc2lnbnVwJTNmdXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkd2ViJTI2dXRtX2NhbXBhaWduJTNkYXNrYWlfd2ViX2JuZ19zZWFyY2hfdDFfZXVfZW5fcHVyY2hhc2VfY2hhdGdwdF8xMjAyMjYlMjZ1dG1fY29udGVudCUzZGFza2FpX3dlYl9ibmdfc2VhcmNoX3QxX2V1X2VuX3B1cmNoYXNlX2NoYXRncHRfMTIwMjI2JTI2dXRtX3Rlcm0lM2RjaGF0Z3B0JTI1MjA1JTI2bWF0Y2h0eXBlJTNkcCUyNmRldmljZSUzZGMlMjZuZXR3b3JrJTNkbyUyNnBsYWNlbWVudCUzZCUyNmNyZWF0aXZlJTNkODMwODIyNjczNzQ3NDMlMjZjYW1wYWlnbl9pZCUzZDUyMzkwMDI5OSUyNmFkZ3JvdXBfaWQlM2QxMzI5MzEyMzA4MTIzNjQ3JTI2bG9jX2ludGVyZXN0X21zJTNkJTdiTG9jSW50ZXJlc3RNcyU3ZCUyNmxvY19waHlzaWNhbF9tcyUzZCU3YkxvY1BoeXNpY2FsTXMlN2QlMjZtc2Nsa2lkJTNkMGJjYWY5ZmZiOTAwMWI4YWE5NTk5M2ViMmIxYmRiYzElMjZnZW8lM2QlN2Jtc2xvY3BoeSU3ZCUyNmxhbmclM2QlN2JMYW5ndWFnZSU3ZA&rlid=0bcaf9ffb9001b8aa95993eb2b1bdbc1&ntb=1
+                        - generic [ref=e317]: Join Now for Free
+                    - listitem [ref=e318] [cursor=pointer]:
+                      - link "Try Gemini 3 Flash..." [ref=e320]:
+                        - /url: https://www.bing.com/aclick?ld=e8JQCBBMu8UbLrbntSN2LsIDVUCUzfYUa1gLQUw9ZVjx6znMtzsMGZ3CxC3LmW8lPCYG27ciZcp_Wpq7v5QAHl3w638UUyXMwmkA1zWYuSdffxKS4nvkhyEcxn09eOFDuZ-9vbWz8Ji2913OYX8vf3r6-hsBvGeKT7T2F3TxibRTUumuQM6wPWj_bwaDoTx6auagVwz0utyvIJqoOe2zXywOd8BjM&u=aHR0cHMlM2ElMmYlMmZhc2thaWNoYXQuYXBwJTJmb25ib2FyZGluZyUyZm11bHRpLW1vZGVsLXRvb2xzJTJmZ2VtaW5pJTNmdXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkd2ViJTI2dXRtX2NhbXBhaWduJTNkYXNrYWlfd2ViX2JuZ19zZWFyY2hfdDFfZXVfZW5fcHVyY2hhc2VfY2hhdGdwdF8xMjAyMjYlMjZ1dG1fY29udGVudCUzZGFza2FpX3dlYl9ibmdfc2VhcmNoX3QxX2V1X2VuX3B1cmNoYXNlX2NoYXRncHRfMTIwMjI2JTI2dXRtX3Rlcm0lM2RjaGF0Z3B0JTI1MjA1JTI2bWF0Y2h0eXBlJTNkcCUyNmRldmljZSUzZGMlMjZuZXR3b3JrJTNkbyUyNnBsYWNlbWVudCUzZCUyNmNyZWF0aXZlJTNkODMwODIyNjczNzQ3NDMlMjZjYW1wYWlnbl9pZCUzZDUyMzkwMDI5OSUyNmFkZ3JvdXBfaWQlM2QxMzI5MzEyMzA4MTIzNjQ3JTI2bG9jX2ludGVyZXN0X21zJTNkJTdiTG9jSW50ZXJlc3RNcyU3ZCUyNmxvY19waHlzaWNhbF9tcyUzZCU3YkxvY1BoeXNpY2FsTXMlN2QlMjZtc2Nsa2lkJTNkNmEyNDgwNTY3YTAzMTI4ZmQwODllYTQyZTgxODRiZTIlMjZnZW8lM2QlN2Jtc2xvY3BoeSU3ZCUyNmxhbmclM2QlN2JMYW5ndWFnZSU3ZA&rlid=6a2480567a03128fd089ea42e8184be2&ntb=1
+                        - generic [ref=e321]: Try Gemini 3 Flash...
+                    - listitem [ref=e322] [cursor=pointer]:
+                      - link "Explore Claude Chatbot..." [ref=e324]:
+                        - /url: https://www.bing.com/aclick?ld=e86kqKc-pWXGhu699Lvle9cTVUCUzMKCh-7gkQ_ESa0mVwQWoBBzS8bq0iJKwL-xXABn9ywkJJpzaDAKmHHUbCbRO7d0E584gstH5giTPQ8w6JIoLhBd6ajRY8q4amWqxiLwQ0-2rVAW-KmtiQI0FnxqmjnBKqQCSiHzh9H22p9gLyhtZxKMfRnjVrcrWqelnUXqGbiBcvjR7OadAUYDVc35XpB0E&u=aHR0cHMlM2ElMmYlMmZhc2thaWNoYXQuYXBwJTJmb25ib2FyZGluZyUyZm11bHRpLW1vZGVsLXRvb2xzJTJmY2xhdWRlJTNmdXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkd2ViJTI2dXRtX2NhbXBhaWduJTNkYXNrYWlfd2ViX2JuZ19zZWFyY2hfdDFfZXVfZW5fcHVyY2hhc2VfY2hhdGdwdF8xMjAyMjYlMjZ1dG1fY29udGVudCUzZGFza2FpX3dlYl9ibmdfc2VhcmNoX3QxX2V1X2VuX3B1cmNoYXNlX2NoYXRncHRfMTIwMjI2JTI2dXRtX3Rlcm0lM2RjaGF0Z3B0JTI1MjA1JTI2bWF0Y2h0eXBlJTNkcCUyNmRldmljZSUzZGMlMjZuZXR3b3JrJTNkbyUyNnBsYWNlbWVudCUzZCUyNmNyZWF0aXZlJTNkODMwODIyNjczNzQ3NDMlMjZjYW1wYWlnbl9pZCUzZDUyMzkwMDI5OSUyNmFkZ3JvdXBfaWQlM2QxMzI5MzEyMzA4MTIzNjQ3JTI2bG9jX2ludGVyZXN0X21zJTNkJTdiTG9jSW50ZXJlc3RNcyU3ZCUyNmxvY19waHlzaWNhbF9tcyUzZCU3YkxvY1BoeXNpY2FsTXMlN2QlMjZtc2Nsa2lkJTNkZmYwYTFlOWJjYjZjMTM2NDQ2OTc3NDhmNTk3N2MyYTYlMjZnZW8lM2QlN2Jtc2xvY3BoeSU3ZCUyNmxhbmclM2QlN2JMYW5ndWFnZSU3ZA&rlid=ff0a1e9bcb6c13644697748f5977c2a6&ntb=1
+                        - generic [ref=e325]: Explore Claude Chatbot...
+                    - listitem [ref=e326] [cursor=pointer]:
+                      - link "Gemini Advanced AI is..." [ref=e328]:
+                        - /url: https://www.bing.com/aclick?ld=e8Gh5TIVe62GvsCtlsKEqqEzVUCUwvDL1dUnIddw8KnCcN5jJKYfMJs5WzERJ9vX1IOhs__z_xCrughmFXYaIm0NWS95DpmBYasHpXieczBu7tL8FK8TRagj9ugJJAiAF1-6nkyV6LMjSb4qjS338rdhGpqWysdOPsh4wrpdHLv0bjiD_vVIBtSZEmH9-6fcRMpo0pKi942vi2hlQKLXq9jLvTm1c&u=aHR0cHMlM2ElMmYlMmZhc2thaWNoYXQuYXBwJTJmb25ib2FyZGluZyUyZm11bHRpLW1vZGVsLXRvb2xzJTJmZ2VtaW5pJTNmdXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkd2ViJTI2dXRtX2NhbXBhaWduJTNkYXNrYWlfd2ViX2JuZ19zZWFyY2hfdDFfZXVfZW5fcHVyY2hhc2VfY2hhdGdwdF8xMjAyMjYlMjZ1dG1fY29udGVudCUzZGFza2FpX3dlYl9ibmdfc2VhcmNoX3QxX2V1X2VuX3B1cmNoYXNlX2NoYXRncHRfMTIwMjI2JTI2dXRtX3Rlcm0lM2RjaGF0Z3B0JTI1MjA1JTI2bWF0Y2h0eXBlJTNkcCUyNmRldmljZSUzZGMlMjZuZXR3b3JrJTNkbyUyNnBsYWNlbWVudCUzZCUyNmNyZWF0aXZlJTNkODMwODIyNjczNzQ3NDMlMjZjYW1wYWlnbl9pZCUzZDUyMzkwMDI5OSUyNmFkZ3JvdXBfaWQlM2QxMzI5MzEyMzA4MTIzNjQ3JTI2bG9jX2ludGVyZXN0X21zJTNkJTdiTG9jSW50ZXJlc3RNcyU3ZCUyNmxvY19waHlzaWNhbF9tcyUzZCU3YkxvY1BoeXNpY2FsTXMlN2QlMjZtc2Nsa2lkJTNkM2FjNTg0ZTEyYThkMTc0ZmFkM2JlZWY1Yjg5NmNmNTYlMjZnZW8lM2QlN2Jtc2xvY3BoeSU3ZCUyNmxhbmclM2QlN2JMYW5ndWFnZSU3ZA&rlid=3ac584e12a8d174fad3beef5b896cf56&ntb=1
+                        - generic [ref=e329]: Gemini Advanced AI is...
+            - listitem [ref=e330]:
+              - generic [ref=e331]:
+                - generic [ref=e332] [cursor=pointer]:
+                  - generic [ref=e336]: hixai.com
+                  - generic [ref=e337]:
+                    - generic [ref=e338]: hixai.com
+                    - button "Om våra annonser" [ref=e339]:
+                      - img "Om våra annonser" [ref=e341]
+                - heading "Gpt-5 mini - One Platform for All Tasks - AI Chatbot" [level=2] [ref=e342]:
+                  - link "Gpt-5 mini - One Platform for All Tasks - AI Chatbot" [ref=e343] [cursor=pointer]:
+                    - /url: https://www.bing.com/aclick?ld=e8zfAUUWS7aaKWr0RpEgzTHjVUCUzxq9_g7pSCWQZU8v92WIkSLmim-H51VsxTi_SAFCisTBVIIGmItHXr3jgQRCKV01CDr_NIwfHF2KBPrIrvmuavtbMAHBibSM-R0Tiz1UCOk46d0O-bo4J38CE8A1ZQdDy8kg_aaVY5-kcVmpu7k4CHGuP0UealpbdodN3x6HyiZ7ZS_DNqz8sE0namAo8j9BQ&u=aHR0cHMlM2ElMmYlMmZoaXhhaS5jb20lMmZncHQtNSUzZnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNmxhbmd1YWdlJTNkZW4lMjZjYW1wYWlnbmlkJTNkNDg3NTAwNDIwJTI2YWRncm91cGlkJTNkMTIzNTg1MjQyMDE5NDc5NCUyNmtleXdvcmQlM2RncHQtNSUyNTIwbWluaSUyNmRldmljZSUzZGMlMjZtc2Nsa2lkJTNkZmNlOTNkZGQ2N2Y3MWJlYjU4ZWQ1N2M5ZjVlY2M3Zjk&rlid=fce93ddd67f71beb58ed57c9f5ecc7f9&ntb=1
+                - generic [ref=e344]:
+                  - generic [ref=e345]:
+                    - generic [ref=e348]: Sponsrad
+                    - text: Compare Answers from Multiple AI Chat Models in Seconds. Ask, learn, and write better with HIX AI Chat. Fast, reliable, always on.
+                  - generic [ref=e349]:
+                    - strong [ref=e350]: "Webbplatsbesökare:"
+                    - text: Fler än 100 t den senaste månaden
+                  - paragraph [ref=e351]: Ultimate AI Chatbot Hub · Claude 3.5 Haiku · GPT-4o · Claude Opus 4
+                - list "Navigera med piltangenterna" [ref=e358]:
+                  - listitem [ref=e359] [cursor=pointer]:
+                    - link "Grok-3" [ref=e361]:
+                      - /url: https://www.bing.com/aclick?ld=e8168R5oZnW3GapyRWD7KilzVUCUzSJYzD5PTneTHUUPK93gNI5QWEBGKQNC7AZTRSe_mORapfrdwTawfyebmyylHFtrb8MNc2Oeb0eMq0BIWcg3Etk6beQvxJfVxb3dO-eMMAPGSefR-XyE4v3In2Rj7mG5ZBwNkmLeKCI72AQ5XlKYm6LbYCz4jU0TXT3FMZCjbUUDI5gsojOisYTnbUxBnFaEc&u=aHR0cHMlM2ElMmYlMmZoaXhhaS5jb20lMmZncm9rLTMlM2Z1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZsYW5ndWFnZSUzZGVuJTI2Y2FtcGFpZ25pZCUzZDQ4NzUwMDQyMCUyNmFkZ3JvdXBpZCUzZDEyMzU4NTI0MjAxOTQ3OTQlMjZrZXl3b3JkJTNkZ3B0LTUlMjUyMG1pbmklMjZkZXZpY2UlM2RjJTI2bXNjbGtpZCUzZGI5MDZhNWI0YjlkZTExMmMwMDY4Y2ZhMDJiYzViMWYy&rlid=b906a5b4b9de112c0068cfa02bc5b1f2&ntb=1
+                      - generic [ref=e362]: Grok-3
+                  - listitem [ref=e363] [cursor=pointer]:
+                    - link "HIX AI - Official" [ref=e365]:
+                      - /url: https://www.bing.com/aclick?ld=e8eMieweqyr4x5o3F3UMWhQjVUCUx2N3cejkeiFpoZb4r8-qg-lQgTBAUClJls5Lz3XewrMf0sKI9WNagPUxJn6woW0rm4qIIFDms_ISPM4uIykCavcJqRbevezTn_88jEnAe_ySLlL30W8XZsXi6EDJs8OGbh89WjHPtYAYDLjWDO0X6cy8mGmd_uV5QalhoDU2BtdnP4Bk8TCHaPqWVaFL014pk&u=aHR0cHMlM2ElMmYlMmZoaXhhaS5jb20lMmYlM2Z1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZsYW5ndWFnZSUzZGVuJTI2dHlwZSUzZHNpdGVsaW5rJTI2bXNjbGtpZCUzZDY1ZmU1ODI5YzkzZjFhODJjNDdhMzIzZDViMjRmMzQz&rlid=65fe5829c93f1a82c47a323d5b24f343&ntb=1
+                      - generic [ref=e366]: HIX AI - Official
+                  - listitem [ref=e367] [cursor=pointer]:
+                    - link "AI Writers & Modelers" [ref=e369]:
+                      - /url: https://www.bing.com/aclick?ld=e8FkEn2rw3Uo7bf7FRiPHchTVUCUyscpIBptcNSj7RlJQGcMR_Wo64DlDEd95JkjUnP6FPi2F2LlrUyeBXtbnugLzddsazuUJHo4qU6YanBVx2ogZEAptIOFvXzs6lDNpD2ulvnuUULf2L46_T1gkJE9sJNy7mOAOdYpRd72qQ5-JvdkDHXJNTVv2IVjylF8WY13_AIvbkIn_kp-P6Dl6_PElt8D0&u=aHR0cHMlM2ElMmYlMmZoaXhhaS5jb20lMmYlM2Z1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZsYW5ndWFnZSUzZGVuJTI2Y2FtcGFpZ25pZCUzZDQ4NzUwMDQyMCUyNmFkZ3JvdXBpZCUzZDEyMzU4NTI0MjAxOTQ3OTQlMjZrZXl3b3JkJTNkZ3B0LTUlMjUyMG1pbmklMjZkZXZpY2UlM2RjJTI2bXNjbGtpZCUzZGNmNjlmNjhjZGZlYjFjZWM1MGIyOWM5ODRkZjA1Mjkz&rlid=cf69f68cdfeb1cec50b29c984df05293&ntb=1
+                      - generic [ref=e370]: AI Writers & Modelers
+                  - listitem [ref=e371] [cursor=pointer]:
+                    - link "Grok-3 AI Model" [ref=e373]:
+                      - /url: https://www.bing.com/aclick?ld=e8LpcsS_eh9KrlSYRYRzNaQDVUCUy8t8bSldKXfUljJkM978F8PYEFOgx9QnTFy10Bkxgw2Ei8zjsNrqJ7umWTZsvzDmTDWREtzrnGx_xFiJUg2m2ljn5h83rORz3N7foH_LkLVHTaclPm6f3s97J7y4sEd_H7TiF4hbDjHTo8DcFAmx01vSd6tdjJjgBYd4jYpzwN6Ba34AROnCEWKIbiaqNZvig&u=aHR0cHMlM2ElMmYlMmZoaXhhaS5jb20lMmZncm9rLTMlM2Z1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZsYW5ndWFnZSUzZGVuJTI2Y2FtcGFpZ25pZCUzZDQ4NzUwMDQyMCUyNmFkZ3JvdXBpZCUzZDEyMzU4NTI0MjAxOTQ3OTQlMjZrZXl3b3JkJTNkZ3B0LTUlMjUyMG1pbmklMjZkZXZpY2UlM2RjJTI2bXNjbGtpZCUzZDllZTllOWZlNTZjNzFhYTMwMjUxODNlYWM0ZGMwNjQw&rlid=9ee9e9fe56c71aa3025183eac4dc0640&ntb=1
+                      - generic [ref=e374]: Grok-3 AI Model
+        - listitem [ref=e375]:
+          - generic [ref=e377]:
+            - generic [ref=e379]:
+              - heading "Videoklipp av \"gpt-5.5-mini\" OpenAI Model" [level=2] [ref=e381]:
+                - link "Videoklipp av \"gpt-5.5-mini\" OpenAI Model" [ref=e382] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=81fa99039b5ca8e19f0e38832ee136bdfd39e152afb9d3842580a5e2933bdda5JmltdHM9MTc3OTY2NzIwMA&ptn=3&ver=2&hsh=4&fclid=22c67363-e9a0-69b4-189f-6407e8d06850&u=a1L3ZpZGVvcy9zZWFyY2g_cT0lMjJncHQtNS41LW1pbmklMjIrT3BlbkFJK21vZGVsJnFwdnQ9JTIyZ3B0LTUuNS1taW5pJTIyK09wZW5BSSttb2RlbCZGT1JNPVZEUkU&ntb=1
+              - generic [ref=e384]:
+                - 'link "OpenAI GPT-5.5: BEST AI Model Ever! Beats Opus 4.7 & Gemini 3.1! Powerful & Fast! (Fully Tested)från YouTube · Längd: 15 minuter23 sekunder · 20t visningar · upplagd För 1 månad sedan · upplagd av WorldofAI · Klicka för att spela upp. · OpenAI is BACK with GPT-5.5 — and this might be the most powerful AI model we’ve ever seen. In this video, I break down everything you need to know after testing it, from insane coding capabilities to real-world workflows that actually get work done. 🔗 My Links: Sponsor a Video or Do a Demo of Your Product, Contact me: intheworldzofai ..." [ref=e387] [cursor=pointer]':
+                  - /url: https://www.bing.com/ck/a?!&&p=88afa559fd9e610ede6f871cf59765e33124ac50d3cc972aa60d9ac3561f7230JmltdHM9MTc3OTY2NzIwMA&ptn=3&ver=2&hsh=4&fclid=22c67363-e9a0-69b4-189f-6407e8d06850&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9JTIyZ3B0LTUuNS1taW5pJTIyK09wZW5BSSttb2RlbCZtaWQ9MDg5NzlBQkNDQ0NBODNENjNGRkIwODk3OUFCQ0NDQ0E4M0Q2M0ZGQiZjaHVybD0mRk9STT1WSVJF&ntb=1
+                  - generic [ref=e388]:
+                    - generic [ref=e389]:
+                      - 'img "OpenAI GPT-5.5: BEST AI Model Ever! Beats Opus 4.7 & Gemini 3.1! Powerful & Fast! (Fully Tested)" [ref=e391]'
+                      - generic [ref=e397]: 15:23
+                    - generic [ref=e398]:
+                      - 'generic "OpenAI GPT-5.5: BEST AI Model Ever! Beats Opus 4.7 & Gemini 3.1! Powerful & Fast! (Fully Tested)" [ref=e399]':
+                        - strong [ref=e400]: OpenAI
+                        - strong [ref=e401]: GPT
+                        - text: "-"
+                        - strong [ref=e402]: "5"
+                        - strong [ref=e403]: .
+                        - strong [ref=e404]: "5"
+                        - text: ": BEST AI"
+                        - strong [ref=e405]: Model
+                        - text: Ever! Beats Opus 4
+                        - strong [ref=e406]: .
+                        - text: 7 & Gemini 3
+                        - strong [ref=e407]: .
+                        - text: 1! Powerful & Fast! (Fully Tested)
+                      - generic [ref=e408]:
+                        - generic [ref=e409]:
+                          - img "Webbplats för videokälla" [ref=e410]
+                          - text: YouTube · WorldofAI
+                        - generic [ref=e411]: 20t visningar · För 1 månad sedan
+                - 'link "Introducing GPT-5.5 with NVIDIA''s AI Researcherfrån YouTube · Längd: 1 minuter6 sekunder · 10,1t visningar · upplagd För 1 månad sedan · upplagd av OpenAI · Klicka för att spela upp. · While Shaunak Joshi grabbed a snack, GPT-5.5 in Codex refactored his entire code base. GPT-5.5 is our smartest and most intuitive model and NVIDIA AI researchers are seeing a 10x speed improvement in running experiments. “The magic moment was just the fact that it had enough intelligence to come back to me with a solution based on this very ..." [ref=e414] [cursor=pointer]':
+                  - /url: https://www.bing.com/ck/a?!&&p=ffa9d7c74b9bdc5f3661d672caa1a97c5a0f809d617b38afeee8ed872dd19b0bJmltdHM9MTc3OTY2NzIwMA&ptn=3&ver=2&hsh=4&fclid=22c67363-e9a0-69b4-189f-6407e8d06850&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9JTIyZ3B0LTUuNS1taW5pJTIyK09wZW5BSSttb2RlbCZtaWQ9RDUxRjk0QjAxMTNFMkY1QkFGMkRENTFGOTRCMDExM0UyRjVCQUYyRCZjaHVybD1odHRwcyUzYSUyZiUyZnd3dy55b3V0dWJlLmNvbSUyZmNoYW5uZWwlMmZVQ1haQ0pMZEJDMDl4eEdaNmdjZHJjNkEmRk9STT1WSVJF&ntb=1
+                  - generic [ref=e415]:
+                    - generic [ref=e416]:
+                      - img "Introducing GPT-5.5 with NVIDIA's AI Researcher" [ref=e418]
+                      - generic [ref=e424]: 1:06
+                    - generic [ref=e425]:
+                      - generic "Introducing GPT-5.5 with NVIDIA's AI Researcher" [ref=e426]:
+                        - text: Introducing
+                        - strong [ref=e427]: GPT
+                        - text: "-"
+                        - strong [ref=e428]: "5"
+                        - strong [ref=e429]: .
+                        - strong [ref=e430]: "5"
+                        - text: with NVIDIA's AI Researcher
+                      - generic [ref=e431]:
+                        - generic [ref=e432]:
+                          - img "Webbplats för videokälla" [ref=e433]
+                          - text: YouTube · OpenAI
+                        - generic [ref=e434]: 10,1t visningar · För 1 månad sedan
+                - 'link "GPT-5.5 is a total freakfrån YouTube · Längd: 27 minuter13 sekunder · 201,8t visningar · upplagd För 1 månad sedan · upplagd av AI Search · Klicka för att spela upp. · OpenAI GPT 5.5 review. New best AI model #ai #llm #aitools #ainews #claude #agi #singularity Thanks to our sponsor Hubspot. Download the “AI app ideas” resource https://clickhubspot.com/ec1c5a 0:00 GPT 5.5 intro 0:47 ChatGPT vs Codex 1:28 Digital Earth 3:24 Ray tracing 6:27 Detecting cancer 7:26 Hubspot AI app ideas 8:45 Classifying tumors ..." [ref=e437] [cursor=pointer]':
+                  - /url: https://www.bing.com/ck/a?!&&p=cb4aaf5d294ff06ca9f7fe0e972887c3e0f23f68a91fcebc590f8f66ff6615f2JmltdHM9MTc3OTY2NzIwMA&ptn=3&ver=2&hsh=4&fclid=22c67363-e9a0-69b4-189f-6407e8d06850&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9JTIyZ3B0LTUuNS1taW5pJTIyK09wZW5BSSttb2RlbCZtaWQ9MjRFMzlCNkI2NDE4RjY4MjQ2MTcyNEUzOUI2QjY0MThGNjgyNDYxNyZjaHVybD1odHRwcyUzYSUyZiUyZnd3dy55b3V0dWJlLmNvbSUyZmNoYW5uZWwlMmZVQ0lnbkdsR2tWUmhkNHFORmNFd0xMNEEmRk9STT1WSVJF&ntb=1
+                  - generic [ref=e438]:
+                    - generic [ref=e439]:
+                      - img "GPT-5.5 is a total freak" [ref=e441]
+                      - generic [ref=e447]: 27:13
+                    - generic [ref=e448]:
+                      - generic "GPT-5.5 is a total freak" [ref=e449]:
+                        - strong [ref=e450]: GPT
+                        - text: "-"
+                        - strong [ref=e451]: "5"
+                        - strong [ref=e452]: .
+                        - strong [ref=e453]: "5"
+                        - text: is a total freak
+                      - generic [ref=e454]:
+                        - generic [ref=e455]:
+                          - img "Webbplats för videokälla" [ref=e456]
+                          - text: YouTube · AI Search
+                        - generic [ref=e457]: 201,8t visningar · För 1 månad sedan
+            - button "Visa mer" [ref=e460]:
+              - generic "Visa mer" [ref=e461]
+              - img [ref=e463]
+        - listitem [ref=e466]:
+          - navigation "Fler resultat för \"gpt-5.5-mini\" OpenAI model":
+            - list:
+              - listitem [ref=e467]:
+                - generic "Sida 1" [ref=e468]: "1"
+              - listitem [ref=e469]:
+                - link "Sida 2" [ref=e470] [cursor=pointer]:
+                  - /url: /search?q=%22gpt-5.5-mini%22+OpenAI+model&FPIG=49D552D4F76A4742B687A5E7BF39A6A5&first=7&FORM=PERE
+                  - text: "2"
+              - listitem [ref=e471]:
+                - link "Sida 3" [ref=e472] [cursor=pointer]:
+                  - /url: /search?q=%22gpt-5.5-mini%22+OpenAI+model&FPIG=49D552D4F76A4742B687A5E7BF39A6A5&first=17&FORM=PERE1
+                  - text: "3"
+              - listitem [ref=e473]:
+                - link "Nästa sida" [ref=e474] [cursor=pointer]:
+                  - /url: /search?q=%22gpt-5.5-mini%22+OpenAI+model&FPIG=49D552D4F76A4742B687A5E7BF39A6A5&first=7&FORM=PORE
+    - complementary "Fler resultat" [ref=e475]:
+      - list
+  - contentinfo [ref=e476]:
+    - generic [ref=e477]:
+      - list:
+        - listitem [ref=e478]:
+          - link "Sekretess" [ref=e479] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=26b3c8b76d57d5af79e0b99bf2169e1883bac5823ef6d85cd379d6ffff379a16JmltdHM9MTc3OTY2NzIwMA&ptn=3&ver=2&hsh=4&fclid=22c67363-e9a0-69b4-189f-6407e8d06850&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e480]:
+          - link "Villkor" [ref=e481] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=df48ccb1d49d9003f307655911d1d4506b8a93a2f704eef0d8afcedc8dcd636eJmltdHM9MTc3OTY2NzIwMA&ptn=3&ver=2&hsh=4&fclid=22c67363-e9a0-69b4-189f-6407e8d06850&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1
+  - generic [ref=e483]:
+    - generic:
+      - generic:
+        - generic:
+          - generic [ref=e485]:
+            - search [ref=e486]:
+              - textbox "Be om en uppföljning" [ref=e487]:
+                - /placeholder: "Be om en uppföljning "
+            - button "Skicka" [ref=e489] [cursor=pointer]:
+              - img [ref=e491]
+          - navigation [ref=e494]:
+            - link "GPT-5 mini performance benchmarks" [ref=e495] [cursor=pointer]:
+              - /url: /copilotsearch?q=GPT-5+mini+performance+benchmarks&form=CSBSUG
+            - link "GPT-5.4 vs GPT-5.2 features" [ref=e496] [cursor=pointer]:
+              - /url: /copilotsearch?q=GPT-5.4+vs+GPT-5.2+features&form=CSBSUG
+            - link "GPT-5.5 improvements over GPT-5.4" [ref=e497] [cursor=pointer]:
+              - /url: /copilotsearch?q=GPT-5.5+improvements+over+GPT-5.4&form=CSBSUG
+  - dialog "Quick Search"

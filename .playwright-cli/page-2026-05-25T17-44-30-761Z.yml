@@ -1,0 +1,117 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - img
+    - generic [ref=e5]:
+      - img "Patrik"
+      - img
+      - img
+      - generic:
+        - img "Hi! I'm Patrik. Drag an object to the workbench to investigate it and find out more about me."
+    - generic "Bubba — Patrik's cat" [ref=e6]:
+      - generic: meow!
+    - generic [ref=e7]:
+      - generic: Mechanical drive
+    - generic [ref=e9]:
+      - generic: CRT terminal
+    - generic [ref=e11]:
+      - generic: Raspberry Pi
+    - generic [ref=e13]:
+      - generic: Cyber head
+    - generic [ref=e15]:
+      - generic: Old transcripts
+    - generic [ref=e17]:
+      - generic: Rotary phone
+    - generic [ref=e19]:
+      - generic: Brass telescope
+    - generic [ref=e21]:
+      - generic: Spiral notebook
+    - generic [ref=e23]:
+      - generic: Vinyl record
+    - generic [ref=e25]:
+      - generic: Old paperback
+    - generic "Catch me!" [ref=e27]
+    - generic "Something stirring in the shed..." [ref=e28]:
+      - generic: Something in the shed?
+      - text: "?"
+    - generic:
+      - img "Agent dog"
+      - img
+      - generic: Pssst. Click me. 🤫
+    - generic [ref=e29]:
+      - generic [ref=e30]: Inspection Tray
+      - generic: ↳ drop a part here to inspect it
+    - generic:
+      - generic [ref=e31]: Patrik's Junkyard
+      - generic [ref=e32]:
+        - generic [ref=e33]: 0/10
+        - generic [ref=e34]:
+          - generic "Mechanical drive" [ref=e35]
+          - generic "CRT terminal" [ref=e36]
+          - generic "Raspberry Pi" [ref=e37]
+          - generic "Cyber head" [ref=e38]
+          - generic "Old transcripts" [ref=e39]
+          - generic "Rotary phone" [ref=e40]
+          - generic "Brass telescope" [ref=e41]
+          - generic "Spiral notebook" [ref=e42]
+          - generic "Vinyl record" [ref=e43]
+          - generic "Old paperback" [ref=e44]
+    - generic [ref=e45]:
+      - button "Start over — restore everything" [ref=e46]:
+        - img [ref=e47]
+      - button "🔊" [ref=e52]
+  - button "Close assistant" [ref=e61]
+  - generic: Ask Patrik anything ✨
+  - dialog "Ask Patrik" [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e65]:
+        - generic [ref=e66]: Ask Patrik
+        - generic [ref=e67]: his little AI sidekick
+      - button "Close" [ref=e68]: ✕
+    - generic [ref=e69]:
+      - generic [ref=e70]: Hey there! I'm Patrik's little AI sidekick. Ask me anything — or tap a suggestion below. I can also show you rich cards.
+      - generic [ref=e81]: Show career timeline
+      - generic [ref=e83]:
+        - heading "Career Specification Versions" [level=4] [ref=e84]
+        - table [ref=e85]:
+          - rowgroup [ref=e86]:
+            - row "Version Status Role Company" [ref=e87]:
+              - columnheader "Version" [ref=e88]
+              - columnheader "Status" [ref=e89]
+              - columnheader "Role" [ref=e90]
+              - columnheader "Company" [ref=e91]
+          - rowgroup [ref=e92]:
+            - row "v1.0 Stable Safety Researcher Volvo Cars · 2022 — 2024" [ref=e93]:
+              - cell "v1.0" [ref=e94]
+              - cell "Stable" [ref=e95]:
+                - generic [ref=e96]: Stable
+              - cell "Safety Researcher" [ref=e97]
+              - cell "Volvo Cars · 2022 — 2024" [ref=e98]:
+                - text: Volvo Cars
+                - generic [ref=e99]: · 2022 — 2024
+            - row "v2.0 Stable Data / ML Consultant Infotiv · 2022 — 2024" [ref=e100]:
+              - cell "v2.0" [ref=e101]
+              - cell "Stable" [ref=e102]:
+                - generic [ref=e103]: Stable
+              - cell "Data / ML Consultant" [ref=e104]
+              - cell "Infotiv · 2022 — 2024" [ref=e105]:
+                - text: Infotiv
+                - generic [ref=e106]: · 2022 — 2024
+            - row "v3.0 Stable ML Engineer 2550 Engineering · 2024 — 2025" [ref=e107]:
+              - cell "v3.0" [ref=e108]
+              - cell "Stable" [ref=e109]:
+                - generic [ref=e110]: Stable
+              - cell "ML Engineer" [ref=e111]
+              - cell "2550 Engineering · 2024 — 2025" [ref=e112]:
+                - text: 2550 Engineering
+                - generic [ref=e113]: · 2024 — 2025
+            - row "v4.0 Current Data Scientist MarketHype · 2025 — Present" [ref=e114]:
+              - cell "v4.0" [ref=e115]
+              - cell "Current" [ref=e116]:
+                - generic [ref=e117]: Current
+              - cell "Data Scientist" [ref=e118]
+              - cell "MarketHype · 2025 — Present" [ref=e119]:
+                - text: MarketHype
+                - generic [ref=e120]: · 2025 — Present
+    - generic [ref=e78]:
+      - textbox "Ask anything…" [active] [ref=e79]
+      - button "Send" [disabled] [ref=e80]

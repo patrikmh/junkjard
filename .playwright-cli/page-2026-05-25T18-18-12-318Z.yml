@@ -1,0 +1,1217 @@
+- generic [ref=e3]:
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - heading "Microsoft-logotypbild" [level=1] [ref=e19]:
+          - img "Microsoft-logotypbild" [ref=e20] [cursor=pointer]
+        - navigation [ref=e28]:
+          - menubar [ref=e29]:
+            - menuitem "Copilot" [ref=e30] [cursor=pointer]:
+              - link "Copilot" [ref=e31]:
+                - /url: /chat?FORM=hpcodx&intent=bing
+                - generic [ref=e33]: Copilot
+            - menuitem "Bilder" [ref=e34] [cursor=pointer]:
+              - link "Bilder" [ref=e35]:
+                - /url: /images?FORM=Z9LH
+            - menuitem "Videoklipp" [ref=e36] [cursor=pointer]:
+              - link "Videoklipp" [ref=e37]:
+                - /url: /videos?FORM=Z9LH1
+            - menuitem "Kartor" [ref=e38] [cursor=pointer]:
+              - link "Kartor" [ref=e39]:
+                - /url: /maps?FORM=Z9LH2
+            - menuitem "Nyheter" [ref=e40] [cursor=pointer]:
+              - link "Nyheter" [ref=e41]:
+                - /url: /news/search?q=Huvudrubriker&nvaug=%5bNewsVertical+Category%3d%22rt_MaxClass%22%5d&FORM=Z9LH3
+            - menuitem ". . . Mer" [ref=e42] [cursor=pointer]:
+              - text: . . .
+              - button "Mer" [ref=e43]
+      - generic [ref=e68]:
+        - link "English" [ref=e70] [cursor=pointer]:
+          - /url: /?setlang=en&cc=se&cc=SE
+        - complementary "Poäng och inställningar för kontot" [ref=e71]:
+          - link "Logga in Logga in" [ref=e72] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic [ref=e73]: Logga in
+            - generic "Logga in" [ref=e74]
+          - button "Microsoft Rewards" [ref=e75] [cursor=pointer]:
+            - generic [ref=e77]:
+              - generic [ref=e78]: "3"
+              - img [ref=e80]
+          - button "Inställningar och snabblänkar" [ref=e85] [cursor=pointer]
+    - generic [ref=e44]:
+      - search [ref=e45]:
+        - img [ref=e47] [cursor=pointer]
+        - combobox "Skriv din sökning här – sökförslagen visas medan du söker" [active] [ref=e51]:
+          - status [ref=e86]
+        - button "Röstsökning" [ref=e54] [cursor=pointer]:
+          - img [ref=e55]
+        - button "Sök med en bild" [ref=e89] [cursor=pointer]
+        - button "Sök med ett skärmtangentbord" [ref=e60]:
+          - img [ref=e62] [cursor=pointer]
+        - link "Öppna Copilot" [ref=e64] [cursor=pointer]:
+          - /url: /chat?FORM=hpcodx&intent=bing
+      - generic [ref=e92]:
+        - link "Bildskapare" [ref=e93] [cursor=pointer]:
+          - /url: /images/create/ai-image-generator?bicsource=hp&FORM=bicbhp
+          - generic [ref=e95]: Bildskapare
+        - link "Videoskapare" [ref=e96] [cursor=pointer]:
+          - /url: /images/create/ai-video-generator?bicsource=hp&FORM=bvcbhp
+          - generic [ref=e98]: Videoskapare
+        - link "Textskapare" [ref=e99] [cursor=pointer]:
+          - /url: /search?q=bing ai-skrivande&FORM=btcbhp
+          - generic [ref=e101]: Textskapare
+  - generic [ref=e104]:
+    - generic [ref=e106]:
+      - generic:
+        - 'heading "Dagens bild: View over Jaipur from Hawa Mahal, Rajasthan" [level=3]':
+          - 'link "Dagens bild: View over Jaipur from Hawa Mahal, Rajasthan"':
+            - /url: /search?q=Hawa+Mahal&form=hpcapt&filters=HpDate:"20260525_0700"+mgzv3configlist:"BingQA_Encyclopedia_Layout"
+            - text: View over Jaipur from Hawa Mahal, Rajasthan
+        - generic:
+          - generic: © byheaven/Getty Images
+          - list:
+            - listitem:
+              - button "Hämta den här bilden. Bilden får endast användas som skrivbordsunderlägg."
+      - generic [ref=e107]:
+        - link "Info" [ref=e109] [cursor=pointer]:
+          - /url: /search?q=Hawa+Mahal&form=hpcapt&filters=HpDate:"20260525_0700"+mgzv3configlist:"BingQA_Encyclopedia_Layout"
+          - img [ref=e111]
+          - heading "Info" [level=2] [ref=e114]
+        - generic [ref=e115] [cursor=pointer]:
+          - status [ref=e116]
+          - button "Föregående bild" [ref=e117]
+          - button "Nästa bild" [disabled] [ref=e119]
+    - button "Feedback" [ref=e121] [cursor=pointer]:
+      - img [ref=e122]
+      - generic: Feedback
+    - generic [ref=e124]:
+      - region "Trendar på Bing" [ref=e125]:
+        - generic:
+          - status [ref=e126]
+          - button "Toggle feed area position" [expanded] [ref=e127] [cursor=pointer]
+          - button "Tidigare nyheter" [disabled]
+          - button "Mer nyheter" [ref=e129] [cursor=pointer]
+        - list [ref=e131]:
+          - listitem [ref=e132]:
+            - list [ref=e133]:
+              - listitem [ref=e134] [cursor=pointer]:
+                - 'link "Hinten i TV4: David Hellenius slutar efter 6 år? © Hänt" [ref=e135]':
+                  - /url: /search?q=Hinten+i+TV4%3a+David+Hellenius+slutar+efter+6+%c3%a5r%3f&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_9616B95CE1BA19D0C1685869D7A7D394%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%220%22+tnOrder%3a%2214e05765-31d9-4592-ba26-2ed2e5d781a3%22&form=HPNN01
+                  - generic [ref=e136]:
+                    - 'heading "Hinten i TV4: David Hellenius slutar efter 6 år?" [level=2] [ref=e137]':
+                      - generic [ref=e138]: "Hinten i TV4: David Hellenius slutar efter 6 år?"
+                    - img "© Hänt" [ref=e139]
+                    - link "Läs artikel":
+                      - /url: https://www.msn.com/sv-se/nyheter/other/hinten-i-tv4-david-hellenius-slutar-efter-6-år/ar-AA2416yP?ocid=TobArticle
+                      - img [ref=e140]
+              - listitem [ref=e143] [cursor=pointer]:
+                - 'link "Ny bild på Trumps hand blir viral: \"Han ruttnar i realtid\" © Dagens.se" [ref=e144]':
+                  - /url: /search?q=Ny+bild+p%c3%a5+Trumps+hand+blir+viral%3a+%22Han+ruttnar+i+realtid%22&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_AE016B97066FC81AF122E17FAA40E29C%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%221%22+tnOrder%3a%2214e05765-31d9-4592-ba26-2ed2e5d781a3%22&form=HPNN01
+                  - generic [ref=e145]:
+                    - 'heading "Ny bild på Trumps hand blir viral: \"Han ruttnar i realtid\"" [level=2] [ref=e146]':
+                      - generic [ref=e147]: "Ny bild på Trumps hand blir viral: \"Han ruttnar i realtid\""
+                    - img "© Dagens.se" [ref=e148]
+                    - link "Läs artikel":
+                      - /url: https://www.msn.com/sv-se/nyheter/other/ny-bild-på-trumps-hand-blir-viral-han-ruttnar-i-realtid/ar-AA241E19?ocid=TobArticle
+                      - img [ref=e149]
+              - listitem [ref=e152] [cursor=pointer]:
+                - link "Alla barn är allas barn – nu kan Sverige andas ut © Omni" [ref=e153]:
+                  - /url: /search?q=Alla+barn+%c3%a4r+allas+barn+%e2%80%93+nu+kan+Sverige+andas+ut&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_D07EA86F9A3A0E472C517E7047C6B17C%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%222%22+tnOrder%3a%2214e05765-31d9-4592-ba26-2ed2e5d781a3%22&form=HPNN01
+                  - generic [ref=e154]:
+                    - heading "Alla barn är allas barn – nu kan Sverige andas ut" [level=2] [ref=e155]:
+                      - generic [ref=e156]: Alla barn är allas barn – nu kan Sverige andas ut
+                    - img "© Omni" [ref=e157]
+                    - link "Läs artikel":
+                      - /url: https://www.msn.com/sv-se/nyheter/other/alla-barn-är-allas-barn-nu-kan-sverige-andas-ut/ar-AA240prs?ocid=TobArticle
+                      - img [ref=e158]
+              - listitem [ref=e161] [cursor=pointer]:
+                - link "Ica-butikens misstag blev succé – kunderna köpte upp allt © Nyheter24" [ref=e162]:
+                  - /url: /search?q=Ica-butikens+misstag+blev+succ%c3%a9+%e2%80%93+kunderna+k%c3%b6pte+upp+allt&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_D57E695A7BEAC51BF77FDBBE70B08F8D%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%223%22+tnOrder%3a%2214e05765-31d9-4592-ba26-2ed2e5d781a3%22&form=HPNN01
+                  - generic [ref=e163]:
+                    - heading "Ica-butikens misstag blev succé – kunderna köpte upp allt" [level=2] [ref=e164]:
+                      - generic [ref=e165]: Ica-butikens misstag blev succé – kunderna köpte upp allt
+                    - img "© Nyheter24" [ref=e166]
+                    - link "Läs artikel":
+                      - /url: https://www.msn.com/sv-se/nyheter/utrikes/ica-butikens-misstag-blev-succé-kunderna-köpte-upp-allt/ar-AA241eOI?ocid=TobArticle
+                      - img [ref=e167]
+              - listitem [ref=e170] [cursor=pointer]:
+                - link "Samsung betalar 3,2 miljoner i bonus till varje anställd © Dagens PS" [ref=e171]:
+                  - /url: /search?q=Samsung+betalar+3%2c2+miljoner+i+bonus+till+varje+anst%c3%a4lld&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_C9C7DC1D8A492132563B21F0E4C843F9%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%224%22+tnOrder%3a%2214e05765-31d9-4592-ba26-2ed2e5d781a3%22&form=HPNN01
+                  - generic [ref=e172]:
+                    - heading "Samsung betalar 3,2 miljoner i bonus till varje anställd" [level=2] [ref=e173]:
+                      - generic [ref=e174]: Samsung betalar 3,2 miljoner i bonus till varje anställd
+                    - img "© Dagens PS" [ref=e175]
+                    - link "Läs artikel":
+                      - /url: https://www.msn.com/sv-se/nyheter/other/samsung-betalar-3-2-miljoner-i-bonus-till-varje-anställd/ar-AA2411ra?ocid=TobArticle
+                      - img [ref=e176]
+              - listitem [ref=e179] [cursor=pointer]:
+                - link "Svenska miljonärer väljer bort Tesla – Volvo blir nya statusbilen © Dagens PS" [ref=e180]:
+                  - /url: /search?q=Svenska+miljon%c3%a4rer+v%c3%a4ljer+bort+Tesla+%e2%80%93+Volvo+blir+nya+statusbilen&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_F64CE86B764D8E2D361E40FF660D52D6%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%225%22+tnOrder%3a%2214e05765-31d9-4592-ba26-2ed2e5d781a3%22&form=HPNN01
+                  - generic [ref=e181]:
+                    - heading "Svenska miljonärer väljer bort Tesla – Volvo blir nya statusbilen" [level=2] [ref=e182]:
+                      - generic [ref=e183]: Svenska miljonärer väljer bort Tesla – Volvo blir nya statusbilen
+                    - img "© Dagens PS" [ref=e184]
+                    - link "Läs artikel":
+                      - /url: https://www.msn.com/sv-se/nyheter/other/svenska-miljonärer-väljer-bort-tesla-volvo-blir-nya-statusbilen/ar-AA241ABF?ocid=TobArticle
+                      - img [ref=e185]
+              - listitem [ref=e188] [cursor=pointer]:
+                - link "Tre månader – sen är Europas lager slut © Realtid.se" [ref=e189]:
+                  - /url: /search?q=Tre+m%c3%a5nader+%e2%80%93+sen+%c3%a4r+Europas+lager+slut&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_F363794A8536493DD4F349A6CE3F5C5C%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%226%22+tnOrder%3a%2214e05765-31d9-4592-ba26-2ed2e5d781a3%22&form=HPNN01
+                  - generic [ref=e190]:
+                    - heading "Tre månader – sen är Europas lager slut" [level=2] [ref=e191]:
+                      - generic [ref=e192]: Tre månader – sen är Europas lager slut
+                    - img "© Realtid.se" [ref=e193]
+                    - link "Läs artikel":
+                      - /url: https://www.msn.com/sv-se/nyheter/other/tre-månader-sen-är-europas-lager-slut/ar-AA241p5X?ocid=TobArticle
+                      - img [ref=e194]
+              - listitem [ref=e197] [cursor=pointer]:
+                - link "M får egen majoritet om de rikaste får välja © Omni" [ref=e198]:
+                  - /url: /search?q=M+f%c3%a5r+egen+majoritet+om+de+rikaste+f%c3%a5r+v%c3%a4lja&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_010ED0CBE04B304A0443400E6833C274%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%227%22+tnOrder%3a%2214e05765-31d9-4592-ba26-2ed2e5d781a3%22&form=HPNN01
+                  - generic [ref=e199]:
+                    - heading "M får egen majoritet om de rikaste får välja" [level=2] [ref=e200]:
+                      - generic [ref=e201]: M får egen majoritet om de rikaste får välja
+                    - img "© Omni" [ref=e202]
+                    - link "Läs artikel":
+                      - /url: https://www.msn.com/sv-se/nyheter/other/m-får-egen-majoritet-om-de-rikaste-får-välja/ar-AA240NfD?ocid=TobArticle
+                      - img [ref=e203]
+              - listitem [ref=e206] [cursor=pointer]:
+                - link "Person hittad död efter brand © TT Nyhetsbyrån" [ref=e207]:
+                  - /url: /search?q=Person+hittad+d%c3%b6d+efter+brand&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_ABC62A12F1516070349E2BF81372228C%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%228%22+tnOrder%3a%2214e05765-31d9-4592-ba26-2ed2e5d781a3%22&form=HPNN01
+                  - generic [ref=e208]:
+                    - heading "Person hittad död efter brand" [level=2] [ref=e209]:
+                      - generic [ref=e210]: Person hittad död efter brand
+                    - img "© TT Nyhetsbyrån" [ref=e211]
+                    - link "Läs artikel":
+                      - /url: https://www.msn.com/sv-se/nyheter/inrikes/person-hittad-död-efter-brand/ar-AA240H6b?ocid=TobArticle
+                      - img [ref=e212]
+              - listitem [ref=e215] [cursor=pointer]:
+                - link "Sebastian Samuelssons nya familjebeslut som påverkar säsongen © Sportbibeln nyheter" [ref=e216]:
+                  - /url: /search?q=Sebastian+Samuelssons+nya+familjebeslut+som+p%c3%a5verkar+s%c3%a4songen&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_B1258B20E5EDD5BF7456248714A394B2%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%229%22+tnOrder%3a%2214e05765-31d9-4592-ba26-2ed2e5d781a3%22&form=HPNN01
+                  - generic [ref=e217]:
+                    - heading "Sebastian Samuelssons nya familjebeslut som påverkar säsongen" [level=2] [ref=e218]:
+                      - generic [ref=e219]: Sebastian Samuelssons nya familjebeslut som påverkar säsongen
+                    - img "© Sportbibeln nyheter" [ref=e220]
+                    - link "Läs artikel":
+                      - /url: https://www.msn.com/sv-se/nyheter/other/sebastian-samuelssons-nya-familjebeslut-som-påverkar-säsongen/ar-AA241vyo?ocid=TobArticle
+                      - img [ref=e221]
+              - listitem [ref=e224] [cursor=pointer]:
+                - link "Ryssland hotar med FN-domstol över behandlingen av ryssar i Baltikum © Dagens.se" [ref=e225]:
+                  - /url: /search?q=Ryssland+hotar+med+FN-domstol+%c3%b6ver+behandlingen+av+ryssar+i+Baltikum&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_C42EBFB4115442BE428E54F3861055BA%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%2210%22+tnOrder%3a%2214e05765-31d9-4592-ba26-2ed2e5d781a3%22&form=HPNN01
+                  - generic [ref=e226]:
+                    - heading "Ryssland hotar med FN-domstol över behandlingen av ryssar i Baltikum" [level=2] [ref=e227]:
+                      - generic [ref=e228]: Ryssland hotar med FN-domstol över behandlingen av ryssar i Baltikum
+                    - img "© Dagens.se" [ref=e229]
+                    - link "Läs artikel":
+                      - /url: https://www.msn.com/sv-se/nyheter/other/ryssland-hotar-med-fn-domstol-över-behandlingen-av-ryssar-i-baltikum/ar-AA240vQJ?ocid=TobArticle
+                      - img [ref=e230]
+              - listitem [ref=e233] [cursor=pointer]:
+                - link "Världens största gruvjätte struntade i klimatlöften © Omni" [ref=e234]:
+                  - /url: /search?q=V%c3%a4rldens+st%c3%b6rsta+gruvj%c3%a4tte+struntade+i+klimatl%c3%b6ften&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_7A5A74C6BEC1F29D8204605C5DC4737C%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%2211%22+tnOrder%3a%2214e05765-31d9-4592-ba26-2ed2e5d781a3%22&form=HPNN01
+                  - generic [ref=e235]:
+                    - heading "Världens största gruvjätte struntade i klimatlöften" [level=2] [ref=e236]:
+                      - generic [ref=e237]: Världens största gruvjätte struntade i klimatlöften
+                    - img "© Omni" [ref=e238]
+                    - link "Läs artikel":
+                      - /url: https://www.msn.com/sv-se/nyheter/other/världens-största-gruvjätte-struntade-i-klimatlöften/ar-AA240xlM?ocid=TobArticle
+                      - img [ref=e239]
+              - listitem [ref=e242] [cursor=pointer]:
+                - link "Pandoras ask väntar om Alberta bryter sig loss © Omni" [ref=e243]:
+                  - /url: /search?q=Pandoras+ask+v%c3%a4ntar+om+Alberta+bryter+sig+loss&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_53F517F4B1D85DCCCC5AD759A32F80AE%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%2212%22+tnOrder%3a%2214e05765-31d9-4592-ba26-2ed2e5d781a3%22&form=HPNN01
+                  - generic [ref=e244]:
+                    - heading "Pandoras ask väntar om Alberta bryter sig loss" [level=2] [ref=e245]:
+                      - generic [ref=e246]: Pandoras ask väntar om Alberta bryter sig loss
+                    - img "© Omni" [ref=e247]
+                    - link "Läs artikel":
+                      - /url: https://www.msn.com/sv-se/nyheter/other/pandoras-ask-väntar-om-alberta-bryter-sig-loss/ar-AA240WD0?ocid=TobArticle
+                      - img [ref=e248]
+              - listitem [ref=e251] [cursor=pointer]:
+                - link "TV4 anmäls efter händelsen i Robinson © Nyheter24" [ref=e252]:
+                  - /url: /search?q=TV4+anm%c3%a4ls+efter+h%c3%a4ndelsen+i+Robinson&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_C61D5ADC22F84C15B345A97CEDE58863%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%2213%22+tnOrder%3a%2214e05765-31d9-4592-ba26-2ed2e5d781a3%22&form=HPNN01
+                  - generic [ref=e253]:
+                    - heading "TV4 anmäls efter händelsen i Robinson" [level=2] [ref=e254]:
+                      - generic [ref=e255]: TV4 anmäls efter händelsen i Robinson
+                    - img "© Nyheter24" [ref=e256]
+                    - link "Läs artikel":
+                      - /url: https://www.msn.com/sv-se/noje/kandisnyheter/tv4-anmäls-efter-händelsen-i-robinson/ar-AA241Tio?ocid=TobArticle
+                      - img [ref=e257]
+              - listitem [ref=e260] [cursor=pointer]:
+                - 'link "Israelisk kritik mot avtal: \"Dåligt för regionen\" © Omni" [ref=e261]':
+                  - /url: /search?q=Israelisk+kritik+mot+avtal%3a+%22D%c3%a5ligt+f%c3%b6r+regionen%22&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_B99F657FBF007F21CFA6411422AB4C2D%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%2214%22+tnOrder%3a%2214e05765-31d9-4592-ba26-2ed2e5d781a3%22&form=HPNN01
+                  - generic [ref=e262]:
+                    - 'heading "Israelisk kritik mot avtal: \"Dåligt för regionen\"" [level=2] [ref=e263]':
+                      - generic [ref=e264]: "Israelisk kritik mot avtal: \"Dåligt för regionen\""
+                    - img "© Omni" [ref=e265]
+                    - link "Läs artikel":
+                      - /url: https://www.msn.com/sv-se/nyheter/other/israelisk-kritik-mot-avtal-dåligt-för-regionen/ar-AA2416FB?ocid=TobArticle
+                      - img [ref=e266]
+              - listitem [ref=e269] [cursor=pointer]:
+                - 'link "Anna Book i tårar – skadan från Masked Singer läker aldrig: \"Konstant smärta\" © Hänt" [ref=e270]':
+                  - /url: /search?q=Anna+Book+i+t%c3%a5rar+%e2%80%93+skadan+fr%c3%a5n+Masked+Singer+l%c3%a4ker+aldrig%3a+%22Konstant+sm%c3%a4rta%22&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_5D2E6E43A50A7BCE3E1CAAB54922F0C8%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%2215%22+tnOrder%3a%2214e05765-31d9-4592-ba26-2ed2e5d781a3%22&form=HPNN01
+                  - generic [ref=e271]:
+                    - 'heading "Anna Book i tårar – skadan från Masked Singer läker aldrig: \"Konstant smärta\"" [level=2] [ref=e272]':
+                      - generic [ref=e273]: "Anna Book i tårar – skadan från Masked Singer läker aldrig: \"Konstant smärta\""
+                    - img "© Hänt" [ref=e274]
+                    - link "Läs artikel":
+                      - /url: https://www.msn.com/sv-se/nyheter/other/anna-book-i-tårar-skadan-från-masked-singer-läker-aldrig-konstant-smärta/ar-AA241nXI?ocid=TobArticle
+                      - img [ref=e275]
+              - listitem [ref=e278] [cursor=pointer]:
+                - link "Klubbikonen pekar ut Potter efter West Hams fiasko © Omni" [ref=e279]:
+                  - /url: /search?q=Klubbikonen+pekar+ut+Potter+efter+West+Hams+fiasko&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_273B1F601B976814D13C31E945F9F952%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%2216%22+tnOrder%3a%2214e05765-31d9-4592-ba26-2ed2e5d781a3%22&form=HPNN01
+                  - generic [ref=e280]:
+                    - heading "Klubbikonen pekar ut Potter efter West Hams fiasko" [level=2] [ref=e281]:
+                      - generic [ref=e282]: Klubbikonen pekar ut Potter efter West Hams fiasko
+                    - img "© Omni" [ref=e283]
+                    - link "Läs artikel":
+                      - /url: https://www.msn.com/sv-se/nyheter/other/klubbikonen-pekar-ut-potter-efter-west-hams-fiasko/ar-AA240QDM?ocid=TobArticle
+                      - img [ref=e284]
+              - listitem [ref=e287] [cursor=pointer]:
+                - link "Unga mammor – Natalie Eklinds beslut efter skilsmässan – så blir det nu för de 7 barnen © Hänt" [ref=e288]:
+                  - /url: /search?q=Unga+mammor+%e2%80%93+Natalie+Eklinds+beslut+efter+skilsm%c3%a4ssan+%e2%80%93+s%c3%a5+blir+det+nu+f%c3%b6r+de+7+barnen&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_C56AFB4F3660F9E7B192E516934A0481%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%2217%22+tnOrder%3a%2214e05765-31d9-4592-ba26-2ed2e5d781a3%22&form=HPNN01
+                  - generic [ref=e289]:
+                    - heading "Unga mammor – Natalie Eklinds beslut efter skilsmässan – så blir det nu för de 7 barnen" [level=2] [ref=e290]:
+                      - generic [ref=e291]: Unga mammor – Natalie Eklinds beslut efter skilsmässan – så blir det nu för de 7 barnen
+                    - img "© Hänt" [ref=e292]
+                    - link "Läs artikel":
+                      - /url: https://www.msn.com/sv-se/nyheter/other/unga-mammor-natalie-eklinds-beslut-efter-skilsmässan-så-blir-det-nu-för-de-7-barnen/ar-AA240mvo?ocid=TobArticle
+                      - img [ref=e293]
+              - listitem [ref=e296] [cursor=pointer]:
+                - link "Ny ansökan om kärnkraft - här vill de bygga © TT Nyhetsbyrån" [ref=e297]:
+                  - /url: /search?q=Ny+ans%c3%b6kan+om+k%c3%a4rnkraft+-+h%c3%a4r+vill+de+bygga&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_70A2786588B1FA71D256513A1D11D875%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%2218%22+tnOrder%3a%2214e05765-31d9-4592-ba26-2ed2e5d781a3%22&form=HPNN01
+                  - generic [ref=e298]:
+                    - heading "Ny ansökan om kärnkraft - här vill de bygga" [level=2] [ref=e299]:
+                      - generic [ref=e300]: Ny ansökan om kärnkraft - här vill de bygga
+                    - img "© TT Nyhetsbyrån" [ref=e301]
+                    - link "Läs artikel":
+                      - /url: https://www.msn.com/sv-se/ekonomi/marknader/ny-ansökan-om-kärnkraft-här-vill-de-bygga/ar-AA240h39?ocid=TobArticle
+                      - img [ref=e302]
+              - listitem [ref=e305] [cursor=pointer]:
+                - 'link "Förtroendekrisen efter Northvolt: Ingen köper Lytens batterier © Dagens PS" [ref=e306]':
+                  - /url: /search?q=F%c3%b6rtroendekrisen+efter+Northvolt%3a+Ingen+k%c3%b6per+Lytens+batterier&efirst=0&ecount=50&filters=tnTID%3a%22TOBP2_56135A0B2D4657CCD6C8050D93797E75%22+tnVersion%3a%22ba2aa599-138c-489c-b885-3d21b81d0b4e%22+Segment%3a%22popularnow.carousel%22+tnCol%3a%2219%22+tnOrder%3a%2214e05765-31d9-4592-ba26-2ed2e5d781a3%22&form=HPNN01
+                  - generic [ref=e307]:
+                    - 'heading "Förtroendekrisen efter Northvolt: Ingen köper Lytens batterier" [level=2] [ref=e308]':
+                      - generic [ref=e309]: "Förtroendekrisen efter Northvolt: Ingen köper Lytens batterier"
+                    - img "© Dagens PS" [ref=e310]
+                    - link "Läs artikel":
+                      - /url: https://www.msn.com/sv-se/nyheter/other/förtroendekrisen-efter-northvolt-ingen-köper-lytens-batterier/ar-AA23ZrFX?ocid=TobArticle
+                      - img [ref=e311]
+      - complementary [ref=e314]:
+        - generic [ref=e316]:
+          - generic [ref=e317]: IDENTIFIERA
+          - main [ref=e324]:
+            - generic [ref=e326]:
+              - generic [ref=e327]:
+                - generic [ref=e330]:
+                  - tablist [ref=e332]:
+                    - tab [selected] [ref=e333] [cursor=pointer]
+                    - tab [ref=e335] [cursor=pointer]
+                    - tab [ref=e337] [cursor=pointer]
+                    - tab [ref=e339] [cursor=pointer]
+                    - tab [ref=e341] [cursor=pointer]
+                    - tab [ref=e343] [cursor=pointer]
+                    - tab [ref=e345] [cursor=pointer]
+                    - tab [ref=e347] [cursor=pointer]
+                    - tab [ref=e349] [cursor=pointer]
+                    - tab [ref=e351] [cursor=pointer]
+                    - tab [ref=e353] [cursor=pointer]
+                    - tab [ref=e355] [cursor=pointer]
+                    - tab [ref=e357] [cursor=pointer]
+                  - button [ref=e361]
+                  - button [ref=e364]
+                  - article "Europas sista diktator avslöjar när han ansluter sig till Putins krig" [ref=e365] [cursor=pointer]:
+                    - generic [ref=e367]:
+                      - img [ref=e368]
+                      - generic [ref=e369]:
+                        - generic [ref=e370]:
+                          - generic [ref=e371]:
+                            - generic [ref=e372]:
+                              - img [ref=e373]
+                              - generic [ref=e374]: Dagens.se
+                            - generic [ref=e375]: ·
+                            - generic [ref=e376]: 8 tim
+                          - link "Europas sista diktator avslöjar när han ansluter sig till Putins krig, Dagens.se" [ref=e377]:
+                            - /url: https://www.msn.com/sv-se/nyheter/other/europas-sista-diktator-avsl%C3%B6jar-n%C3%A4r-han-ansluter-sig-till-putins-krig/ar-AA23ZLJA
+                            - text: Europas sista diktator avslöjar när han ansluter sig till Putins krig
+                        - generic "Europas sista diktator avslöjar när han ansluter sig till Putins krig" [ref=e381]:
+                          - generic [ref=e384]:
+                            - button "27 Gillar" [ref=e385]:
+                              - generic [ref=e386]:
+                                - img [ref=e387]
+                                - generic [ref=e389]: "27"
+                            - button "Gillar inte" [ref=e390]:
+                              - img [ref=e392]
+                      - generic [ref=e394]:
+                        - button "Dölj artikeln" [ref=e395]:
+                          - img [ref=e396]
+                          - text: Dölj artikeln
+                        - button "Visa mer" [ref=e397]:
+                          - img [ref=e398]
+                - 'article "Anders, 46, hittade försvunna tvååringen: \"Enorm eufori\"" [ref=e399] [cursor=pointer]':
+                  - generic [ref=e401]:
+                    - img [ref=e402]
+                    - generic [ref=e403]:
+                      - generic [ref=e404]:
+                        - generic [ref=e405]:
+                          - generic [ref=e406]:
+                            - img [ref=e407]
+                            - generic [ref=e408]: Nyheter24
+                          - generic [ref=e409]: ·
+                          - generic [ref=e410]: 8 tim
+                        - 'link "Anders, 46, hittade försvunna tvååringen: \"Enorm eufori\", Nyheter24" [ref=e411]':
+                          - /url: https://www.msn.com/sv-se/nyheter/utrikes/anders-46-hittade-f%C3%B6rsvunna-tv%C3%A5%C3%A5ringen-enorm-eufori/ar-AA2401PU
+                          - text: "Anders, 46, hittade försvunna tvååringen: \"Enorm eufori\""
+                      - 'generic "Anders, 46, hittade försvunna tvååringen: \"Enorm eufori\"" [ref=e415]':
+                        - generic [ref=e418]:
+                          - button "34 Gillar" [ref=e419]:
+                            - generic [ref=e420]:
+                              - img [ref=e421]
+                              - generic [ref=e423]: "34"
+                          - button "Gillar inte" [ref=e424]:
+                            - img [ref=e426]
+                    - generic [ref=e428]:
+                      - button "Dölj artikeln" [ref=e429]:
+                        - img [ref=e430]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e431]:
+                        - img [ref=e432]
+                - article [ref=e433] [cursor=pointer]:
+                  - generic [ref=e439]:
+                    - generic [ref=e441]:
+                      - img "Allsvenskan" [ref=e443]
+                      - link "Allsvenskan" [ref=e444]:
+                        - /url: https://www.msn.com/sv-se/sport/fotboll/allsvenskan?ocid=BingHp01&cvid=4e5be7346d5048a0c492c7f0c0edbc30
+                        - heading "Allsvenskan" [level=2] [ref=e445]
+                      - button "Mer intressen" [ref=e446]
+                      - generic [ref=e447]:
+                        - generic "Live nu" [ref=e448]:
+                          - button "Live nu" [ref=e449]
+                        - button "Fler alternativ" [ref=e450]
+                    - generic [ref=e454]:
+                      - link "Elfsborg LIVE H2 57:17 Häcken" [ref=e456]:
+                        - /url: https://www.msn.com/sv-se/sport/fotboll/allsvenskan/spel-center/sp-id-71542032?ocid=BingHp01&cvid=4e5be7346d5048a0c492c7f0c0edbc30
+                        - generic [ref=e457]:
+                          - generic [ref=e458]:
+                            - generic [ref=e459]:
+                              - button "Klicka för att följa Elfsborg":
+                                - generic:
+                                  - img
+                            - generic "Elfsborg" [ref=e460]
+                          - generic [ref=e462]:
+                            - generic "click to see score and details" [ref=e464]: LIVE
+                            - generic "H2 57:17" [ref=e465]:
+                              - generic "H2 57:17" [ref=e466]
+                          - generic [ref=e467]:
+                            - generic [ref=e468]:
+                              - button "Klicka för att följa Häcken":
+                                - generic:
+                                  - img
+                            - generic "Häcken" [ref=e469]
+                      - link "Göteborg LIVE H2 59:40 Mjällby" [ref=e471]:
+                        - /url: https://www.msn.com/sv-se/sport/fotboll/allsvenskan/spel-center/sp-id-67126570?ocid=BingHp01&cvid=4e5be7346d5048a0c492c7f0c0edbc30
+                        - generic [ref=e472]:
+                          - generic [ref=e473]:
+                            - generic [ref=e474]:
+                              - button "Klicka för att följa Göteborg":
+                                - generic:
+                                  - img
+                            - generic "Göteborg" [ref=e475]
+                          - generic [ref=e477]:
+                            - generic "click to see score and details" [ref=e479]: LIVE
+                            - generic "H2 59:40" [ref=e480]:
+                              - generic "H2 59:40" [ref=e481]
+                          - generic [ref=e482]:
+                            - generic [ref=e483]:
+                              - button "Klicka för att följa Mjällby":
+                                - generic:
+                                  - img
+                            - generic "Mjällby" [ref=e484]
+                      - link "Malmö 15:00 30 maj Halmstad" [ref=e486]:
+                        - /url: https://www.msn.com/sv-se/sport/fotboll/allsvenskan/spel-center/sp-id-67126592?ocid=BingHp01&cvid=4e5be7346d5048a0c492c7f0c0edbc30
+                        - generic [ref=e487]:
+                          - generic [ref=e488]:
+                            - generic [ref=e489]:
+                              - button "Klicka för att följa Malmö":
+                                - generic:
+                                  - img
+                            - generic "Malmö" [ref=e490]
+                          - generic [ref=e492]:
+                            - generic "15:00" [ref=e493]:
+                              - generic [ref=e494]: 15:00
+                            - generic "30 maj" [ref=e495]
+                          - generic [ref=e496]:
+                            - generic [ref=e497]:
+                              - button "Klicka för att följa Halmstad":
+                                - generic:
+                                  - img
+                            - generic "Halmstad" [ref=e498]
+                    - generic [ref=e500]:
+                      - generic [ref=e501]:
+                        - generic "Föregående" [ref=e502]:
+                          - button "Föregående" [ref=e503]
+                        - tablist [ref=e505]:
+                          - tab "tab-0" [selected] [ref=e506]
+                          - tab "tab-1" [ref=e508]
+                          - tab "tab-2" [ref=e510]
+                          - tab "tab-3" [ref=e512]
+                          - tab "tab-4" [ref=e514]
+                          - tab "tab-5"
+                          - tab "tab-6"
+                          - tab "tab-7"
+                          - tab "tab-8"
+                          - tab "tab-9"
+                          - tab "tab-10"
+                        - generic "Nästa" [ref=e516]:
+                          - button "Nästa" [ref=e517]
+                      - link "Visa mer Allsvenskan" [ref=e519]:
+                        - /url: https://www.msn.com/sv-se/sport/fotboll/allsvenskan?ocid=BingHp01&cvid=4e5be7346d5048a0c492c7f0c0edbc30
+                - article [ref=e520] [cursor=pointer]:
+                  - generic [ref=e525]:
+                    - generic [ref=e527]:
+                      - heading "Toppberättelser" [level=2] [ref=e530]
+                      - button "Fler alternativ" [ref=e532]
+                    - list [ref=e535]:
+                      - listitem "Drottning Margrethe inlagd på sjukhus igen" [ref=e536]:
+                        - generic [ref=e537]:
+                          - generic [ref=e538]:
+                            - img [ref=e539]
+                            - generic [ref=e540]:
+                              - generic: TT Nyhetsbyrån ·2 tim
+                          - generic [ref=e541]: Drottning Margrethe inlagd på sjukhus igen
+                      - listitem "UD markerar mot Ryssland efter Kyivattackerna" [ref=e542]:
+                        - generic [ref=e543]:
+                          - generic [ref=e544]:
+                            - img [ref=e545]
+                            - generic [ref=e546]:
+                              - generic: Omni ·1 tim
+                          - generic [ref=e547]: UD markerar mot Ryssland efter Kyivattackerna
+                      - listitem "Värmerekord i Europa – här är det 33,5 grader" [ref=e548]:
+                        - generic [ref=e549]:
+                          - generic [ref=e550]:
+                            - img [ref=e551]
+                            - generic [ref=e552]:
+                              - generic: Nyheter24 ·4 tim
+                          - generic [ref=e553]: Värmerekord i Europa – här är det 33,5 grader
+                    - generic [ref=e556]:
+                      - generic "Föregående" [ref=e557]:
+                        - button "Föregående" [ref=e558]
+                      - tablist [ref=e560]:
+                        - tab "tab-0" [selected] [ref=e561]
+                        - tab "tab-1" [ref=e563]
+                        - tab "tab-2" [ref=e565]
+                      - generic "Nästa" [ref=e567]:
+                        - button "Nästa" [ref=e568]
+                - 'article "Love is Blind – Amanda bryter tystnaden om skilsmässan från Sergio • Detta har hänt: ”Så mycket tankar”" [ref=e570] [cursor=pointer]':
+                  - generic [ref=e572]:
+                    - img [ref=e573]
+                    - generic [ref=e574]:
+                      - generic [ref=e575]:
+                        - generic [ref=e576]:
+                          - generic [ref=e577]:
+                            - img [ref=e578]
+                            - generic [ref=e579]: Hänt
+                          - generic [ref=e580]: ·
+                          - generic [ref=e581]: 2 d
+                        - 'link "Love is Blind – Amanda bryter tystnaden om skilsmässan från Sergio • Detta har hänt: ”Så mycket tankar”, Hänt" [ref=e582]':
+                          - /url: https://www.msn.com/sv-se/nyheter/other/love-is-blind-amanda-bryter-tystnaden-om-skilsm%C3%A4ssan-fr%C3%A5n-sergio-detta-har-h%C3%A4nt-s%C3%A5-mycket-tankar/ar-AA23Tuyv
+                          - text: "Love is Blind – Amanda bryter tystnaden om skilsmässan från Sergio • Detta har hänt: ”Så mycket tankar”"
+                      - 'generic "Love is Blind – Amanda bryter tystnaden om skilsmässan från Sergio • Detta har hänt: ”Så mycket tankar”" [ref=e586]':
+                        - generic [ref=e589]:
+                          - button "16 Gillar" [ref=e590]:
+                            - generic [ref=e591]:
+                              - img [ref=e592]
+                              - generic [ref=e594]: "16"
+                          - button "Gillar inte" [ref=e595]:
+                            - img [ref=e597]
+                    - generic [ref=e599]:
+                      - button "Dölj artikeln" [ref=e600]:
+                        - img [ref=e601]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e602]:
+                        - img [ref=e603]
+                - 'article "Stenergard: Ljusen avslöjar Rysslands ekonomi" [ref=e604] [cursor=pointer]':
+                  - generic [ref=e606]:
+                    - img [ref=e607]
+                    - generic [ref=e608]:
+                      - generic [ref=e609]:
+                        - generic [ref=e610]:
+                          - generic [ref=e611]:
+                            - img [ref=e612]
+                            - generic [ref=e613]: Realtid.se
+                          - generic [ref=e614]: ·
+                          - generic [ref=e615]: 9 tim
+                        - 'link "Stenergard: Ljusen avslöjar Rysslands ekonomi, Realtid.se" [ref=e616]':
+                          - /url: https://www.msn.com/sv-se/nyheter/other/stenergard-ljusen-avsl%C3%B6jar-rysslands-ekonomi/ar-AA2405n3
+                          - text: "Stenergard: Ljusen avslöjar Rysslands ekonomi"
+                      - 'generic "Stenergard: Ljusen avslöjar Rysslands ekonomi" [ref=e620]':
+                        - generic [ref=e623]:
+                          - button "50 Gillar" [ref=e624]:
+                            - generic [ref=e625]:
+                              - img [ref=e626]
+                              - generic [ref=e628]: "50"
+                          - button "Gillar inte" [ref=e629]:
+                            - img [ref=e631]
+                    - generic [ref=e633]:
+                      - button "Dölj artikeln" [ref=e634]:
+                        - img [ref=e635]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e636]:
+                        - img [ref=e637]
+                - 'article "Glöm rådet om 2 liter: Så mycket vatten borde du egentligen dricka varje dag" [ref=e638] [cursor=pointer]':
+                  - generic [ref=e640]:
+                    - img [ref=e641]
+                    - generic [ref=e642]:
+                      - generic [ref=e643]:
+                        - generic [ref=e644]:
+                          - generic [ref=e645]:
+                            - img [ref=e646]
+                            - generic [ref=e647]: Dagens.se
+                          - generic [ref=e648]: ·
+                          - generic [ref=e649]: 2 v
+                        - 'link "Glöm rådet om 2 liter: Så mycket vatten borde du egentligen dricka varje dag, Dagens.se" [ref=e650]':
+                          - /url: https://www.msn.com/sv-se/nyheter/other/gl%C3%B6m-r%C3%A5det-om-2-liter-s%C3%A5-mycket-vatten-borde-du-egentligen-dricka-varje-dag/ar-AA22q2Eh
+                          - text: "Glöm rådet om 2 liter: Så mycket vatten borde du egentligen dricka varje dag"
+                      - 'generic "Glöm rådet om 2 liter: Så mycket vatten borde du egentligen dricka varje dag" [ref=e654]':
+                        - generic [ref=e657]:
+                          - button "76 Gillar" [ref=e658]:
+                            - generic [ref=e659]:
+                              - img [ref=e660]
+                              - generic [ref=e662]: "76"
+                          - button "Gillar inte" [ref=e663]:
+                            - img [ref=e665]
+                    - generic [ref=e667]:
+                      - button "Dölj artikeln" [ref=e668]:
+                        - img [ref=e669]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e670]:
+                        - img [ref=e671]
+                - article "Världens största gruvjätte struntade i klimatlöften" [ref=e672] [cursor=pointer]:
+                  - generic [ref=e674]:
+                    - img [ref=e675]
+                    - generic [ref=e676]:
+                      - generic [ref=e677]:
+                        - generic [ref=e678]:
+                          - generic [ref=e679]:
+                            - img [ref=e680]
+                            - generic [ref=e681]: Omni
+                          - generic [ref=e682]: ·
+                          - generic [ref=e683]: 5 tim
+                        - link "Världens största gruvjätte struntade i klimatlöften, Omni" [ref=e684]:
+                          - /url: https://www.msn.com/sv-se/nyheter/other/v%C3%A4rldens-st%C3%B6rsta-gruvj%C3%A4tte-struntade-i-klimatl%C3%B6ften/ar-AA240xlM
+                          - text: Världens största gruvjätte struntade i klimatlöften
+                      - generic "Världens största gruvjätte struntade i klimatlöften" [ref=e688]:
+                        - generic [ref=e691]:
+                          - button "6 Gillar" [ref=e692]:
+                            - generic [ref=e693]:
+                              - img [ref=e694]
+                              - generic [ref=e696]: "6"
+                          - button "Gillar inte" [ref=e697]:
+                            - img [ref=e699]
+                    - generic [ref=e701]:
+                      - button "Dölj artikeln" [ref=e702]:
+                        - img [ref=e703]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e704]:
+                        - img [ref=e705]
+                - article [ref=e706] [cursor=pointer]:
+                  - generic [ref=e712]:
+                    - generic [ref=e714]:
+                      - link "Göteborg" [ref=e716]:
+                        - /url: https://www.msn.com/sv-se/vader/prognos/in-G%C3%B6teborg,V%C3%A4stra-G%C3%B6talands-l%C3%A4n
+                        - heading "Göteborg" [level=2] [ref=e717]
+                      - button "Min position" [ref=e718]
+                      - button "Fler alternativ" [ref=e720]
+                    - generic [ref=e724]:
+                      - generic [ref=e725]:
+                        - generic [ref=e727]:
+                          - link "Soligt" [ref=e728]:
+                            - /url: https://www.msn.com/sv-se/vader/prognos/in-G%C3%B6teborg,V%C3%A4stra-G%C3%B6talands-l%C3%A4n
+                            - img "Soligt" [ref=e729]
+                          - link "15°C" [ref=e730]:
+                            - /url: https://www.msn.com/sv-se/vader/prognos/in-G%C3%B6teborg,V%C3%A4stra-G%C3%B6talands-l%C3%A4n
+                            - generic [ref=e731]: ‎15‎
+                            - generic [ref=e733]: ‎°C‎
+                        - generic [ref=e735]:
+                          - link "Diskret luftkvalitet" [ref=e737]:
+                            - /url: https://www.msn.com/sv-se/vader/prognos/in-G%C3%B6teborg,V%C3%A4stra-G%C3%B6talands-l%C3%A4n&fcsttab=airquality
+                            - text: Diskret luftkvalitet
+                          - link "Se hela prognosen" [ref=e739]:
+                            - /url: https://www.msn.com/sv-se/vader/prognos/in-G%C3%B6teborg,V%C3%A4stra-G%C3%B6talands-l%C3%A4n&fcsttab=airquality
+                            - img "arrow" [ref=e740]
+                      - generic [ref=e745]:
+                        - link "Större karta" [ref=e746]:
+                          - /url: https://www.msn.com/sv-se/vader/vaderkartor/airquality/in-G%C3%B6teborg,V%C3%A4stra-G%C3%B6talands-l%C3%A4n
+                          - generic [ref=e747]:
+                            - generic:
+                              - generic:
+                                - img
+                                - img
+                                - img
+                                - img
+                          - img
+                        - link "Kontrollera den globala luftkvaliteten" [ref=e748]:
+                          - /url: https://www.msn.com/sv-se/vader/vaderkartor/airquality/in-G%C3%B6teborg,V%C3%A4stra-G%C3%B6talands-l%C3%A4n
+                          - img [ref=e750]
+                          - generic "Kontrollera den globala luftkvaliteten" [ref=e751]
+                          - img [ref=e753]
+                    - button "Se hela prognosen" [ref=e756]
+              - generic [ref=e757]:
+                - article "Självkörande buss i krock – tas ur trafik" [ref=e758] [cursor=pointer]:
+                  - generic [ref=e760]:
+                    - img [ref=e761]
+                    - generic [ref=e762]:
+                      - generic [ref=e763]:
+                        - generic [ref=e764]:
+                          - generic [ref=e765]:
+                            - img [ref=e766]
+                            - generic [ref=e767]: TT Nyhetsbyrån
+                          - generic [ref=e768]: ·
+                          - generic [ref=e769]: 8 tim
+                        - link "Självkörande buss i krock – tas ur trafik, TT Nyhetsbyrån" [ref=e770]:
+                          - /url: https://www.msn.com/sv-se/nyheter/inrikes/sj%C3%A4lvk%C3%B6rande-buss-i-krock-tas-ur-trafik/ar-AA23ZOVp
+                          - text: Självkörande buss i krock – tas ur trafik
+                      - generic "Självkörande buss i krock – tas ur trafik" [ref=e774]:
+                        - generic [ref=e777]:
+                          - button "11 Gillar" [ref=e778]:
+                            - generic [ref=e779]:
+                              - img [ref=e780]
+                              - generic [ref=e782]: "11"
+                          - button "Gillar inte" [ref=e783]:
+                            - img [ref=e785]
+                    - generic [ref=e787]:
+                      - button "Dölj artikeln" [ref=e788]:
+                        - img [ref=e789]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e790]:
+                        - img [ref=e791]
+                - article "Hon kallades världens vackraste kvinna och uppfann grunden för wifi" [ref=e792] [cursor=pointer]:
+                  - generic [ref=e794]:
+                    - img [ref=e795]
+                    - generic [ref=e796]:
+                      - generic [ref=e797]:
+                        - generic [ref=e798]:
+                          - generic [ref=e799]:
+                            - img [ref=e800]
+                            - generic [ref=e801]: Teksajten.se
+                          - generic [ref=e802]: ·
+                          - generic [ref=e803]: 2 d
+                        - link "Hon kallades världens vackraste kvinna och uppfann grunden för wifi, Teksajten.se" [ref=e804]:
+                          - /url: https://www.msn.com/sv-se/nyheter/other/hon-kallades-v%C3%A4rldens-vackraste-kvinna-och-uppfann-grunden-f%C3%B6r-wifi/ar-AA23RQ1r
+                          - text: Hon kallades världens vackraste kvinna och uppfann grunden för wifi
+                      - generic "Hon kallades världens vackraste kvinna och uppfann grunden för wifi" [ref=e808]:
+                        - generic [ref=e811]:
+                          - button "25 Gillar" [ref=e812]:
+                            - generic [ref=e813]:
+                              - img [ref=e814]
+                              - generic [ref=e816]: "25"
+                          - button "Gillar inte" [ref=e817]:
+                            - img [ref=e819]
+                    - generic [ref=e821]:
+                      - button "Dölj artikeln" [ref=e822]:
+                        - img [ref=e823]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e824]:
+                        - img [ref=e825]
+                - 'article "SVT:s Suzanne Axell rasar efter kändismötet: \"Personer som jag aldrig vill träffa igen!\"" [ref=e826] [cursor=pointer]':
+                  - generic [ref=e828]:
+                    - img [ref=e829]
+                    - generic [ref=e830]:
+                      - generic [ref=e831]:
+                        - generic [ref=e832]:
+                          - generic [ref=e833]:
+                            - img [ref=e834]
+                            - generic [ref=e835]: Hänt
+                          - generic [ref=e836]: ·
+                          - generic [ref=e837]: 3 d
+                        - 'link "SVT:s Suzanne Axell rasar efter kändismötet: \"Personer som jag aldrig vill träffa igen!\", Hänt" [ref=e838]':
+                          - /url: https://www.msn.com/sv-se/nyheter/other/svt-s-suzanne-axell-rasar-efter-k%C3%A4ndism%C3%B6tet-personer-som-jag-aldrig-vill-tr%C3%A4ffa-igen/ar-AA23MZct
+                          - text: "SVT:s Suzanne Axell rasar efter kändismötet: \"Personer som jag aldrig vill träffa igen!\""
+                      - 'generic "SVT:s Suzanne Axell rasar efter kändismötet: \"Personer som jag aldrig vill träffa igen!\"" [ref=e842]':
+                        - generic [ref=e845]:
+                          - button "41 Gillar" [ref=e846]:
+                            - generic [ref=e847]:
+                              - img [ref=e848]
+                              - generic [ref=e850]: "41"
+                          - button "Gillar inte" [ref=e851]:
+                            - img [ref=e853]
+                    - generic [ref=e855]:
+                      - button "Dölj artikeln" [ref=e856]:
+                        - img [ref=e857]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e858]:
+                        - img [ref=e859]
+                - article [ref=e860] [cursor=pointer]:
+                  - generic [ref=e865]:
+                    - generic [ref=e867]:
+                      - link "Spel" [ref=e869]:
+                        - /url: https://www.msn.com/sv-se/play
+                        - heading "Spel" [level=2] [ref=e870]
+                      - button "Fler alternativ" [ref=e872]
+                    - list [ref=e876]:
+                      - generic:
+                        - listitem [ref=e877]:
+                          - link "Sudoku Master" [ref=e878]:
+                            - /url: https://www.msn.com/sv-se/play/games/sudoku-master/cg-9nsq1zfk0z36?ocid=BingHp01&cvid=4e5be7346d5048a0c492c7f0c0edbc30&ei=7
+                            - generic [ref=e879]:
+                              - img "Sudoku Master"
+                        - listitem [ref=e880]:
+                          - link "Wild West Match" [ref=e881]:
+                            - /url: https://www.msn.com/sv-se/play/games/wild-west-match/cg-9n7skdksj47m?ocid=BingHp01&cvid=4e5be7346d5048a0c492c7f0c0edbc30&ei=7
+                            - generic [ref=e882]:
+                              - img "Wild West Match"
+                        - listitem [ref=e883]:
+                          - link "Solitaire Crime Stories" [ref=e884]:
+                            - /url: https://www.msn.com/sv-se/play/games/solitaire-crime-stories/cg-9n3c5lx960cx?ocid=BingHp01&cvid=4e5be7346d5048a0c492c7f0c0edbc30&ei=7
+                            - generic [ref=e885]:
+                              - img "Solitaire Crime Stories"
+                        - listitem [ref=e886]:
+                          - link "Amazing FreeCell Solitaire" [ref=e887]:
+                            - /url: https://www.msn.com/sv-se/play/games/amazing-freecell-solitaire/cg-9nrcmft81cgs?ocid=BingHp01&cvid=4e5be7346d5048a0c492c7f0c0edbc30&ei=7
+                            - generic [ref=e888]:
+                              - img "Amazing FreeCell Solitaire"
+                        - listitem [ref=e889]:
+                          - link "Jewels of Arabia" [ref=e890]:
+                            - /url: https://www.msn.com/sv-se/play/games/jewels-of-arabia/cg-9nnbt4xbjdxn?ocid=BingHp01&cvid=4e5be7346d5048a0c492c7f0c0edbc30&ei=7
+                            - generic [ref=e891]:
+                              - img "Jewels of Arabia"
+                        - listitem [ref=e892]:
+                          - link "Remove The Blocks" [ref=e893]:
+                            - /url: https://www.msn.com/sv-se/play/games/remove-the-blocks/cg-9p551w1ztmzb?ocid=BingHp01&cvid=4e5be7346d5048a0c492c7f0c0edbc30&ei=7
+                            - generic [ref=e894]:
+                              - img "Remove The Blocks"
+                        - listitem [ref=e895]:
+                          - link "Kitty Scramble" [ref=e896]:
+                            - /url: https://www.msn.com/sv-se/play/games/kitty-scramble/cg-9pm1vjlz459j?ocid=BingHp01&cvid=4e5be7346d5048a0c492c7f0c0edbc30&ei=7
+                            - generic [ref=e897]:
+                              - img "Kitty Scramble"
+                        - listitem [ref=e898]:
+                          - link "Word Plays" [ref=e899]:
+                            - /url: https://www.msn.com/sv-se/play/games/word-plays/cg-9nv5mv40sgm0?ocid=BingHp01&cvid=4e5be7346d5048a0c492c7f0c0edbc30&ei=7
+                            - generic [ref=e900]:
+                              - img "Word Plays"
+                        - listitem [ref=e901]:
+                          - link "Keno Dynasty" [ref=e902]:
+                            - /url: https://www.msn.com/sv-se/play/games/keno-dynasty/cg-9pkdl8hrcpw7?ocid=BingHp01&cvid=4e5be7346d5048a0c492c7f0c0edbc30&ei=7
+                            - generic [ref=e903]:
+                              - img "Keno Dynasty"
+                    - generic [ref=e905]:
+                      - generic [ref=e906]:
+                        - generic "Föregående" [ref=e907]:
+                          - button "Föregående" [ref=e908]
+                        - tablist [ref=e910]:
+                          - tab "tab-0" [selected] [ref=e911]
+                          - tab "tab-1" [ref=e913]
+                          - tab "tab-2" [ref=e915]
+                          - tab "tab-3" [ref=e917]
+                          - tab "tab-4" [ref=e919]
+                          - tab "tab-5"
+                          - tab "tab-6"
+                          - tab "tab-7"
+                          - tab "tab-8"
+                        - generic "Nästa" [ref=e921]:
+                          - button "Nästa" [ref=e922]
+                      - link "Utforska fler spel" [ref=e924]:
+                        - /url: https://www.msn.com/sv-se/play
+                - article "Iran attackerade amerikanskt krigsfartyg – USA:s hämnd kom direkt och skoningslöst" [ref=e925] [cursor=pointer]:
+                  - generic [ref=e927]:
+                    - generic [ref=e933]:
+                      - generic [ref=e934]:
+                        - generic [ref=e936]:
+                          - img [ref=e937]
+                          - generic [ref=e938]: Affärer och Geopolitik
+                        - link "Iran attackerade amerikanskt krigsfartyg – USA:s hämnd kom direkt och skoningslöst, Affärer och Geopolitik" [ref=e939]:
+                          - /url: https://www.msn.com/sv-se/nyheter/other/iran-attackerade-amerikanskt-krigsfartyg-usa-s-h%C3%A4mnd-kom-direkt-och-skoningsl%C3%B6st/vi-AA21DBGM
+                          - text: Iran attackerade amerikanskt krigsfartyg – USA:s hämnd kom direkt och skoningslöst
+                      - generic "Iran attackerade amerikanskt krigsfartyg – USA:s hämnd kom direkt och skoningslöst" [ref=e943]:
+                        - generic [ref=e946]:
+                          - button "250 Gillar" [ref=e947]:
+                            - generic [ref=e948]:
+                              - img [ref=e949]
+                              - generic [ref=e951]: "250"
+                          - button "Gillar inte" [ref=e952]:
+                            - img [ref=e954]
+                    - generic [ref=e956]:
+                      - button "Dölj artikeln" [ref=e957]:
+                        - img [ref=e958]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e959]:
+                        - img [ref=e960]
+                - article "Netflix skrotar tre populära serier" [ref=e961] [cursor=pointer]:
+                  - generic [ref=e963]:
+                    - img [ref=e964]
+                    - generic [ref=e965]:
+                      - generic [ref=e966]:
+                        - generic [ref=e967]:
+                          - generic [ref=e968]:
+                            - img [ref=e969]
+                            - generic [ref=e970]: Nyheter24
+                          - generic [ref=e971]: ·
+                          - generic [ref=e972]: 1 d
+                        - link "Netflix skrotar tre populära serier, Nyheter24" [ref=e973]:
+                          - /url: https://www.msn.com/sv-se/noje/kandisnyheter/netflix-skrotar-tre-popul%C3%A4ra-serier/ar-AA23X2dV
+                          - text: Netflix skrotar tre populära serier
+                      - generic "Netflix skrotar tre populära serier" [ref=e977]:
+                        - generic [ref=e980]:
+                          - button "11 Gillar" [ref=e981]:
+                            - generic [ref=e982]:
+                              - img [ref=e983]
+                              - generic [ref=e985]: "11"
+                          - button "Gillar inte" [ref=e986]:
+                            - img [ref=e988]
+                    - generic [ref=e990]:
+                      - button "Dölj artikeln" [ref=e991]:
+                        - img [ref=e992]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e993]:
+                        - img [ref=e994]
+                - 'article "Kreml-källor vittnar om uppgivenhet: \"Systemet har ingen framtid\"" [ref=e995] [cursor=pointer]':
+                  - generic [ref=e997]:
+                    - img [ref=e998]
+                    - generic [ref=e999]:
+                      - generic [ref=e1000]:
+                        - generic [ref=e1001]:
+                          - generic [ref=e1002]:
+                            - img [ref=e1003]
+                            - generic [ref=e1004]: Omni
+                          - generic [ref=e1005]: ·
+                          - generic [ref=e1006]: 12 tim
+                        - 'link "Kreml-källor vittnar om uppgivenhet: \"Systemet har ingen framtid\", Omni" [ref=e1007]':
+                          - /url: https://www.msn.com/sv-se/nyheter/other/kreml-k%C3%A4llor-vittnar-om-uppgivenhet-systemet-har-ingen-framtid/ar-AA23ZCug
+                          - text: "Kreml-källor vittnar om uppgivenhet: \"Systemet har ingen framtid\""
+                      - 'generic "Kreml-källor vittnar om uppgivenhet: \"Systemet har ingen framtid\"" [ref=e1011]':
+                        - generic [ref=e1014]:
+                          - button "76 Gillar" [ref=e1015]:
+                            - generic [ref=e1016]:
+                              - img [ref=e1017]
+                              - generic [ref=e1019]: "76"
+                          - button "Gillar inte" [ref=e1020]:
+                            - img [ref=e1022]
+                    - generic [ref=e1024]:
+                      - button "Dölj artikeln" [ref=e1025]:
+                        - img [ref=e1026]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e1027]:
+                        - img [ref=e1028]
+                - article [ref=e1029] [cursor=pointer]:
+                  - generic [ref=e1035]:
+                    - generic [ref=e1037]:
+                      - img "Förslag på visningslista" [ref=e1039]
+                      - link "Förslag på visningslista" [ref=e1040]:
+                        - /url: https://www.msn.com/sv-se/ekonomi/bevakningslista?ocid=BingHp01
+                        - heading "Förslag på visningslista" [level=2] [ref=e1041]
+                      - button "Fler alternativ" [ref=e1043]
+                    - generic [ref=e1048]:
+                      - link "OMXS30 Index OMX Stockholm 30 Index Stiger snabbt ‎+1,48%‎ 3 192,83" [ref=e1050]:
+                        - /url: https://www.msn.com/sv-se/ekonomi/bevakningslista?id=amyd8m&noti=Price&ocid=BingHp01
+                        - generic [ref=e1051]:
+                          - generic [ref=e1052]:
+                            - generic [ref=e1053]: OMXS30 Index
+                            - img "OMX Stockholm 30 Index" [ref=e1054]
+                          - generic [ref=e1056]: Stiger snabbt
+                        - generic [ref=e1061]:
+                          - generic [ref=e1062]: ‎+1,48%‎
+                          - generic [ref=e1063]: 3 192,83
+                        - button "Lägg i listan" [ref=e1066]:
+                          - img [ref=e1067]
+                      - link "OMX Nordic 40 OMX Nordic 40 Stiger snabbt ‎+1,12%‎ 2 722,33" [ref=e1071]:
+                        - /url: https://www.msn.com/sv-se/ekonomi/bevakningslista?id=amyaxm&noti=Price&ocid=BingHp01
+                        - generic [ref=e1072]:
+                          - generic [ref=e1073]:
+                            - generic [ref=e1074]: OMX Nordic 40
+                            - img "OMX Nordic 40" [ref=e1075]
+                          - generic [ref=e1077]: Stiger snabbt
+                        - generic [ref=e1082]:
+                          - generic [ref=e1083]: ‎+1,12%‎
+                          - generic [ref=e1084]: 2 722,33
+                        - button "Lägg i listan" [ref=e1087]:
+                          - img [ref=e1088]
+                      - link "EUR/SEK Euro/Sverige, krona ‎−0,43%‎ 10,8046" [ref=e1092]:
+                        - /url: https://www.msn.com/sv-se/ekonomi/bevakningslista?id=av91zr&ocid=BingHp01
+                        - generic [ref=e1093]:
+                          - generic [ref=e1095]: EUR/SEK
+                          - generic [ref=e1097]: Euro/Sverige, krona
+                        - generic [ref=e1102]:
+                          - generic [ref=e1103]: ‎−0,43%‎
+                          - generic [ref=e1104]: 10,8046
+                        - button "Lägg i listan" [ref=e1107]:
+                          - img [ref=e1108]
+                      - link "USD/SEK USA, dollar/Sverige, krona ‎−0,77%‎ 9,2807" [ref=e1112]:
+                        - /url: https://www.msn.com/sv-se/ekonomi/bevakningslista?id=avyt52&ocid=BingHp01
+                        - generic [ref=e1113]:
+                          - generic [ref=e1115]: USD/SEK
+                          - generic [ref=e1117]: USA, dollar/Sverige, krona
+                        - generic [ref=e1122]:
+                          - generic [ref=e1123]: ‎−0,77%‎
+                          - generic [ref=e1124]: 9,2807
+                        - button "Lägg i listan" [ref=e1127]:
+                          - img [ref=e1128]
+                      - link "SAAB Aktiebolag SAAB Aktiebolag Stiger snabbt ‎+1,79%‎ 539,40" [ref=e1132]:
+                        - /url: https://www.msn.com/sv-se/ekonomi/bevakningslista?id=amx6r7&noti=Price&ocid=BingHp01
+                        - generic [ref=e1133]:
+                          - generic [ref=e1134]:
+                            - generic [ref=e1135]: SAAB Aktiebolag
+                            - img "SAAB Aktiebolag" [ref=e1136]
+                          - generic [ref=e1138]: Stiger snabbt
+                        - generic [ref=e1143]:
+                          - generic [ref=e1144]: ‎+1,79%‎
+                          - generic [ref=e1145]: 539,40
+                        - button "Lägg i listan" [ref=e1148]:
+                          - img [ref=e1149]
+                    - generic [ref=e1153]:
+                      - generic [ref=e1154]:
+                        - generic "Föregående" [ref=e1155]:
+                          - button "Föregående" [ref=e1156]
+                        - tablist [ref=e1158]:
+                          - tab "tab-0" [selected] [ref=e1159]
+                          - tab "tab-1" [ref=e1161]
+                          - tab "tab-2" [ref=e1163]
+                        - generic "Nästa" [ref=e1165]:
+                          - button "Nästa" [ref=e1166]
+                      - link "Se förslag på visningslistor" [ref=e1168]:
+                        - /url: https://www.msn.com/sv-se/ekonomi/bevakningslista?ocid=BingHp01
+                - article "Din telefon kan förbruka data medan du sover – så stänger du av funktionen" [ref=e1169] [cursor=pointer]:
+                  - generic [ref=e1171]:
+                    - img [ref=e1172]
+                    - generic [ref=e1173]:
+                      - generic [ref=e1174]:
+                        - generic [ref=e1175]:
+                          - generic [ref=e1176]:
+                            - img [ref=e1177]
+                            - generic [ref=e1178]: Dagens.se
+                          - generic [ref=e1179]: ·
+                          - generic [ref=e1180]: 2 v
+                        - link "Din telefon kan förbruka data medan du sover – så stänger du av funktionen, Dagens.se" [ref=e1181]:
+                          - /url: https://www.msn.com/sv-se/nyheter/other/din-telefon-kan-f%C3%B6rbruka-data-medan-du-sover-s%C3%A5-st%C3%A4nger-du-av-funktionen/ar-AA22IdyT
+                          - text: Din telefon kan förbruka data medan du sover – så stänger du av funktionen
+                      - generic "Din telefon kan förbruka data medan du sover – så stänger du av funktionen" [ref=e1185]:
+                        - generic [ref=e1188]:
+                          - button "18 Gillar" [ref=e1189]:
+                            - generic [ref=e1190]:
+                              - img [ref=e1191]
+                              - generic [ref=e1193]: "18"
+                          - button "Gillar inte" [ref=e1194]:
+                            - img [ref=e1196]
+                    - generic [ref=e1198]:
+                      - button "Dölj artikeln" [ref=e1199]:
+                        - img [ref=e1200]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e1201]:
+                        - img [ref=e1202]
+                - article "Vanlig morgonvana kan slå fel – fyra mediciner du inte bör ta med kaffe" [ref=e1203] [cursor=pointer]:
+                  - generic [ref=e1205]:
+                    - img [ref=e1206]
+                    - generic [ref=e1207]:
+                      - generic [ref=e1208]:
+                        - generic [ref=e1210]:
+                          - img [ref=e1211]
+                          - generic [ref=e1212]: Dagens.se
+                        - link "Vanlig morgonvana kan slå fel – fyra mediciner du inte bör ta med kaffe, Dagens.se" [ref=e1213]:
+                          - /url: https://www.msn.com/sv-se/nyheter/other/vanlig-morgonvana-kan-sl%C3%A5-fel-fyra-mediciner-du-inte-b%C3%B6r-ta-med-kaffe/ar-AA20u0qW
+                          - text: Vanlig morgonvana kan slå fel – fyra mediciner du inte bör ta med kaffe
+                      - generic "Vanlig morgonvana kan slå fel – fyra mediciner du inte bör ta med kaffe" [ref=e1217]:
+                        - generic [ref=e1220]:
+                          - button "80 Gillar" [ref=e1221]:
+                            - generic [ref=e1222]:
+                              - img [ref=e1223]
+                              - generic [ref=e1225]: "80"
+                          - button "Gillar inte" [ref=e1226]:
+                            - img [ref=e1228]
+                    - generic [ref=e1230]:
+                      - button "Dölj artikeln" [ref=e1231]:
+                        - img [ref=e1232]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e1233]:
+                        - img [ref=e1234]
+                - article "Louise Edlind Fribergs ord om Greta Thunberg" [ref=e1235] [cursor=pointer]:
+                  - generic [ref=e1237]:
+                    - img [ref=e1238]
+                    - generic [ref=e1239]:
+                      - generic [ref=e1240]:
+                        - generic [ref=e1241]:
+                          - generic [ref=e1242]:
+                            - img [ref=e1243]
+                            - generic [ref=e1244]: Newsner nyheter
+                          - generic [ref=e1245]: ·
+                          - generic [ref=e1246]: 11 tim
+                        - link "Louise Edlind Fribergs ord om Greta Thunberg, Newsner nyheter" [ref=e1247]:
+                          - /url: https://www.msn.com/sv-se/nyheter/other/louise-edlind-fribergs-ord-om-greta-thunberg/ar-AA23Zr7D
+                          - text: Louise Edlind Fribergs ord om Greta Thunberg
+                      - generic "Louise Edlind Fribergs ord om Greta Thunberg" [ref=e1251]:
+                        - generic [ref=e1254]:
+                          - button "23 Gillar" [ref=e1255]:
+                            - generic [ref=e1256]:
+                              - img [ref=e1257]
+                              - generic [ref=e1259]: "23"
+                          - button "Gillar inte" [ref=e1260]:
+                            - img [ref=e1262]
+                    - generic [ref=e1264]:
+                      - button "Dölj artikeln" [ref=e1265]:
+                        - img [ref=e1266]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e1267]:
+                        - img [ref=e1268]
+                - article "Kommer hon att starta? Black Beauty" [ref=e1269] [cursor=pointer]:
+                  - generic [ref=e1271]:
+                    - generic [ref=e1277]:
+                      - generic [ref=e1278]:
+                        - generic [ref=e1279]:
+                          - generic [ref=e1280]:
+                            - img [ref=e1281]
+                            - generic [ref=e1282]: Björklunds_Garage
+                          - generic [ref=e1283]: ·
+                          - generic [ref=e1284]: 2 v
+                        - link "Kommer hon att starta? Black Beauty, Björklunds_Garage" [ref=e1285]:
+                          - /url: https://www.msn.com/sv-se/nyheter/other/kommer-hon-att-starta-black-beauty/vi-AA22SbIn
+                          - text: Kommer hon att starta? Black Beauty
+                      - generic "Kommer hon att starta? Black Beauty" [ref=e1289]:
+                        - generic [ref=e1292]:
+                          - button "19 Gillar" [ref=e1293]:
+                            - generic [ref=e1294]:
+                              - img [ref=e1295]
+                              - generic [ref=e1297]: "19"
+                          - button "Gillar inte" [ref=e1298]:
+                            - img [ref=e1300]
+                    - generic [ref=e1302]:
+                      - button "Dölj artikeln" [ref=e1303]:
+                        - img [ref=e1304]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e1305]:
+                        - img [ref=e1306]
+              - generic [ref=e1307]:
+                - article "Ännu en SVT-profil lämnar kanalen • Nya jobbet" [ref=e1308] [cursor=pointer]:
+                  - generic [ref=e1310]:
+                    - img [ref=e1311]
+                    - generic [ref=e1312]:
+                      - generic [ref=e1313]:
+                        - generic [ref=e1314]:
+                          - generic [ref=e1315]:
+                            - img [ref=e1316]
+                            - generic [ref=e1317]: Hänt
+                          - generic [ref=e1318]: ·
+                          - generic [ref=e1319]: 10 tim
+                        - link "Ännu en SVT-profil lämnar kanalen • Nya jobbet, Hänt" [ref=e1320]:
+                          - /url: https://www.msn.com/sv-se/nyheter/other/%C3%A4nnu-en-svt-profil-l%C3%A4mnar-kanalen-nya-jobbet/ar-AA23ZNAR
+                          - text: Ännu en SVT-profil lämnar kanalen • Nya jobbet
+                      - generic "Ännu en SVT-profil lämnar kanalen • Nya jobbet" [ref=e1324]:
+                        - generic [ref=e1327]:
+                          - button "55 Gillar" [ref=e1328]:
+                            - generic [ref=e1329]:
+                              - img [ref=e1330]
+                              - generic [ref=e1332]: "55"
+                          - button "Gillar inte" [ref=e1333]:
+                            - img [ref=e1335]
+                    - generic [ref=e1337]:
+                      - button "Dölj artikeln" [ref=e1338]:
+                        - img [ref=e1339]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e1340]:
+                        - img [ref=e1341]
+                - article "Yvonne Ryding och Kjell Bergqvists stora barnbarnslycka • Avslöjar namnvalet" [ref=e1342] [cursor=pointer]:
+                  - generic [ref=e1344]:
+                    - img [ref=e1345]
+                    - generic [ref=e1346]:
+                      - generic [ref=e1347]:
+                        - generic [ref=e1348]:
+                          - generic [ref=e1349]:
+                            - img [ref=e1350]
+                            - generic [ref=e1351]: Hänt
+                          - generic [ref=e1352]: ·
+                          - generic [ref=e1353]: 2 d
+                        - link "Yvonne Ryding och Kjell Bergqvists stora barnbarnslycka • Avslöjar namnvalet, Hänt" [ref=e1354]:
+                          - /url: https://www.msn.com/sv-se/nyheter/other/yvonne-ryding-och-kjell-bergqvists-stora-barnbarnslycka-avsl%C3%B6jar-namnvalet/ar-AA23T116
+                          - text: Yvonne Ryding och Kjell Bergqvists stora barnbarnslycka • Avslöjar namnvalet
+                      - generic "Yvonne Ryding och Kjell Bergqvists stora barnbarnslycka • Avslöjar namnvalet" [ref=e1358]:
+                        - generic [ref=e1361]:
+                          - button "13 Gillar" [ref=e1362]:
+                            - generic [ref=e1363]:
+                              - img [ref=e1364]
+                              - generic [ref=e1366]: "13"
+                          - button "Gillar inte" [ref=e1367]:
+                            - img [ref=e1369]
+                    - generic [ref=e1371]:
+                      - button "Dölj artikeln" [ref=e1372]:
+                        - img [ref=e1373]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e1374]:
+                        - img [ref=e1375]
+                - article "Elektronisk krigföring får ryssar att skjuta snett" [ref=e1376] [cursor=pointer]:
+                  - generic [ref=e1378]:
+                    - img [ref=e1379]
+                    - generic [ref=e1380]:
+                      - generic [ref=e1381]:
+                        - generic [ref=e1382]:
+                          - generic [ref=e1383]:
+                            - img [ref=e1384]
+                            - generic [ref=e1385]: Omni
+                          - generic [ref=e1386]: ·
+                          - generic [ref=e1387]: 10 tim
+                        - link "Elektronisk krigföring får ryssar att skjuta snett, Omni" [ref=e1388]:
+                          - /url: https://www.msn.com/sv-se/nyheter/other/elektronisk-krigf%C3%B6ring-f%C3%A5r-ryssar-att-skjuta-snett/ar-AA23Zciv
+                          - text: Elektronisk krigföring får ryssar att skjuta snett
+                      - generic "Elektronisk krigföring får ryssar att skjuta snett" [ref=e1392]:
+                        - generic [ref=e1395]:
+                          - button "37 Gillar" [ref=e1396]:
+                            - generic [ref=e1397]:
+                              - img [ref=e1398]
+                              - generic [ref=e1400]: "37"
+                          - button "Gillar inte" [ref=e1401]:
+                            - img [ref=e1403]
+                    - generic [ref=e1405]:
+                      - button "Dölj artikeln" [ref=e1406]:
+                        - img [ref=e1407]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e1408]:
+                        - img [ref=e1409]
+                - article "Ica-butikens misstag blev succé – kunderna köpte upp allt" [ref=e1410] [cursor=pointer]:
+                  - generic [ref=e1412]:
+                    - img [ref=e1413]
+                    - generic [ref=e1414]:
+                      - generic [ref=e1415]:
+                        - generic [ref=e1416]:
+                          - generic [ref=e1417]:
+                            - img [ref=e1418]
+                            - generic [ref=e1419]: Nyheter24
+                          - generic [ref=e1420]: ·
+                          - generic [ref=e1421]: 3 tim
+                        - link "Ica-butikens misstag blev succé – kunderna köpte upp allt, Nyheter24" [ref=e1422]:
+                          - /url: https://www.msn.com/sv-se/nyheter/utrikes/ica-butikens-misstag-blev-succ%C3%A9-kunderna-k%C3%B6pte-upp-allt/ar-AA241eOI
+                          - text: Ica-butikens misstag blev succé – kunderna köpte upp allt
+                      - generic "Ica-butikens misstag blev succé – kunderna köpte upp allt" [ref=e1426]:
+                        - generic [ref=e1429]:
+                          - button "5 Gillar" [ref=e1430]:
+                            - generic [ref=e1431]:
+                              - img [ref=e1432]
+                              - generic [ref=e1434]: "5"
+                          - button "Gillar inte" [ref=e1435]:
+                            - img [ref=e1437]
+                    - generic [ref=e1439]:
+                      - button "Dölj artikeln" [ref=e1440]:
+                        - img [ref=e1441]
+                        - text: Dölj artikeln
+                      - button "Visa mer" [ref=e1442]:
+                        - img [ref=e1443]
+    - contentinfo:
+      - generic [ref=e1445]:
+        - generic [ref=e1446]: © 2026 Microsoft
+        - list [ref=e1447]:
+          - listitem [ref=e1448]:
+            - link "Sekretess och cookies" [ref=e1449] [cursor=pointer]:
+              - /url: //go.microsoft.com/fwlink/?LinkId=521839
+          - listitem [ref=e1450]:
+            - link "Juridisk information" [ref=e1451] [cursor=pointer]:
+              - /url: //go.microsoft.com/fwlink/?LinkID=246338
+          - listitem [ref=e1452]:
+            - link "Annonsera" [ref=e1453] [cursor=pointer]:
+              - /url: //go.microsoft.com/fwlink/?linkid=868923
+          - listitem [ref=e1454]:
+            - link "Om våra annonser" [ref=e1455] [cursor=pointer]:
+              - /url: //go.microsoft.com/fwlink/?LinkID=286759
+          - listitem [ref=e1456]:
+            - link "Hjälp" [ref=e1457] [cursor=pointer]:
+              - /url: //support.microsoft.com/topic/82d20721-2d6f-4012-a13d-d1910ccf203f
+          - listitem [ref=e1458]:
+            - link "Feedback" [ref=e1459] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e1460]:
+            - link "Europeiskt dataskydd" [ref=e1461] [cursor=pointer]:
+              - /url: http://help.bing.microsoft.com/#apex/18/sv/10013/-1/sv
+          - listitem [ref=e1462]:
+            - generic [ref=e1463]: Hantera cookieinställningar

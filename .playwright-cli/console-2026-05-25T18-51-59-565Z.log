@@ -1,0 +1,4 @@
+[     436ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://open.spotifycdn.com/cdn/build/web-player/vendor~web-player.03a68a86.js:0
+[    5444ms] [ERROR] undefined @ https://open.spotifycdn.com/cdn/build/web-player/web-player.439ee34d.js:4
+[    5444ms] Uncaught (in promise) undefined
+    at fetchBroadcastStatus (https://open.spotifycdn.com/cdn/build/web-player/web-player.439ee34d.js:1:1571392)

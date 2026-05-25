@@ -1,0 +1,1204 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "OpenAI Developers" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "OpenAI Developers" [ref=e5]
+      - navigation [ref=e6]:
+        - link "Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "API" [ref=e10] [cursor=pointer]:
+          - /url: /api
+          - text: API
+          - img [ref=e11]
+        - link "Codex" [ref=e14] [cursor=pointer]:
+          - /url: /codex
+          - text: Codex
+          - img [ref=e15]
+        - link "ChatGPT" [ref=e18] [cursor=pointer]:
+          - /url: /chatgpt
+          - text: ChatGPT
+          - img [ref=e19]
+        - link "Resources" [ref=e22] [cursor=pointer]:
+          - /url: /learn
+          - text: Resources
+          - img [ref=e23]
+      - generic [ref=e25]:
+        - button "Start searching" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: Start searching
+          - img [ref=e28]
+        - link "API Dashboard" [ref=e33] [cursor=pointer]:
+          - /url: https://platform.openai.com/login
+          - generic [ref=e34]:
+            - generic [ref=e35]: API Dashboard
+            - img [ref=e36]
+        - button "Toggle light and dark theme" [ref=e38] [cursor=pointer]:
+          - img [ref=e39]
+  - generic [ref=e41]:
+    - navigation [ref=e43]:
+      - generic [ref=e44]:
+        - heading "Get started" [level=3] [ref=e45]
+        - list [ref=e46]:
+          - listitem [ref=e47]:
+            - link "Overview" [ref=e48] [cursor=pointer]:
+              - /url: /api/docs
+              - generic [ref=e49]: Overview
+          - listitem [ref=e50]:
+            - link "Quickstart" [ref=e51] [cursor=pointer]:
+              - /url: /api/docs/quickstart
+              - generic [ref=e52]: Quickstart
+          - listitem [ref=e53]:
+            - link "Models" [ref=e54] [cursor=pointer]:
+              - /url: /api/docs/models
+              - generic [ref=e55]: Models
+          - listitem [ref=e56]:
+            - link "Pricing" [ref=e57] [cursor=pointer]:
+              - /url: /api/docs/pricing
+              - generic [ref=e58]: Pricing
+          - listitem [ref=e59]:
+            - group [ref=e60]:
+              - generic "SDKs and CLI" [ref=e61] [cursor=pointer]:
+                - link "SDKs and CLI" [ref=e62]:
+                  - /url: /api/docs/libraries
+                  - generic [ref=e63]: SDKs and CLI
+                - img [ref=e64]
+          - listitem [ref=e66]:
+            - 'link "Latest: GPT-5.5" [ref=e67] [cursor=pointer]':
+              - /url: /api/docs/guides/latest-model
+              - generic [ref=e68]: "Latest: GPT-5.5"
+          - listitem [ref=e69]:
+            - link "Prompt guidance" [ref=e70] [cursor=pointer]:
+              - /url: /api/docs/guides/prompt-guidance
+              - generic [ref=e71]: Prompt guidance
+      - generic [ref=e72]:
+        - heading "Core concepts" [level=3] [ref=e73]
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "Text generation" [ref=e76] [cursor=pointer]:
+              - /url: /api/docs/guides/text
+              - generic [ref=e77]: Text generation
+          - listitem [ref=e78]:
+            - link "Code generation" [ref=e79] [cursor=pointer]:
+              - /url: /api/docs/guides/code-generation
+              - generic [ref=e80]: Code generation
+          - listitem [ref=e81]:
+            - link "Images and vision" [ref=e82] [cursor=pointer]:
+              - /url: /api/docs/guides/images-vision
+              - generic [ref=e83]: Images and vision
+          - listitem [ref=e84]:
+            - link "Audio and speech" [ref=e85] [cursor=pointer]:
+              - /url: /api/docs/guides/audio
+              - generic [ref=e86]: Audio and speech
+          - listitem [ref=e87]:
+            - link "Structured output" [ref=e88] [cursor=pointer]:
+              - /url: /api/docs/guides/structured-outputs
+              - generic [ref=e89]: Structured output
+          - listitem [ref=e90]:
+            - link "Function calling" [ref=e91] [cursor=pointer]:
+              - /url: /api/docs/guides/function-calling
+              - generic [ref=e92]: Function calling
+          - listitem [ref=e93]:
+            - link "Responses API" [ref=e94] [cursor=pointer]:
+              - /url: /api/docs/guides/migrate-to-responses
+              - generic [ref=e95]: Responses API
+          - listitem [ref=e96]:
+            - link "Using tools" [ref=e97] [cursor=pointer]:
+              - /url: /api/docs/guides/tools
+              - generic [ref=e98]: Using tools
+      - generic [ref=e99]:
+        - heading "Agents SDK" [level=3] [ref=e100]
+        - list [ref=e101]:
+          - listitem [ref=e102]:
+            - link "Overview" [ref=e103] [cursor=pointer]:
+              - /url: /api/docs/guides/agents
+              - generic [ref=e104]: Overview
+          - listitem [ref=e105]:
+            - link "Quickstart" [ref=e106] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/quickstart
+              - generic [ref=e107]: Quickstart
+          - listitem [ref=e108]:
+            - link "Agent definitions" [ref=e109] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/define-agents
+              - generic [ref=e110]: Agent definitions
+          - listitem [ref=e111]:
+            - link "Models and providers" [ref=e112] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/models
+              - generic [ref=e113]: Models and providers
+          - listitem [ref=e114]:
+            - link "Running agents" [ref=e115] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/running-agents
+              - generic [ref=e116]: Running agents
+          - listitem [ref=e117]:
+            - link "Sandbox agents" [ref=e118] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/sandboxes
+              - generic [ref=e119]: Sandbox agents
+          - listitem [ref=e120]:
+            - link "Orchestration" [ref=e121] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/orchestration
+              - generic [ref=e122]: Orchestration
+          - listitem [ref=e123]:
+            - link "Guardrails" [ref=e124] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/guardrails-approvals
+              - generic [ref=e125]: Guardrails
+          - listitem [ref=e126]:
+            - link "Results and state" [ref=e127] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/results
+              - generic [ref=e128]: Results and state
+          - listitem [ref=e129]:
+            - link "Integrations and observability" [ref=e130] [cursor=pointer]:
+              - /url: /api/docs/guides/agents/integrations-observability
+              - generic [ref=e131]: Integrations and observability
+          - listitem [ref=e132]:
+            - link "Evaluate agent workflows" [ref=e133] [cursor=pointer]:
+              - /url: /api/docs/guides/agent-evals
+              - generic [ref=e134]: Evaluate agent workflows
+          - listitem [ref=e135]:
+            - link "Voice agents" [ref=e136] [cursor=pointer]:
+              - /url: /api/docs/guides/voice-agents
+              - generic [ref=e137]: Voice agents
+          - listitem [ref=e138]:
+            - group [ref=e139]:
+              - generic "Agent Builder" [ref=e140] [cursor=pointer]:
+                - generic [ref=e141]: Agent Builder
+                - img [ref=e142]
+      - generic [ref=e144]:
+        - heading "Tools" [level=3] [ref=e145]
+        - list [ref=e146]:
+          - listitem [ref=e147]:
+            - link "Web search" [ref=e148] [cursor=pointer]:
+              - /url: /api/docs/guides/tools-web-search
+              - generic [ref=e149]: Web search
+          - listitem [ref=e150]:
+            - group [ref=e151]:
+              - generic "MCP and Connectors" [ref=e152] [cursor=pointer]:
+                - link "MCP and Connectors" [ref=e153]:
+                  - /url: /api/docs/guides/tools-connectors-mcp
+                  - generic [ref=e154]: MCP and Connectors
+                - img [ref=e155]
+          - listitem [ref=e157]:
+            - link "Skills" [ref=e158] [cursor=pointer]:
+              - /url: /api/docs/guides/tools-skills
+              - generic [ref=e159]: Skills
+          - listitem [ref=e160]:
+            - link "Shell" [ref=e161] [cursor=pointer]:
+              - /url: /api/docs/guides/tools-shell
+              - generic [ref=e162]: Shell
+          - listitem [ref=e163]:
+            - link "Computer use" [ref=e164] [cursor=pointer]:
+              - /url: /api/docs/guides/tools-computer-use
+              - generic [ref=e165]: Computer use
+          - listitem [ref=e166]:
+            - group [ref=e167]:
+              - generic "File search and retrieval" [ref=e168] [cursor=pointer]:
+                - generic [ref=e169]: File search and retrieval
+                - img [ref=e170]
+          - listitem [ref=e172]:
+            - link "Tool search" [ref=e173] [cursor=pointer]:
+              - /url: /api/docs/guides/tools-tool-search
+              - generic [ref=e174]: Tool search
+          - listitem [ref=e175]:
+            - group [ref=e176]:
+              - generic "More tools" [ref=e177] [cursor=pointer]:
+                - generic [ref=e178]: More tools
+                - img [ref=e179]
+      - generic [ref=e181]:
+        - heading "Run and scale" [level=3] [ref=e182]
+        - list [ref=e183]:
+          - listitem [ref=e184]:
+            - link "Conversation state" [ref=e185] [cursor=pointer]:
+              - /url: /api/docs/guides/conversation-state
+              - generic [ref=e186]: Conversation state
+          - listitem [ref=e187]:
+            - link "Background mode" [ref=e188] [cursor=pointer]:
+              - /url: /api/docs/guides/background
+              - generic [ref=e189]: Background mode
+          - listitem [ref=e190]:
+            - link "Streaming" [ref=e191] [cursor=pointer]:
+              - /url: /api/docs/guides/streaming-responses
+              - generic [ref=e192]: Streaming
+          - listitem [ref=e193]:
+            - link "WebSocket mode" [ref=e194] [cursor=pointer]:
+              - /url: /api/docs/guides/websocket-mode
+              - generic [ref=e195]: WebSocket mode
+          - listitem [ref=e196]:
+            - link "Webhooks" [ref=e197] [cursor=pointer]:
+              - /url: /api/docs/guides/webhooks
+              - generic [ref=e198]: Webhooks
+          - listitem [ref=e199]:
+            - link "File inputs" [ref=e200] [cursor=pointer]:
+              - /url: /api/docs/guides/file-inputs
+              - generic [ref=e201]: File inputs
+          - listitem [ref=e202]:
+            - group [ref=e203]:
+              - generic "Context management" [ref=e204] [cursor=pointer]:
+                - generic [ref=e205]: Context management
+                - img [ref=e206]
+          - listitem [ref=e208]:
+            - group [ref=e209]:
+              - generic "Prompting" [ref=e210] [cursor=pointer]:
+                - generic [ref=e211]: Prompting
+                - img [ref=e212]
+          - listitem [ref=e214]:
+            - group [ref=e215]:
+              - generic "Reasoning" [ref=e216] [cursor=pointer]:
+                - generic [ref=e217]: Reasoning
+                - img [ref=e218]
+      - generic [ref=e220]:
+        - heading "Evaluation" [level=3] [ref=e221]
+        - list [ref=e222]:
+          - listitem [ref=e223]:
+            - link "Getting started" [ref=e224] [cursor=pointer]:
+              - /url: /api/docs/guides/evaluation-getting-started
+              - generic [ref=e225]: Getting started
+          - listitem [ref=e226]:
+            - link "Working with evals" [ref=e227] [cursor=pointer]:
+              - /url: /api/docs/guides/evals
+              - generic [ref=e228]: Working with evals
+          - listitem [ref=e229]:
+            - link "Prompt optimizer" [ref=e230] [cursor=pointer]:
+              - /url: /api/docs/guides/prompt-optimizer
+              - generic [ref=e231]: Prompt optimizer
+          - listitem [ref=e232]:
+            - link "External models" [ref=e233] [cursor=pointer]:
+              - /url: /api/docs/guides/external-models
+              - generic [ref=e234]: External models
+          - listitem [ref=e235]:
+            - link "Best practices" [ref=e236] [cursor=pointer]:
+              - /url: /api/docs/guides/evaluation-best-practices
+              - generic [ref=e237]: Best practices
+      - generic [ref=e238]:
+        - heading "Realtime and audio" [level=3] [ref=e239]
+        - list [ref=e240]:
+          - listitem [ref=e241]:
+            - link "Overview" [ref=e242] [cursor=pointer]:
+              - /url: /api/docs/guides/realtime
+              - generic [ref=e243]: Overview
+          - listitem [ref=e244]:
+            - link "Voice agents" [ref=e245] [cursor=pointer]:
+              - /url: /api/docs/guides/voice-agents
+              - generic [ref=e246]: Voice agents
+          - listitem [ref=e247]:
+            - link "Live translation" [ref=e248] [cursor=pointer]:
+              - /url: /api/docs/guides/realtime-translation
+              - generic [ref=e249]: Live translation
+          - listitem [ref=e250]:
+            - group [ref=e251]:
+              - generic "Transcription" [ref=e252] [cursor=pointer]:
+                - generic [ref=e253]: Transcription
+                - img [ref=e254]
+          - listitem [ref=e256]:
+            - link "Speech generation" [ref=e257] [cursor=pointer]:
+              - /url: /api/docs/guides/text-to-speech
+              - generic [ref=e258]: Speech generation
+          - listitem [ref=e259]:
+            - link "Realtime prompting guide" [ref=e260] [cursor=pointer]:
+              - /url: /api/docs/guides/realtime-models-prompting
+              - generic [ref=e261]: Realtime prompting guide
+          - listitem [ref=e262]:
+            - group [ref=e263]:
+              - generic "Connection methods" [ref=e264] [cursor=pointer]:
+                - generic [ref=e265]: Connection methods
+                - img [ref=e266]
+          - listitem [ref=e268]:
+            - group [ref=e269]:
+              - generic "Realtime sessions" [ref=e270] [cursor=pointer]:
+                - generic [ref=e271]: Realtime sessions
+                - img [ref=e272]
+      - generic [ref=e274]:
+        - heading "Model optimization" [level=3] [ref=e275]
+        - list [ref=e276]:
+          - listitem [ref=e277]:
+            - link "Optimization cycle" [ref=e278] [cursor=pointer]:
+              - /url: /api/docs/guides/model-optimization
+              - generic [ref=e279]: Optimization cycle
+          - listitem [ref=e280]:
+            - group [ref=e281]:
+              - generic "Fine-tuning" [ref=e282] [cursor=pointer]:
+                - generic [ref=e283]: Fine-tuning
+                - img [ref=e284]
+          - listitem [ref=e286]:
+            - link "Graders" [ref=e287] [cursor=pointer]:
+              - /url: /api/docs/guides/graders
+              - generic [ref=e288]: Graders
+      - generic [ref=e289]:
+        - heading "Specialized models" [level=3] [ref=e290]
+        - list [ref=e291]:
+          - listitem [ref=e292]:
+            - link "Image generation" [ref=e293] [cursor=pointer]:
+              - /url: /api/docs/guides/image-generation
+              - generic [ref=e294]: Image generation
+          - listitem [ref=e295]:
+            - link "Video generation" [ref=e296] [cursor=pointer]:
+              - /url: /api/docs/guides/video-generation
+              - generic [ref=e297]: Video generation
+          - listitem [ref=e298]:
+            - link "Deep research" [ref=e299] [cursor=pointer]:
+              - /url: /api/docs/guides/deep-research
+              - generic [ref=e300]: Deep research
+          - listitem [ref=e301]:
+            - link "Embeddings" [ref=e302] [cursor=pointer]:
+              - /url: /api/docs/guides/embeddings
+              - generic [ref=e303]: Embeddings
+          - listitem [ref=e304]:
+            - link "Moderation" [ref=e305] [cursor=pointer]:
+              - /url: /api/docs/guides/moderation
+              - generic [ref=e306]: Moderation
+      - generic [ref=e307]:
+        - heading "Going live" [level=3] [ref=e308]
+        - list [ref=e309]:
+          - listitem [ref=e310]:
+            - link "Production best practices" [ref=e311] [cursor=pointer]:
+              - /url: /api/docs/guides/production-best-practices
+              - generic [ref=e312]: Production best practices
+          - listitem [ref=e313]:
+            - link "Deployment checklist" [ref=e314] [cursor=pointer]:
+              - /url: /api/docs/guides/deployment-checklist
+              - generic [ref=e315]: Deployment checklist
+          - listitem [ref=e316]:
+            - group [ref=e317]:
+              - generic "Latency optimization" [ref=e318] [cursor=pointer]:
+                - generic [ref=e319]: Latency optimization
+                - img [ref=e320]
+          - listitem [ref=e322]:
+            - group [ref=e323]:
+              - generic "Cost optimization" [ref=e324] [cursor=pointer]:
+                - generic [ref=e325]: Cost optimization
+                - img [ref=e326]
+          - listitem [ref=e328]:
+            - link "Accuracy optimization" [ref=e329] [cursor=pointer]:
+              - /url: /api/docs/guides/optimizing-llm-accuracy
+              - generic [ref=e330]: Accuracy optimization
+          - listitem [ref=e331]:
+            - group [ref=e332]:
+              - generic "Safety" [ref=e333] [cursor=pointer]:
+                - generic [ref=e334]: Safety
+                - img [ref=e335]
+      - generic [ref=e337]:
+        - heading "Legacy APIs" [level=3] [ref=e338]
+        - list [ref=e339]:
+          - listitem [ref=e340]:
+            - group [ref=e341]:
+              - generic "Assistants API" [ref=e342] [cursor=pointer]:
+                - generic [ref=e343]: Assistants API
+                - img [ref=e344]
+      - generic [ref=e346]:
+        - heading "Resources" [level=3] [ref=e347]
+        - list [ref=e348]:
+          - listitem [ref=e349]:
+            - link "Terms and policies" [ref=e350] [cursor=pointer]:
+              - /url: https://openai.com/policies
+              - generic [ref=e351]: Terms and policies
+              - img [ref=e352]
+          - listitem [ref=e354]:
+            - link "Changelog" [ref=e355] [cursor=pointer]:
+              - /url: /api/docs/changelog
+              - generic [ref=e356]: Changelog
+          - listitem [ref=e357]:
+            - link "Your data" [ref=e358] [cursor=pointer]:
+              - /url: /api/docs/guides/your-data
+              - generic [ref=e359]: Your data
+          - listitem [ref=e360]:
+            - link "Permissions" [ref=e361] [cursor=pointer]:
+              - /url: /api/docs/guides/rbac
+              - generic [ref=e362]: Permissions
+          - listitem [ref=e363]:
+            - link "Rate limits" [ref=e364] [cursor=pointer]:
+              - /url: /api/docs/guides/rate-limits
+              - generic [ref=e365]: Rate limits
+          - listitem [ref=e366]:
+            - link "Admin APIs" [ref=e367] [cursor=pointer]:
+              - /url: /api/docs/guides/admin-apis
+              - generic [ref=e368]: Admin APIs
+          - listitem [ref=e369]:
+            - link "Deprecations" [ref=e370] [cursor=pointer]:
+              - /url: /api/docs/deprecations
+              - generic [ref=e371]: Deprecations
+          - listitem [ref=e372]:
+            - link "MCP for deep research" [ref=e373] [cursor=pointer]:
+              - /url: /api/docs/mcp
+              - generic [ref=e374]: MCP for deep research
+          - listitem [ref=e375]:
+            - link "Developer mode" [ref=e376] [cursor=pointer]:
+              - /url: /api/docs/guides/developer-mode
+              - generic [ref=e377]: Developer mode
+          - listitem [ref=e378]:
+            - group [ref=e379]:
+              - generic "ChatGPT Actions" [ref=e380] [cursor=pointer]:
+                - generic [ref=e381]: ChatGPT Actions
+                - img [ref=e382]
+    - main [ref=e384]:
+      - generic [ref=e386]:
+        - link "Models" [ref=e388] [cursor=pointer]:
+          - /url: /api/docs/models
+          - img [ref=e389]
+          - text: Models
+        - generic [ref=e391]:
+          - generic [ref=e393]:
+            - generic [ref=e394]:
+              - heading "All models" [level=1] [ref=e395]
+              - paragraph [ref=e396]: Browse all available models and compare their capabilities.
+            - button "Compare models" [ref=e398] [cursor=pointer]:
+              - generic [ref=e399]: Compare models
+          - generic [ref=e401]:
+            - generic [ref=e404]:
+              - generic [ref=e405]:
+                - generic [ref=e406]: Frontier models
+                - generic [ref=e407]: OpenAI's most advanced models, recommended for most tasks.
+              - generic [ref=e408]:
+                - link "gpt-5.5 GPT-5.5 A new class of intelligence for coding and professional work." [ref=e409] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5.5
+                  - generic [ref=e410]:
+                    - img "gpt-5.5" [ref=e412]
+                    - generic [ref=e413]:
+                      - generic [ref=e415]: GPT-5.5
+                      - generic [ref=e416]: A new class of intelligence for coding and professional work.
+                - link "gpt-5.5-pro GPT-5.5 pro Version of GPT-5.5 that produces smarter and more precise responses." [ref=e417] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5.5-pro
+                  - generic [ref=e418]:
+                    - img "gpt-5.5-pro" [ref=e420]
+                    - generic [ref=e421]:
+                      - generic [ref=e423]: GPT-5.5 pro
+                      - generic [ref=e424]: Version of GPT-5.5 that produces smarter and more precise responses.
+                - link "gpt-5.4 GPT-5.4 A more affordable model for coding and professional work." [ref=e425] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5.4
+                  - generic [ref=e426]:
+                    - img "gpt-5.4" [ref=e428]
+                    - generic [ref=e429]:
+                      - generic [ref=e431]: GPT-5.4
+                      - generic [ref=e432]: A more affordable model for coding and professional work.
+                - link "gpt-5.4-pro GPT-5.4 pro Version of GPT-5.4 that produces smarter and more precise responses." [ref=e433] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5.4-pro
+                  - generic [ref=e434]:
+                    - img "gpt-5.4-pro" [ref=e436]
+                    - generic [ref=e437]:
+                      - generic [ref=e439]: GPT-5.4 pro
+                      - generic [ref=e440]: Version of GPT-5.4 that produces smarter and more precise responses.
+                - link "gpt-5.4-mini GPT-5.4 mini Our strongest mini model yet for coding, computer use, and subagents" [ref=e441] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5.4-mini
+                  - generic [ref=e442]:
+                    - img "gpt-5.4-mini" [ref=e444]
+                    - generic [ref=e445]:
+                      - generic [ref=e447]: GPT-5.4 mini
+                      - generic [ref=e448]: Our strongest mini model yet for coding, computer use, and subagents
+                - link "gpt-5.4-nano GPT-5.4 nano Our cheapest GPT-5.4-class model for simple high-volume tasks" [ref=e449] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5.4-nano
+                  - generic [ref=e450]:
+                    - img "gpt-5.4-nano" [ref=e452]
+                    - generic [ref=e453]:
+                      - generic [ref=e455]: GPT-5.4 nano
+                      - generic [ref=e456]: Our cheapest GPT-5.4-class model for simple high-volume tasks
+                - link "gpt-5-mini GPT-5 mini Near-frontier intelligence for cost sensitive, low latency, high volume workloads" [ref=e457] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5-mini
+                  - generic [ref=e458]:
+                    - img "gpt-5-mini" [ref=e460]
+                    - generic [ref=e461]:
+                      - generic [ref=e463]: GPT-5 mini
+                      - generic [ref=e464]: Near-frontier intelligence for cost sensitive, low latency, high volume workloads
+                - link "gpt-5-nano GPT-5 nano Fastest, most cost-efficient version of GPT-5" [ref=e465] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5-nano
+                  - generic [ref=e466]:
+                    - img "gpt-5-nano" [ref=e468]
+                    - generic [ref=e469]:
+                      - generic [ref=e471]: GPT-5 nano
+                      - generic [ref=e472]: Fastest, most cost-efficient version of GPT-5
+                - link "gpt-5 GPT-5 Previous intelligent reasoning model for coding and agentic tasks with configurable reasoning effort" [ref=e473] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5
+                  - generic [ref=e474]:
+                    - img "gpt-5" [ref=e476]
+                    - generic [ref=e477]:
+                      - generic [ref=e479]: GPT-5
+                      - generic [ref=e480]: Previous intelligent reasoning model for coding and agentic tasks with configurable reasoning effort
+                - link "gpt-4.1 GPT-4.1 Smartest non-reasoning model" [ref=e481] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4.1
+                  - generic [ref=e482]:
+                    - img "gpt-4.1" [ref=e484]
+                    - generic [ref=e485]:
+                      - generic [ref=e487]: GPT-4.1
+                      - generic [ref=e488]: Smartest non-reasoning model
+            - generic [ref=e492]:
+              - generic [ref=e493]:
+                - generic [ref=e494]: Image
+                - generic [ref=e495]: Models for image generation and editing.
+              - generic [ref=e496]:
+                - link "gpt-image-2 GPT Image 2 State-of-the-art image generation model" [ref=e497] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-image-2
+                  - generic [ref=e498]:
+                    - img "gpt-image-2" [ref=e500]
+                    - generic [ref=e501]:
+                      - generic [ref=e503]: GPT Image 2
+                      - generic [ref=e504]: State-of-the-art image generation model
+                - link "gpt-image-1.5 GPT Image 1.5 Our previous image generation model" [ref=e505] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-image-1.5
+                  - generic [ref=e506]:
+                    - img "gpt-image-1.5" [ref=e508]
+                    - generic [ref=e509]:
+                      - generic [ref=e511]: GPT Image 1.5
+                      - generic [ref=e512]: Our previous image generation model
+                - link "chatgpt-image-latest chatgpt-image-latest Previous image model used in ChatGPT." [ref=e513] [cursor=pointer]:
+                  - /url: /api/docs/models/chatgpt-image-latest
+                  - generic [ref=e514]:
+                    - img "chatgpt-image-latest" [ref=e516]
+                    - generic [ref=e517]:
+                      - generic [ref=e519]: chatgpt-image-latest
+                      - generic [ref=e520]: Previous image model used in ChatGPT.
+                - link "gpt-image-1 GPT Image 1 Deprecated Our previous image generation model" [ref=e521] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-image-1
+                  - generic [ref=e522]:
+                    - img "gpt-image-1" [ref=e524]
+                    - generic [ref=e525]:
+                      - generic [ref=e526]:
+                        - generic [ref=e527]: GPT Image 1
+                        - generic [ref=e528]: Deprecated
+                      - generic [ref=e529]: Our previous image generation model
+                - link "gpt-image-1-mini gpt-image-1-mini A cost-efficient version of GPT Image 1" [ref=e530] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-image-1-mini
+                  - generic [ref=e531]:
+                    - img "gpt-image-1-mini" [ref=e533]
+                    - generic [ref=e534]:
+                      - generic [ref=e536]: gpt-image-1-mini
+                      - generic [ref=e537]: A cost-efficient version of GPT Image 1
+                - link "dall-e-3 DALL·E 3 Deprecated Previous generation image generation model" [ref=e538] [cursor=pointer]:
+                  - /url: /api/docs/models/dall-e-3
+                  - generic [ref=e539]:
+                    - img "dall-e-3" [ref=e541]
+                    - generic [ref=e542]:
+                      - generic [ref=e543]:
+                        - generic [ref=e544]: DALL·E 3
+                        - generic [ref=e545]: Deprecated
+                      - generic [ref=e546]: Previous generation image generation model
+                - link "dall-e-2 DALL·E 2 Deprecated Our first image generation model" [ref=e547] [cursor=pointer]:
+                  - /url: /api/docs/models/dall-e-2
+                  - generic [ref=e548]:
+                    - img "dall-e-2" [ref=e550]
+                    - generic [ref=e551]:
+                      - generic [ref=e552]:
+                        - generic [ref=e553]: DALL·E 2
+                        - generic [ref=e554]: Deprecated
+                      - generic [ref=e555]: Our first image generation model
+            - generic [ref=e559]:
+              - generic [ref=e560]:
+                - generic [ref=e561]: Video
+                - generic [ref=e562]: Models for video generation.
+              - generic [ref=e563]:
+                - link "sora-2 Sora 2 Deprecated Flagship video generation with synced audio" [ref=e564] [cursor=pointer]:
+                  - /url: /api/docs/models/sora-2
+                  - generic [ref=e565]:
+                    - img "sora-2" [ref=e567]
+                    - generic [ref=e568]:
+                      - generic [ref=e569]:
+                        - generic [ref=e570]: Sora 2
+                        - generic [ref=e571]: Deprecated
+                      - generic [ref=e572]: Flagship video generation with synced audio
+                - link "sora-2-pro Sora 2 Pro Deprecated Most advanced synced-audio video generation" [ref=e573] [cursor=pointer]:
+                  - /url: /api/docs/models/sora-2-pro
+                  - generic [ref=e574]:
+                    - img "sora-2-pro" [ref=e576]
+                    - generic [ref=e577]:
+                      - generic [ref=e578]:
+                        - generic [ref=e579]: Sora 2 Pro
+                        - generic [ref=e580]: Deprecated
+                      - generic [ref=e581]: Most advanced synced-audio video generation
+            - generic [ref=e585]:
+              - generic [ref=e586]:
+                - generic [ref=e587]: Realtime & audio
+                - generic [ref=e588]: Models for realtime, speech, and audio workflows.
+              - generic [ref=e589]:
+                - link "gpt-realtime-2 gpt-realtime-2 Reasoning model for realtime voice interactions" [ref=e590] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-realtime-2
+                  - generic [ref=e591]:
+                    - img "gpt-realtime-2" [ref=e593]
+                    - generic [ref=e594]:
+                      - generic [ref=e596]: gpt-realtime-2
+                      - generic [ref=e597]: Reasoning model for realtime voice interactions
+                - link "gpt-realtime-translate gpt-realtime-translate Streaming speech-to-speech translation model" [ref=e598] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-realtime-translate
+                  - generic [ref=e599]:
+                    - img "gpt-realtime-translate" [ref=e601]
+                    - generic [ref=e602]:
+                      - generic [ref=e604]: gpt-realtime-translate
+                      - generic [ref=e605]: Streaming speech-to-speech translation model
+                - link "gpt-realtime-whisper gpt-realtime-whisper Streaming speech-to-text model for realtime transcription" [ref=e606] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-realtime-whisper
+                  - generic [ref=e607]:
+                    - img "gpt-realtime-whisper" [ref=e609]
+                    - generic [ref=e610]:
+                      - generic [ref=e612]: gpt-realtime-whisper
+                      - generic [ref=e613]: Streaming speech-to-text model for realtime transcription
+                - link "gpt-realtime-1.5 gpt-realtime-1.5 The best voice model for audio in, audio out" [ref=e614] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-realtime-1.5
+                  - generic [ref=e615]:
+                    - img "gpt-realtime-1.5" [ref=e617]
+                    - generic [ref=e618]:
+                      - generic [ref=e620]: gpt-realtime-1.5
+                      - generic [ref=e621]: The best voice model for audio in, audio out
+                - link "gpt-realtime gpt-realtime Model capable of realtime text and audio inputs and outputs" [ref=e622] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-realtime
+                  - generic [ref=e623]:
+                    - img "gpt-realtime" [ref=e625]
+                    - generic [ref=e626]:
+                      - generic [ref=e628]: gpt-realtime
+                      - generic [ref=e629]: Model capable of realtime text and audio inputs and outputs
+                - link "gpt-realtime-mini gpt-realtime-mini A cost-efficient version of GPT Realtime" [ref=e630] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-realtime-mini
+                  - generic [ref=e631]:
+                    - img "gpt-realtime-mini" [ref=e633]
+                    - generic [ref=e634]:
+                      - generic [ref=e636]: gpt-realtime-mini
+                      - generic [ref=e637]: A cost-efficient version of GPT Realtime
+                - link "gpt-audio-1.5 gpt-audio-1.5 The best voice model for audio in, audio out with Chat Completions." [ref=e638] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-audio-1.5
+                  - generic [ref=e639]:
+                    - img "gpt-audio-1.5" [ref=e641]
+                    - generic [ref=e642]:
+                      - generic [ref=e644]: gpt-audio-1.5
+                      - generic [ref=e645]: The best voice model for audio in, audio out with Chat Completions.
+                - link "gpt-audio gpt-audio For audio inputs and outputs with Chat Completions API" [ref=e646] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-audio
+                  - generic [ref=e647]:
+                    - img "gpt-audio" [ref=e649]
+                    - generic [ref=e650]:
+                      - generic [ref=e652]: gpt-audio
+                      - generic [ref=e653]: For audio inputs and outputs with Chat Completions API
+                - link "gpt-audio-mini gpt-audio-mini A cost-efficient version of GPT Audio" [ref=e654] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-audio-mini
+                  - generic [ref=e655]:
+                    - img "gpt-audio-mini" [ref=e657]
+                    - generic [ref=e658]:
+                      - generic [ref=e660]: gpt-audio-mini
+                      - generic [ref=e661]: A cost-efficient version of GPT Audio
+                - link "gpt-4o-audio-preview GPT-4o Audio Deprecated GPT-4o models capable of audio inputs and outputs" [ref=e662] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4o-audio-preview
+                  - generic [ref=e663]:
+                    - img "gpt-4o-audio-preview" [ref=e665]
+                    - generic [ref=e666]:
+                      - generic [ref=e667]:
+                        - generic [ref=e668]: GPT-4o Audio
+                        - generic [ref=e669]: Deprecated
+                      - generic [ref=e670]: GPT-4o models capable of audio inputs and outputs
+                - link "gpt-4o-mini-audio-preview GPT-4o mini Audio Deprecated Smaller model capable of audio inputs and outputs" [ref=e671] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4o-mini-audio-preview
+                  - generic [ref=e672]:
+                    - img "gpt-4o-mini-audio-preview" [ref=e674]
+                    - generic [ref=e675]:
+                      - generic [ref=e676]:
+                        - generic [ref=e677]: GPT-4o mini Audio
+                        - generic [ref=e678]: Deprecated
+                      - generic [ref=e679]: Smaller model capable of audio inputs and outputs
+                - link "gpt-4o-realtime-preview GPT-4o Realtime Model capable of realtime text and audio inputs and outputs" [ref=e680] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4o-realtime-preview
+                  - generic [ref=e681]:
+                    - img "gpt-4o-realtime-preview" [ref=e683]
+                    - generic [ref=e684]:
+                      - generic [ref=e686]: GPT-4o Realtime
+                      - generic [ref=e687]: Model capable of realtime text and audio inputs and outputs
+                - link "gpt-4o-mini-realtime-preview GPT-4o mini Realtime Deprecated Smaller realtime model for text and audio inputs and outputs" [ref=e688] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4o-mini-realtime-preview
+                  - generic [ref=e689]:
+                    - img "gpt-4o-mini-realtime-preview" [ref=e691]
+                    - generic [ref=e692]:
+                      - generic [ref=e693]:
+                        - generic [ref=e694]: GPT-4o mini Realtime
+                        - generic [ref=e695]: Deprecated
+                      - generic [ref=e696]: Smaller realtime model for text and audio inputs and outputs
+                - link "gpt-4o-transcribe GPT-4o Transcribe Speech-to-text model powered by GPT-4o" [ref=e697] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4o-transcribe
+                  - generic [ref=e698]:
+                    - img "gpt-4o-transcribe" [ref=e700]
+                    - generic [ref=e701]:
+                      - generic [ref=e703]: GPT-4o Transcribe
+                      - generic [ref=e704]: Speech-to-text model powered by GPT-4o
+                - link "gpt-4o-mini-transcribe GPT-4o mini Transcribe Speech-to-text model powered by GPT-4o mini" [ref=e705] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4o-mini-transcribe
+                  - generic [ref=e706]:
+                    - img "gpt-4o-mini-transcribe" [ref=e708]
+                    - generic [ref=e709]:
+                      - generic [ref=e711]: GPT-4o mini Transcribe
+                      - generic [ref=e712]: Speech-to-text model powered by GPT-4o mini
+                - link "gpt-4o-transcribe-diarize GPT-4o Transcribe Diarize Transcription model that identifies who's speaking when" [ref=e713] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4o-transcribe-diarize
+                  - generic [ref=e714]:
+                    - img "gpt-4o-transcribe-diarize" [ref=e716]
+                    - generic [ref=e717]:
+                      - generic [ref=e719]: GPT-4o Transcribe Diarize
+                      - generic [ref=e720]: Transcription model that identifies who's speaking when
+                - link "gpt-4o-mini-tts GPT-4o mini TTS Text-to-speech model powered by GPT-4o mini" [ref=e721] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4o-mini-tts
+                  - generic [ref=e722]:
+                    - img "gpt-4o-mini-tts" [ref=e724]
+                    - generic [ref=e725]:
+                      - generic [ref=e727]: GPT-4o mini TTS
+                      - generic [ref=e728]: Text-to-speech model powered by GPT-4o mini
+                - link "tts-1 TTS-1 Text-to-speech model optimized for speed" [ref=e729] [cursor=pointer]:
+                  - /url: /api/docs/models/tts-1
+                  - generic [ref=e730]:
+                    - img "tts-1" [ref=e732]
+                    - generic [ref=e733]:
+                      - generic [ref=e735]: TTS-1
+                      - generic [ref=e736]: Text-to-speech model optimized for speed
+                - link "tts-1-hd TTS-1 HD Text-to-speech model optimized for quality" [ref=e737] [cursor=pointer]:
+                  - /url: /api/docs/models/tts-1-hd
+                  - generic [ref=e738]:
+                    - img "tts-1-hd" [ref=e740]
+                    - generic [ref=e741]:
+                      - generic [ref=e743]: TTS-1 HD
+                      - generic [ref=e744]: Text-to-speech model optimized for quality
+                - link "whisper-1 Whisper General-purpose speech recognition model" [ref=e745] [cursor=pointer]:
+                  - /url: /api/docs/models/whisper-1
+                  - generic [ref=e746]:
+                    - img "whisper-1" [ref=e748]
+                    - generic [ref=e749]:
+                      - generic [ref=e751]: Whisper
+                      - generic [ref=e752]: General-purpose speech recognition model
+            - generic [ref=e756]:
+              - generic [ref=e757]:
+                - generic [ref=e758]: Coding
+                - generic [ref=e759]: Models optimized for software engineering tasks.
+              - generic [ref=e760]:
+                - link "gpt-5-codex GPT-5-Codex Deprecated A version of GPT-5 optimized for agentic coding in Codex" [ref=e761] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5-codex
+                  - generic [ref=e762]:
+                    - img "gpt-5-codex" [ref=e764]
+                    - generic [ref=e765]:
+                      - generic [ref=e766]:
+                        - generic [ref=e767]: GPT-5-Codex
+                        - generic [ref=e768]: Deprecated
+                      - generic [ref=e769]: A version of GPT-5 optimized for agentic coding in Codex
+                - link "gpt-5.3-codex GPT-5.3-Codex The most capable agentic coding model to date." [ref=e770] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5.3-codex
+                  - generic [ref=e771]:
+                    - img "gpt-5.3-codex" [ref=e773]
+                    - generic [ref=e774]:
+                      - generic [ref=e776]: GPT-5.3-Codex
+                      - generic [ref=e777]: The most capable agentic coding model to date.
+                - link "gpt-5.2-codex GPT-5.2-Codex Deprecated Our most intelligent coding model optimized for long-horizon, agentic coding tasks." [ref=e778] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5.2-codex
+                  - generic [ref=e779]:
+                    - img "gpt-5.2-codex" [ref=e781]
+                    - generic [ref=e782]:
+                      - generic [ref=e783]:
+                        - generic [ref=e784]: GPT-5.2-Codex
+                        - generic [ref=e785]: Deprecated
+                      - generic [ref=e786]: Our most intelligent coding model optimized for long-horizon, agentic coding tasks.
+                - link "gpt-5.1-codex GPT-5.1 Codex Deprecated A version of GPT-5.1 optimized for agentic coding in Codex." [ref=e787] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5.1-codex
+                  - generic [ref=e788]:
+                    - img "gpt-5.1-codex" [ref=e790]
+                    - generic [ref=e791]:
+                      - generic [ref=e792]:
+                        - generic [ref=e793]: GPT-5.1 Codex
+                        - generic [ref=e794]: Deprecated
+                      - generic [ref=e795]: A version of GPT-5.1 optimized for agentic coding in Codex.
+                - link "gpt-5.1-codex-max GPT-5.1-Codex-Max Deprecated A version of GPT-5.1-codex optimized for long running tasks." [ref=e796] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5.1-codex-max
+                  - generic [ref=e797]:
+                    - img "gpt-5.1-codex-max" [ref=e799]
+                    - generic [ref=e800]:
+                      - generic [ref=e801]:
+                        - generic [ref=e802]: GPT-5.1-Codex-Max
+                        - generic [ref=e803]: Deprecated
+                      - generic [ref=e804]: A version of GPT-5.1-codex optimized for long running tasks.
+                - link "gpt-5.1-codex-mini GPT-5.1 Codex mini Deprecated Smaller, more cost-effective, less-capable version of GPT-5.1-Codex" [ref=e805] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5.1-codex-mini
+                  - generic [ref=e806]:
+                    - img "gpt-5.1-codex-mini" [ref=e808]
+                    - generic [ref=e809]:
+                      - generic [ref=e810]:
+                        - generic [ref=e811]: GPT-5.1 Codex mini
+                        - generic [ref=e812]: Deprecated
+                      - generic [ref=e813]: Smaller, more cost-effective, less-capable version of GPT-5.1-Codex
+                - link "codex-mini-latest codex-mini-latest Deprecated Fast reasoning model optimized for the Codex CLI" [ref=e814] [cursor=pointer]:
+                  - /url: /api/docs/models/codex-mini-latest
+                  - generic [ref=e815]:
+                    - img "codex-mini-latest" [ref=e817]
+                    - generic [ref=e818]:
+                      - generic [ref=e819]:
+                        - generic [ref=e820]: codex-mini-latest
+                        - generic [ref=e821]: Deprecated
+                      - generic [ref=e822]: Fast reasoning model optimized for the Codex CLI
+            - generic [ref=e826]:
+              - generic [ref=e827]:
+                - generic [ref=e828]: Deep research
+                - generic [ref=e829]: Models built for deep research tasks.
+              - generic [ref=e830]:
+                - link "o3-deep-research o3-deep-research Deprecated Our most powerful deep research model" [ref=e831] [cursor=pointer]:
+                  - /url: /api/docs/models/o3-deep-research
+                  - generic [ref=e832]:
+                    - img "o3-deep-research" [ref=e834]
+                    - generic [ref=e835]:
+                      - generic [ref=e836]:
+                        - generic [ref=e837]: o3-deep-research
+                        - generic [ref=e838]: Deprecated
+                      - generic [ref=e839]: Our most powerful deep research model
+                - link "o4-mini-deep-research o4-mini-deep-research Deprecated Faster, more affordable deep research model" [ref=e840] [cursor=pointer]:
+                  - /url: /api/docs/models/o4-mini-deep-research
+                  - generic [ref=e841]:
+                    - img "o4-mini-deep-research" [ref=e843]
+                    - generic [ref=e844]:
+                      - generic [ref=e845]:
+                        - generic [ref=e846]: o4-mini-deep-research
+                        - generic [ref=e847]: Deprecated
+                      - generic [ref=e848]: Faster, more affordable deep research model
+            - generic [ref=e852]:
+              - generic [ref=e853]:
+                - generic [ref=e854]: Open-weight models
+                - generic [ref=e855]: Open-weight models under a permissive Apache 2.0 license.
+              - generic [ref=e856]:
+                - link "gpt-oss-120b gpt-oss-120b Most powerful open-weight model, fits into an H100 GPU" [ref=e857] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-oss-120b
+                  - generic [ref=e858]:
+                    - img "gpt-oss-120b" [ref=e860]
+                    - generic [ref=e861]:
+                      - generic [ref=e863]: gpt-oss-120b
+                      - generic [ref=e864]: Most powerful open-weight model, fits into an H100 GPU
+                - link "gpt-oss-20b gpt-oss-20b Medium-sized open-weight model for low latency" [ref=e865] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-oss-20b
+                  - generic [ref=e866]:
+                    - img "gpt-oss-20b" [ref=e868]
+                    - generic [ref=e869]:
+                      - generic [ref=e871]: gpt-oss-20b
+                      - generic [ref=e872]: Medium-sized open-weight model for low latency
+            - generic [ref=e876]:
+              - generic [ref=e877]:
+                - generic [ref=e878]: More models
+                - generic [ref=e879]: Diverse models for a variety of tasks.
+              - generic [ref=e880]:
+                - link "gpt-5.2 GPT-5.2 Previous frontier model for professional work with configurable reasoning effort" [ref=e881] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5.2
+                  - generic [ref=e882]:
+                    - img "gpt-5.2" [ref=e884]
+                    - generic [ref=e885]:
+                      - generic [ref=e887]: GPT-5.2
+                      - generic [ref=e888]: Previous frontier model for professional work with configurable reasoning effort
+                - link "gpt-5.1 GPT-5.1 The best model for coding and agentic tasks with configurable reasoning effort" [ref=e889] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5.1
+                  - generic [ref=e890]:
+                    - img "gpt-5.1" [ref=e892]
+                    - generic [ref=e893]:
+                      - generic [ref=e895]: GPT-5.1
+                      - generic [ref=e896]: The best model for coding and agentic tasks with configurable reasoning effort
+                - link "gpt-5.2-pro GPT-5.2 pro Previous pro model for professional work that produces smarter and more precise responses." [ref=e897] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5.2-pro
+                  - generic [ref=e898]:
+                    - img "gpt-5.2-pro" [ref=e900]
+                    - generic [ref=e901]:
+                      - generic [ref=e903]: GPT-5.2 pro
+                      - generic [ref=e904]: Previous pro model for professional work that produces smarter and more precise responses.
+                - link "gpt-5-pro GPT-5 pro Version of GPT-5 that produces smarter and more precise responses" [ref=e905] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5-pro
+                  - generic [ref=e906]:
+                    - img "gpt-5-pro" [ref=e908]
+                    - generic [ref=e909]:
+                      - generic [ref=e911]: GPT-5 pro
+                      - generic [ref=e912]: Version of GPT-5 that produces smarter and more precise responses
+                - link "o3-pro o3-pro Version of o3 with more compute for better responses" [ref=e913] [cursor=pointer]:
+                  - /url: /api/docs/models/o3-pro
+                  - generic [ref=e914]:
+                    - img "o3-pro" [ref=e916]
+                    - generic [ref=e917]:
+                      - generic [ref=e919]: o3-pro
+                      - generic [ref=e920]: Version of o3 with more compute for better responses
+                - link "o3 o3 Reasoning model for complex tasks, succeeded by GPT-5" [ref=e921] [cursor=pointer]:
+                  - /url: /api/docs/models/o3
+                  - generic [ref=e922]:
+                    - img "o3" [ref=e924]
+                    - generic [ref=e925]:
+                      - generic [ref=e927]: o3
+                      - generic [ref=e928]: Reasoning model for complex tasks, succeeded by GPT-5
+                - link "o4-mini o4-mini Deprecated Fast, cost-efficient reasoning model, succeeded by GPT-5 mini" [ref=e929] [cursor=pointer]:
+                  - /url: /api/docs/models/o4-mini
+                  - generic [ref=e930]:
+                    - img "o4-mini" [ref=e932]
+                    - generic [ref=e933]:
+                      - generic [ref=e934]:
+                        - generic [ref=e935]: o4-mini
+                        - generic [ref=e936]: Deprecated
+                      - generic [ref=e937]: Fast, cost-efficient reasoning model, succeeded by GPT-5 mini
+                - link "gpt-4.1-mini GPT-4.1 mini Smaller, faster version of GPT-4.1" [ref=e938] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4.1-mini
+                  - generic [ref=e939]:
+                    - img "gpt-4.1-mini" [ref=e941]
+                    - generic [ref=e942]:
+                      - generic [ref=e944]: GPT-4.1 mini
+                      - generic [ref=e945]: Smaller, faster version of GPT-4.1
+                - link "gpt-4.1-nano GPT-4.1 nano Deprecated Fastest, most cost-efficient version of GPT-4.1" [ref=e946] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4.1-nano
+                  - generic [ref=e947]:
+                    - img "gpt-4.1-nano" [ref=e949]
+                    - generic [ref=e950]:
+                      - generic [ref=e951]:
+                        - generic [ref=e952]: GPT-4.1 nano
+                        - generic [ref=e953]: Deprecated
+                      - generic [ref=e954]: Fastest, most cost-efficient version of GPT-4.1
+                - link "o1-pro o1-pro Deprecated Version of o1 with more compute for better responses" [ref=e955] [cursor=pointer]:
+                  - /url: /api/docs/models/o1-pro
+                  - generic [ref=e956]:
+                    - img "o1-pro" [ref=e958]
+                    - generic [ref=e959]:
+                      - generic [ref=e960]:
+                        - generic [ref=e961]: o1-pro
+                        - generic [ref=e962]: Deprecated
+                      - generic [ref=e963]: Version of o1 with more compute for better responses
+                - link "computer-use-preview computer-use-preview Deprecated Specialized model for computer use tool" [ref=e964] [cursor=pointer]:
+                  - /url: /api/docs/models/computer-use-preview
+                  - generic [ref=e965]:
+                    - img "computer-use-preview" [ref=e967]
+                    - generic [ref=e968]:
+                      - generic [ref=e969]:
+                        - generic [ref=e970]: computer-use-preview
+                        - generic [ref=e971]: Deprecated
+                      - generic [ref=e972]: Specialized model for computer use tool
+                - link "gpt-4o-mini-search-preview GPT-4o mini Search Preview Deprecated Fast, affordable small model for web search" [ref=e973] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4o-mini-search-preview
+                  - generic [ref=e974]:
+                    - img "gpt-4o-mini-search-preview" [ref=e976]
+                    - generic [ref=e977]:
+                      - generic [ref=e978]:
+                        - generic [ref=e979]: GPT-4o mini Search Preview
+                        - generic [ref=e980]: Deprecated
+                      - generic [ref=e981]: Fast, affordable small model for web search
+                - link "gpt-4o-search-preview GPT-4o Search Preview Deprecated GPT model for web search in Chat Completions" [ref=e982] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4o-search-preview
+                  - generic [ref=e983]:
+                    - img "gpt-4o-search-preview" [ref=e985]
+                    - generic [ref=e986]:
+                      - generic [ref=e987]:
+                        - generic [ref=e988]: GPT-4o Search Preview
+                        - generic [ref=e989]: Deprecated
+                      - generic [ref=e990]: GPT model for web search in Chat Completions
+                - link "gpt-4.5-preview GPT-4.5 Preview (Deprecated) Deprecated large model." [ref=e991] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4.5-preview
+                  - generic [ref=e992]:
+                    - img "gpt-4.5-preview" [ref=e994]
+                    - generic [ref=e995]:
+                      - generic [ref=e997]: GPT-4.5 Preview (Deprecated)
+                      - generic [ref=e998]: Deprecated large model.
+                - link "o3-mini o3-mini Deprecated A small model alternative to o3" [ref=e999] [cursor=pointer]:
+                  - /url: /api/docs/models/o3-mini
+                  - generic [ref=e1000]:
+                    - img "o3-mini" [ref=e1002]
+                    - generic [ref=e1003]:
+                      - generic [ref=e1004]:
+                        - generic [ref=e1005]: o3-mini
+                        - generic [ref=e1006]: Deprecated
+                      - generic [ref=e1007]: A small model alternative to o3
+                - link "o1 o1 Deprecated Previous full o-series reasoning model" [ref=e1008] [cursor=pointer]:
+                  - /url: /api/docs/models/o1
+                  - generic [ref=e1009]:
+                    - img "o1" [ref=e1011]
+                    - generic [ref=e1012]:
+                      - generic [ref=e1013]:
+                        - generic [ref=e1014]: o1
+                        - generic [ref=e1015]: Deprecated
+                      - generic [ref=e1016]: Previous full o-series reasoning model
+                - link "omni-moderation-latest omni-moderation Identify potentially harmful content in text and images" [ref=e1017] [cursor=pointer]:
+                  - /url: /api/docs/models/omni-moderation-latest
+                  - generic [ref=e1018]:
+                    - img "omni-moderation-latest" [ref=e1020]
+                    - generic [ref=e1021]:
+                      - generic [ref=e1023]: omni-moderation
+                      - generic [ref=e1024]: Identify potentially harmful content in text and images
+                - link "o1-mini o1-mini Deprecated A small model alternative to o1" [ref=e1025] [cursor=pointer]:
+                  - /url: /api/docs/models/o1-mini
+                  - generic [ref=e1026]:
+                    - img "o1-mini" [ref=e1028]
+                    - generic [ref=e1029]:
+                      - generic [ref=e1030]:
+                        - generic [ref=e1031]: o1-mini
+                        - generic [ref=e1032]: Deprecated
+                      - generic [ref=e1033]: A small model alternative to o1
+                - link "o1-preview o1 Preview Deprecated Preview of our first o-series reasoning model" [ref=e1034] [cursor=pointer]:
+                  - /url: /api/docs/models/o1-preview
+                  - generic [ref=e1035]:
+                    - img "o1-preview" [ref=e1037]
+                    - generic [ref=e1038]:
+                      - generic [ref=e1039]:
+                        - generic [ref=e1040]: o1 Preview
+                        - generic [ref=e1041]: Deprecated
+                      - generic [ref=e1042]: Preview of our first o-series reasoning model
+                - link "gpt-4o GPT-4o Fast, intelligent, flexible GPT model" [ref=e1043] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4o
+                  - generic [ref=e1044]:
+                    - img "gpt-4o" [ref=e1046]
+                    - generic [ref=e1047]:
+                      - generic [ref=e1049]: GPT-4o
+                      - generic [ref=e1050]: Fast, intelligent, flexible GPT model
+                - link "gpt-4o-mini GPT-4o mini Fast, affordable small model for focused tasks" [ref=e1051] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4o-mini
+                  - generic [ref=e1052]:
+                    - img "gpt-4o-mini" [ref=e1054]
+                    - generic [ref=e1055]:
+                      - generic [ref=e1057]: GPT-4o mini
+                      - generic [ref=e1058]: Fast, affordable small model for focused tasks
+                - link "gpt-4-turbo GPT-4 Turbo Deprecated An older high-intelligence GPT model" [ref=e1059] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4-turbo
+                  - generic [ref=e1060]:
+                    - img "gpt-4-turbo" [ref=e1062]
+                    - generic [ref=e1063]:
+                      - generic [ref=e1064]:
+                        - generic [ref=e1065]: GPT-4 Turbo
+                        - generic [ref=e1066]: Deprecated
+                      - generic [ref=e1067]: An older high-intelligence GPT model
+                - link "babbage-002 babbage-002 Deprecated Replacement for the GPT-3 ada and babbage base models" [ref=e1068] [cursor=pointer]:
+                  - /url: /api/docs/models/babbage-002
+                  - generic [ref=e1069]:
+                    - img "babbage-002" [ref=e1071]
+                    - generic [ref=e1072]:
+                      - generic [ref=e1073]:
+                        - generic [ref=e1074]: babbage-002
+                        - generic [ref=e1075]: Deprecated
+                      - generic [ref=e1076]: Replacement for the GPT-3 ada and babbage base models
+                - link "chatgpt-4o-latest ChatGPT-4o Deprecated GPT-4o model used in ChatGPT" [ref=e1077] [cursor=pointer]:
+                  - /url: /api/docs/models/chatgpt-4o-latest
+                  - generic [ref=e1078]:
+                    - img "chatgpt-4o-latest" [ref=e1080]
+                    - generic [ref=e1081]:
+                      - generic [ref=e1082]:
+                        - generic [ref=e1083]: ChatGPT-4o
+                        - generic [ref=e1084]: Deprecated
+                      - generic [ref=e1085]: GPT-4o model used in ChatGPT
+                - link "davinci-002 davinci-002 Deprecated Replacement for the GPT-3 curie and davinci base models" [ref=e1086] [cursor=pointer]:
+                  - /url: /api/docs/models/davinci-002
+                  - generic [ref=e1087]:
+                    - img "davinci-002" [ref=e1089]
+                    - generic [ref=e1090]:
+                      - generic [ref=e1091]:
+                        - generic [ref=e1092]: davinci-002
+                        - generic [ref=e1093]: Deprecated
+                      - generic [ref=e1094]: Replacement for the GPT-3 curie and davinci base models
+                - link "gpt-3.5-turbo GPT-3.5 Turbo Deprecated Legacy GPT model for cheaper chat and non-chat tasks" [ref=e1095] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-3.5-turbo
+                  - generic [ref=e1096]:
+                    - img "gpt-3.5-turbo" [ref=e1098]
+                    - generic [ref=e1099]:
+                      - generic [ref=e1100]:
+                        - generic [ref=e1101]: GPT-3.5 Turbo
+                        - generic [ref=e1102]: Deprecated
+                      - generic [ref=e1103]: Legacy GPT model for cheaper chat and non-chat tasks
+                - link "gpt-4 GPT-4 An older high-intelligence GPT model" [ref=e1104] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4
+                  - generic [ref=e1105]:
+                    - img "gpt-4" [ref=e1107]
+                    - generic [ref=e1108]:
+                      - generic [ref=e1110]: GPT-4
+                      - generic [ref=e1111]: An older high-intelligence GPT model
+                - link "gpt-4-turbo-preview GPT-4 Turbo Preview Deprecated An older fast GPT model" [ref=e1112] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-4-turbo-preview
+                  - generic [ref=e1113]:
+                    - img "gpt-4-turbo-preview" [ref=e1115]
+                    - generic [ref=e1116]:
+                      - generic [ref=e1117]:
+                        - generic [ref=e1118]: GPT-4 Turbo Preview
+                        - generic [ref=e1119]: Deprecated
+                      - generic [ref=e1120]: An older fast GPT model
+                - link "chat-latest chat-latest Latest Instant model used in ChatGPT" [ref=e1121] [cursor=pointer]:
+                  - /url: /api/docs/models/chat-latest
+                  - generic [ref=e1122]:
+                    - img "chat-latest" [ref=e1124]
+                    - generic [ref=e1125]:
+                      - generic [ref=e1127]: chat-latest
+                      - generic [ref=e1128]: Latest Instant model used in ChatGPT
+                - link "gpt-5.3-chat-latest GPT-5.3 Chat GPT-5.3 Instant model used in ChatGPT" [ref=e1129] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5.3-chat-latest
+                  - generic [ref=e1130]:
+                    - img "gpt-5.3-chat-latest" [ref=e1132]
+                    - generic [ref=e1133]:
+                      - generic [ref=e1135]: GPT-5.3 Chat
+                      - generic [ref=e1136]: GPT-5.3 Instant model used in ChatGPT
+                - link "gpt-5.2-chat-latest GPT-5.2 Chat GPT-5.2 model used in ChatGPT" [ref=e1137] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5.2-chat-latest
+                  - generic [ref=e1138]:
+                    - img "gpt-5.2-chat-latest" [ref=e1140]
+                    - generic [ref=e1141]:
+                      - generic [ref=e1143]: GPT-5.2 Chat
+                      - generic [ref=e1144]: GPT-5.2 model used in ChatGPT
+                - link "gpt-5.1-chat-latest GPT-5.1 Chat Deprecated GPT-5.1 model used in ChatGPT" [ref=e1145] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5.1-chat-latest
+                  - generic [ref=e1146]:
+                    - img "gpt-5.1-chat-latest" [ref=e1148]
+                    - generic [ref=e1149]:
+                      - generic [ref=e1150]:
+                        - generic [ref=e1151]: GPT-5.1 Chat
+                        - generic [ref=e1152]: Deprecated
+                      - generic [ref=e1153]: GPT-5.1 model used in ChatGPT
+                - link "gpt-5-chat-latest GPT-5 Chat Deprecated GPT-5 model used in ChatGPT" [ref=e1154] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5-chat-latest
+                  - generic [ref=e1155]:
+                    - img "gpt-5-chat-latest" [ref=e1157]
+                    - generic [ref=e1158]:
+                      - generic [ref=e1159]:
+                        - generic [ref=e1160]: GPT-5 Chat
+                        - generic [ref=e1161]: Deprecated
+                      - generic [ref=e1162]: GPT-5 model used in ChatGPT
+                - link "text-embedding-3-large text-embedding-3-large Most capable embedding model" [ref=e1163] [cursor=pointer]:
+                  - /url: /api/docs/models/text-embedding-3-large
+                  - generic [ref=e1164]:
+                    - img "text-embedding-3-large" [ref=e1166]
+                    - generic [ref=e1167]:
+                      - generic [ref=e1169]: text-embedding-3-large
+                      - generic [ref=e1170]: Most capable embedding model
+                - link "text-embedding-3-small text-embedding-3-small Small embedding model" [ref=e1171] [cursor=pointer]:
+                  - /url: /api/docs/models/text-embedding-3-small
+                  - generic [ref=e1172]:
+                    - img "text-embedding-3-small" [ref=e1174]
+                    - generic [ref=e1175]:
+                      - generic [ref=e1177]: text-embedding-3-small
+                      - generic [ref=e1178]: Small embedding model
+                - link "text-embedding-ada-002 text-embedding-ada-002 Older embedding model" [ref=e1179] [cursor=pointer]:
+                  - /url: /api/docs/models/text-embedding-ada-002
+                  - generic [ref=e1180]:
+                    - img "text-embedding-ada-002" [ref=e1182]
+                    - generic [ref=e1183]:
+                      - generic [ref=e1185]: text-embedding-ada-002
+                      - generic [ref=e1186]: Older embedding model
+                - link "text-moderation-latest text-moderation Deprecated Previous generation text-only moderation model" [ref=e1187] [cursor=pointer]:
+                  - /url: /api/docs/models/text-moderation-latest
+                  - generic [ref=e1188]:
+                    - img "text-moderation-latest" [ref=e1190]
+                    - generic [ref=e1191]:
+                      - generic [ref=e1192]:
+                        - generic [ref=e1193]: text-moderation
+                        - generic [ref=e1194]: Deprecated
+                      - generic [ref=e1195]: Previous generation text-only moderation model
+                - link "text-moderation-stable text-moderation-stable Deprecated Previous generation text-only moderation model" [ref=e1196] [cursor=pointer]:
+                  - /url: /api/docs/models/text-moderation-stable
+                  - generic [ref=e1197]:
+                    - img "text-moderation-stable" [ref=e1199]
+                    - generic [ref=e1200]:
+                      - generic [ref=e1201]:
+                        - generic [ref=e1202]: text-moderation-stable
+                        - generic [ref=e1203]: Deprecated
+                      - generic [ref=e1204]: Previous generation text-only moderation model
+            - generic [ref=e1208]:
+              - generic [ref=e1209]:
+                - generic [ref=e1210]: ChatGPT models
+                - generic [ref=e1211]: Models used in ChatGPT, not recommended for API use.
+              - generic [ref=e1212]:
+                - link "chat-latest chat-latest Latest Instant model used in ChatGPT" [ref=e1213] [cursor=pointer]:
+                  - /url: /api/docs/models/chat-latest
+                  - generic [ref=e1214]:
+                    - img "chat-latest" [ref=e1216]
+                    - generic [ref=e1217]:
+                      - generic [ref=e1219]: chat-latest
+                      - generic [ref=e1220]: Latest Instant model used in ChatGPT
+                - link "gpt-5-chat-latest GPT-5 Chat Deprecated GPT-5 model used in ChatGPT" [ref=e1221] [cursor=pointer]:
+                  - /url: /api/docs/models/gpt-5-chat-latest
+                  - generic [ref=e1222]:
+                    - img "gpt-5-chat-latest" [ref=e1224]
+                    - generic [ref=e1225]:
+                      - generic [ref=e1226]:
+                        - generic [ref=e1227]: GPT-5 Chat
+                        - generic [ref=e1228]: Deprecated
+                      - generic [ref=e1229]: GPT-5 model used in ChatGPT
+                - link "chatgpt-4o-latest ChatGPT-4o Deprecated GPT-4o model used in ChatGPT" [ref=e1230] [cursor=pointer]:
+                  - /url: /api/docs/models/chatgpt-4o-latest
+                  - generic [ref=e1231]:
+                    - img "chatgpt-4o-latest" [ref=e1233]
+                    - generic [ref=e1234]:
+                      - generic [ref=e1235]:
+                        - generic [ref=e1236]: ChatGPT-4o
+                        - generic [ref=e1237]: Deprecated
+                      - generic [ref=e1238]: GPT-4o model used in ChatGPT
+          - generic [ref=e1240]:
+            - generic [ref=e1241] [cursor=pointer]: How we use your data
+            - text: ·
+            - generic [ref=e1242] [cursor=pointer]: Deprecated models

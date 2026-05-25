@@ -1,0 +1,110 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - img
+    - generic [ref=e5]:
+      - img "Patrik"
+      - img
+      - img
+      - generic:
+        - img "Hi! I'm Patrik. Drag an object to the workbench to investigate it and find out more about me."
+    - generic "Bubba — Patrik's cat" [ref=e6]:
+      - generic: meow!
+    - generic [ref=e7]:
+      - generic: Mechanical drive
+    - generic [ref=e9]:
+      - generic: CRT terminal
+    - generic [ref=e11]:
+      - generic: Raspberry Pi
+    - generic [ref=e13]:
+      - generic: Cyber head
+    - generic [ref=e15]:
+      - generic: Old transcripts
+    - generic [ref=e17]:
+      - generic: Rotary phone
+    - generic [ref=e19]:
+      - generic: Brass telescope
+    - generic [ref=e21]:
+      - generic: Spiral notebook
+    - generic [ref=e23]:
+      - generic: Vinyl record
+    - generic [ref=e25]:
+      - generic: Old paperback
+    - generic "Catch me!" [ref=e27]
+    - generic "Something stirring in the shed..." [ref=e28]:
+      - generic: Something in the shed?
+      - text: "?"
+    - generic:
+      - img "Agent dog"
+      - img
+      - generic: Pssst. Click me. 🤫
+    - generic [ref=e29]:
+      - generic [ref=e30]: Inspection Tray
+      - generic: ↳ drop a part here to inspect it
+    - generic:
+      - generic [ref=e31]: Patrik's Junkyard
+      - generic [ref=e32]:
+        - generic [ref=e33]: 0/10
+        - generic [ref=e34]:
+          - generic "Mechanical drive" [ref=e35]
+          - generic "CRT terminal" [ref=e36]
+          - generic "Raspberry Pi" [ref=e37]
+          - generic "Cyber head" [ref=e38]
+          - generic "Old transcripts" [ref=e39]
+          - generic "Rotary phone" [ref=e40]
+          - generic "Brass telescope" [ref=e41]
+          - generic "Spiral notebook" [ref=e42]
+          - generic "Vinyl record" [ref=e43]
+          - generic "Old paperback" [ref=e44]
+    - generic [ref=e45]:
+      - button "Start over — restore everything" [ref=e46]:
+        - img [ref=e47]
+      - button "🔊" [ref=e52]
+  - button "Close assistant" [ref=e61]
+  - generic: Ask Patrik anything ✨
+  - dialog "Ask Patrik" [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e65]:
+        - generic [ref=e66]: Ask Patrik
+        - generic [ref=e67]: his little AI sidekick
+      - link "A2UI" [ref=e68]:
+        - /url: https://a2ui.org/#specification-versions
+      - button "Clear chat" [ref=e69]: ⌫
+      - button "Close" [ref=e70]: ✕
+    - generic [ref=e71]:
+      - generic [ref=e81]: Show me on a map where exactly you live in Gothenburg
+      - generic [ref=e84]:
+        - generic [ref=e85]: I can’t show my exact home location, but I’m based in Göteborg and happy to show the city area instead. If you want, I can pin a general Gothenburg map or share a nearby meetup-friendly area.
+        - generic [ref=e86]:
+          - iframe [ref=e88]:
+            - generic [active] [ref=f1e1]:
+              - link "Öppna i Maps (öppnas i en ny flik)" [ref=f1e4] [cursor=pointer]:
+                - /url: https://maps.google.com/maps?ll=57.707752,11.963103&z=11&t=m&hl=sv-SE&gl=US&mapclient=embed&q=G%C3%B6teborg
+                - text: Öppna i Maps
+                - img [ref=f1e6]
+              - generic [ref=f1e9]:
+                - generic:
+                  - button "Kortkommandon"
+                - region "Karta" [ref=f1e10]
+                - generic [ref=f1e11]:
+                  - iframe [ref=f1e27]:
+                    
+                  - button "Kamerakontroller för kartor" [ref=f1e29] [cursor=pointer]
+                  - button "Visa satellitbilder" [ref=f1e32] [cursor=pointer]:
+                    - generic [ref=f1e36]:
+                      - region [ref=f1e37]
+                      - iframe [ref=f1e43]:
+                        
+                  - img "Google" [ref=f1e45]
+                  - generic [ref=f1e46]:
+                    - button "Kortkommandon" [ref=f1e52] [cursor=pointer]
+                    - generic [ref=f1e57]: Kartdata ©2026 Google
+                    - link "Villkor (öppnas i en ny flik)" [ref=f1e62] [cursor=pointer]:
+                      - /url: https://www.google.com/intl/sv-SE_US/help/terms_maps.html
+                      - text: Villkor
+                    - link "Rapportera ett kartfel (öppnas i en ny flik)" [ref=f1e67] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/@57.707752,11.9631031,11z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3
+                      - text: Rapportera ett kartfel
+          - generic [ref=e89]: Göteborg, Sweden
+    - generic [ref=e77]:
+      - textbox "Ask anything…" [ref=e78]
+      - button "Send" [disabled] [ref=e79]
