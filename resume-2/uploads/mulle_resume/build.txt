@@ -1,0 +1,1 @@
+(re)run the build script in run_script to regenerate the inlined html

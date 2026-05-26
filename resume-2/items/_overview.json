@@ -1,0 +1,192 @@
+{
+  "about": {
+    "component": "InspAbout",
+    "uses_resume": true,
+    "hardcoded_texts": [
+      "",
+      "",
+      "",
+      "",
+      "\u00b7 {RESUME.location}",
+      ")}",
+      "Currently in: agentic AI, recommendation systems, RAG pipelines.",
+      ""
+    ],
+    "jsx_length": 277062
+  },
+  "work": {
+    "component": "InspWork",
+    "uses_resume": true,
+    "hardcoded_texts": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ")}",
+      "",
+      "))}"
+    ],
+    "jsx_length": 476
+  },
+  "projects": {
+    "component": "InspProjects",
+    "uses_resume": true,
+    "hardcoded_texts": [
+      "",
+      "",
+      "",
+      "))}"
+    ],
+    "jsx_length": 239
+  },
+  "skills": {
+    "component": "InspSkills",
+    "uses_resume": true,
+    "hardcoded_texts": [
+      "",
+      "",
+      ")}",
+      "",
+      "))}",
+      "",
+      "Languages",
+      "",
+      "))}",
+      "",
+      ""
+    ],
+    "jsx_length": 598
+  },
+  "education": {
+    "component": "InspEducation",
+    "uses_resume": true,
+    "hardcoded_texts": [
+      "",
+      "",
+      "",
+      "))}"
+    ],
+    "jsx_length": 275
+  },
+  "contact": {
+    "component": "InspContact",
+    "uses_resume": true,
+    "hardcoded_texts": [
+      "",
+      "Email",
+      "",
+      "Phone",
+      "",
+      "LinkedIn",
+      "",
+      "GitHub",
+      "",
+      "Where",
+      ""
+    ],
+    "jsx_length": 671
+  },
+  "hobbies": {
+    "component": "InspHobbies",
+    "uses_resume": true,
+    "hardcoded_texts": [
+      "",
+      "The bits of life that fall outside the keyboard.",
+      "",
+      "))}",
+      ""
+    ],
+    "jsx_length": 304
+  },
+  "writing": {
+    "component": "InspWriting",
+    "uses_resume": true,
+    "hardcoded_texts": [
+      "",
+      "Half-formed thoughts I keep meaning to clean up and post somewhere. A few have made it out.",
+      "",
+      "",
+      "\u00b7 {w.date}",
+      "",
+      "",
+      "))}",
+      "",
+      "Most of it still lives in the notebook. Working on it.",
+      ""
+    ],
+    "jsx_length": 677
+  },
+  "music": {
+    "component": "InspMusic",
+    "uses_resume": true,
+    "hardcoded_texts": [
+      "",
+      "What\u2019s been spinning lately. Mostly instrumental, mostly background, mostly perfect for the kind of slow thinking that produces good code.",
+      "",
+      "))}",
+      "",
+      "Got a recommendation? The rotary phone over there still works.",
+      ""
+    ],
+    "jsx_length": 567
+  },
+  "reading": {
+    "component": "InspReading",
+    "uses_resume": true,
+    "hardcoded_texts": [
+      "",
+      "The current pile on the bedside table. Some of these have been there longer than I\u2019d like to admit.",
+      "",
+      "",
+      "\u00b7 {b.author}",
+      "",
+      "",
+      "))}",
+      ""
+    ],
+    "jsx_length": 518
+  },
+  "nightowl": {
+    "component": "InspNightOwl",
+    "uses_resume": true,
+    "hardcoded_texts": [
+      "",
+      "\u2014 a small, glowing confession.",
+      "",
+      "",
+      "))}",
+      "",
+      ""
+    ],
+    "jsx_length": 569
+  },
+  "agents": {
+    "component": "InspAgents",
+    "uses_resume": false,
+    "hardcoded_texts": [
+      "",
+      "Patrik's agent stash \u2014 what the dog was guarding.",
+      "",
+      "I've spent the last couple of years building agentic systems that actually ship \u2014\n        not demoware. The trick isn't the model; it's the scaffolding around it.",
+      "",
+      "",
+      "Recent agent builds",
+      "",
+      "",
+      "",
+      "))}",
+      "",
+      "",
+      "Stack of choice",
+      "",
+      ")}",
+      "",
+      "",
+      "Want the long version? Pet the dog. Or just ask.",
+      ""
+    ],
+    "jsx_length": 2366
+  }
+}
