@@ -853,6 +853,55 @@ button{font:inherit;color:inherit}
 
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Newsreader:ital,wght@0,300..700;1,300..700&display=swap');
+
+/* ════════════════════════════════════════════════════════════════
+   MOBILE ADAPTATIONS
+   ════════════════════════════════════════════════════════════════ */
+
+/* ── Small-screen portrait: scaled scene with scrolling ─────── */
+@media (max-width: 768px) and (orientation: portrait){
+  html,body{overflow:auto;height:auto;}
+  #stage-wrap{
+    position:relative;
+    overflow:auto;
+    -webkit-overflow-scrolling:touch;
+    width:100vw;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding:12px 0 40px;
+  }
+  #stage{
+    position:relative;
+    left:auto;top:auto;
+    transform:scale(0.35) !important;
+    transform-origin:top center !important;
+    margin:0;
+    flex-shrink:0;
+  }
+  #stage-bg{
+    position:absolute;
+    inset:0;
+    height:100%;
+  }
+}
+
+/* ── Landscape phones / small tablets ─────────────────────────── */
+@media (max-width: 768px) and (orientation: landscape){
+  #stage-wrap{overflow:hidden;}
+  #stage{
+    transform:translate(-50%,-50%) scale(0.55) !important;
+  }
+}
+
+/* ── Landscape tablets ────────────────────────────────────────── */
+@media (min-width: 769px) and (max-width: 1024px){
+  #stage{
+    transform:translate(-50%,-50%) scale(0.75) !important;
+  }
+}
+
 </style>
 </head><body>
 <div id="root"></div>
@@ -2529,9 +2578,16 @@ function useStageScale(){
   const [scale, setScale] = useState(1);
   useEffect(()=>{
     const update = () => {
-      const sx = window.innerWidth / 1280;
-      const sy = window.innerHeight / 542;
-      setScale(Math.min(sx, sy, 1.4));
+      const w = window.innerWidth;
+      const h = window.innerHeight;
+      const sx = w / 1280;
+      const sy = h / 542;
+      const isPortrait = w < h && w <= 768;
+      if (isPortrait) {
+        setScale(1);
+      } else {
+        setScale(Math.min(sx, sy, 1.4));
+      }
     };
     update();
     window.addEventListener('resize', update);

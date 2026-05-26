@@ -1,0 +1,17 @@
+{
+  "nextId": 3,
+  "tasks": [
+    {
+      "id": "2",
+      "subject": "Adapt resume for mobile screens",
+      "description": "Make the interactive junkyard resume usable on mobile phones. Current behavior shows a \"rotate your phone\" overlay on portrait mobile. Need to:\n\n1. Remove rotation-hint blocking on portrait mobile and make stage visible\n2. Scale stage appropriately for mobile viewport (fit width, allow vertical scrolling)\n3. Make inspector panel full-width/slide-up on mobile instead of 560px right panel\n4. Increase touch target sizes for interactive items\n5. Adjust font sizes and spacing for readability on small screens\n6. Make chat widget (CogwheelFAB) responsive and non-intrusive on mobile\n7. Make intro card and toast notifications fit mobile screens\n8. Ensure Tweaks panel works on mobile\n\nFiles to modify:\n- resume-2/Patrik Junkyard Resume.html (CSS + minor React adjustments)\n- resume-2/Patrik Junkyard Resume.html.backup (same CSS changes)\n- resume-2/uploads/mulle_resume/Patrik Junkyard Resume.html (if similar structure)",
+      "status": "in_progress",
+      "activeForm": "Adapting resume for mobile screens",
+      "metadata": {},
+      "blocks": [],
+      "blockedBy": [],
+      "createdAt": 1779807449747,
+      "updatedAt": 1779807454001
+    }
+  ]
+}
