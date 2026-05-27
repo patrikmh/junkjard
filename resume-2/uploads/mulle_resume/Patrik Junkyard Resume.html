@@ -858,49 +858,7 @@ button{font:inherit;color:inherit}
    MOBILE ADAPTATIONS
    ════════════════════════════════════════════════════════════════ */
 
-/* ── Small-screen portrait: scaled scene with scrolling ─────── */
-@media (max-width: 768px) and (orientation: portrait){
-  html,body{overflow:auto;height:auto;}
-  #stage-wrap{
-    position:relative;
-    overflow:auto;
-    -webkit-overflow-scrolling:touch;
-    width:100vw;
-    min-height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:flex-start;
-    padding:12px 0 40px;
-  }
-  #stage{
-    position:relative;
-    left:auto;top:auto;
-    transform:scale(0.35) !important;
-    transform-origin:top center !important;
-    margin:0;
-    flex-shrink:0;
-  }
-  #stage-bg{
-    position:absolute;
-    inset:0;
-    height:100%;
-  }
-}
 
-/* ── Landscape phones / small tablets ─────────────────────────── */
-@media (max-width: 768px) and (orientation: landscape){
-  #stage-wrap{overflow:hidden;}
-  #stage{
-    transform:translate(-50%,-50%) scale(0.55) !important;
-  }
-}
-
-/* ── Landscape tablets ────────────────────────────────────────── */
-@media (min-width: 769px) and (max-width: 1024px){
-  #stage{
-    transform:translate(-50%,-50%) scale(0.75) !important;
-  }
-}
 
 </style>
 </head><body>
