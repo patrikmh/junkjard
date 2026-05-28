@@ -439,11 +439,11 @@ button{font:inherit;color:inherit}
 .toolbar{position:absolute;top:20px;right:20px;display:flex;gap:8px;z-index:61}
 
 /* ── Inspector panel ──────────────────────────────────────────── */
-.inspector-backdrop{position:absolute;inset:0;z-index:200;
+.inspector-backdrop{position:fixed;inset:0;z-index:301;
   background:rgba(20,12,5,.55);opacity:0;pointer-events:none;
   transition:opacity .3s ease;}
 .inspector-backdrop.open{opacity:1;pointer-events:auto;}
-.inspector{position:absolute;right:0;top:0;bottom:0;width:560px;z-index:201;
+.inspector{position:fixed;right:0;top:0;bottom:0;width:560px;z-index:302;
   background:var(--paper);
   border-left:1.5px solid var(--ink);
   box-shadow:-20px 0 60px -10px rgba(0,0,0,.4);
@@ -2798,7 +2798,6 @@ function App(){
         )}
 
         {toast && <Toast message={toast.msg} sub={toast.sub} show={!!toast} />}
-        <Inspector section={activeSection} onClose={closeSection} />
 
         {/* Tweaks panel */}
         <TweaksPanel title="Tweaks">
@@ -2837,6 +2836,7 @@ function App(){
           }}>Reset exploration</TweakButton>
         </TweaksPanel>
       </div>
+      <Inspector section={activeSection} onClose={closeSection} />
     </div>
   );
 }
