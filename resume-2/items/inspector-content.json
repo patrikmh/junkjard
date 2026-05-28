@@ -85,12 +85,12 @@
   },
   "agents": {
     "title": "Agents",
-    "subtitle": "Patrik's agent stash — what the dog was guarding.",
+    "subtitle": "The side projects that actually shipped.",
     "intro": "Patrik's agent stash — what the dog was guarding.",
     "recent_builds_section": "Recent agent builds",
     "builds": [],
     "stack_section": "Stack of choice",
     "stack": [],
-    "outro": "Want the long version? Pet the dog. Or just ask."
+    "outro": "Ask the chat about A2UI, the RAG pipeline, or anything here."
   }
 }

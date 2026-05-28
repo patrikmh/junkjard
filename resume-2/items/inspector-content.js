@@ -8,16 +8,16 @@ window.INSPECTOR_CONTENT = {
   },
   "agents": {
     "title": "Agents",
-    "subtitle": "Patrik's agent stash — what the dog was guarding.",
-    "intro": "I've spent the last couple of years building agentic systems that actually ship — not demoware. The trick isn't the model; it's the scaffolding around it.",
+    "subtitle": "The side projects that actually shipped.",
+    "intro": "A few agentic experiments that graduated from notebook to production.",
     "recent_agent_builds": [
       {
         "name": "A2UI",
-        "desc": "A declarative UI framework powered by LLMs. Events become UI in real time."
+        "desc": "UI components rendered by LLMs from natural language events. No frontend deploy needed."
       },
       {
-        "name": "AGUI",
-        "desc": "Agent-driven GUI scaffolding. Agents render their own interfaces."
+        "name": "pi.dev Tinker",
+        "desc": "Small agent experiments built while exploring the pi.dev community and Discord."
       },
       {
         "name": "BERTopic Pipeline",
@@ -32,7 +32,7 @@ window.INSPECTOR_CONTENT = {
         "desc": "PostgreSQL + pgvector with embedding triggers for live search."
       }
     ],
-    "outro": "Want the long version? Pet the dog. Or just ask.",
+    "outro": "Ask the chat about A2UI, the RAG pipeline, or anything here.",
     "stack_of_choice": [
       {
         "name": "OpenAI Agents SDK",
@@ -81,11 +81,11 @@ window.INSPECTOR_CONTENT = {
     "builds": [
       {
         "name": "A2UI",
-        "desc": "A declarative UI framework powered by LLMs. Events become UI in real time."
+        "desc": "UI components rendered by LLMs from natural language events. No frontend deploy needed."
       },
       {
-        "name": "AGUI",
-        "desc": "Agent-driven GUI scaffolding. Agents render their own interfaces."
+        "name": "pi.dev Tinker",
+        "desc": "Small agent experiments built while exploring the pi.dev community and Discord."
       },
       {
         "name": "BERTopic Pipeline",
